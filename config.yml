@@ -26,19 +26,19 @@ languages:
           main:
             - identifier: about
               name: About
-              url: /about/
+              url: /en/about/
               weight: 10
             - identifier: project
               name: Project
-              url: /project/
+              url: /en/project/
               weight: 20
             - identifier: resume
               name: Resume
-              url: /resume-test.pdf/
+              url: /en/resume-test.pdf
               weight: 30
             - identifier: search
               name: Search
-              url: /search/
+              url: /en/search/
               weight: 40
         profileMode:
           enabled: true
@@ -50,11 +50,11 @@ languages:
           imageHeight: 150
           buttons:
             - name: About
-              url: /about
+              url: /en/about/
             - name: Project
-              url: /project
+              url: /en/project/
             - name: Resume
-              url: /resume-test.pdf
+              url: /en/resume-test.pdf
     zh:
         languageName: 中文
         languageCode: zh
@@ -63,23 +63,23 @@ languages:
           main:
             - identifier: about
               name: 关于
-              url: /about
+              url: /zh/about/
               weight: 10
             - identifier: project
               name: 项目
-              url: /project/
+              url: /zh/project/
               weight: 20
             - identifier: resume
               name: 简历
-              url: /resume-test.pdf/
+              url: /zh/resume-test.pdf/
               weight: 30
             - identifier: links
               name: 友链
-              url: /links/
+              url: /zh/links/
               weight: 40
             - identifier: search
               name: 搜索
-              url: /search/
+              url: /zh/search/
               weight: 50
         profileMode:
           enabled: true
@@ -91,11 +91,11 @@ languages:
           imageHeight: 150
           buttons:
             - name: 关于
-              url: /about
+              url: /zh/about/
             - name: 项目
-              url: /projects
+              url: /zh/projects/
             - name: 简历
-              url: /resume-test.pdf
+              url: /zh/resume-test.pdf
 
 outputs:
     home:
