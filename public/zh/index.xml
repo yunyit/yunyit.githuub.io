@@ -2,18 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Yunyi&#39;s Blog</title>
-    <link>/zh/</link>
+    <link>https://yunyit.github.io/zh/</link>
     <description>Recent content on Yunyi&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh</language><atom:link href="/zh/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh</language><atom:link href="https://yunyit.github.io/zh/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
-      <link>/zh/about/</link>
+      <title>关于</title>
+      <link>https://yunyit.github.io/zh/about/</link>
       <pubDate>Tue, 07 Nov 2023 14:31:25 +0000</pubDate>
       
-      <guid>/zh/about/</guid>
-      <description>class Me: def __init__(self): self.name = &amp;#34;Yunyi Tang&amp;#34; self.prefer_name = &amp;#34;Yunyi&amp;#34; self.born_year = 1998 self.MBTI = INFJ self.hometown = &amp;#34;Guangzhou, Guangdong, CN&amp;#34; self.curr_location = &amp;#34;Bristol, UK&amp;#34; self.grad_school = &amp;#34;uBristol&amp;#34; self.undergrad_school = &amp;#34;SDU&amp;#34; </description>
+      <guid>https://yunyit.github.io/zh/about/</guid>
+      <description>class Me: def __init__(self): self.name = &amp;#34;Yunyi Tang&amp;#34; self.prefer_name = &amp;#34;Yunyi&amp;#34; self.born_year = 1998 self.MBTI = INFJ self.hometown = &amp;#34;Guangzhou, Guangdong, CN&amp;#34; self.curr_location = &amp;#34;Bristol, UK&amp;#34; self.grad_school = &amp;#34;uBristol&amp;#34; self.undergrad_school = &amp;#34;SDU&amp;#34;</description>
     </item>
+    
+    <item>
+      <title>项目</title>
+      <link>https://yunyit.github.io/zh/project/</link>
+      <pubDate>Tue, 07 Nov 2023 14:31:25 +0000</pubDate>
+      
+      <guid>https://yunyit.github.io/zh/project/</guid>
+      <description>个人项目 个人网站 Nov. 2023 - Now, HTML, CSS, JavaScript Github: https://github.com/yunyit/yunyit.github.io 这个项目是基于Hugo的PaperMod主题。 学术项目 Antibiotic Use and Bacterial Infection in COVID-19 Patients in the Second Phase of the SARS-CoV-2 Pandemic: A Scoping Review Jul. 2022 DOI: https://doi.org/10.3390/antibiotics11080991 作者：</description>
+    </item>
+    
+    <item>
+      <title>友链</title>
+      <link>https://yunyit.github.io/zh/links/</link>
+      <pubDate>Tue, 07 Nov 2023 14:31:25 +0000</pubDate>
+      
+      <guid>https://yunyit.github.io/zh/links/</guid>
+      <description>Sulv&amp;#39;s Blog 一个记录技术、阅读、生活的博客 Kyxie&amp;#39;s Blog Hello World Printer 友链格式： name=&amp;#34;Kyxie&amp;#39;s Blog&amp;#34; url=&amp;#34;https://kyxie.github.io/zh&amp;#34; logo=&amp;#34;https://kyxie.github.io/Avatar.png&amp;#34; word=&amp;#34;Hello World Printer&amp;#34;</description>
+    </item>
+    
     
   </channel>
 </rss>

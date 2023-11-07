@@ -2,53 +2,91 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/zh/about/</loc>
+    <loc>https://yunyit.github.io/zh/about/</loc>
     <lastmod>2023-11-07T14:31:25+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/about/"
+                href="https://yunyit.github.io/en/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/about/"
+                href="https://yunyit.github.io/zh/about/"
                 />
   </url><url>
-    <loc>/zh/categories/</loc>
+    <loc>https://yunyit.github.io/zh/project/</loc>
+    <lastmod>2023-11-07T14:31:25+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/categories/"
+                href="https://yunyit.github.io/en/project/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/categories/"
+                href="https://yunyit.github.io/zh/project/"
                 />
   </url><url>
-    <loc>/zh/tags/</loc>
+    <loc>https://yunyit.github.io/zh/links/</loc>
+    <lastmod>2023-11-07T14:31:25+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/"
+                href="https://yunyit.github.io/en/links/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/"
+                href="https://yunyit.github.io/zh/links/"
                 />
   </url><url>
-    <loc>/zh/</loc>
+    <loc>https://yunyit.github.io/zh/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/"
+                href="https://yunyit.github.io/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/"
+                href="https://yunyit.github.io/zh/categories/"
+                />
+  </url><url>
+    <loc>https://yunyit.github.io/zh/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yunyit.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://yunyit.github.io/zh/tags/"
+                />
+  </url><url>
+    <loc>https://yunyit.github.io/zh/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yunyit.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://yunyit.github.io/zh/"
+                />
+  </url><url>
+    <loc>https://yunyit.github.io/zh/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yunyit.github.io/en/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://yunyit.github.io/zh/search/"
                 />
   </url>
 </urlset>

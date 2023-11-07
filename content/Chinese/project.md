@@ -16,22 +16,22 @@ hidemeta: false
 showToc: true
 showbreadcrumbs: true
 slug: ""
-title: Projects
+title: 项目
 weight: null
 ---
 
-# Personal Projects
+# 个人项目
 
-## My Personal Website
+## 个人网站
 *Nov. 2023 - Now, HTML, CSS, JavaScript*
 > Github: https://github.com/yunyit/yunyit.github.io
 
-* This website uses [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme and base on [Hugo](https://github.com/gohugoio/hugo).
+* 这个项目是基于[Hugo](https://github.com/gohugoio/hugo)的[PaperMod](https://github.com/adityatelange/hugo-PaperMod)主题。
 
-# Academic Projects
+# 学术项目
 ## Antibiotic Use and Bacterial Infection in COVID-19 Patients in the Second Phase of the SARS-CoV-2 Pandemic: A Scoping Review
 *Jul. 2022*
 > DOI: https://doi.org/10.3390/antibiotics11080991
 
-* Author: Wenjuan Cong, Beth Stuart, Nour AI Husein, Binjuan Liu, Yunyi Tang, Hexing Wang, Amit Manchundiya, Helen Lambert
-* This scoping review aimed to explore the prevalence and patterns of global antibiotic use and bacterial infection in COVID-19 patients from studies published between June 2020 and March 2021. 
+* 作者：Wenjuan Cong, Beth Stuart, Nour AI Husein, Binjuan Liu, Yunyi Tang, Hexing Wang, Amit Manchundiya, Helen Lambert
+* 本范围界定综述旨在从 2020 年 6 月至 2021 年 3 月期间发表的研究中，探讨 COVID-19 患者中全球抗生素使用和细菌感染的流行程度和模式。

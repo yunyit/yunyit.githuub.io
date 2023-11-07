@@ -16,7 +16,7 @@ hidemeta: false
 showToc: true
 showbreadcrumbs: true
 slug: ""
-title: About
+title: 关于
 weight: null
 ---
 

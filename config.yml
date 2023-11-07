@@ -1,12 +1,13 @@
-baseURL: https://yunyit.github.io/en/ # 绑定的域名
+baseURL: https://yunyit.github.io/ # 绑定的域名
 languageCode: en
 title: Yunyi's Blog
 theme: PaperMod 
 
-# change config for posts
+# change config for posts:
 # hugo convert toYAML --config config.yml --unsafe --verbose
 # hugo --config config.yml
-# for github: hugo -F --cleanDestinationDir
+# before push github: 
+# hugo -F --cleanDestinationDir
 
 enableInlineShortcodes: true
 enableEmoji: true # 允许使用 Emoji 表情，建议 true
@@ -25,19 +26,19 @@ languages:
           main:
             - identifier: about
               name: About
-              url: /en/about/
+              url: /about/
               weight: 10
             - identifier: project
               name: Project
-              url: /en/project/
+              url: /project/
               weight: 20
             - identifier: resume
               name: Resume
-              url: /en/resume/
+              url: /resume-test.pdf/
               weight: 30
             - identifier: search
               name: Search
-              url: /en/search/
+              url: /search/
               weight: 40
         profileMode:
           enabled: true
@@ -49,11 +50,11 @@ languages:
           imageHeight: 150
           buttons:
             - name: About
-              url: /en/about
+              url: /about
             - name: Project
-              url: /en/project
+              url: /project
             - name: Resume
-              url: /en/resume
+              url: /resume-test.pdf
     zh:
         languageName: 中文
         languageCode: zh
@@ -62,20 +63,24 @@ languages:
           main:
             - identifier: about
               name: 关于
-              url: /zh/about
+              url: /about
               weight: 10
             - identifier: project
               name: 项目
-              url: /zh/project/
+              url: /project/
               weight: 20
             - identifier: resume
               name: 简历
-              url: /zh/resume/
+              url: /resume-test.pdf/
               weight: 30
+            - identifier: links
+              name: 友链
+              url: /links/
+              weight: 40
             - identifier: search
               name: 搜索
-              url: /zh/search/
-              weight: 40
+              url: /search/
+              weight: 50
         profileMode:
           enabled: true
           title: Yunyi Tang
@@ -86,23 +91,27 @@ languages:
           imageHeight: 150
           buttons:
             - name: 关于
-              url: /zh/about
+              url: /about
             - name: 项目
-              url: /zh/projects
+              url: /projects
             - name: 简历
-              url: /zh/resume
+              url: /resume-test.pdf
 
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary for the search function
 
 # 这里的参数会被代码以 .Site.Params 的形式读取
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: ""
   author: Yunyi
-
-  defaultTheme: auto  # defaultTheme: light or  dark
+  defaultTheme: auto  # defaultTheme: light or  dark 
   disableThemeToggle: false
   DateFormat: "2006-01-02"
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowReadingTime: true
   # disableSpecialistPost: true
   displayFullLangName: true
@@ -112,6 +121,7 @@ params:
   hideFooter: false # 隐藏页脚
   ShowWordCounts: true
   VisitCount: true
+
   ShowLastMod: true #显示文章更新时间
 
   ShowToc: true # 显示目录
@@ -120,7 +130,6 @@ params:
   extendCodeBackground: false # 代码块是否自动横向展开
 
   comments: true
-
 
   socialIcons:
     - name: github

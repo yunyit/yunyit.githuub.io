@@ -41,11 +41,23 @@ svg:hover {
 }
 
 .social-icons a:nth-child(1) svg:hover{
-    color: #C84370 !important;
+    color: #333 !important;
 }
 
 .social-icons a:nth-child(2) svg:hover {
-    color: grey !important;
+    color: #0A66C2 !important;
+}
+
+.social-icons a:nth-child(3) svg:hover {
+    color: #d62976 !important;
+}
+
+.social-icons a:nth-child(4) svg:hover {
+    color: #75420e !important;
+}
+
+.social-icons a:nth-child(5) svg:hover {
+    color: #f2a60c !important;
 }
 
 .logo a:hover {
@@ -69,12 +81,12 @@ body:not(.dark) #sun {
 
 #moon:hover {
     transition: 0.15s;
-    color: deepskyblue;
+    color: #1772b4;
 }
 
 #sun:hover {
     transition: 0.15s;
-    color: gold;
+    color: #f4a83a;
 }
 
 #menu {

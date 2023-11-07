@@ -204,3 +204,40 @@ body {
         font-size: 18px;
     }
 }
+
+/* 链接样式 */
+.post-content a {
+    color: #0969da;
+    box-shadow: none;
+    text-decoration: none;
+}
+.post-content a:hover {
+    text-decoration: underline;
+}
+/* 行内代码 - 左右间距 */
+.post-content code {
+    margin: unset;
+}
+/* 代码块 - 最大高度 */
+/* .post-content pre code {
+    max-height: 40rem;
+} */
+/* 图片居中 */
+.post-content img {
+    margin: auto;
+}
+
+/* GitHub 样式的表格 */
+.post-content table tr {
+    border: 1px solid #979da3 !important;
+}
+.post-content table tr:nth-child(2n),
+.post-content thead {
+    background-color: var(--code-bg);
+}
+.post-content table th {
+    border: 1px solid #979da3 !important;
+}
+.post-content table td {
+    border: 1px solid #979da3 !important;
+}

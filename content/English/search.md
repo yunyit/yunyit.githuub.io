@@ -1,6 +1,5 @@
 ---
-date: "2023-11-07T14:31:25Z"
-draft: true
 layout: search
+placeholder: To search please type in
 title: Search
 ---
