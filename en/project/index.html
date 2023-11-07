@@ -73,8 +73,8 @@ DOI: https://doi.org/10.3390/antibiotics11080991
 Author: Wenjuan Cong, Beth Stuart, Nour AI Husein, Binjuan Liu, Yunyi Tang, Hexing Wang, Amit Manchundiya, Helen Lambert This scoping review aimed to explore the prevalence and patterns of global antibiotic use and bacterial infection in COVID-19 patients from studies published between June 2020 and March 2021." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://yunyit.github.io/en/project/" /><meta property="article:section" content="" />
-<meta property="article:published_time" content="2023-11-07T14:37:52+00:00" />
-<meta property="article:modified_time" content="2023-11-07T14:37:52+00:00" />
+<meta property="article:published_time" content="2023-11-07T14:31:25+00:00" />
+<meta property="article:modified_time" content="2023-11-07T14:31:25+00:00" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Projects"/>
@@ -112,12 +112,12 @@ Author: Wenjuan Cong, Beth Stuart, Nour AI Husein, Binjuan Liu, Yunyi Tang, Hexi
   "articleBody": "Personal Projects My Personal Website Nov. 2023 - Now, HTML, CSS, JavaScript\nGithub: https://github.com/yunyit/yunyit.github.io\nThis website uses PaperMod theme and base on Hugo. Academic Projects Antibiotic Use and Bacterial Infection in COVID-19 Patients in the Second Phase of the SARS-CoV-2 Pandemic: A Scoping Review Jul. 2022\nDOI: https://doi.org/10.3390/antibiotics11080991\nAuthor: Wenjuan Cong, Beth Stuart, Nour AI Husein, Binjuan Liu, Yunyi Tang, Hexing Wang, Amit Manchundiya, Helen Lambert This scoping review aimed to explore the prevalence and patterns of global antibiotic use and bacterial infection in COVID-19 patients from studies published between June 2020 and March 2021. ",
   "wordCount" : "95",
   "inLanguage": "en",
-  "datePublished": "2023-11-07T14:37:52Z",
-  "dateModified": "2023-11-07T14:37:52Z",
-  "author":{
+  "datePublished": "2023-11-07T14:31:25Z",
+  "dateModified": "2023-11-07T14:31:25Z",
+  "author":[{
     "@type": "Person",
     "name": "Yunyi"
-  },
+  }],
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://yunyit.github.io/en/project/"
@@ -211,7 +211,102 @@ Author: Wenjuan Cong, Beth Stuart, Nour AI Husein, Binjuan Liu, Yunyi Tang, Hexi
     <h1 class="post-title">
       Projects
     </h1>
-  </header> 
+    <div class="post-meta"><span title='2023-11-07 14:31:25 +0000 UTC'>2023-11-07</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Yunyi
+&nbsp;|&nbsp;Translations:
+<ul class="i18n_list">
+    <li>
+        <a href="https://yunyit.github.io/zh/project/">中文</a>
+    </li>
+</ul>
+
+</div>
+  </header> <aside id="toc-container" class="toc-container wide">
+    <div class="toc">
+        <details  open>
+            <summary accesskey="c" title="(Alt + C)">
+                <span class="details">Table of Contents</span>
+            </summary>
+
+            <div class="inner"><ul>
+                    <li>
+                        <a href="#personal-projects" aria-label="Personal Projects">Personal Projects</a><ul>
+                            
+                    <li>
+                        <a href="#my-personal-website" aria-label="My Personal Website">My Personal Website</a></li></ul>
+                    </li>
+                    <li>
+                        <a href="#academic-projects" aria-label="Academic Projects">Academic Projects</a><ul>
+                            
+                    <li>
+                        <a href="#antibiotic-use-and-bacterial-infection-in-covid-19-patients-in-the-second-phase-of-the-sars-cov-2-pandemic-a-scoping-review" aria-label="Antibiotic Use and Bacterial Infection in COVID-19 Patients in the Second Phase of the SARS-CoV-2 Pandemic: A Scoping Review">Antibiotic Use and Bacterial Infection in COVID-19 Patients in the Second Phase of the SARS-CoV-2 Pandemic: A Scoping Review</a>
+                    </li>
+                </ul>
+                </li>
+                </ul>
+            </div>
+        </details>
+    </div>
+</aside>
+<script>
+    let activeElement;
+    let elements;
+    window.addEventListener('DOMContentLoaded', function (event) {
+        checkTocPosition();
+
+        elements = document.querySelectorAll('h1[id],h2[id],h3[id],h4[id],h5[id],h6[id]');
+         
+         activeElement = elements[0];
+         const id = encodeURI(activeElement.getAttribute('id')).toLowerCase();
+         document.querySelector(`.inner ul li a[href="#${id}"]`).classList.add('active');
+     }, false);
+
+    window.addEventListener('resize', function(event) {
+        checkTocPosition();
+    }, false);
+
+    window.addEventListener('scroll', () => {
+        
+        activeElement = Array.from(elements).find((element) => {
+            if ((getOffsetTop(element) - window.pageYOffset) > 0 && 
+                (getOffsetTop(element) - window.pageYOffset) < window.innerHeight/2) {
+                return element;
+            }
+        }) || activeElement
+
+        elements.forEach(element => {
+             const id = encodeURI(element.getAttribute('id')).toLowerCase();
+             if (element === activeElement){
+                 document.querySelector(`.inner ul li a[href="#${id}"]`).classList.add('active');
+             } else {
+                 document.querySelector(`.inner ul li a[href="#${id}"]`).classList.remove('active');
+             }
+         })
+     }, false);
+
+    const main = parseInt(getComputedStyle(document.body).getPropertyValue('--article-width'), 10);
+    const toc = parseInt(getComputedStyle(document.body).getPropertyValue('--toc-width'), 10);
+    const gap = parseInt(getComputedStyle(document.body).getPropertyValue('--gap'), 10);
+
+    function checkTocPosition() {
+        const width = document.body.scrollWidth;
+
+        if (width - main - (toc * 2) - (gap * 4) > 0) {
+            document.getElementById("toc-container").classList.add("wide");
+        } else {
+            document.getElementById("toc-container").classList.remove("wide");
+        }
+    }
+
+    function getOffsetTop(element) {
+        if (!element.getClientRects().length) {
+            return 0;
+        }
+        let rect = element.getBoundingClientRect();
+        let win = element.ownerDocument.defaultView;
+        return rect.top + win.pageYOffset;   
+    }
+</script>
+
   <div class="post-content"><h1 id="personal-projects">Personal Projects<a hidden class="anchor" aria-hidden="true" href="#personal-projects">#</a></h1>
 <h2 id="my-personal-website">My Personal Website<a hidden class="anchor" aria-hidden="true" href="#my-personal-website">#</a></h2>
 <p><em>Nov. 2023 - Now, HTML, CSS, JavaScript</em></p>

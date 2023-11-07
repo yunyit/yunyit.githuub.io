@@ -2,19 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://yunyit.github.io/en/project/</loc>
-    <lastmod>2023-11-07T14:37:52+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://yunyit.github.io/zh/project/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yunyit.github.io/en/project/"
-                />
-  </url><url>
     <loc>https://yunyit.github.io/en/about/</loc>
     <lastmod>2023-11-07T14:31:25+00:00</lastmod>
     <xhtml:link
@@ -41,17 +28,17 @@
                 href="https://yunyit.github.io/en/links/"
                 />
   </url><url>
-    <loc>https://yunyit.github.io/en/search/</loc>
+    <loc>https://yunyit.github.io/en/project/</loc>
     <lastmod>2023-11-07T14:31:25+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://yunyit.github.io/zh/search/"
+                href="https://yunyit.github.io/zh/project/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yunyit.github.io/en/search/"
+                href="https://yunyit.github.io/en/project/"
                 />
   </url><url>
     <loc>https://yunyit.github.io/en/categories/</loc>
@@ -64,6 +51,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://yunyit.github.io/en/categories/"
+                />
+  </url><url>
+    <loc>https://yunyit.github.io/en/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://yunyit.github.io/zh/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yunyit.github.io/en/search/"
                 />
   </url><url>
     <loc>https://yunyit.github.io/en/tags/</loc>

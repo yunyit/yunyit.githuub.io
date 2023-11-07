@@ -65,8 +65,8 @@
 <meta property="og:description" content="个人项目 个人网站 Nov. 2023 - Now, HTML, CSS, JavaScript Github: https://github.com/yunyit/yunyit.github.io 这个项目是基于Hugo的PaperMod主题。 学术项目 Antibiotic Use and Bacterial Infection in COVID-19 Patients in the Second Phase of the SARS-CoV-2 Pandemic: A Scoping Review Jul. 2022 DOI: https://doi.org/10.3390/antibiotics11080991 作者：" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://yunyit.github.io/zh/project/" /><meta property="article:section" content="" />
-<meta property="article:published_time" content="2023-11-07T14:37:52+00:00" />
-<meta property="article:modified_time" content="2023-11-07T14:37:52+00:00" />
+<meta property="article:published_time" content="2023-11-07T14:31:25+00:00" />
+<meta property="article:modified_time" content="2023-11-07T14:31:25+00:00" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="项目"/>
@@ -100,12 +100,12 @@
   "articleBody": "个人项目 个人网站 Nov. 2023 - Now, HTML, CSS, JavaScript\nGithub: https://github.com/yunyit/yunyit.github.io\n这个项目是基于Hugo的PaperMod主题。 学术项目 Antibiotic Use and Bacterial Infection in COVID-19 Patients in the Second Phase of the SARS-CoV-2 Pandemic: A Scoping Review Jul. 2022\nDOI: https://doi.org/10.3390/antibiotics11080991\n作者：Wenjuan Cong, Beth Stuart, Nour AI Husein, Binjuan Liu, Yunyi Tang, Hexing Wang, Amit Manchundiya, Helen Lambert 本范围界定综述旨在从 2020 年 6 月至 2021 年 3 月期间发表的研究中，探讨 COVID-19 患者中全球抗生素使用和细菌感染的流行程度和模式。 ",
   "wordCount" : "148",
   "inLanguage": "zh",
-  "datePublished": "2023-11-07T14:37:52Z",
-  "dateModified": "2023-11-07T14:37:52Z",
-  "author":{
+  "datePublished": "2023-11-07T14:31:25Z",
+  "dateModified": "2023-11-07T14:31:25Z",
+  "author":[{
     "@type": "Person",
     "name": "Yunyi"
-  },
+  }],
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://yunyit.github.io/zh/project/"
@@ -204,7 +204,102 @@
     <h1 class="post-title">
       项目
     </h1>
-  </header> 
+    <div class="post-meta"><span title='2023-11-07 14:31:25 +0000 UTC'>2023-11-07</span>&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;Yunyi
+&nbsp;|&nbsp;语言:
+<ul class="i18n_list">
+    <li>
+        <a href="https://yunyit.github.io/en/project/">English</a>
+    </li>
+</ul>
+
+</div>
+  </header> <aside id="toc-container" class="toc-container wide">
+    <div class="toc">
+        <details  open>
+            <summary accesskey="c" title="(Alt + C)">
+                <span class="details">目录</span>
+            </summary>
+
+            <div class="inner"><ul>
+                    <li>
+                        <a href="#%e4%b8%aa%e4%ba%ba%e9%a1%b9%e7%9b%ae" aria-label="个人项目">个人项目</a><ul>
+                            
+                    <li>
+                        <a href="#%e4%b8%aa%e4%ba%ba%e7%bd%91%e7%ab%99" aria-label="个人网站">个人网站</a></li></ul>
+                    </li>
+                    <li>
+                        <a href="#%e5%ad%a6%e6%9c%af%e9%a1%b9%e7%9b%ae" aria-label="学术项目">学术项目</a><ul>
+                            
+                    <li>
+                        <a href="#antibiotic-use-and-bacterial-infection-in-covid-19-patients-in-the-second-phase-of-the-sars-cov-2-pandemic-a-scoping-review" aria-label="Antibiotic Use and Bacterial Infection in COVID-19 Patients in the Second Phase of the SARS-CoV-2 Pandemic: A Scoping Review">Antibiotic Use and Bacterial Infection in COVID-19 Patients in the Second Phase of the SARS-CoV-2 Pandemic: A Scoping Review</a>
+                    </li>
+                </ul>
+                </li>
+                </ul>
+            </div>
+        </details>
+    </div>
+</aside>
+<script>
+    let activeElement;
+    let elements;
+    window.addEventListener('DOMContentLoaded', function (event) {
+        checkTocPosition();
+
+        elements = document.querySelectorAll('h1[id],h2[id],h3[id],h4[id],h5[id],h6[id]');
+         
+         activeElement = elements[0];
+         const id = encodeURI(activeElement.getAttribute('id')).toLowerCase();
+         document.querySelector(`.inner ul li a[href="#${id}"]`).classList.add('active');
+     }, false);
+
+    window.addEventListener('resize', function(event) {
+        checkTocPosition();
+    }, false);
+
+    window.addEventListener('scroll', () => {
+        
+        activeElement = Array.from(elements).find((element) => {
+            if ((getOffsetTop(element) - window.pageYOffset) > 0 && 
+                (getOffsetTop(element) - window.pageYOffset) < window.innerHeight/2) {
+                return element;
+            }
+        }) || activeElement
+
+        elements.forEach(element => {
+             const id = encodeURI(element.getAttribute('id')).toLowerCase();
+             if (element === activeElement){
+                 document.querySelector(`.inner ul li a[href="#${id}"]`).classList.add('active');
+             } else {
+                 document.querySelector(`.inner ul li a[href="#${id}"]`).classList.remove('active');
+             }
+         })
+     }, false);
+
+    const main = parseInt(getComputedStyle(document.body).getPropertyValue('--article-width'), 10);
+    const toc = parseInt(getComputedStyle(document.body).getPropertyValue('--toc-width'), 10);
+    const gap = parseInt(getComputedStyle(document.body).getPropertyValue('--gap'), 10);
+
+    function checkTocPosition() {
+        const width = document.body.scrollWidth;
+
+        if (width - main - (toc * 2) - (gap * 4) > 0) {
+            document.getElementById("toc-container").classList.add("wide");
+        } else {
+            document.getElementById("toc-container").classList.remove("wide");
+        }
+    }
+
+    function getOffsetTop(element) {
+        if (!element.getClientRects().length) {
+            return 0;
+        }
+        let rect = element.getBoundingClientRect();
+        let win = element.ownerDocument.defaultView;
+        return rect.top + win.pageYOffset;   
+    }
+</script>
+
   <div class="post-content"><h1 id="个人项目">个人项目<a hidden class="anchor" aria-hidden="true" href="#个人项目">#</a></h1>
 <h2 id="个人网站">个人网站<a hidden class="anchor" aria-hidden="true" href="#个人网站">#</a></h2>
 <p><em>Nov. 2023 - Now, HTML, CSS, JavaScript</em></p>
