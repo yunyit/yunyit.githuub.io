@@ -41,6 +41,19 @@
                 href="https://yunyit.github.io/zh/about/"
                 />
   </url><url>
+    <loc>https://yunyit.github.io/zh/links/</loc>
+    <lastmod>2023-11-07T14:31:25+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yunyit.github.io/en/links/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://yunyit.github.io/zh/links/"
+                />
+  </url><url>
     <loc>https://yunyit.github.io/zh/categories/</loc>
     <xhtml:link
                 rel="alternate"
