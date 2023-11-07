@@ -2,56 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/en/project/</loc>
+    <loc>https://yunyit.github.io/en/project/</loc>
     <lastmod>2023-11-07T14:37:52+00:00</lastmod>
   </url><url>
-    <loc>/en/about/</loc>
+    <loc>https://yunyit.github.io/en/about/</loc>
     <lastmod>2023-11-07T14:31:25+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/about/"
+                href="https://yunyit.github.io/zh/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/about/"
+                href="https://yunyit.github.io/en/about/"
                 />
   </url><url>
-    <loc>/en/categories/</loc>
+    <loc>https://yunyit.github.io/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/categories/"
+                href="https://yunyit.github.io/zh/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/categories/"
+                href="https://yunyit.github.io/en/categories/"
                 />
   </url><url>
-    <loc>/en/tags/</loc>
+    <loc>https://yunyit.github.io/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/"
+                href="https://yunyit.github.io/zh/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/"
+                href="https://yunyit.github.io/en/tags/"
                 />
   </url><url>
-    <loc>/en/</loc>
+    <loc>https://yunyit.github.io/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/"
+                href="https://yunyit.github.io/zh/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/"
+                href="https://yunyit.github.io/en/"
                 />
   </url>
 </urlset>
