@@ -1,0 +1,140 @@
+baseURL: # 绑定的域名
+languageCode: en
+title: Yunyi's Blog
+theme: PaperMod 
+
+# change config for posts
+# hugo convert toYAML --config config.yml --unsafe --verbose
+# hugo --config config.yml
+# for github: hugo -F --cleanDestinationDir
+
+enableInlineShortcodes: true
+enableEmoji: true # 允许使用 Emoji 表情，建议 true
+enableRobotsTXT: true # 允许爬虫抓取到搜索引擎，建议 true
+hasCJKLanguage: true # 自动检测是否包含 中文日文韩文 如果文章中使用了很多中文引号的话可以开启
+
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+
+languages:
+    en:
+        languageName: English
+        languageCode: en
+        contentDir: content/English
+        menu:
+          main:
+            - identifier: about
+              name: About
+              url: /en/about/
+              weight: 10
+            - identifier: project
+              name: Project
+              url: /en/project/
+              weight: 20
+            - identifier: resume
+              name: Resume
+              url: /en/resume/
+              weight: 30
+            - identifier: search
+              name: Search
+              url: /en/search/
+              weight: 40
+        profileMode:
+          enabled: true
+          title: Yunyi Tang
+          subtitle: Little squirrel Hopping around
+          imageUrl: "img/Avatar.png"
+          imageTitle: 
+          imageWidth: 150
+          imageHeight: 150
+          buttons:
+            - name: About
+              url: /en/about
+            - name: Project
+              url: /en/project
+            - name: Resume
+              url: /en/resume
+    zh:
+        languageName: 中文
+        languageCode: zh
+        contentDir: content/Chinese
+        menu:
+          main:
+            - identifier: about
+              name: 关于
+              url: /zh/about
+              weight: 10
+            - identifier: project
+              name: 项目
+              url: /zh/project/
+              weight: 20
+            - identifier: resume
+              name: 简历
+              url: /zh/resume/
+              weight: 30
+            - identifier: search
+              name: 搜索
+              url: /zh/search/
+              weight: 40
+        profileMode:
+          enabled: true
+          title: Yunyi Tang
+          subtitle: Little squirrel Hopping around
+          imageUrl: "img/Avatar.png"
+          imageTitle: 
+          imageWidth: 150
+          imageHeight: 150
+          buttons:
+            - name: 关于
+              url: /zh/about
+            - name: 项目
+              url: /zh/projects
+            - name: 简历
+              url: /zh/resume
+
+
+# 这里的参数会被代码以 .Site.Params 的形式读取
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: ""
+  author: Yunyi
+
+  defaultTheme: auto  # defaultTheme: light or  dark
+  disableThemeToggle: false
+  DateFormat: "2006-01-02"
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecialistPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideFooter: false # 隐藏页脚
+  ShowWordCounts: true
+  VisitCount: true
+  ShowLastMod: true #显示文章更新时间
+
+  ShowToc: true # 显示目录
+  TocOpen: true # 自动展开目录
+
+  extendCodeBackground: false # 代码块是否自动横向展开
+
+  comments: true
+
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/yunyit"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/yunyitang820/"
+    - name: instagram
+      url: "https://www.instagram.com/yunyi_cam/"
+    - name: goodreads
+      url: "https://www.goodreads.com/user/show/161105203-yunyi-tang"
+    - name: email
+      url: "mailto:yunyi.tang.820@gmail.com"
+
+  label:
+    text: "Home"
+    # icon: "img/Avatar.png"
+    iconHeight: 35
