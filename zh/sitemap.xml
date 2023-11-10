@@ -2,91 +2,91 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://yunyit.github.io/zh/about/</loc>
+    <loc>http://www.yunyitang.me/zh/about/</loc>
     <lastmod>2023-11-07T14:31:25+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yunyit.github.io/en/about/"
+                href="http://www.yunyitang.me/en/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://yunyit.github.io/zh/about/"
+                href="http://www.yunyitang.me/zh/about/"
                 />
   </url><url>
-    <loc>https://yunyit.github.io/zh/project/</loc>
+    <loc>http://www.yunyitang.me/zh/project/</loc>
     <lastmod>2023-11-07T14:31:25+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yunyit.github.io/en/project/"
+                href="http://www.yunyitang.me/en/project/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://yunyit.github.io/zh/project/"
+                href="http://www.yunyitang.me/zh/project/"
                 />
   </url><url>
-    <loc>https://yunyit.github.io/zh/links/</loc>
+    <loc>http://www.yunyitang.me/zh/links/</loc>
     <lastmod>2023-11-07T14:31:25+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yunyit.github.io/en/links/"
+                href="http://www.yunyitang.me/en/links/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://yunyit.github.io/zh/links/"
+                href="http://www.yunyitang.me/zh/links/"
                 />
   </url><url>
-    <loc>https://yunyit.github.io/zh/categories/</loc>
+    <loc>http://www.yunyitang.me/zh/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yunyit.github.io/en/categories/"
+                href="http://www.yunyitang.me/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://yunyit.github.io/zh/categories/"
+                href="http://www.yunyitang.me/zh/categories/"
                 />
   </url><url>
-    <loc>https://yunyit.github.io/zh/tags/</loc>
+    <loc>http://www.yunyitang.me/zh/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yunyit.github.io/en/tags/"
+                href="http://www.yunyitang.me/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://yunyit.github.io/zh/tags/"
+                href="http://www.yunyitang.me/zh/tags/"
                 />
   </url><url>
-    <loc>https://yunyit.github.io/zh/</loc>
+    <loc>http://www.yunyitang.me/zh/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yunyit.github.io/en/"
+                href="http://www.yunyitang.me/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://yunyit.github.io/zh/"
+                href="http://www.yunyitang.me/zh/"
                 />
   </url><url>
-    <loc>https://yunyit.github.io/zh/search/</loc>
+    <loc>http://www.yunyitang.me/zh/search/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yunyit.github.io/en/search/"
+                href="http://www.yunyitang.me/en/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://yunyit.github.io/zh/search/"
+                href="http://www.yunyitang.me/zh/search/"
                 />
   </url>
 </urlset>
