@@ -1,4 +1,4 @@
-baseURL: https://yunyit.github.io/ # 绑定的域名
+baseURL: http://www.yunyitang.me/ # 绑定的域名
 languageCode: en
 title: Yunyi's Blog
 theme: PaperMod 
@@ -34,7 +34,7 @@ languages:
               weight: 20
             - identifier: resume
               name: Resume
-              url: /en/resume-test.pdf
+              url: /en/resume.pdf
               weight: 30
             - identifier: search
               name: Search
@@ -54,7 +54,7 @@ languages:
             - name: Project
               url: /en/project/
             - name: Resume
-              url: /en/resume-test.pdf
+              url: /en/resume.pdf
     zh:
         languageName: 中文
         languageCode: zh
@@ -71,7 +71,7 @@ languages:
               weight: 20
             - identifier: resume
               name: 简历
-              url: /zh/resume-test.pdf/
+              url: /zh/resume.pdf/
               weight: 30
             - identifier: links
               name: 友链
@@ -95,7 +95,7 @@ languages:
             - name: 项目
               url: /zh/projects/
             - name: 简历
-              url: /zh/resume-test.pdf
+              url: /zh/resume.pdf
 
 outputs:
     home:
