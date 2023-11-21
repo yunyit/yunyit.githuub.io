@@ -56,5 +56,27 @@ Pre heat the oven to 230°C. Best tempereture for this cake size and amount of m
 Bake for less than 30 minutes. The best length of time for baking is between 23 minutes and 25 minutes. 
 
 ## STEP 8
-Take the cake out and cool it down in room temperature. Put the cake in the fridge for one hour or overnight.
+Take the cake out and chill in room temperature. Put the cake in the fridge for one hour or overnight.
 
+Serve with any flavour of ice cream. 
+
+# Mix and match for baking temerature and fridge time
+
+## chill in room temperature 1 hour + fridge overnight
+Quite solid. 
+
+Sweep the knife for each cut, to have a clean cut.
+
+## chill in room temperature 1 hour + fridge 1 hour
+More soft and a bit lava in the cake centre.
+
+## oven 240°C for 26 minutes
+More lava.
+
+# Other flavour
+## Blue cheese/Comté cheese
+Same ingredients and steps before pouring in the cake tin.
+
+Pour half in the cake tin and add some blue cheese/Comté cheese fractions in the middle of the cake tin. Then pour the second half in the cake tin.
+
+230°C in fan mode oven for 28 minutes. Chill in room temperature and fridge overnight.
