@@ -8,6 +8,7 @@ theme: PaperMod
 # hugo --config config.yml
 # before push github: 
 # hugo -F --cleanDestinationDir
+# local preview: hugo server -D
 
 enableInlineShortcodes: true
 enableEmoji: true # 允许使用 Emoji 表情，建议 true
