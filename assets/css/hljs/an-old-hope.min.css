@@ -1,0 +1,104 @@
+/* 注释 */
+.hljs-comment,
+.hljs-quote {
+    font-weight: 200;
+    color: #7f848e;
+}
+
+.hljs-deletion,
+/* html标签 */
+.hljs-name,
+.hljs-regexp,
+.hljs-tag {
+    font-weight: 200;
+    color: #e06c75;
+}
+
+/* html属性 */
+.hljs-tag {
+    font-weight: 200;
+    color: #d19a66;
+}
+
+/* css类名 */
+.hljs-template-variable,
+.hljs-variable,
+.hljs-selector-class,
+.hljs-selector-id {
+    font-weight: 200;
+    color: #a9b600;
+}
+
+/* 内置函数 */
+.hljs-built_in,
+.hljs-builtin-name {
+    font-weight: 200;
+    color: #56b6c2;
+}
+
+/* 函数输入 */
+.hljs-params {
+    font-weight: 200;
+    color: #e5c07b;
+}
+
+/* 数字 */
+.hljs-number {
+    font-weight: 200;
+    color: #d19a66;
+}
+
+/* css属性 */
+.hljs-attribute {
+    font-weight: 200;
+    color: #ee7c2b;
+}
+
+/* 字符串 */
+.hljs-addition,
+.hljs-bullet,
+.hljs-symbol,
+.hljs-string {
+    font-weight: 200;
+    color: #98c379;
+}
+
+/* 函数名称 */
+.hljs-section,
+.hljs-title {
+    font-weight: 200;
+    color: #56b6c2;
+}
+
+/* 关键字 */
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-link,
+.hljs-meta,
+.hljs-type {
+    font-weight: 200;
+    color: #c678dd;
+}
+
+.hljs {
+    display: block;
+    overflow-x: auto;
+    background: #1c1d21;
+    color: #c0c5ce;
+    padding: 0.5em;
+}
+
+.hljs-emphasis {
+    font-style: italic;
+}
+
+.hljs-strong {
+    font-weight: 700;
+}
+
+/* 选中时的背景颜色 */
+.hljs ::selection,
+.hljs::selection {
+    background-color: #3d4556;
+}
