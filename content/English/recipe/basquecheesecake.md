@@ -28,7 +28,7 @@ Cream Cheese 350g
 Sugar 90g
 2 Eggs + 1 Egg Yolk
 Cream 150g
-Cake Flour (I use Corn Flour and it works well) 10g
+Low Gluten Flour (Corn Flour works well too!) 10g
 
 # Method
 
