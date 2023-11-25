@@ -24,11 +24,11 @@ weight: null
 > 6 inch round cake tin
 
 # Ingredients
-Cream Cheese 350g
-Sugar 90g
-2 Eggs + 1 Egg Yolk
-Cream 150g
-Low Gluten Flour (Corn Flour works well too!) 10g
+* Cream Cheese 350g
+* Sugar 90g
+* 2 Eggs + 1 Egg Yolk
+* Cream 150g
+* Low Gluten Flour (Corn Flour works well too!) 10g
 
 # Method
 
