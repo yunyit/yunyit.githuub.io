@@ -2,6 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://www.yunyitang.me/en/recipe/basquecheesecake/</loc>
+    <lastmod>2023-11-20T17:25:25+00:00</lastmod>
+  </url><url>
+    <loc>http://www.yunyitang.me/en/recipe/</loc>
+    <lastmod>2023-11-20T17:25:25+00:00</lastmod>
+  </url><url>
+    <loc>http://www.yunyitang.me/en/</loc>
+    <lastmod>2023-11-20T17:25:25+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.yunyitang.me/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.yunyitang.me/en/"
+                />
+  </url><url>
     <loc>http://www.yunyitang.me/en/about/</loc>
     <lastmod>2023-11-07T14:31:25+00:00</lastmod>
     <xhtml:link
@@ -75,18 +94,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://www.yunyitang.me/en/tags/"
-                />
-  </url><url>
-    <loc>http://www.yunyitang.me/en/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://www.yunyitang.me/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://www.yunyitang.me/en/"
                 />
   </url>
 </urlset>
