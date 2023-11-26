@@ -1,5 +1,5 @@
 ---
 layout: search
-placeholder: To search please type in
+placeholder: Find a recipe or the archives
 title: Search
 ---
