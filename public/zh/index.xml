@@ -5,7 +5,35 @@
     <link>http://www.yunyitang.me/zh/</link>
     <description>Recent content on Yunyi&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh</language><atom:link href="http://www.yunyitang.me/zh/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh</language>
+    <lastBuildDate>Wed, 13 Dec 2023 15:54:25 +0000</lastBuildDate><atom:link href="http://www.yunyitang.me/zh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>十二月在看</title>
+      <link>http://www.yunyitang.me/zh/blog/film/december/</link>
+      <pubDate>Wed, 13 Dec 2023 15:54:25 +0000</pubDate>
+      
+      <guid>http://www.yunyitang.me/zh/blog/film/december/</guid>
+      <description>TEST</description>
+    </item>
+    
+    <item>
+      <title>十一月在读</title>
+      <link>http://www.yunyitang.me/zh/blog/book/november/</link>
+      <pubDate>Wed, 13 Dec 2023 15:54:25 +0000</pubDate>
+      
+      <guid>http://www.yunyitang.me/zh/blog/book/november/</guid>
+      <description>TEST</description>
+    </item>
+    
+    <item>
+      <title>十一月在看</title>
+      <link>http://www.yunyitang.me/zh/blog/film/november/</link>
+      <pubDate>Wed, 13 Dec 2023 15:54:25 +0000</pubDate>
+      
+      <guid>http://www.yunyitang.me/zh/blog/film/november/</guid>
+      <description>TEST</description>
+    </item>
+    
     <item>
       <title>关于</title>
       <link>http://www.yunyitang.me/zh/about/</link>

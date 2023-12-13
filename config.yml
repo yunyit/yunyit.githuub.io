@@ -74,14 +74,18 @@ languages:
               name: 简历
               url: /zh/resume.pdf/
               weight: 30
+            - identifier: blog
+              name: 博客
+              url: /zh/blog/
+              weight: 40
             - identifier: links
               name: 友链
               url: /zh/links/
-              weight: 40
+              weight: 50
             - identifier: search
               name: 搜索
               url: /zh/search/
-              weight: 50
+              weight: 60
         profileMode:
           enabled: true
           title: Yunyi Tang
