@@ -20,6 +20,15 @@ title: 十二月在看
 weight: null
 ---
 
+# 至暗时刻 
+Darkest Hour / 黑暗对峙(港) / 最黑暗的时刻(台)
+
+# 国王的演讲 
+The King's Speech / 皇上无话儿(港) / 王者之声：宣战时刻(台)
+
+# 普罗米修斯
+Prometheus / 异形前传 / 异形前传：普罗米修斯
+
 # 走出非洲 
 Out of Africa / 非洲之旅(港) / 远离非洲(台) 
 
