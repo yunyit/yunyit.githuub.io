@@ -1,3 +1,23 @@
+/* backup
+.hljs-comment,.hljs-quote{font-weight:200;color:#7f848e}
+.hljs-deletion,.hljs-name,.hljs-regexp,.hljs-tag{font-weight:200;color:#e06c75}
+.hljs-tag{font-weight:200;color:#d19a66}
+.hljs-template-variable,.hljs-variable,.hljs-selector-class,.hljs-selector-id{font-weight:200;color:#ffd709}
+.hljs-built_in,.hljs-builtin-name{font-weight:200;color:#56b6c2}
+.hljs-params{font-weight:200;color:#e5c07b}
+.hljs-number{font-weight:200;color:#d19a66}
+.hljs-attribute{font-weight:200;color:#ee7c2b}
+.hljs-addition,.hljs-bullet,.hljs-symbol,.hljs-string{font-weight:200;color:#98c379}
+.hljs-section,.hljs-title{font-weight:200;color:#56b6c2}
+.hljs-keyword,.hljs-selector-tag,.hljs-literal,.hljs-link,.hljs-meta,.hljs-type{font-weight:200;color:#c678dd}
+.hljs{display:block;overflow-x:auto;background:#1c1d21;color:#c0c5ce;padding:.5em}
+.hljs-emphasis{font-style:italic}
+.hljs-strong{font-weight:700}
+.hljs ::selection,.hljs::selection{background-color:#3d4556} */
+
+/* end backup */
+
+
 /* 注释 */
 .hljs-comment,
 .hljs-quote {
@@ -5,19 +25,19 @@
     color: #7f848e;
 }
 
-.hljs-deletion,
 /* html标签 */
+.hljs-deletion,
 .hljs-name,
 .hljs-regexp,
 .hljs-tag {
     font-weight: 200;
-    color: #e06c75;
+    color: #56b6c2;
 }
 
 /* html属性 */
 .hljs-tag {
     font-weight: 200;
-    color: #d19a66;
+    color: #ffa631;
 }
 
 /* css类名 */
@@ -51,7 +71,7 @@
 /* css属性 */
 .hljs-attribute {
     font-weight: 200;
-    color: #ee7c2b;
+    color: #ffa631;
 }
 
 /* 字符串 */
@@ -67,7 +87,7 @@
 .hljs-section,
 .hljs-title {
     font-weight: 200;
-    color: #21a675;
+    color: #1A94BC;
 }
 
 /* 关键字 */
@@ -78,7 +98,7 @@
 .hljs-meta,
 .hljs-type {
     font-weight: 200;
-    color: #c83c23;
+    color: #ffa631;
 }
 
 .hljs {
