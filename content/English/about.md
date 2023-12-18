@@ -16,7 +16,7 @@ hidemeta: false
 showToc: true
 showbreadcrumbs: true
 slug: ""
-title: About
+title: About Me 👋
 weight: null
 ---
 
