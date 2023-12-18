@@ -31,17 +31,37 @@
     <loc>http://www.yunyitang.me/zh/blog/film/</loc>
     <lastmod>2023-12-13T15:54:25+00:00</lastmod>
   </url><url>
-    <loc>http://www.yunyitang.me/zh/blog/film/december/</loc>
+    <loc>http://www.yunyitang.me/zh/blog/film/dec-film/</loc>
     <lastmod>2023-12-13T15:54:25+00:00</lastmod>
   </url><url>
-    <loc>http://www.yunyitang.me/zh/blog/book/november/</loc>
+    <loc>http://www.yunyitang.me/zh/blog/book/nov-book/</loc>
     <lastmod>2023-12-13T15:54:25+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.yunyitang.me/en/blog/book/nov-book/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.yunyitang.me/zh/blog/book/nov-book/"
+                />
   </url><url>
-    <loc>http://www.yunyitang.me/zh/blog/film/november/</loc>
+    <loc>http://www.yunyitang.me/zh/blog/film/nov-film/</loc>
     <lastmod>2023-12-13T15:54:25+00:00</lastmod>
   </url><url>
     <loc>http://www.yunyitang.me/zh/blog/book/</loc>
     <lastmod>2023-12-13T15:54:25+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.yunyitang.me/en/blog/book/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.yunyitang.me/zh/blog/book/"
+                />
   </url><url>
     <loc>http://www.yunyitang.me/zh/about/</loc>
     <lastmod>2023-11-07T14:31:25+00:00</lastmod>

@@ -20,4 +20,12 @@ title: 十一月在读
 weight: null
 ---
 
-TEST
+> [YUNYI IS CURRENTLY READING](https://www.goodreads.com/review/list/161105203-yunyi-tang?shelf=currently-reading)
+
+# The Body Keeps the Score
+> Mind, Brain and Body in the Transformation of Trauma
+
+by Bessel van der Kolk
+
+# 沙丘 #1
+by Frank Herbert

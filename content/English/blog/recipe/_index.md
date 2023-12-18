@@ -1,0 +1,4 @@
+---
+hidemeta: true
+title: Recipe
+---
