@@ -16,7 +16,7 @@ hidemeta: false
 showToc: true
 showbreadcrumbs: true
 slug: ""
-title: About Me 👋
+title: "About Me \U0001F44B\U0001F3FC"
 weight: null
 ---
 

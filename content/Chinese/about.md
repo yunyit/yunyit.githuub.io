@@ -16,7 +16,7 @@ hidemeta: false
 showToc: true
 showbreadcrumbs: true
 slug: ""
-title: 关于我 👋
+title: "关于我 \U0001F44B\U0001F3FC"
 weight: null
 ---
 

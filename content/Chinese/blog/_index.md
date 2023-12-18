@@ -1,4 +1,4 @@
 ---
 hidemeta: true
-title: "博客"
+title: 博客
 ---
