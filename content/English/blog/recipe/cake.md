@@ -8,7 +8,7 @@ cover:
   caption: ""
   image: ""
   relative: false
-date: "2023-11-20T17:25:25Z"
+date: "2023-11-20"
 description: ""
 disableShare: true
 draft: false

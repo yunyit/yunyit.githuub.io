@@ -169,9 +169,9 @@
     margin-inline-start: calc(var(--gap) * -2);
 }
 
-.post-content .highlight pre {
-    margin: 0;
-}
+.post-content .highlight pre{
+    background-color:var(--theme)!important;
+    margin:0}
 
 .post-content .highlighttable {
     table-layout: fixed;
@@ -196,7 +196,7 @@
     font-size: 0.78em;
     line-height: 1.5;
     background: var(--code-bg);
-    border-radius: 2px;
+    border-radius:  var(--radius);
 }
 
 .post-content pre code {

@@ -23,6 +23,7 @@ title: 友链
 </div>
 
 
+----
 友链格式：
 ```
 name="Kyxie's Blog"

@@ -16,3 +16,11 @@ title: Links
 {{< friend name="Kyxie's Blog" url="https://kyxie.github.io/zh/" logo="https://kyxie.github.io/k-48.png" word="Hello World Printer" >}}
 </div>
 
+----
+Links format:
+```
+name="Kyxie's Blog"
+url="https://kyxie.github.io/zh"
+logo="https://kyxie.github.io/Avatar.png"
+word="Hello World Printer"
+```
