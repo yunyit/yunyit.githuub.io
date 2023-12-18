@@ -2,14 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://www.yunyitang.me/en/posts/recipe/cake/</loc>
-    <lastmod>2023-11-20T17:25:25+00:00</lastmod>
+    <loc>http://www.yunyitang.me/en/blog/</loc>
+    <lastmod>2023-12-13T15:54:25+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.yunyitang.me/zh/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.yunyitang.me/en/blog/"
+                />
   </url><url>
-    <loc>http://www.yunyitang.me/en/posts/</loc>
-    <lastmod>2023-11-20T17:25:25+00:00</lastmod>
+    <loc>http://www.yunyitang.me/en/blog/book/nov-book/</loc>
+    <lastmod>2023-12-13T15:54:25+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.yunyitang.me/zh/blog/book/nov-book/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.yunyitang.me/en/blog/book/nov-book/"
+                />
+  </url><url>
+    <loc>http://www.yunyitang.me/en/blog/book/</loc>
+    <lastmod>2023-12-13T15:54:25+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.yunyitang.me/zh/blog/book/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.yunyitang.me/en/blog/book/"
+                />
   </url><url>
     <loc>http://www.yunyitang.me/en/</loc>
-    <lastmod>2023-11-20T17:25:25+00:00</lastmod>
+    <lastmod>2023-12-13T15:54:25+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -20,6 +53,12 @@
                 hreflang="en"
                 href="http://www.yunyitang.me/en/"
                 />
+  </url><url>
+    <loc>http://www.yunyitang.me/en/blog/recipe/cake/</loc>
+    <lastmod>2023-11-20T17:25:25+00:00</lastmod>
+  </url><url>
+    <loc>http://www.yunyitang.me/en/blog/recipe/</loc>
+    <lastmod>2023-11-20T17:25:25+00:00</lastmod>
   </url><url>
     <loc>http://www.yunyitang.me/en/about/</loc>
     <lastmod>2023-11-07T14:31:25+00:00</lastmod>
