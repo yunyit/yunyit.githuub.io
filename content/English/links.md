@@ -31,11 +31,3 @@ url="https://www.yunyitang.me/en/"
 avatar="https://www.yunyitang.me/img/Avatar.png"
 desc="Little squirrel Hopping around"
 ```
-
-<!---
-大佬，已经添加贵站的友链了😊
-名称：Yunyi's Blog
-简介：Little squirrel Hopping around
-头像：https://www.yunyitang.me/img/Avatar.png
-地址：https://www.yunyitang.me/zh/
--->

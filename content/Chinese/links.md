@@ -29,6 +29,14 @@ title: 友链
 
 </div>
 
+<div class="friend">
+
+{{< friend name="Barney’s Blog" url="https://hugo.bnblogs.cc/" avatar="https://hugo.bnblogs.cc/images/img/20220215001349.png" desc="All the truth is simple" >}}
+
+
+</div>
+
+
 
 ----
 如想要交换友情链接，请将本站信息加入到你的站点友情链接中（可点击右上角图标直接复制）：
