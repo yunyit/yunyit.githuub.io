@@ -27,6 +27,7 @@ weight: null
 > Github: https://github.com/yunyit/yunyit.github.io
 
 * This website uses [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme and base on [Hugo](https://github.com/gohugoio/hugo).
+* The website has [Twikoo](https://twikoo.js.org/en/intro.html) comment system which support API , batch get article comment count and latest comments.
 
 ## Visualising COVID-19
 *Jul. 2022, R*
