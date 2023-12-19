@@ -43,6 +43,13 @@ title: 友链
 
 </div>
 
+<div class="friend">
+
+{{< friend name="豆豆 / Amos" url="https://amoshk.top" avatar="https://amoshk.top/img/avatar.png" desc="无限进步.✍️" >}}
+
+
+</div>
+
 
 ----
 互换友链格式（可点击右上角图标直接复制）：
