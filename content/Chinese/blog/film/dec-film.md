@@ -22,8 +22,15 @@ weight: null
 
 # 至暗时刻 
 Darkest Hour / 黑暗对峙(港) / 最黑暗的时刻(台)
-
-{{< douban src="https://movie.douban.com/subject/26761416/" >}}
+{{< bilibili BV1nW411W7oG >}}  
+<!---
+BV1Ab4y117G2 指的是 bilibili 链接中的 bvid
+如果有集数（默认第一集），例如要播放第5集，则这样使用：{a{< bilibili BV1xW4y1a7NK 5 >}}
+-->
+<!---
+your comment goes here {{< douban src="https://movie.douban.com/subject/26761416/" >}}
+and here
+-->
 
 # 国王的演讲 
 The King's Speech / 皇上无话儿(港) / 王者之声：宣战时刻(台)
@@ -48,6 +55,7 @@ Big Fish / 大鱼奇缘(港) / 大智若鱼(台)
 
 # 婚姻故事 
 Marriage Story 
+{{< bilibili BV1RC4y1y7MY >}} 
 
 # 伊蒂 
 Edie / 伊蒂

@@ -22,9 +22,11 @@ weight: null
 
 # Darkest Hour
 至暗时刻 / 黑暗对峙(港) / 最黑暗的时刻(台)
+{{< youtube LtJ60u7SUSw >}}  
 
 # The King's Speech
 国王的演讲 / 皇上无话儿(港) / 王者之声：宣战时刻(台)
+{{< youtube EcxBrTvLbBM >}} 
 
 # Prometheus
 普罗米修斯 / 异形前传 / 异形前传：普罗米修斯
