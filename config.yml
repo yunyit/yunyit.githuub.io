@@ -76,7 +76,7 @@ languages:
               weight: 20
             - identifier: resume
               name: 简历
-              url: /zh/resume.pdf/
+              url: /zh/resume.pdf
               weight: 30
             - identifier: blog
               name: 博客
