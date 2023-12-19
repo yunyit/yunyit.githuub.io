@@ -45,13 +45,22 @@ title: 友链
 
 
 ----
-如想要交换友情链接，请将本站信息加入到你的站点友情链接中（可点击右上角图标直接复制）：
+互换友链格式（可点击右上角图标直接复制）：
 
 ```
 name="Yunyi's Blog"
 url="https://www.yunyitang.me/zh/"
 avatar="https://www.yunyitang.me/img/Avatar.png"
 desc="Little squirrel Hopping around"
+```
+
+友链交换须知:
+``` sql
+UPDATE Links
+SET safe = '正常安全的网址，有一个稳定的域名',
+    ads = '不要接入广告',
+    run = '尽量定期更新',
+WHERE category = '目前不再接受资源类、工具类、导航类、文章搬运类、纯技术文章搬运类等站点';
 ```
 
 <!---

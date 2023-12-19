@@ -21,7 +21,7 @@ weight: null
 ---
 
 
-```
+```python
 class Me:
     def __init__(self):
         self.name = "Yunyi Tang"
