@@ -36,7 +36,7 @@ weight: null
 
 # 学术项目
 ## 系统综述
-**Prevalence of antibiotic prescribing in COVID-19 patients in China and other low- and middle-income countries during the pandemic (December 2019—March 2021): a systematic review and meta-analysis**
+**Prevalence of antibiotic prescribing in COVID-19 patients in China and other low- and middle-income countries during the pandemic (December 2019-March 2021): a systematic review and meta-analysis**
 
 *Oct. 2023, EndNote / Microsoft Excel*
 > DOI: https://doi.org/10.1093/jac/dkad302
