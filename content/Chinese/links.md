@@ -36,6 +36,12 @@ title: 友链
 
 </div>
 
+<div class="friend">
+
+{{< friend name="L1nSn0w's Blog" url="https://blog.linsnow.cn" avatar="https://blog.linsnow.cn/img/avatar.png" desc="无限进步.✍️" >}}
+
+
+</div>
 
 
 ----
