@@ -44,6 +44,8 @@ Out of Africa / 非洲之旅(港) / 远离非洲(台)
 # 隐藏人物
 Hidden Figures / NASA无名英雌(港) / 关键少数(台)
 
+{{< spotify type="album" id="5ydGsF9Qy1IZsFmLRpJ4oc" >}}
+
 # 旺卡 
 Wonka 
 

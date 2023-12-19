@@ -23,6 +23,8 @@ weight: null
 # 时空恋旅人 
 About Time / 回到最爱的一天(港) / 真爱每一天(台)
 
+{{< spotify type="album" id="5GSdUC9xT8nv0NG7gXV8No" >}}
+
 # 饥饿游戏：鸣鸟与蛇之歌 
 The Ballad of Songbirds and Snakes / 饥饿游戏：鸣鸟与蛇的歌谣 / 饥饿游戏前传：鸣鸟与灵蛇之歌(港)
 

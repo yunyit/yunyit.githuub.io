@@ -37,6 +37,8 @@ weight: null
 # Hidden Figures
 隐藏人物 / NASA无名英雌(港) / 关键少数(台)
 
+{{< spotify type="album" id="5ydGsF9Qy1IZsFmLRpJ4oc" >}}
+
 # Wonka
 旺卡 
 
