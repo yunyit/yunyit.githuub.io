@@ -130,6 +130,18 @@
                 href="http://www.yunyitang.me/zh/tags/"
                 />
   </url><url>
+    <loc>http://www.yunyitang.me/zh/blog/tech/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.yunyitang.me/en/blog/tech/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.yunyitang.me/zh/blog/tech/"
+                />
+  </url><url>
     <loc>http://www.yunyitang.me/zh/blog/book/nov-book/</loc>
     <xhtml:link
                 rel="alternate"
