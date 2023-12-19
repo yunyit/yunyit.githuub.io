@@ -27,7 +27,7 @@ weight: null
 > Github: https://github.com/yunyit/yunyit.github.io
 
 * 这个网页是基于[Hugo](https://github.com/gohugoio/hugo)的[PaperMod](https://github.com/adityatelange/hugo-PaperMod)主题。
-* 网页搭建有[twikoo](https://twikoo.js.org/en/intro.html)评论系统，支持 API 调用，批量获取文章评论数、最新评论。
+* 网页搭建有[twikoo](https://twikoo.js.org/en/intro.html)评论系统，支持API调用，批量获取文章评论数、最新评论。
 
 ## COVID-19视觉化分析
 *Jul. 2022, R*
