@@ -335,14 +335,36 @@ by Li Juan, Jack Hargreaves (Translator), and Yan Yan (Translator)
     <ul class="post-tags">
     </ul>
 <nav class="paginav">
-  <a class="next" href="http://www.yunyitang.me/en/blog/recipe/cake/">
+  <a class="prev" href="http://www.yunyitang.me/en/blog/film/dec-film/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>December Watched</span>
+  </a>
+  <a class="next" href="http://www.yunyitang.me/en/blog/film/nov-film/">
     <span class="title">Next »</span>
     <br>
-    <span>Burnt Basque Cheesecake</span>
+    <span>November Watched</span>
   </a>
 </nav>
 
   </footer>
+<div>
+    <div class="pagination__title">
+        <span class="pagination__title-h" style="font-size: 20px;">💬 let's chat</span>
+        <hr />
+    </div>
+    <div id="tcomment"></div>
+    <script src="https://cdn.staticfile.org/twikoo/1.6.27/twikoo.all.min.js"></script>
+    <script>
+        twikoo.init({
+            envId: "https://twikoo.yunyitang.me",  
+            el: "#tcomment",
+            lang: 'en',
+            region: 'ap-guangzhou',  
+            path: window.TWIKOO_MAGIC_PATH||window.location.pathname,
+        });
+    </script>
+</div>
 </article>
     </main>
     
