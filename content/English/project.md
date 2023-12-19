@@ -28,9 +28,11 @@ weight: null
 
 * This website uses [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme and base on [Hugo](https://github.com/gohugoio/hugo).
 
-## Visualizing COVID-19
+## Visualising COVID-19
 *Jul. 2022, R*
 > DataCamp workspace: https://app.datacamp.com/workspace/w/980fb8cc-bfa9-4071-aea3-ca8b1e3a95a8/edit
+
+* I used R to visualised [COVID-19 data](https://github.com/RamiKrispin/coronavirus) from the first several weeks of the outbreak.
 
 
 # Academic Projects

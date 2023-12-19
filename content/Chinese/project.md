@@ -32,6 +32,7 @@ weight: null
 *Jul. 2022, R*
 > DataCamp workspace: https://app.datacamp.com/workspace/w/980fb8cc-bfa9-4071-aea3-ca8b1e3a95a8/edit
 
+* 使用R语言可视化COVID-19疫情爆发最初几周的[数据](https://github.com/RamiKrispin/coronavirus)。
 
 # 学术项目
 ## 系统综述
