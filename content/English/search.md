@@ -1,5 +1,5 @@
 ---
 layout: search
-placeholder: Find a recipe here
+placeholder: get ready to be surprised
 title: Search
 ---
