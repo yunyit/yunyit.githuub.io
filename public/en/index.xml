@@ -6,7 +6,16 @@
     <description>Recent content on Yunyi&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 13 Dec 2023 15:54:25 +0000</lastBuildDate><atom:link href="http://www.yunyitang.me/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Dec 2023 15:54:25 +0000</lastBuildDate><atom:link href="http://www.yunyitang.me/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>December Watched</title>
+      <link>http://www.yunyitang.me/en/blog/film/dec-film/</link>
+      <pubDate>Mon, 18 Dec 2023 15:54:25 +0000</pubDate>
+      
+      <guid>http://www.yunyitang.me/en/blog/film/dec-film/</guid>
+      <description>Darkest Hour 至暗时刻 / 黑暗对峙(港) / 最黑暗的时刻(台) The King&amp;rsquo;s Speech 国王的演讲 / 皇上无话儿(港) / 王者之声：宣战时刻(台) Prometheus 普罗米修斯 / 异形前传 / 异形前传</description>
+    </item>
+    
     <item>
       <title>November reads</title>
       <link>http://www.yunyitang.me/en/blog/book/nov-book/</link>
@@ -19,6 +28,15 @@ by Bessel van der Kolk
 Winter Pasture One Woman&amp;rsquo;s Journey with China&amp;rsquo;s Kazakh Herders
 by Li Juan, Jack Hargreaves (Translator), and Yan Yan (Translator)
 &amp;lsquo;Encouraged by her neighbors, Li decides to join a family of Kazakh herders as they take their 30 boisterous camels, 500 sheep, and over 100 cattle and horses to pasture for the winter.</description>
+    </item>
+    
+    <item>
+      <title>November Watched</title>
+      <link>http://www.yunyitang.me/en/blog/film/nov-film/</link>
+      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.yunyitang.me/en/blog/film/nov-film/</guid>
+      <description>时空恋旅人 About Time / 回到最爱的一天(港) / 真爱每一天(台) 饥饿游戏：鸣鸟与蛇之歌 The Ballad of Songbirds and Snakes / 饥饿游戏：鸣鸟与蛇的歌谣 / 饥饿游戏前传：鸣鸟与灵蛇</description>
     </item>
     
     <item>
@@ -56,9 +74,9 @@ by Li Juan, Jack Hargreaves (Translator), and Yan Yan (Translator)
       <guid>http://www.yunyitang.me/en/project/</guid>
       <description>Personal Projects My Personal Website Nov. 2023 - Now, HTML / CSS / JavaScript
 Github: https://github.com/yunyit/yunyit.github.io
-This website uses PaperMod theme and base on Hugo. Visualizing COVID-19 Jul. 2022, R
+This website uses PaperMod theme and base on Hugo. Visualising COVID-19 Jul. 2022, R
 DataCamp workspace: https://app.datacamp.com/workspace/w/980fb8cc-bfa9-4071-aea3-ca8b1e3a95a8/edit
-Visualised COVID-19 data from the first several weeks of the outbreak with R. Academic Projects Systematic Reviews Prevalence of antibiotic prescribing in COVID-19 patients in China and other low- and middle-income countries during the pandemic (December 2019—March 2021): a systematic review and meta-analysis</description>
+I used R to visualised COVID-19 data from the first several weeks of the outbreak. Academic Projects Systematic Reviews Prevalence of antibiotic prescribing in COVID-19 patients in China and other low- and middle-income countries during the pandemic (December 2019-March 2021): a systematic review and meta-analysis</description>
     </item>
     
     

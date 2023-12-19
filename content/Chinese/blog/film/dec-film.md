@@ -23,6 +23,8 @@ weight: null
 # 至暗时刻 
 Darkest Hour / 黑暗对峙(港) / 最黑暗的时刻(台)
 
+{{< douban src="https://movie.douban.com/subject/26761416/" >}}
+
 # 国王的演讲 
 The King's Speech / 皇上无话儿(港) / 王者之声：宣战时刻(台)
 

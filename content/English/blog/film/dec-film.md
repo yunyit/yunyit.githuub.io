@@ -32,7 +32,7 @@ weight: null
 # Out of Africa
 走出非洲 / 非洲之旅(港) / 远离非洲(台) 
 
-# 隐藏人物Hidden Figures
+# Hidden Figures
 隐藏人物 / NASA无名英雌(港) / 关键少数(台)
 
 # Wonka
