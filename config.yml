@@ -37,10 +37,14 @@ languages:
               name: Resume
               url: /en/resume.pdf
               weight: 30
+            - identifier: recipe
+              name: 👩🏻‍🍳
+              url: /en/blog/recipe/
+              weight: 40
             - identifier: search
               name: Search
               url: /en/search/
-              weight: 40
+              weight: 50
         profileMode:
           enabled: true
           title: Yunyi Tang
@@ -56,8 +60,6 @@ languages:
               url: /en/project/
             - name: Resume
               url: /en/resume.pdf
-            - name: 👩🏻‍🍳
-              url: /en/blog/recipe/
     zh:
         languageName: 中文
         languageCode: zh
@@ -97,12 +99,12 @@ languages:
           imageWidth: 150
           imageHeight: 150
           buttons:
+            - name: 关于
+              url: /zh/about/
             - name: 项目
               url: /zh/projects/
             - name: 简历
               url: /zh/resume.pdf
-            - name: 📚  
-              url: /zh/blog/book/
             - name: 🎥
               url: /zh/blog/film/
 
