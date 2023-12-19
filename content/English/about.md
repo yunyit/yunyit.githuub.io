@@ -2,7 +2,7 @@
 TocOpen: true
 author:
 - Yunyi
-comments: true
+comments: false
 cover:
   alt: ""
   caption: ""

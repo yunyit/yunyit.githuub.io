@@ -348,6 +348,23 @@ by Li Juan, Jack Hargreaves (Translator), and Yan Yan (Translator)
 </nav>
 
   </footer>
+<div>
+    <div class="pagination__title">
+        <span class="pagination__title-h" style="font-size: 20px;">💬 let's chat</span>
+        <hr />
+    </div>
+    <div id="tcomment"></div>
+    <script src="https://cdn.staticfile.org/twikoo/1.6.27/twikoo.all.min.js"></script>
+    <script>
+        twikoo.init({
+            envId: "https://twikoo.yunyitang.me",  
+            el: "#tcomment",
+            lang: 'en',
+            region: 'ap-guangzhou',  
+            path: window.TWIKOO_MAGIC_PATH||window.location.pathname,
+        });
+    </script>
+</div>
 </article>
     </main>
     

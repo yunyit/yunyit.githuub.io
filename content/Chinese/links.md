@@ -1,5 +1,5 @@
 ---
-comments: true
+comments: false
 date: "2023-11-07T14:31:25Z"
 disableShare: true
 draft: false
