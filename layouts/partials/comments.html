@@ -8,10 +8,10 @@
     <script src="https://cdn.staticfile.org/twikoo/{{ .Site.Params.twikoo.version }}/twikoo.all.min.js"></script>
     <script>
         twikoo.init({
-            envId: "https://twikoo.yunyitang.me",  //到博客配置文件中配置 envId 为 https:// 加域名（例如 https://twikoo.yourdomain.com）
+            envId: "https://twikoo-api-yunyis-projects.vercel.app/",  //到博客配置文件中配置 envId 为 https:// 加域名（例如 https://twikoo.yourdomain.com）
             el: "#tcomment",
             lang: 'en',
-            region: 'ap-guangzhou',  //我的区域是广州，可以不填，默认是ap-shanghai
+            //region: 'ap-guangzhou',  //我的区域是广州，可以不填，默认是ap-shanghai
             path: window.TWIKOO_MAGIC_PATH||window.location.pathname,
         });
     </script>

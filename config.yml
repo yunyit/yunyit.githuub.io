@@ -139,10 +139,14 @@ params:
 
   extendCodeBackground: false # 代码块是否自动横向展开
 
-  comments: true
-  twikoo: # https://twikoo.js.org/backend.html#私有部署
+  comments: true 
+  twikoo: 
       version: 1.6.27 # 这个版本号要自己手动修改，和twikoo的版本号要对得上
-      enable: true
+      # tkserver
+      # MangoDB yunyit - HsdK3JAKhZbsUnAq
+      # mongodb+srv://yunyit:HsdK3JAKhZbsUnAq@cluster0.p9y20lj.mongodb.net/?retryWrites=true&w=majority
+      # https://vercel.com/yunyis-projects/twikoo-api/C5MeWSz2yNXj3RqBa7t23BxjYQDJ 
+
 
   socialIcons:
     - name: github
