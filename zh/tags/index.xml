@@ -5,6 +5,25 @@
     <link>http://www.yunyitang.me/zh/tags/</link>
     <description>Recent content in Tags on Yunyi&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh</language><atom:link href="http://www.yunyitang.me/zh/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh</language>
+    <lastBuildDate>Wed, 20 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://www.yunyitang.me/zh/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MacOS</title>
+      <link>http://www.yunyitang.me/zh/tags/macos/</link>
+      <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.yunyitang.me/zh/tags/macos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>http://www.yunyitang.me/zh/tags/hugo/</link>
+      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.yunyitang.me/zh/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

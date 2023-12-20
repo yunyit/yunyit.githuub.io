@@ -6,7 +6,16 @@
     <description>Recent content on Yunyi&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 18 Dec 2023 15:54:25 +0000</lastBuildDate><atom:link href="http://www.yunyitang.me/zh/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://www.yunyitang.me/zh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>个人常用MacOS软件清单</title>
+      <link>http://www.yunyitang.me/zh/blog/tech/common-software-list/</link>
+      <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.yunyitang.me/zh/blog/tech/common-software-list/</guid>
+      <description>在日常工作中，合适的效率工具能帮助我们快速完成工作，起到事半功倍的效果。 下面是我常用的一些软件，个人用起来比较得心应手，推荐给大家。按照软件</description>
+    </item>
+    
     <item>
       <title>十二月在看</title>
       <link>http://www.yunyitang.me/zh/blog/film/dec-film/</link>
@@ -50,6 +59,15 @@
       
       <guid>http://www.yunyitang.me/zh/links/</guid>
       <description>Sulv&amp;#39;s Blog 一个记录技术、阅读、生活的博客 Kyxie&amp;#39;s Blog Hello World Printer 凡梦星尘空间站 再平凡的人也有属于他的梦想！ Barney’s Blog All the truth is simple L1nSn0w&amp;#39;s Blog 无限进步.✍️ 豆豆 / Amos</description>
+    </item>
+    
+    <item>
+      <title>建站日志</title>
+      <link>http://www.yunyitang.me/zh/blog/tech/log/</link>
+      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.yunyitang.me/zh/blog/tech/log/</guid>
+      <description>2022-09-21 基于Ghost的yunyi-tang.ghost.io启用。 2022-09-26 域名更新为yunyitang.me，购自Google Domain。 2023-11-1 Ghos</description>
     </item>
     
     <item>
