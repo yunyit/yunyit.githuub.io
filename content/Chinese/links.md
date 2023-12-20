@@ -10,7 +10,14 @@ title: 友链
 
 <div class="friend">
 
-{{< friend name="Sulv's Blog" url="https://www.sulvblog.cn" avatar="https://www.sulvblog.cn/img/Q.gif" desc="一个记录技术、阅读、生活的博客" >}}
+{{< friend name="Barney’s Blog" url="https://hugo.bnblogs.cc/" avatar="https://hugo.bnblogs.cc/images/img/20220215001349.png" desc="All the truth is simple" >}}
+
+
+</div>
+
+<div class="friend">
+
+{{< friend name="豆豆 / Amos" url="https://amoshk.top" avatar="https://amoshk.top/img/avatar.png" desc="无限进步.✍️" >}}
 
 
 </div>
@@ -24,14 +31,14 @@ title: 友链
 
 <div class="friend">
 
-{{< friend name="凡梦星尘空间站" url="https://lisenhui.cn" avatar="https://lisenhui.cn/imgs/avatar.png" desc="再平凡的人也有属于他的梦想！" >}}
+{{< friend name="Sulv's Blog" url="https://www.sulvblog.cn" avatar="https://www.sulvblog.cn/img/Q.gif" desc="一个记录技术、阅读、生活的博客" >}}
 
 
 </div>
 
 <div class="friend">
 
-{{< friend name="Barney’s Blog" url="https://hugo.bnblogs.cc/" avatar="https://hugo.bnblogs.cc/images/img/20220215001349.png" desc="All the truth is simple" >}}
+{{< friend name="凡梦星尘空间站" url="https://lisenhui.cn" avatar="https://lisenhui.cn/imgs/avatar.png" desc="再平凡的人也有属于他的梦想！" >}}
 
 
 </div>
@@ -45,7 +52,7 @@ title: 友链
 
 <div class="friend">
 
-{{< friend name="豆豆 / Amos" url="https://amoshk.top" avatar="https://amoshk.top/img/avatar.png" desc="无限进步.✍️" >}}
+{{< friend name="Bing's Blog" url="https://imcbc.cn/" avatar="https://imcbc.cn/android-chrome-192x192.png" desc="自由 分享 合作" >}}
 
 
 </div>
