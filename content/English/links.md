@@ -10,7 +10,14 @@ title: Links
 
 <div class="friend">
 
-{{< friend name="Sulv's Blog" url="https://www.sulvblog.cn" avatar="https://www.sulvblog.cn/img/Q.gif" desc="一个记录技术、阅读、生活的博客" >}}
+{{< friend name="Barney’s Blog" url="https://hugo.bnblogs.cc/" avatar="https://hugo.bnblogs.cc/images/img/20220215001349.png" desc="All the truth is simple" >}}
+
+
+</div>
+
+<div class="friend">
+
+{{< friend name="豆豆 / Amos" url="https://amoshk.top" avatar="https://amoshk.top/img/avatar.png" desc="无限进步.✍️" >}}
 
 
 </div>
