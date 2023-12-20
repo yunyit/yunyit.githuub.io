@@ -105,8 +105,8 @@ languages:
               url: /zh/projects/
             - name: 简历
               url: /zh/resume.pdf
-            - name: 🎥
-              url: /zh/blog/film/
+            - name: 👩🏻‍💻
+              url: /zh/blog/tech/
 
 outputs:
     home:
@@ -132,7 +132,6 @@ params:
   hideFooter: false # 隐藏页脚
   ShowWordCounts: true
   VisitCount: true
-
   ShowLastMod: true #显示文章更新时间
 
   ShowToc: true # 显示目录
