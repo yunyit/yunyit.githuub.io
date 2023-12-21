@@ -142,8 +142,8 @@ params:
   comments: true 
   twikoo: 
       version: 1.6.27 # 这个版本号要自己手动修改，和twikoo的版本号要对得上
-      # tkserver
-      # MangoDB yunyit - HsdK3JAKhZbsUnAq
+      # tkserver - bdayTtyy!
+      # MangoDB yunyit - HsdK3JAKhZbsUnAq Gmail-longin
       # mongodb+srv://yunyit:HsdK3JAKhZbsUnAq@cluster0.p9y20lj.mongodb.net/?retryWrites=true&w=majority
       # https://vercel.com/yunyis-projects/twikoo-api/C5MeWSz2yNXj3RqBa7t23BxjYQDJ 
 
