@@ -162,5 +162,13 @@ params:
 
   label:
     text: "Home"
-    # icon: "img/Avatar.png"
+    # icon: "img/Icon.png"
     iconHeight: 35
+
+  assets:
+    disableHLJS: true 
+    favicon: "img/Icon.png"
+    favicon16x16: "img/Icon.png"
+    favicon32x32: "img/Icon.png"
+    apple_touch_icon: "Icon.png"
+    safari_pinned_tab: "Icon.png"
