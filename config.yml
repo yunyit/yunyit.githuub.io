@@ -102,7 +102,7 @@ languages:
             - name: 关于
               url: /zh/about/
             - name: 项目
-              url: /zh/projects/
+              url: /zh/project/
             - name: 简历
               url: /zh/resume.pdf
             - name: 👩🏻‍💻
