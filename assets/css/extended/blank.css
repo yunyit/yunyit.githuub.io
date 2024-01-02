@@ -93,14 +93,16 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 }
 
 body {
-    font-family: 'Code New Roman', sans-serif;
+    font-family: 'JetBrains Mono', monospace;
     font-size: 1rem;
     line-height: 1.5;
     margin: 0;
 }
 
 .post-content pre, code {
-    font-family: 'Code New Roman', sans-serif;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13;
+    line-height: 1.2;
     max-height: 40rem;
 }
 
