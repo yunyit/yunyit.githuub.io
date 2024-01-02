@@ -22,6 +22,22 @@ title: 友链
 
 </div>
 
+
+<div class="friend">
+
+{{< friend name="Bing's Blog" url="https://imcbc.cn/" avatar="https://imcbc.cn/android-chrome-192x192.png" desc="自由 分享 合作" >}}
+
+
+</div>
+
+<div class="friend">
+
+{{< friend name="L1nSn0w's Blog" url="https://blog.linsnow.cn" avatar="https://blog.linsnow.cn/img/avatar.png" desc="无限进步.✍️" >}}
+
+
+</div>
+
+
 <div class="friend">
 
 {{< friend name="Kyxie's Blog" url="https://kyxie.github.io/zh/" avatar="https://kyxie.github.io/Avatar.png" desc="Hello World Printer" >}}
@@ -43,19 +59,7 @@ title: 友链
 
 </div>
 
-<div class="friend">
 
-{{< friend name="L1nSn0w's Blog" url="https://blog.linsnow.cn" avatar="https://blog.linsnow.cn/img/avatar.png" desc="无限进步.✍️" >}}
-
-
-</div>
-
-<div class="friend">
-
-{{< friend name="Bing's Blog" url="https://imcbc.cn/" avatar="https://imcbc.cn/android-chrome-192x192.png" desc="自由 分享 合作" >}}
-
-
-</div>
 
 
 ----
