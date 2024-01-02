@@ -170,5 +170,5 @@ params:
     favicon: "img/Icon.png"
     favicon16x16: "img/Icon.png"
     favicon32x32: "img/Icon.png"
-    apple_touch_icon: "Icon.png"
-    safari_pinned_tab: "Icon.png"
+    apple_touch_icon: "img/Icon.png"
+    safari_pinned_tab: "img/Icon.png"

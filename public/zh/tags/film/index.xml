@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>观影 🎥 on Yunyi&#39;s Blog</title>
-    <link>http://www.yunyitang.me/zh/blog/film/</link>
-    <description>Recent content in 观影 🎥 on Yunyi&#39;s Blog</description>
+    <title>Film on Yunyi&#39;s Blog</title>
+    <link>http://www.yunyitang.me/zh/tags/film/</link>
+    <description>Recent content in Film on Yunyi&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 18 Dec 2023 15:54:25 +0000</lastBuildDate><atom:link href="http://www.yunyitang.me/zh/blog/film/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Dec 2023 15:54:25 +0000</lastBuildDate><atom:link href="http://www.yunyitang.me/zh/tags/film/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>十二月在看</title>
-      <link>http://www.yunyitang.me/zh/blog/film/dec-film/</link>
+      <link>http://www.yunyitang.me/zh/blog/life/dec-film/</link>
       <pubDate>Mon, 18 Dec 2023 15:54:25 +0000</pubDate>
       
-      <guid>http://www.yunyitang.me/zh/blog/film/dec-film/</guid>
+      <guid>http://www.yunyitang.me/zh/blog/life/dec-film/</guid>
       <description>至暗时刻 Darkest Hour / 黑暗对峙(港) / 最黑暗的时刻(台) &lt;!DOCTYPE HTML&gt; 国王的演讲 The King&amp;rsquo;s Speech / 皇上无话儿(港) / 王者之声：宣战时刻(台) 普罗米修斯 Prometheus / 异形前传 / 异形</description>
     </item>
     
     <item>
       <title>十一月在看</title>
-      <link>http://www.yunyitang.me/zh/blog/film/nov-film/</link>
+      <link>http://www.yunyitang.me/zh/blog/life/nov-film/</link>
       <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://www.yunyitang.me/zh/blog/film/nov-film/</guid>
+      <guid>http://www.yunyitang.me/zh/blog/life/nov-film/</guid>
       <description>时空恋旅人 About Time / 回到最爱的一天(港) / 真爱每一天(台) 饥饿游戏：鸣鸟与蛇之歌 The Ballad of Songbirds and Snakes / 饥饿游戏：鸣鸟与蛇的歌谣 / 饥饿游戏前传：鸣鸟与灵蛇</description>
     </item>
     
