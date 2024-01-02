@@ -164,11 +164,11 @@ params:
     text: "Home"
     # icon: "img/Icon.png"
     iconHeight: 35
-
+  
   assets:
-    disableHLJS: true 
-    favicon: "img/Icon.png"
-    favicon16x16: "img/Icon.png"
-    favicon32x32: "img/Icon.png"
-    apple_touch_icon: "img/Icon.png"
-    safari_pinned_tab: "img/Icon.png"
+    # disableHLJS: true 
+    favicon: "favicon_io/favicon.ico"
+    favicon16x16: "favicon_io/favicon-16x16.png"
+    favicon32x32: "favicon_io/favicon-32x32.png"
+    apple_touch_icon: "favicon_io/apple-touch-icon.png"
+    safari_pinned_tab: "img/Icon.svg"
