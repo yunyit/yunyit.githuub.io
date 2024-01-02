@@ -1,6 +1,7 @@
 ---
 Tags:
 - MacOS
+- Tools
 TocOpen: true
 author:
 - Yunyi
@@ -32,7 +33,7 @@ weight: null
 
 由于日常工作的关系，相关软件仅限于Mac平台，其他系统平台如Windws可能不一定有对应的版本。
 
-具体软件清单如下表所示。
+具体软件清单如下表所示：
 
 # 办公/写作软件
 
