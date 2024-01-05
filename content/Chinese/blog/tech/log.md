@@ -31,11 +31,17 @@ weight: null
 
 > 2023-11-1 [Ghost](https://ghost.org/)订阅结束，yunyi-tang.ghost.io停用。
 
-> 2023-11-7 迁移至 Github Pages，域名[yunyitang.me](https://www.yunyitang.me/)与yunyi-tang.ghost.io解绑。
+> 2023-11-7 迁移至 Github Pages（[yunyit.github.io](https://github.com/yunyit/yunyit.github.io)），域名[yunyitang.me](https://www.yunyitang.me/)与yunyi-tang.ghost.io解绑。
 
-> 2023-11-9 博客引擎迁移至[Hugo](https://github.com/gohugoio/hugo)的[PaperMod](https://github.com/adityatelange/hugo-PaperMod)主题，因工作所在地在英，。
+> 2023-11-9 博客引擎迁移至[Hugo](https://github.com/gohugoio/hugo)的[PaperMod](https://github.com/adityatelange/hugo-PaperMod)主题，因工作所在地在英，同时开设[中文](https://www.yunyitang.me/zh/)与[英文](https://www.yunyitang.me/en/)页面。
 
-> 2023-12-19 搭建[twikoo](https://twikoo.js.org/en/intro.html)评论系统，目前调试中。
+> 2023-12-19 开始搭建[twikoo](https://twikoo.js.org/en/intro.html)评论系统。
+
+> 2023-12-20 基于[MongoDB](https://www.mongodb.com/cloud/atlas/register)和[Vercel](https://vercel.com/signup)部署[twikoo](https://twikoo.js.org/en/intro.html)评论系统，通过测试。
+
+> 2024-01-02 更新网站图标为[开源emoji](https://iconduck.com/emojis/39003/orange-heart)，并添加[知识共享协议（CC BY-NC-SA 4.0 DEED](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)）脚注。
+
+> 2024-01-05 添加[标签页](https://www.sulvblog.cn/posts/blog/hugo_tag_cloud/)，并在页首添加相应链接。
 
 ---
 
@@ -46,6 +52,8 @@ weight: null
 2. 工具栏；
 3. 归档/Archieves；
 4. 流量统计；
+
+---
 
 ### 注意事项
 本站所有技术内容均为个人观点，不保证正确。随着时间变化部分技术内容也可能会失效，请读者自行甄别。
