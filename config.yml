@@ -86,10 +86,14 @@ languages:
               name: 友链
               url: /zh/links/
               weight: 50
+            - identifier: tags
+              name: 🕹️
+              url: /zh/tags/
+              weight: 60
             - identifier: search
               name: 搜索
               url: /zh/search/
-              weight: 60
+              weight: 70
         profileMode:
           enabled: true
           title: Yunyi Tang

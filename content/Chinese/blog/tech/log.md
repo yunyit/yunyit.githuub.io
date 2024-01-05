@@ -2,6 +2,7 @@
 Tags:
 - Hugo
 - Twikoo
+- 建站日志
 TocOpen: true
 author:
 - Yunyi

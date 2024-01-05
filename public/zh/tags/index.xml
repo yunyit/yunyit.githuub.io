@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on Yunyi&#39;s Blog</title>
+    <title>关键词 on Yunyi&#39;s Blog</title>
     <link>http://www.yunyitang.me/zh/tags/</link>
-    <description>Recent content in Tags on Yunyi&#39;s Blog</description>
+    <description>Recent content in 关键词 on Yunyi&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <lastBuildDate>Wed, 20 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://www.yunyitang.me/zh/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -49,6 +49,15 @@
       <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
       
       <guid>http://www.yunyitang.me/zh/tags/twikoo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>建站日志</title>
+      <link>http://www.yunyitang.me/zh/tags/%E5%BB%BA%E7%AB%99%E6%97%A5%E5%BF%97/</link>
+      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.yunyitang.me/zh/tags/%E5%BB%BA%E7%AB%99%E6%97%A5%E5%BF%97/</guid>
       <description></description>
     </item>
     
