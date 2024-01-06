@@ -6,7 +6,16 @@
     <description>Recent content in Google on Yunyi&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 05 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://www.yunyitang.me/zh/tags/google/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://www.yunyitang.me/zh/tags/google/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>建站日志</title>
+      <link>http://www.yunyitang.me/zh/blog/tech/log/</link>
+      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.yunyitang.me/zh/blog/tech/log/</guid>
+      <description>建站日志 hugo papermod github</description>
+    </item>
+    
     <item>
       <title>谷歌套件替换使用状况</title>
       <link>http://www.yunyitang.me/zh/blog/tech/google-2019/</link>

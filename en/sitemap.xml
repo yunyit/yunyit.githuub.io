@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://www.yunyitang.me/en/blog/</loc>
-    <lastmod>2023-12-18T15:54:25+00:00</lastmod>
+    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -55,7 +55,7 @@
                 />
   </url><url>
     <loc>http://www.yunyitang.me/en/tags/</loc>
-    <lastmod>2023-12-18T15:54:25+00:00</lastmod>
+    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -68,7 +68,7 @@
                 />
   </url><url>
     <loc>http://www.yunyitang.me/en/</loc>
-    <lastmod>2023-12-18T15:54:25+00:00</lastmod>
+    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -162,6 +162,113 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://www.yunyitang.me/en/project/"
+                />
+  </url><url>
+    <loc>http://www.yunyitang.me/en/tags/bing/</loc>
+    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.yunyitang.me/zh/tags/bing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.yunyitang.me/en/tags/bing/"
+                />
+  </url><url>
+    <loc>http://www.yunyitang.me/en/tags/google/</loc>
+    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.yunyitang.me/zh/tags/google/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.yunyitang.me/en/tags/google/"
+                />
+  </url><url>
+    <loc>http://www.yunyitang.me/en/tags/hugo/</loc>
+    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.yunyitang.me/zh/tags/hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.yunyitang.me/en/tags/hugo/"
+                />
+  </url><url>
+    <loc>http://www.yunyitang.me/en/tags/log/</loc>
+    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.yunyitang.me/en/blog/tech/log/</loc>
+    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.yunyitang.me/zh/blog/tech/log/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.yunyitang.me/en/blog/tech/log/"
+                />
+  </url><url>
+    <loc>http://www.yunyitang.me/en/tags/mongodb/</loc>
+    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.yunyitang.me/zh/tags/mongodb/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.yunyitang.me/en/tags/mongodb/"
+                />
+  </url><url>
+    <loc>http://www.yunyitang.me/en/tags/seo/</loc>
+    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.yunyitang.me/zh/tags/seo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.yunyitang.me/en/tags/seo/"
+                />
+  </url><url>
+    <loc>http://www.yunyitang.me/en/tags/twikoo/</loc>
+    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.yunyitang.me/zh/tags/twikoo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.yunyitang.me/en/tags/twikoo/"
+                />
+  </url><url>
+    <loc>http://www.yunyitang.me/en/tags/vercel/</loc>
+    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.yunyitang.me/zh/tags/vercel/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.yunyitang.me/en/tags/vercel/"
                 />
   </url><url>
     <loc>http://www.yunyitang.me/archives/</loc>
