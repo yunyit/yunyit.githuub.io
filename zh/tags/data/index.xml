@@ -13,7 +13,7 @@
       <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>http://www.yunyitang.me/zh/blog/tech/r-visualising/</guid>
-      <description>data r visualising</description>
+      <description>因为实习兼职的公司用R，温习如下，示例取自此项目。 可视化libraries library(readr) library(ggplot2) library(dplyr) 导入数据 将csv导入dataset Read datasets/confirmed_cases_worldwide.csv into confirmed_cases_worldwide 选择部分数据 # Filter for</description>
     </item>
     
   </channel>
