@@ -2,14 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://www.yunyitang.me/zh/tags/macos/</loc>
-    <lastmod>2023-12-20T00:00:00+00:00</lastmod>
+    <loc>http://www.yunyitang.me/zh/tags/data/</loc>
+    <lastmod>2024-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://www.yunyitang.me/zh/tags/tools/</loc>
-    <lastmod>2023-12-20T00:00:00+00:00</lastmod>
+    <loc>http://www.yunyitang.me/zh/tags/r/</loc>
+    <lastmod>2024-01-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.yunyitang.me/zh/blog/tech/r-visualising/</loc>
+    <lastmod>2024-01-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.yunyitang.me/zh/</loc>
-    <lastmod>2023-12-20T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -22,7 +25,7 @@
                 />
   </url><url>
     <loc>http://www.yunyitang.me/zh/blog/</loc>
-    <lastmod>2023-12-20T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -34,11 +37,8 @@
                 href="http://www.yunyitang.me/zh/blog/"
                 />
   </url><url>
-    <loc>http://www.yunyitang.me/zh/blog/tech/common-software-list/</loc>
-    <lastmod>2023-12-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://www.yunyitang.me/zh/tags/</loc>
-    <lastmod>2023-12-20T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -51,10 +51,29 @@
                 />
   </url><url>
     <loc>http://www.yunyitang.me/zh/blog/tech/</loc>
+    <lastmod>2024-01-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.yunyitang.me/zh/tags/macos/</loc>
+    <lastmod>2023-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.yunyitang.me/zh/tags/tools/</loc>
+    <lastmod>2023-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.yunyitang.me/zh/blog/tech/common-software-list/</loc>
     <lastmod>2023-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.yunyitang.me/zh/tags/film/</loc>
     <lastmod>2023-12-18T15:54:25+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.yunyitang.me/en/tags/film/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.yunyitang.me/zh/tags/film/"
+                />
   </url><url>
     <loc>http://www.yunyitang.me/zh/blog/life/</loc>
     <lastmod>2023-12-18T15:54:25+00:00</lastmod>

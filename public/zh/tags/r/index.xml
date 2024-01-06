@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>R on Yunyi&#39;s Blog</title>
+    <link>http://www.yunyitang.me/zh/tags/r/</link>
+    <description>Recent content in R on Yunyi&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 05 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://www.yunyitang.me/zh/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>R</title>
+      <link>http://www.yunyitang.me/zh/blog/tech/r-visualising/</link>
+      <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.yunyitang.me/zh/blog/tech/r-visualising/</guid>
+      <description>因为实习兼职的公司用R，温习如下，示例取自此项目。 可视化libraries library(readr) library(ggplot2) library(dplyr) 导入数据 将csv导入dataset Read datasets/confirmed_cases_worldwide.csv into confirmed_cases_worldwide 选择部分数据 # Filter for</description>
+    </item>
+    
+  </channel>
+</rss>
