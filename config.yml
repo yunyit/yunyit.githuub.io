@@ -37,14 +37,18 @@ languages:
               name: Resume
               url: /en/resume.pdf
               weight: 30
+            - identifier: blog
+              name: Blog
+              url: /en/blog/
+              weight: 40
             - identifier: tags
               name: 🕹️
               url: /en/tags/
-              weight: 40
+              weight: 50
             - identifier: search
               name: Search
               url: /en/search/
-              weight: 50
+              weight: 60
         profileMode:
           enabled: true
           title: Yunyi Tang
@@ -54,8 +58,6 @@ languages:
           imageWidth: 150
           imageHeight: 150
           buttons:
-            - name: About
-              url: /en/about/
             - name: Project
               url: /en/project/
             - name: Resume
