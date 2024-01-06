@@ -37,9 +37,9 @@ languages:
               name: Resume
               url: /en/resume.pdf
               weight: 30
-            - identifier: recipe
-              name: 👩🏻‍🍳
-              url: /en/blog/recipe/
+            - identifier: tags
+              name: 🕹️
+              url: /en/tags/
               weight: 40
             - identifier: search
               name: Search

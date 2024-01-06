@@ -16,5 +16,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Book</title>
+      <link>http://www.yunyitang.me/en/tags/book/</link>
+      <pubDate>Wed, 13 Dec 2023 15:54:25 +0000</pubDate>
+      
+      <guid>http://www.yunyitang.me/en/tags/book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recipe</title>
+      <link>http://www.yunyitang.me/en/tags/recipe/</link>
+      <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.yunyitang.me/en/tags/recipe/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

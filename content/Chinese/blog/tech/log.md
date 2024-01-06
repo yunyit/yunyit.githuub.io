@@ -52,7 +52,7 @@ weight: null
 
 1. 豆瓣卡片；
 2. 工具栏；
-3. 归档/Archieves；
+3. 归档/Archives；
 4. 流量统计；
 
 ---

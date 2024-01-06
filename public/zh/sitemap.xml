@@ -77,12 +77,42 @@
   </url><url>
     <loc>http://www.yunyitang.me/zh/blog/life/</loc>
     <lastmod>2023-12-18T15:54:25+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.yunyitang.me/en/blog/life/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.yunyitang.me/zh/blog/life/"
+                />
   </url><url>
     <loc>http://www.yunyitang.me/zh/blog/life/dec-film/</loc>
     <lastmod>2023-12-18T15:54:25+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.yunyitang.me/en/blog/life/dec-film/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.yunyitang.me/zh/blog/life/dec-film/"
+                />
   </url><url>
     <loc>http://www.yunyitang.me/zh/blog/life/nov-film/</loc>
     <lastmod>2023-11-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.yunyitang.me/en/blog/life/nov-film/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.yunyitang.me/zh/blog/life/nov-film/"
+                />
   </url><url>
     <loc>http://www.yunyitang.me/zh/about/</loc>
     <lastmod>2023-11-07T14:31:25+00:00</lastmod>
@@ -145,6 +175,16 @@
     <lastmod>2019-08-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.yunyitang.me/zh/tags/book/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.yunyitang.me/en/tags/book/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.yunyitang.me/zh/tags/book/"
+                />
   </url><url>
     <loc>http://www.yunyitang.me/zh/categories/</loc>
     <xhtml:link
@@ -159,6 +199,16 @@
                 />
   </url><url>
     <loc>http://www.yunyitang.me/zh/blog/life/nov-book/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.yunyitang.me/en/blog/life/nov-book/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.yunyitang.me/zh/blog/life/nov-book/"
+                />
   </url><url>
     <loc>http://www.yunyitang.me/zh/search/</loc>
     <xhtml:link

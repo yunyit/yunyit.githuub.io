@@ -11,7 +11,7 @@ cover:
   image: ""
   relative: false
 date: "2023-11-20"
-description: "recipe basque cheesecake"
+description: recipe basque cheesecake
 disableShare: true
 draft: false
 hidemeta: false

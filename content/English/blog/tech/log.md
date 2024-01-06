@@ -3,6 +3,8 @@ Tags:
 - Hugo
 - Twikoo
 - Log
+- MongoDB
+- Vercel
 TocOpen: true
 author:
 - Yunyi
@@ -48,16 +50,16 @@ weight: null
 ---
 
 
-### 待实现功能
+### Pending new features
 
-1. 豆瓣卡片；
-2. 工具栏；
-3. 归档/Archieves；
-4. 流量统计；
+1. Movie info cards；
+2. Tool box index；
+3. Archives；
+4. Website traffics；
 
 ---
 
-### 注意事项
-本站所有技术内容均为个人观点，不保证正确。随着时间变化部分技术内容也可能会失效，请读者自行甄别。
+### Please note
+All technical content on this site is personal opinion and is not guaranteed to be correct. With the change of time part of the technical content may also be invalid, please beware.
 
-此外，如非特别标注，本站使用配图都多源于网络，如有侵权，请联系我删除。
+In addition, if not specifically marked, this site uses pictures from the Internet; for any infringement please contact me to delete.

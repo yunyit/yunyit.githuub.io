@@ -1,4 +1,6 @@
 ---
+Tags:
+- Book
 TocOpen: true
 author:
 - Yunyi
