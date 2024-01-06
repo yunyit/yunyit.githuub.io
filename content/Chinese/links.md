@@ -66,6 +66,12 @@ title: 友链
 
 </div>
 
+<div class="friend">
+
+{{< friend name="米米的博客" url="https://zhangshuqiao.org" avatar="https://gravatar.loli.net/avatar/f56980e9dc026727282a04eea02b4f4d?s=512" desc="米米的博客！！" >}}
+
+
+</div>
 
 
 

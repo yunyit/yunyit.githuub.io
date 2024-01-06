@@ -82,6 +82,16 @@
   </url><url>
     <loc>http://www.yunyitang.me/zh/blog/tech/</loc>
     <lastmod>2024-01-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.yunyitang.me/en/blog/tech/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.yunyitang.me/zh/blog/tech/"
+                />
   </url><url>
     <loc>http://www.yunyitang.me/zh/tags/macos/</loc>
     <lastmod>2023-12-20T00:00:00+00:00</lastmod>
