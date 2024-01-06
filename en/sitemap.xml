@@ -15,6 +15,71 @@
                 href="http://www.yunyitang.me/en/blog/"
                 />
   </url><url>
+    <loc>http://www.yunyitang.me/en/tags/data/</loc>
+    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.yunyitang.me/zh/tags/data/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.yunyitang.me/en/tags/data/"
+                />
+  </url><url>
+    <loc>http://www.yunyitang.me/en/tags/r/</loc>
+    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.yunyitang.me/zh/tags/r/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.yunyitang.me/en/tags/r/"
+                />
+  </url><url>
+    <loc>http://www.yunyitang.me/en/blog/tech/r-visualising/</loc>
+    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.yunyitang.me/zh/blog/tech/r-visualising/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.yunyitang.me/en/blog/tech/r-visualising/"
+                />
+  </url><url>
+    <loc>http://www.yunyitang.me/en/tags/</loc>
+    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.yunyitang.me/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.yunyitang.me/en/tags/"
+                />
+  </url><url>
+    <loc>http://www.yunyitang.me/en/</loc>
+    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.yunyitang.me/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.yunyitang.me/en/"
+                />
+  </url><url>
     <loc>http://www.yunyitang.me/en/blog/life/dec-film/</loc>
     <lastmod>2023-12-18T15:54:25+00:00</lastmod>
     <xhtml:link
@@ -52,32 +117,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://www.yunyitang.me/en/blog/life/"
-                />
-  </url><url>
-    <loc>http://www.yunyitang.me/en/tags/</loc>
-    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://www.yunyitang.me/zh/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://www.yunyitang.me/en/tags/"
-                />
-  </url><url>
-    <loc>http://www.yunyitang.me/en/</loc>
-    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://www.yunyitang.me/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://www.yunyitang.me/en/"
                 />
   </url><url>
     <loc>http://www.yunyitang.me/en/tags/book/</loc>

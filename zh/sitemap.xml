@@ -3,13 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://www.yunyitang.me/zh/tags/data/</loc>
-    <lastmod>2024-01-05T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.yunyitang.me/en/tags/data/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.yunyitang.me/zh/tags/data/"
+                />
   </url><url>
     <loc>http://www.yunyitang.me/zh/tags/r/</loc>
-    <lastmod>2024-01-05T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.yunyitang.me/en/tags/r/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.yunyitang.me/zh/tags/r/"
+                />
   </url><url>
     <loc>http://www.yunyitang.me/zh/blog/tech/r-visualising/</loc>
-    <lastmod>2024-01-05T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.yunyitang.me/en/blog/tech/r-visualising/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.yunyitang.me/zh/blog/tech/r-visualising/"
+                />
   </url><url>
     <loc>http://www.yunyitang.me/zh/</loc>
     <lastmod>2024-01-06T00:00:00+00:00</lastmod>
