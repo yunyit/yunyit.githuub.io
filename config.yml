@@ -178,3 +178,12 @@ params:
     favicon32x32: "favicon_io/favicon-32x32.png"
     apple_touch_icon: "favicon_io/apple-touch-icon.png"
     safari_pinned_tab: "img/Icon.svg"
+
+  fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 1
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary"]

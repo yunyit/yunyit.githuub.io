@@ -1,13 +1,4 @@
 ---
-Tags:
-- Hugo
-- Twikoo
-- Log
-- MongoDB
-- Vercel
-- SEO
-- Google
-- Bing
 TocOpen: true
 author:
 - Yunyi
@@ -18,7 +9,6 @@ cover:
   image: ""
   relative: false
 date: "2022-09-21"
-description: log hugo papermod github seo
 disableShare: true
 draft: false
 hidemeta: false
@@ -26,6 +16,15 @@ lastmod: "2024-01-06"
 showToc: true
 showbreadcrumbs: true
 slug: ""
+tags:
+- Hugo
+- Twikoo
+- Log
+- MongoDB
+- Vercel
+- SEO
+- Google
+- Bing
 title: Log
 weight: null
 ---

@@ -18,7 +18,6 @@ cover:
   image: ""
   relative: false
 date: "2022-09-21"
-description: 建站日志 hugo papermod github
 disableShare: true
 draft: false
 hidemeta: false
