@@ -2,7 +2,7 @@
 Tags:
 - Hugo
 - Twikoo
-- 建站日志
+- Log
 TocOpen: true
 author:
 - Yunyi
@@ -13,15 +13,15 @@ cover:
   image: ""
   relative: false
 date: "2022-09-21"
-description: 建站日志 hugo papermod github
+description: log hugo papermod github
 disableShare: true
-draft: false
+draft: true
 hidemeta: false
 lastmod: "2023-12-20"
 showToc: true
 showbreadcrumbs: true
 slug: ""
-title: 建站日志
+title: Log
 weight: null
 ---
 
