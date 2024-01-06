@@ -54,7 +54,7 @@ languages:
           imageWidth: 150
           imageHeight: 150
           buttons:
-            - name: About
+            - name: 👋🏼
               url: /en/about/
             - name: Project
               url: /en/project/
