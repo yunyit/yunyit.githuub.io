@@ -59,6 +59,13 @@ title: 友链
 
 </div>
 
+<div class="friend">
+
+{{< friend name="Aiar's Site" url="https://aiar.site" avatar="https://raw.githubusercontent.com/Arrackisarookie/images/main/fox.png" desc="愿余生所有的珍惜，都不用失去来懂得。" >}}
+
+
+</div>
+
 
 
 
