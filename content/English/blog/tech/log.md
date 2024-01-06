@@ -5,6 +5,9 @@ Tags:
 - Log
 - MongoDB
 - Vercel
+- SEO
+- Google
+- Bing
 TocOpen: true
 author:
 - Yunyi
@@ -15,11 +18,11 @@ cover:
   image: ""
   relative: false
 date: "2022-09-21"
-description: log hugo papermod github
+description: log hugo papermod github seo
 disableShare: true
-draft: true
+draft: false
 hidemeta: false
-lastmod: "2023-12-20"
+lastmod: "2024-01-06"
 showToc: true
 showbreadcrumbs: true
 slug: ""
@@ -52,14 +55,12 @@ weight: null
 
 ### Pending new features
 
-1. Movie info cards；
-2. Tool box index；
+1. Douban/IMDB APIs;
+2. Toolbox index；
 3. Archives；
 4. Website traffics；
 
 ---
 
-### Please note
-All technical content on this site is personal opinion and is not guaranteed to be correct. With the change of time part of the technical content may also be invalid, please beware.
-
-In addition, if not specifically marked, this site uses pictures from the Internet; for any infringement please contact me to delete.
+### Disclaimers
+The content presented on this blog site is for informational purposes only.  By using this site including information presented on this site, you agree that the author shall not be liable and/or held responsible/accountable for any damages resulting from the presentation, use, or misuse of the information contained on any site pages.

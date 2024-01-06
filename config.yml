@@ -60,6 +60,8 @@ languages:
               url: /en/project/
             - name: Resume
               url: /en/resume.pdf
+            - name: Log
+              url: /en/blog/tech/log/
     zh:
         languageName: 中文
         languageCode: zh

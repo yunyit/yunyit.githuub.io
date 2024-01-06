@@ -3,6 +3,11 @@ Tags:
 - Hugo
 - Twikoo
 - 建站日志
+- MongoDB
+- Vercel
+- SEO
+- Google
+- Bing
 TocOpen: true
 author:
 - Yunyi
@@ -17,7 +22,7 @@ description: 建站日志 hugo papermod github
 disableShare: true
 draft: false
 hidemeta: false
-lastmod: "2023-12-20"
+lastmod: "2024-01-06"
 showToc: true
 showbreadcrumbs: true
 slug: ""

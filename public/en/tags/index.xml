@@ -34,5 +34,77 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Bing</title>
+      <link>http://www.yunyitang.me/en/tags/bing/</link>
+      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.yunyitang.me/en/tags/bing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google</title>
+      <link>http://www.yunyitang.me/en/tags/google/</link>
+      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.yunyitang.me/en/tags/google/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>http://www.yunyitang.me/en/tags/hugo/</link>
+      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.yunyitang.me/en/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Log</title>
+      <link>http://www.yunyitang.me/en/tags/log/</link>
+      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.yunyitang.me/en/tags/log/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MongoDB</title>
+      <link>http://www.yunyitang.me/en/tags/mongodb/</link>
+      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.yunyitang.me/en/tags/mongodb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SEO</title>
+      <link>http://www.yunyitang.me/en/tags/seo/</link>
+      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.yunyitang.me/en/tags/seo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Twikoo</title>
+      <link>http://www.yunyitang.me/en/tags/twikoo/</link>
+      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.yunyitang.me/en/tags/twikoo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vercel</title>
+      <link>http://www.yunyitang.me/en/tags/vercel/</link>
+      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.yunyitang.me/en/tags/vercel/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
