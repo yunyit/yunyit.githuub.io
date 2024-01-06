@@ -12,7 +12,7 @@ cover:
   image: ""
   relative: false
 date: "2023-12-20"
-description: ""
+description: software macos git runcat
 disableShare: true
 draft: false
 hidemeta: false

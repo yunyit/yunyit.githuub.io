@@ -12,7 +12,7 @@ cover:
   image: ""
   relative: false
 date: "2024-01-05"
-description: ""
+description: data r visualising
 disableShare: true
 draft: false
 hidemeta: false
