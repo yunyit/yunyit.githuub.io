@@ -19,13 +19,13 @@ lastmod: "2024-01-06"
 showToc: true
 showbreadcrumbs: true
 slug: ""
-title: R可视化
+title: R Visualising
 weight: null
 ---
 
-> 因为实习兼职的公司用R，温习如下，示例取自[此项目](https://app.datacamp.com/workspace/w/980fb8cc-bfa9-4071-aea3-ca8b1e3a95a8/edit)。
+> Reviewing visualing data with R with this [exmaple project](https://app.datacamp.com/workspace/w/980fb8cc-bfa9-4071-aea3-ca8b1e3a95a8/edit)。
 
-# 可视化libraries
+# Import libraries
 
 ```R
 library(readr)
@@ -33,14 +33,14 @@ library(ggplot2)
 library(dplyr)
 ```
 
-# 导入数据
-## 将csv导入dataset
+# Import data
+## From csv to dataset
 
 ```R
 Read datasets/confirmed_cases_worldwide.csv into confirmed_cases_worldwide
 ```
 
-## 选择部分数据
+## Select/filter data
 
 ```R
 # Filter for China, from Feb 15
@@ -49,9 +49,9 @@ china_after_feb15 <- confirmed_cases_china_vs_world %>%
   filter(is_china == "China", date >= "2020-02-15")
 ```
 
-# 画图
+# Plot
 
-## 单组数据
+## One line
 ```R
 # Draw a line plot of cumulative cases vs. date
 # Label the y-axis
@@ -61,7 +61,7 @@ ggplot(confirmed_cases_worldwide, aes(date, cum_cases)) +
   ylab("Cumulative confirmed cases")
 ```
 
-## 多组数据
+## Multiple lines
 
 ```R
 # Using confirmed_cases_top7_outside_china, draw a line plot of
@@ -72,7 +72,7 @@ ggplot(confirmed_cases_top7_outside_china, aes(date, cum_cases, color = country)
   ylab("Cumulative confirmed cases")
 ```
 
-## 趋势曲线
+## Scale
 
 ```R
 # Modify the plot to use a logarithmic scale on the y-axis
