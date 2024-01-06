@@ -45,6 +45,7 @@ Read datasets/confirmed_cases_worldwide.csv into confirmed_cases_worldwide
 
 ```R
 # Filter for China, from Feb 15
+
 china_after_feb15 <- confirmed_cases_china_vs_world %>%
   filter(is_china == "China", date >= "2020-02-15")
 ```
@@ -55,6 +56,7 @@ china_after_feb15 <- confirmed_cases_china_vs_world %>%
 ```R
 # Draw a line plot of cumulative cases vs. date
 # Label the y-axis
+
 ggplot(confirmed_cases_worldwide, aes(date, cum_cases)) +
   geom_line() +
   ylab("Cumulative confirmed cases")
@@ -65,6 +67,7 @@ ggplot(confirmed_cases_worldwide, aes(date, cum_cases)) +
 ```R
 # Using confirmed_cases_top7_outside_china, draw a line plot of
 # cum_cases vs. date, colored by country
+
 ggplot(confirmed_cases_top7_outside_china, aes(date, cum_cases, color = country)) +
   geom_line() +
   ylab("Cumulative confirmed cases")
@@ -74,6 +77,7 @@ ggplot(confirmed_cases_top7_outside_china, aes(date, cum_cases, color = country)
 
 ```R
 # Modify the plot to use a logarithmic scale on the y-axis
+
 plt_not_china_trend_lin +
   scale_y_log10()
 
