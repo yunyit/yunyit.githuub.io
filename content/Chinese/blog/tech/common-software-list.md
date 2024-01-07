@@ -1,7 +1,7 @@
 ---
 Tags:
 - MacOS
-- Tools
+- Software
 TocOpen: true
 author:
 - Yunyi
