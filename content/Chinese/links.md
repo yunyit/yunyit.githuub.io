@@ -50,17 +50,9 @@ title: 友链
 
 </div>
 
-
 <div class="friend">
 
-{{< friend name="Kyxie's Blog" url="https://kyxie.github.io/zh/" avatar="https://kyxie.github.io/Avatar.png" desc="Hello World Printer" >}}
-
-
-</div>
-
-<div class="friend">
-
-{{< friend name="Sulv's Blog" url="https://www.sulvblog.cn" avatar="https://www.sulvblog.cn/img/Q.gif" desc="一个记录技术、阅读、生活的博客" >}}
+{{< friend name="Cynosura" url="https://cynosura.one" avatar="https://cynosura.one/img/avatar.webp" desc="Trying to light up the dark." >}}
 
 
 </div>
@@ -81,7 +73,14 @@ title: 友链
 
 <div class="friend">
 
-{{< friend name="Cynosura" url="https://cynosura.one" avatar="https://cynosura.one/img/avatar.webp" desc="Trying to light up the dark." >}}
+{{< friend name="Kyxie's Blog" url="https://kyxie.github.io/zh/" avatar="https://kyxie.github.io/Avatar.png" desc="Hello World Printer" >}}
+
+
+</div>
+
+<div class="friend">
+
+{{< friend name="Sulv's Blog" url="https://www.sulvblog.cn" avatar="https://www.sulvblog.cn/img/Q.gif" desc="一个记录技术、阅读、生活的博客" >}}
 
 
 </div>

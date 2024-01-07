@@ -82,3 +82,7 @@ plt_not_china_trend_lin +
 
 `geom_smooth()` using formula 'y ~ x'
 ```
+
+---
+
+R语言练习：https://swirlstats.com/faq.html
