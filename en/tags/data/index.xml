@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Data on Yunyi&#39;s Blog</title>
-    <link>http://www.yunyitang.me/en/tags/data/</link>
+    <link>https://www.yunyitang.me/en/tags/data/</link>
     <description>Recent content in Data on Yunyi&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://www.yunyitang.me/en/tags/data/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.yunyitang.me/en/tags/data/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>R Visualising</title>
-      <link>http://www.yunyitang.me/en/blog/tech/r-visualising/</link>
+      <link>https://www.yunyitang.me/en/blog/tech/r-visualising/</link>
       <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://www.yunyitang.me/en/blog/tech/r-visualising/</guid>
+      <guid>https://www.yunyitang.me/en/blog/tech/r-visualising/</guid>
       <description>Reviewing visualing data with R with this exmaple project。
 Import libraries library(readr) library(ggplot2) library(dplyr) Import data From csv to dataset Read datasets/confirmed_cases_worldwide.csv into confirmed_cases_worldwide Select/filter data # Filter for China, from Feb 15 china_after_feb15 &amp;lt;- confirmed_cases_china_vs_world %&amp;gt;% filter(is_china == &amp;#34;China&amp;#34;, date &amp;gt;= &amp;#34;2020-02-15&amp;#34;) Plot One line # Draw a line plot of cumulative cases vs. date # Label the y-axis ggplot(confirmed_cases_worldwide, aes(date, cum_cases)) + geom_line() + ylab(&amp;#34;Cumulative confirmed cases&amp;#34;) Multiple lines # Using confirmed_cases_top7_outside_china, draw a line plot of # cum_cases vs.</description>
     </item>
