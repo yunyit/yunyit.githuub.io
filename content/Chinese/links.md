@@ -73,6 +73,13 @@ title: 友链
 
 </div>
 
+<div class="friend">
+
+{{< friend name="nopdan's blog" url="https://nopdan.com/" avatar="https://nopdan.com/avatar.webp" desc="但知行好事，莫要问前程" >}}
+
+
+</div>
+
 
 
 ----
