@@ -29,27 +29,27 @@ title: Log
 weight: null
 ---
 
-> 2022-09-21 基于[Ghost](https://ghost.org/)的yunyi-tang.ghost.io启用。
+> 2022-09-21 Started blogging via [Ghost](https://ghost.org/) on yunyi-tang.ghost.io.
 
-> 2022-09-26 域名更新为[yunyitang.me](https://www.yunyitang.me/)，购自[Google Domain](https://domains.google.com/registrar)。
+> 2022-09-26 Brought domain [yunyitang.me](https://www.yunyitang.me/) from [Google Domain](https://domains.google.com/registrar), and link yunyi-tang.ghost.io to [yunyitang.me](https://www.yunyitang.me/).
 
-> 2023-11-1 [Ghost](https://ghost.org/)订阅结束，yunyi-tang.ghost.io停用。
+> 2023-11-1 The subscription from [Ghost](https://ghost.org/) ended and yunyi-tang.ghost.io deactivated.
 
-> 2023-11-7 迁移至 Github Pages（[yunyit.github.io](https://github.com/yunyit/yunyit.github.io)），域名[yunyitang.me](https://www.yunyitang.me/)与yunyi-tang.ghost.io解绑。
+> 2023-11-7 Migrated personal blog to Github Pages（[yunyit.github.io](https://github.com/yunyit/yunyit.github.io)）and disconnected the domain [yunyitang.me](https://www.yunyitang.me/) from yunyi-tang.ghost.io.
 
-> 2023-11-9 博客引擎迁移至[Hugo](https://github.com/gohugoio/hugo)的[PaperMod](https://github.com/adityatelange/hugo-PaperMod)主题，因工作所在地在英，同时开设[中文](https://www.yunyitang.me/zh/)与[英文](https://www.yunyitang.me/en/)页面。
+> 2023-11-9 Rebuilt blog via [Hugo](https://github.com/gohugoio/hugo) and [PaperMod](https://github.com/adityatelange/hugo-PaperMod) with both [English blogging](https://www.yunyitang.me/en/) and [Chinese blogging](https://www.yunyitang.me/zh/).
 
-> 2023-12-19 开始搭建[twikoo](https://twikoo.js.org/en/intro.html)评论系统。
+> 2023-12-19 Started building the [twikoo](https://twikoo.js.org/en/intro.html) commenting system for the blog.
 
-> 2023-12-20 基于[MongoDB](https://www.mongodb.com/cloud/atlas/register)和[Vercel](https://vercel.com/signup)部署[twikoo](https://twikoo.js.org/en/intro.html)评论系统，通过测试。
+> 2023-12-20 Built the [twikoo](https://twikoo.js.org/en/intro.html) commenting system via [MongoDB](https://www.mongodb.com/cloud/atlas/register) and [Vercel](https://vercel.com/signup), and posted the first comment on [yunyitang.me](https://www.yunyitang.me/).
 
-> 2024-01-02 更新网站图标为[开源emoji](https://iconduck.com/emojis/39003/orange-heart)，并添加[知识共享协议（CC BY-NC-SA 4.0 DEED](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)）脚注。
+> 2024-01-02 Set an [open source emoji](https://iconduck.com/emojis/39003/orange-heart) as the website icon, and added the [CC BY-NC-SA 4.0 DEED](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans) in the footer.
 
-> 2024-01-05 添加[标签页](https://www.sulvblog.cn/posts/blog/hugo_tag_cloud/)，并在页首添加相应链接。
+> 2024-01-05 Initiated the [Tags](https://www.sulvblog.cn/posts/blog/hugo_tag_cloud/) page and added an entry of it in the header.
 
-> 2024-01-06 Improve SEO with[Google Search Console](https://search.google.com/search-console) and [Bing Webmaster Tools](https://www.bing.com/webmasters); ongoing SEO improvement with [Baidu](https://ziyuan.baidu.com).
+> 2024-01-06 Improved SEO with [Google Search Console](https://search.google.com/search-console) and [Bing Webmaster Tools](https://www.bing.com/webmasters); ongoing SEO improvement with [Baidu](https://ziyuan.baidu.com).
 
-> 2024-01-07 Secure [GitHub Pages site with HTTPS](https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https)。
+> 2024-01-07 Secured [GitHub Pages site with HTTPS](https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https).
 
 ---
 

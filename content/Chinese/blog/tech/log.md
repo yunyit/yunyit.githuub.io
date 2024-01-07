@@ -43,7 +43,7 @@ weight: null
 
 > 2023-12-20 基于[MongoDB](https://www.mongodb.com/cloud/atlas/register)和[Vercel](https://vercel.com/signup)部署[twikoo](https://twikoo.js.org/en/intro.html)评论系统，通过测试。
 
-> 2024-01-02 更新网站图标为[开源emoji](https://iconduck.com/emojis/39003/orange-heart)，并添加[知识共享协议（CC BY-NC-SA 4.0 DEED](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)）脚注。
+> 2024-01-02 更新网站图标为[开源emoji](https://iconduck.com/emojis/39003/orange-heart)，并添加[知识共享协议（CC BY-NC-SA 4.0 DEED）](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)脚注。
 
 > 2024-01-05 添加[标签页](https://www.sulvblog.cn/posts/blog/hugo_tag_cloud/)，并在页首添加相应链接。
 
