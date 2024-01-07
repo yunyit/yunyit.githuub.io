@@ -41,8 +41,18 @@ weight: null
 - ... 
 
 # 语法
+## 普通字符
+
+## 字符集合
+
+## 限定符、定位符
+
+## 子表达式
+
+## 省略符、修饰符
 
 # 记不住语法的解决方案
+
 
 > 正则表达式元字符手册：https://www.runoob.com/regexp/regexp-metachar.html
 
