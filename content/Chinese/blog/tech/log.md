@@ -8,6 +8,7 @@ Tags:
 - SEO
 - Google
 - Bing
+- Log
 TocOpen: true
 author:
 - Yunyi
