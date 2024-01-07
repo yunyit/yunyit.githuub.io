@@ -46,7 +46,7 @@ languages:
               url: /en/tags/
               weight: 50
             - identifier: search
-              name: Search
+              name: 🔍
               url: /en/search/
               weight: 60
         profileMode:
@@ -141,6 +141,7 @@ params:
   ShowWordCounts: true
   VisitCount: true
   ShowLastMod: true #显示文章更新时间
+  ShowFullTextinRSS: false # RSS全文输出
 
   ShowToc: true # 显示目录
   TocOpen: true # 自动展开目录
