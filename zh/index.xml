@@ -6,7 +6,16 @@
     <description>Recent content on Yunyi&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 05 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.yunyitang.me/zh/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.yunyitang.me/zh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>正则表达式</title>
+      <link>https://www.yunyitang.me/zh/blog/tech/regular-expression/</link>
+      <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.yunyitang.me/zh/blog/tech/regular-expression/</guid>
+      <description>认知始于Excel，不知道终于哪儿。 介绍与应用 属性：用于匹配和操作文本的工具 设计思想：用一种描述性的语言来给字符串定义一个规则，凡是符合规则</description>
+    </item>
+    
     <item>
       <title>R可视化</title>
       <link>https://www.yunyitang.me/zh/blog/tech/r-visualising/</link>
