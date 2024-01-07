@@ -47,7 +47,7 @@ weight: null
 
 > 2024-01-05 添加[标签页](https://www.sulvblog.cn/posts/blog/hugo_tag_cloud/)，并在页首添加相应链接。
 
-> 2024-01-06 使用[Google Search Console](https://search.google.com/search-console)和[Bing Webmaster Tools](https://www.bing.com/webmasters)进行搜索优化，[百度搜索优化](https://ziyuan.baidu.com)进行中。
+> 2024-01-06 Improve SEO with[Google Search Console](https://search.google.com/search-console) and [Bing Webmaster Tools](https://www.bing.com/webmasters); ongoing SEO improvement with [Baidu](https://ziyuan.baidu.com).
 
 > 2024-01-07 Secure [GitHub Pages site with HTTPS](https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https)。
 
