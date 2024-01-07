@@ -49,6 +49,8 @@ weight: null
 
 > 2024-01-06 使用[Google Search Console](https://search.google.com/search-console)和[Bing Webmaster Tools](https://www.bing.com/webmasters)进行搜索优化，[百度搜索优化](https://ziyuan.baidu.com)进行中。
 
+> 2024-01-07 优化[GitHub Pages site with HTTPS](https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https)。
+
 ---
 
 
