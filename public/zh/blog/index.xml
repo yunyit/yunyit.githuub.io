@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>博客 on Yunyi&#39;s Blog</title>
-    <link>http://www.yunyitang.me/zh/blog/</link>
+    <link>https://www.yunyitang.me/zh/blog/</link>
     <description>Recent content in 博客 on Yunyi&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 05 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://www.yunyitang.me/zh/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.yunyitang.me/zh/blog/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

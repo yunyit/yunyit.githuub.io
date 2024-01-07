@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>技术 🔧 on Yunyi&#39;s Blog</title>
-    <link>http://www.yunyitang.me/zh/blog/tech/</link>
+    <link>https://www.yunyitang.me/zh/blog/tech/</link>
     <description>Recent content in 技术 🔧 on Yunyi&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 05 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://www.yunyitang.me/zh/blog/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.yunyitang.me/zh/blog/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>R可视化</title>
-      <link>http://www.yunyitang.me/zh/blog/tech/r-visualising/</link>
+      <link>https://www.yunyitang.me/zh/blog/tech/r-visualising/</link>
       <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://www.yunyitang.me/zh/blog/tech/r-visualising/</guid>
+      <guid>https://www.yunyitang.me/zh/blog/tech/r-visualising/</guid>
       <description>因为实习兼职的公司用R，温习如下，示例取自此项目。 可视化libraries library(readr) library(ggplot2) library(dplyr) 导入数据 将csv导入dataset Read datasets/confirmed_cases_worldwide.csv into confirmed_cases_worldwide 选择部分数据 # Filter for</description>
     </item>
     
     <item>
       <title>个人常用MacOS软件清单</title>
-      <link>http://www.yunyitang.me/zh/blog/tech/common-software-list/</link>
+      <link>https://www.yunyitang.me/zh/blog/tech/common-software-list/</link>
       <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://www.yunyitang.me/zh/blog/tech/common-software-list/</guid>
+      <guid>https://www.yunyitang.me/zh/blog/tech/common-software-list/</guid>
       <description>在日常工作中，合适的效率工具能帮助我们快速完成工作，起到事半功倍的效果。 下面是我常用的一些软件，个人用起来比较得心应手，推荐给大家。按照软件</description>
     </item>
     
     <item>
       <title>建站日志</title>
-      <link>http://www.yunyitang.me/zh/blog/tech/log/</link>
+      <link>https://www.yunyitang.me/zh/blog/tech/log/</link>
       <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://www.yunyitang.me/zh/blog/tech/log/</guid>
+      <guid>https://www.yunyitang.me/zh/blog/tech/log/</guid>
       <description>2022-09-21 基于Ghost的yunyi-tang.ghost.io启用。 2022-09-26 域名更新为yunyitang.me，购自Google Domain。 2023-11-1 Ghos</description>
     </item>
     
     <item>
       <title>谷歌套件替换使用状况</title>
-      <link>http://www.yunyitang.me/zh/blog/tech/google-2019/</link>
+      <link>https://www.yunyitang.me/zh/blog/tech/google-2019/</link>
       <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://www.yunyitang.me/zh/blog/tech/google-2019/</guid>
+      <guid>https://www.yunyitang.me/zh/blog/tech/google-2019/</guid>
       <description>原链：豆瓣笔记 首先，利益相关，谷歌全家桶吹，科技产品苦手。 其次，整理出来的意思当然不是说，国内相关软件的目标就是完美模仿谷歌，这太ummm了</description>
     </item>
     

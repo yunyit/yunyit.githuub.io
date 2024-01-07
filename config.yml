@@ -1,4 +1,4 @@
-baseURL: http://www.yunyitang.me/ # 绑定的域名
+baseURL: https://www.yunyitang.me/ # 绑定的域名
 languageCode: en
 title: Yunyi's Blog
 theme: PaperMod 

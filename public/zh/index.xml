@@ -2,98 +2,98 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Yunyi&#39;s Blog</title>
-    <link>http://www.yunyitang.me/zh/</link>
+    <link>https://www.yunyitang.me/zh/</link>
     <description>Recent content on Yunyi&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 05 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://www.yunyitang.me/zh/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.yunyitang.me/zh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>R可视化</title>
-      <link>http://www.yunyitang.me/zh/blog/tech/r-visualising/</link>
+      <link>https://www.yunyitang.me/zh/blog/tech/r-visualising/</link>
       <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://www.yunyitang.me/zh/blog/tech/r-visualising/</guid>
+      <guid>https://www.yunyitang.me/zh/blog/tech/r-visualising/</guid>
       <description>因为实习兼职的公司用R，温习如下，示例取自此项目。 可视化libraries library(readr) library(ggplot2) library(dplyr) 导入数据 将csv导入dataset Read datasets/confirmed_cases_worldwide.csv into confirmed_cases_worldwide 选择部分数据 # Filter for</description>
     </item>
     
     <item>
       <title>个人常用MacOS软件清单</title>
-      <link>http://www.yunyitang.me/zh/blog/tech/common-software-list/</link>
+      <link>https://www.yunyitang.me/zh/blog/tech/common-software-list/</link>
       <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://www.yunyitang.me/zh/blog/tech/common-software-list/</guid>
+      <guid>https://www.yunyitang.me/zh/blog/tech/common-software-list/</guid>
       <description>在日常工作中，合适的效率工具能帮助我们快速完成工作，起到事半功倍的效果。 下面是我常用的一些软件，个人用起来比较得心应手，推荐给大家。按照软件</description>
     </item>
     
     <item>
       <title>十二月在看</title>
-      <link>http://www.yunyitang.me/zh/blog/life/dec-film/</link>
+      <link>https://www.yunyitang.me/zh/blog/life/dec-film/</link>
       <pubDate>Mon, 18 Dec 2023 15:54:25 +0000</pubDate>
       
-      <guid>http://www.yunyitang.me/zh/blog/life/dec-film/</guid>
+      <guid>https://www.yunyitang.me/zh/blog/life/dec-film/</guid>
       <description>至暗时刻 Darkest Hour / 黑暗对峙(港) / 最黑暗的时刻(台) &lt;!DOCTYPE HTML&gt; 国王的演讲 The King&amp;rsquo;s Speech / 皇上无话儿(港) / 王者之声：宣战时刻(台) 普罗米修斯 Prometheus / 异形前传 / 异形</description>
     </item>
     
     <item>
       <title>十一月在看</title>
-      <link>http://www.yunyitang.me/zh/blog/life/nov-film/</link>
+      <link>https://www.yunyitang.me/zh/blog/life/nov-film/</link>
       <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://www.yunyitang.me/zh/blog/life/nov-film/</guid>
+      <guid>https://www.yunyitang.me/zh/blog/life/nov-film/</guid>
       <description>时空恋旅人 About Time / 回到最爱的一天(港) / 真爱每一天(台) 饥饿游戏：鸣鸟与蛇之歌 The Ballad of Songbirds and Snakes / 饥饿游戏：鸣鸟与蛇的歌谣 / 饥饿游戏前传：鸣鸟与灵蛇</description>
     </item>
     
     <item>
       <title>关于我 👋🏼</title>
-      <link>http://www.yunyitang.me/zh/about/</link>
+      <link>https://www.yunyitang.me/zh/about/</link>
       <pubDate>Tue, 07 Nov 2023 14:31:25 +0000</pubDate>
       
-      <guid>http://www.yunyitang.me/zh/about/</guid>
+      <guid>https://www.yunyitang.me/zh/about/</guid>
       <description>class Me: def __init__(self): self.name = &amp;#34;Yunyi Tang&amp;#34; self.prefer_name = &amp;#34;Yunyi&amp;#34; self.born_year = 1998 self.MBTI = INFJ self.hometown = &amp;#34;Guangzhou, Guangdong, CN&amp;#34; self.curr_location = &amp;#34;Bristol, UK&amp;#34; self.grad_school = &amp;#34;uBristol&amp;#34; self.undergrad_school = &amp;#34;SDU&amp;#34;</description>
     </item>
     
     <item>
       <title>项目</title>
-      <link>http://www.yunyitang.me/zh/project/</link>
+      <link>https://www.yunyitang.me/zh/project/</link>
       <pubDate>Tue, 07 Nov 2023 14:31:25 +0000</pubDate>
       
-      <guid>http://www.yunyitang.me/zh/project/</guid>
+      <guid>https://www.yunyitang.me/zh/project/</guid>
       <description>个人项目 个人网站 Nov. 2023 至 今, HTML / CSS / JavaScript Github: https://github.com/yunyit/yunyit.github.io 这个网页是基于Hugo的PaperMod主题。 网页搭建有twikoo评论系统，支持API调用，批量获</description>
     </item>
     
     <item>
       <title>友链</title>
-      <link>http://www.yunyitang.me/zh/links/</link>
+      <link>https://www.yunyitang.me/zh/links/</link>
       <pubDate>Tue, 07 Nov 2023 14:31:25 +0000</pubDate>
       
-      <guid>http://www.yunyitang.me/zh/links/</guid>
+      <guid>https://www.yunyitang.me/zh/links/</guid>
       <description>Barney’s Blog All the truth is simple 豆豆 / Amos 无限进步.✍️ Bing&amp;#39;s Blog 自由 分享 合作 L1nSn0w&amp;#39;s Blog 无限进步.✍️ Kyxie&amp;#39;s Blog Hello World Printer Sulv&amp;#39;s Blog 一个记录技术、阅读、生活的博客 凡梦星尘空间</description>
     </item>
     
     <item>
       <title>建站日志</title>
-      <link>http://www.yunyitang.me/zh/blog/tech/log/</link>
+      <link>https://www.yunyitang.me/zh/blog/tech/log/</link>
       <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://www.yunyitang.me/zh/blog/tech/log/</guid>
+      <guid>https://www.yunyitang.me/zh/blog/tech/log/</guid>
       <description>2022-09-21 基于Ghost的yunyi-tang.ghost.io启用。 2022-09-26 域名更新为yunyitang.me，购自Google Domain。 2023-11-1 Ghos</description>
     </item>
     
     <item>
       <title>谷歌套件替换使用状况</title>
-      <link>http://www.yunyitang.me/zh/blog/tech/google-2019/</link>
+      <link>https://www.yunyitang.me/zh/blog/tech/google-2019/</link>
       <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://www.yunyitang.me/zh/blog/tech/google-2019/</guid>
+      <guid>https://www.yunyitang.me/zh/blog/tech/google-2019/</guid>
       <description>原链：豆瓣笔记 首先，利益相关，谷歌全家桶吹，科技产品苦手。 其次，整理出来的意思当然不是说，国内相关软件的目标就是完美模仿谷歌，这太ummm了</description>
     </item>
     
     <item>
       <title>十一月在读</title>
-      <link>http://www.yunyitang.me/zh/blog/life/nov-book/</link>
+      <link>https://www.yunyitang.me/zh/blog/life/nov-book/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.yunyitang.me/zh/blog/life/nov-book/</guid>
+      <guid>https://www.yunyitang.me/zh/blog/life/nov-book/</guid>
       <description>YUNYI IS CURRENTLY READING The Body Keeps the Score Mind, Brain and Body in the Transformation of Trauma by Bessel van der Kolk 冬牧场 作者：李娟, Jack Hargreaves (Translator), and Yan Yan (Translator) &amp;lsquo;Encouraged by her neighbors, Li decides to join a family of Kazakh herders as they take their 30 boisterous camels, 500 sheep, and over 100 cattle and horses to pasture for</description>
     </item>
     
