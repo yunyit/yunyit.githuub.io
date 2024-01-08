@@ -31,7 +31,7 @@
 .hljs-regexp,
 .hljs-tag {
     font-weight: 200;
-    color: #56b6c2;
+    color: #63071C;
 }
 
 /* html属性 */
@@ -71,7 +71,7 @@
 /* css属性 */
 .hljs-attribute {
     font-weight: 200;
-    color: #ffa631;
+    color: #EC8AA4;
 }
 
 /* 字符串 */
@@ -87,7 +87,7 @@
 .hljs-section,
 .hljs-title {
     font-weight: 200;
-    color: #1A94BC;
+    color: #F25A47;
 }
 
 /* 关键字 */
@@ -98,7 +98,7 @@
 .hljs-meta,
 .hljs-type {
     font-weight: 200;
-    color: #ffa631;
+    color: #862617;
 }
 
 .hljs {

@@ -2,7 +2,7 @@
 Tags:
 - Hugo
 - Twikoo
-- 建站日志
+- 建站
 - MongoDB
 - Vercel
 - SEO

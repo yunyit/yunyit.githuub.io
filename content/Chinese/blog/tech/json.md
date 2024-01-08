@@ -15,7 +15,7 @@ cover:
 date: "2024-01-06"
 description: ""
 disableShare: true
-draft: true
+draft: false
 hidemeta: false
 lastmod: "2024-01-08"
 showToc: true
@@ -39,12 +39,12 @@ JavaScript Object Notation -
 }
 ```
 
-网络传输中常使用的格式：节省内存和传输所用的网络带宽
+网络传输中常使用的格式：以节省内存和传输所用的网络带宽
 ```JavaScript
 {"key":"value","key2":"value2"}
 ```
 
-# 数据类型和访问内容
+# 数据类型
 
 ## 文本/字符串 Strings
 ```JavaScript
@@ -73,7 +73,7 @@ JavaScript Object Notation -
 }
 ```
 
-## 数组
+## 数组 Arrays
 ```JavaScript
 {
   "key": [123, 456, 7.89]; //数字
@@ -83,13 +83,30 @@ JavaScript Object Notation -
       "name": "0",
       "age": "1"
     },{
-      "name": "0",
-      "age": "1"
+      "name": "a",
+      "age": "2"
     },{
-      "name": "0",
-      "age": "1"
+      "name": "b",
+      "age": "3"
     }
   ] //对象
 } 
 ```
 
+## null
+```JavaScript
+{
+  "key": null
+}
+```
+
+# 取值方式
+根据不同编程语言具体不同：
+相应 function 后加
+```JavaScript
+key.key3
+```
+或
+```JavaScript
+key[0].name
+```

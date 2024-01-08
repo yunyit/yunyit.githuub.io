@@ -26,6 +26,15 @@
     </item>
     
     <item>
+      <title>JSON</title>
+      <link>https://www.yunyitang.me/zh/tags/json/</link>
+      <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.yunyitang.me/zh/tags/json/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Python</title>
       <link>https://www.yunyitang.me/zh/tags/python/</link>
       <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
@@ -40,6 +49,15 @@
       <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.yunyitang.me/zh/tags/sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>数据格式</title>
+      <link>https://www.yunyitang.me/zh/tags/%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F/</link>
+      <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.yunyitang.me/zh/tags/%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F/</guid>
       <description></description>
     </item>
     
@@ -152,11 +170,11 @@
     </item>
     
     <item>
-      <title>建站日志</title>
-      <link>https://www.yunyitang.me/zh/tags/%E5%BB%BA%E7%AB%99%E6%97%A5%E5%BF%97/</link>
+      <title>建站</title>
+      <link>https://www.yunyitang.me/zh/tags/%E5%BB%BA%E7%AB%99/</link>
       <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.yunyitang.me/zh/tags/%E5%BB%BA%E7%AB%99%E6%97%A5%E5%BF%97/</guid>
+      <guid>https://www.yunyitang.me/zh/tags/%E5%BB%BA%E7%AB%99/</guid>
       <description></description>
     </item>
     
