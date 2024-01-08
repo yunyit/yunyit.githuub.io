@@ -10,9 +10,9 @@ title: 友链
 
 在这个独立博客式微的时代，[友情链接的意义](https://printempw.github.io/friends/)是什么？
 
-按照[Wikipedia](https://zh.wikipedia.org/wiki/友情链接)上的定义，这种“两个或者以上的网站互相放上对方的链接，达到向用户推荐以互相共享用户群的一种SEO方式”有着不少优点，包括但不限于提高网站权重、知名度、转化率。当然，我看重的并不是这些。
+按照 [Wikipedia](https://zh.wikipedia.org/wiki/友情链接) 上的定义，这种“两个或者以上的网站互相放上对方的链接，达到向用户推荐以互相共享用户群的一种 SEO 方式”有着不少优点，包括但不限于提高网站权重、知名度、转化率。当然，这些不是最重要的。
 
-和Medium、简书之类的写作平台不同，每一个独立博客都是一个信息孤岛。我们没有类似“你可能喜欢其他人写的这些文章”的推荐机制，所以除了搜索引擎、社交网络引荐之外，我们应该还需要通过某种方法将这些信息孤岛连接起来：
+和 Medium、简书之类的写作平台不同，每一个独立博客都是一个信息孤岛。我们没有类似“你可能喜欢其他人写的这些文章”的推荐机制，所以除了搜索引擎、社交网络引荐之外，我们应该还需要通过某种方法将这些信息孤岛连接起来：
 
 交换友情链接就是一种很棒的架桥方式。
 
@@ -120,7 +120,19 @@ title: 友链
 
 </div>
 
+<div class="friend">
 
+{{< friend name="野生糖喵" url="https://candinya.com/" avatar="https://candinya.com/images/candinya.webp" desc="好伙伴们在哪里~" >}}
+
+
+</div>
+
+<div class="friend">
+
+{{< friend name="Empty SEKAI" url="https://prpr.rip" avatar="https://github.com/prprnya.png" desc="一只游荡在无人 SEKAI 的小白葱" >}}
+
+
+</div>
 
 
 

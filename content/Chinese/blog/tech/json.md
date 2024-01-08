@@ -59,9 +59,9 @@ JavaScript Object Notation -
   "key": 123. 456
 }
 ```
-弱类型语言：没有长度限制
 
-强类型语言：根据取数类型
+- 弱类型语言：没有长度限制
+- 强类型语言：根据取数类型
 
 ## 对象 Objects
 ```JavaScript
@@ -110,3 +110,9 @@ key.key3
 ```JavaScript
 key[0].name
 ```
+
+# 类似的其他数据交换格式
+- YMAL
+- XML
+- PROPERTIES
+- ...

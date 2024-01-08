@@ -78,10 +78,6 @@ languages:
               name: 项目
               url: /zh/project/
               weight: 20
-            - identifier: resume
-              name: 简历
-              url: /zh/resume.pdf
-              weight: 30
             - identifier: blog
               name: 博客
               url: /zh/blog/
