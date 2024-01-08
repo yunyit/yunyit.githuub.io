@@ -155,6 +155,6 @@ weight: null
 
 # 记不住语法的解决方案
 
-正则表达式元字符手册：https://www.runoob.com/regexp/regexp-metachar.html
+正则表达式元字符手册：[菜鸟教程：正则表达式 - 元字符](https://www.runoob.com/regexp/regexp-metachar.html)
 
-在线测试正则表达式：https://regex101.com
+在线测试正则表达式：[Regular expression tester](https://regex101.com)
