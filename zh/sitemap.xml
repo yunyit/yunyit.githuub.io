@@ -364,6 +364,18 @@
                 href="https://www.yunyitang.me/zh/categories/"
                 />
   </url><url>
+    <loc>https://www.yunyitang.me/zh/archives/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.yunyitang.me/archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.yunyitang.me/zh/archives/"
+                />
+  </url><url>
     <loc>https://www.yunyitang.me/zh/blog/life/nov-book/</loc>
     <xhtml:link
                 rel="alternate"
