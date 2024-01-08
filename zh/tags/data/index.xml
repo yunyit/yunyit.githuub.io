@@ -8,6 +8,15 @@
     <language>zh</language>
     <lastBuildDate>Sat, 06 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.yunyitang.me/zh/tags/data/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>JSON</title>
+      <link>https://www.yunyitang.me/zh/blog/tech/json/</link>
+      <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.yunyitang.me/zh/blog/tech/json/</guid>
+      <description>在实习公司的数据岗位还挺常用的。 定义 JavaScript Object Notation - { &amp;#34;key&amp;#34;: &amp;#34;value&amp;#34;, &amp;#34;key2&amp;#34;: &amp;#34;value2&amp;#34; } 网络传输中常使用的格式：以节省内存和传输所用的网络带宽 {&amp;#34;key&amp;#34;:&amp;#34;value&amp;#34;,&amp;#34;key2&amp;#34;:&amp;#34;value2&amp;#34;} 数据类型 文本/字符串 Strings { &amp;#34;key&amp;#34;: &amp;#34;value&amp;#34;</description>
+    </item>
+    
+    <item>
       <title>正则表达式</title>
       <link>https://www.yunyitang.me/zh/blog/tech/regular-expression/</link>
       <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
