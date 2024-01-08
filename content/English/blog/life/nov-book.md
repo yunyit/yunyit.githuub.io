@@ -18,7 +18,7 @@ hidemeta: false
 showToc: true
 showbreadcrumbs: true
 slug: ""
-title: November reads
+title: November Reads
 weight: null
 ---
 
