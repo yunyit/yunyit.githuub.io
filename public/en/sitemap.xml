@@ -334,6 +334,16 @@
                 />
   </url><url>
     <loc>https://www.yunyitang.me/archives/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.yunyitang.me/zh/archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.yunyitang.me/archives/"
+                />
   </url><url>
     <loc>https://www.yunyitang.me/en/categories/</loc>
     <xhtml:link

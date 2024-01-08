@@ -81,14 +81,18 @@ languages:
             - identifier: blog
               name: 博客
               url: /zh/blog/
-              weight: 40
+              weight: 30
             - identifier: links
               name: 友链
               url: /zh/links/
-              weight: 50
+              weight: 40
             - identifier: tags
               name: 🕹️
               url: /zh/tags/
+              weight: 50
+            - identifier: archives
+              name: 归档
+              url: /zh/archives/
               weight: 60
             - identifier: search
               name: 搜索
