@@ -46,7 +46,7 @@ languages:
               url: /en/tags/
               weight: 50
             - identifier: search
-              name: 🔍
+              name: Search
               url: /en/search/
               weight: 60
         profileMode:
