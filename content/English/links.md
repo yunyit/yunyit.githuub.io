@@ -59,6 +59,13 @@ title: Links
 
 <div class="friend">
 
+{{< friend name="Empty SEKAI" url="https://prpr.rip" avatar="https://github.com/prprnya.png" desc="一只游荡在无人 SEKAI 的小白葱" >}}
+
+
+</div>
+
+<div class="friend">
+
 {{< friend name="新世界的大门" url="blog.xinshijiededa.men" avatar="https://raw.githubusercontent.com/OverflowCat/blog/test_a/imgs/avatar/xni.png" desc="So fancy is the world, who knows, maybe they sing" >}}
 
 

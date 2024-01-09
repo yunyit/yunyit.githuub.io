@@ -59,6 +59,13 @@ title: 友链
 
 <div class="friend">
 
+{{< friend name="Empty SEKAI" url="https://prpr.rip" avatar="https://github.com/prprnya.png" desc="一只游荡在无人 SEKAI 的小白葱" >}}
+
+
+</div>
+
+<div class="friend">
+
 {{< friend name="PRIN BLOG" url="https://printempw.github.io" avatar="https://printempw.github.io/images/favicon.png" desc="半吊子全栈开发者的日常" >}}
 
 
@@ -74,13 +81,6 @@ title: 友链
 <div class="friend">
 
 {{< friend name="Kyxie's Blog" url="https://kyxie.github.io/zh/" avatar="https://kyxie.github.io/Avatar.png" desc="Hello World Printer" >}}
-
-
-</div>
-
-<div class="friend">
-
-{{< friend name="Sulv's Blog" url="https://www.sulvblog.cn" avatar="https://www.sulvblog.cn/img/Q.gif" desc="一个记录技术、阅读、生活的博客" >}}
 
 
 </div>
@@ -129,14 +129,7 @@ title: 友链
 
 <div class="friend">
 
-{{< friend name="Empty SEKAI" url="https://prpr.rip" avatar="https://github.com/prprnya.png" desc="一只游荡在无人 SEKAI 的小白葱" >}}
-
-
-</div>
-
-<div class="friend">
-
-{{< friend name="新世界的大门" url="blog.xinshijiededa.men" avatar="https://raw.githubusercontent.com/OverflowCat/blog/test_a/imgs/avatar/xni.png" desc="悟已往之不諫，知來者之可追" >}}
+{{< friend name="新世界的大门" url="https://blog.xinshijiededa.men" avatar="https://raw.githubusercontent.com/OverflowCat/blog/test_a/imgs/avatar/xni.png" desc="悟已往之不諫，知來者之可追" >}}
 
 
 </div>
