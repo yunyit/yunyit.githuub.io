@@ -1,6 +1,7 @@
 ---
 Tags:
 - Data
+- Markdown
 - Obsidian
 - 工作笔记
 - PARA

@@ -134,6 +134,13 @@ title: 友链
 
 </div>
 
+<div class="friend">
+
+{{< friend name="思宁HERE" url="https://www.snhere.com" avatar="https://cloud-cn.snhere.cn/link/huoban-f.webp" desc="设计与生活" >}}
+
+
+</div>
+
 
 
 ----
