@@ -15,20 +15,14 @@
                 href="https://www.yunyitang.me/zh/tags/data/"
                 />
   </url><url>
-    <loc>https://www.yunyitang.me/zh/tags/javascript/</loc>
-    <lastmod>2024-01-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.yunyitang.me/zh/tags/json/</loc>
+    <loc>https://www.yunyitang.me/zh/tags/obsidian/</loc>
     <lastmod>2024-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.yunyitang.me/zh/blog/tech/json/</loc>
+    <loc>https://www.yunyitang.me/zh/blog/tech/obsedian/</loc>
     <lastmod>2024-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.yunyitang.me/zh/tags/python/</loc>
-    <lastmod>2024-01-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.yunyitang.me/zh/tags/sql/</loc>
-    <lastmod>2024-01-07T00:00:00+00:00</lastmod>
+    <loc>https://www.yunyitang.me/zh/tags/para/</loc>
+    <lastmod>2024-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.yunyitang.me/zh/</loc>
     <lastmod>2024-01-09T00:00:00+00:00</lastmod>
@@ -56,6 +50,9 @@
                 href="https://www.yunyitang.me/zh/blog/"
                 />
   </url><url>
+    <loc>https://www.yunyitang.me/zh/tags/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2024-01-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.yunyitang.me/zh/tags/</loc>
     <lastmod>2024-01-09T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -81,6 +78,21 @@
                 hreflang="zh"
                 href="https://www.yunyitang.me/zh/blog/tech/"
                 />
+  </url><url>
+    <loc>https://www.yunyitang.me/zh/tags/javascript/</loc>
+    <lastmod>2024-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.yunyitang.me/zh/tags/json/</loc>
+    <lastmod>2024-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.yunyitang.me/zh/blog/tech/json/</loc>
+    <lastmod>2024-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.yunyitang.me/zh/tags/python/</loc>
+    <lastmod>2024-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.yunyitang.me/zh/tags/sql/</loc>
+    <lastmod>2024-01-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.yunyitang.me/zh/tags/%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F/</loc>
     <lastmod>2024-01-09T00:00:00+00:00</lastmod>
