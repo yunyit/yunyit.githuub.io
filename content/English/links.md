@@ -73,7 +73,7 @@ title: Links
 
 <div class="friend">
 
-{{< friend name="Kyxie's Blog" url="https://kyxie.github.io/zh/" avatar="https://kyxie.github.io/Avatar.png" desc="Hello World Printer" >}}
+{{< friend name="Say My Name" url="https://kyxie.github.io/zh/" avatar="https://kyxie.github.io/White.png" desc="Kunyang Xie" >}}
 
 
 </div>
