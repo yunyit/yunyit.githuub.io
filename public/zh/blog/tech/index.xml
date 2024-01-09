@@ -6,7 +6,16 @@
     <description>Recent content in 技术 🔧 on Yunyi&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 06 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.yunyitang.me/zh/blog/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.yunyitang.me/zh/blog/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Obsidian</title>
+      <link>https://www.yunyitang.me/zh/blog/tech/obsedian/</link>
+      <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.yunyitang.me/zh/blog/tech/obsedian/</guid>
+      <description>启用日期：2024-01-09 应用场景：工作笔记 自定义：荷叶绿 HEYELV #1A6840 RGB(26, 104, 64)；字体 JetBrains Mono 常用功能属性 daily template interlink tags 分类方法 标签：PARA + 工作内容 1-projects</description>
+    </item>
+    
     <item>
       <title>JSON</title>
       <link>https://www.yunyitang.me/zh/blog/tech/json/</link>
