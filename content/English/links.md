@@ -59,6 +59,13 @@ title: Links
 
 <div class="friend">
 
+{{< friend name="新世界的大门" url="blog.xinshijiededa.men" avatar="https://raw.githubusercontent.com/OverflowCat/blog/test_a/imgs/avatar/xni.png" desc="So fancy is the world, who knows, maybe they sing" >}}
+
+
+</div>
+
+<div class="friend">
+
 {{< friend name="Kyxie's Blog" url="https://kyxie.github.io/zh/" avatar="https://kyxie.github.io/Avatar.png" desc="Hello World Printer" >}}
 
 

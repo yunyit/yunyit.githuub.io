@@ -134,6 +134,13 @@ title: 友链
 
 </div>
 
+<div class="friend">
+
+{{< friend name="新世界的大门" url="blog.xinshijiededa.men" avatar="https://raw.githubusercontent.com/OverflowCat/blog/test_a/imgs/avatar/xni.png" desc="悟已往之不諫，知來者之可追" >}}
+
+
+</div>
+
 
 
 ----
