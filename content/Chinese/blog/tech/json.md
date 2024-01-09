@@ -17,7 +17,7 @@ description: ""
 disableShare: true
 draft: false
 hidemeta: false
-lastmod: "2024-01-08"
+lastmod: "2024-01-09"
 showToc: true
 showbreadcrumbs: true
 slug: ""
@@ -111,8 +111,16 @@ key.key3
 key[0].name
 ```
 
-# 类似的其他数据交换格式
+# 应用
+1. 广泛应用于前后端的数据交换；
+2. 配置文件的格式，如VS Code；
+
+## 类似的其他数据交换格式
 - YMAL
 - XML
 - PROPERTIES
 - ...
+
+## JSON的优点
+1. 语法简单，易读易写；
+2. 简洁，易于计算机解析；
