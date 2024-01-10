@@ -51,6 +51,8 @@ weight: null
 
 > 2024-01-07 Secured [GitHub Pages site with HTTPS](https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https).
 
+> 2024-01-10 Added [umami](https://umami.is) website analytics dashboard to footer.
+
 ---
 
 

@@ -19,7 +19,7 @@ date: "2022-09-21"
 disableShare: true
 draft: false
 hidemeta: false
-lastmod: "2024-01-06"
+lastmod: "2024-01-10"
 showToc: true
 showbreadcrumbs: true
 slug: ""
@@ -49,7 +49,7 @@ weight: null
 
 > 2024-01-08 在中文页面添加 [归档（Archives）](https://www.yunyitang.me/zh/archives/)。
 
-> 2024-01-10 启用 [uptimerobot](https://uptimerobot.com/api/) 判断友链可访问性；限制文章最多显示5个[tag](https://www.yunyitang.me/zh/tags/)。
+> 2024-01-10 启用 [uptimerobot](https://uptimerobot.com/api/) 判断友链可访问性；限制文章最多显示5个[tag](https://www.yunyitang.me/zh/tags/)；添加 [umami](https://umami.is) 流量统计并添加于页脚。
 
 ---
 
@@ -58,8 +58,7 @@ weight: null
 
 1. 豆瓣卡片；
 2. 工具栏；
-3. 流量统计；
-4. 音乐播放器；
+3. 音乐播放器；
 
 ---
 
@@ -67,3 +66,8 @@ weight: null
 本站所有技术内容均为个人观点，不保证正确。随着时间变化部分技术内容也可能会失效，请读者自行甄别。
 
 此外，如非特别标注，本站使用配图都多源于网络，如有侵权，请联系我删除。
+
+
+{{< details " " >}}
+流量统计请看 [umami面板](https://analytics.eu.umami.is/share/mNvu6TLrju52UZ97/Yunyi's%20Blog)
+{{< /details >}}
