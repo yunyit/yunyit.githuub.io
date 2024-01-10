@@ -218,16 +218,6 @@
   </url><url>
     <loc>https://www.yunyitang.me/en/tags/bing/</loc>
     <lastmod>2024-01-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.yunyitang.me/zh/tags/bing/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.yunyitang.me/en/tags/bing/"
-                />
   </url><url>
     <loc>https://www.yunyitang.me/en/tags/google/</loc>
     <lastmod>2024-01-06T00:00:00+00:00</lastmod>
@@ -309,16 +299,6 @@
   </url><url>
     <loc>https://www.yunyitang.me/en/tags/twikoo/</loc>
     <lastmod>2024-01-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.yunyitang.me/zh/tags/twikoo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.yunyitang.me/en/tags/twikoo/"
-                />
   </url><url>
     <loc>https://www.yunyitang.me/en/tags/vercel/</loc>
     <lastmod>2024-01-06T00:00:00+00:00</lastmod>

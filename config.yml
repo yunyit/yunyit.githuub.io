@@ -74,10 +74,6 @@ languages:
               name: 关于
               url: /zh/about/
               weight: 10
-            - identifier: project
-              name: 项目
-              url: /zh/project/
-              weight: 20
             - identifier: blog
               name: 博客
               url: /zh/blog/
@@ -87,7 +83,7 @@ languages:
               url: /zh/links/
               weight: 40
             - identifier: tags
-              name: 🕹️
+              name: 🕹️ 标签
               url: /zh/tags/
               weight: 50
             - identifier: archives
@@ -111,8 +107,8 @@ languages:
               url: /zh/about/
             - name: 项目
               url: /zh/project/
-            - name: 简历
-              url: /zh/resume.pdf
+            - name: 博客
+              url: /zh/blog/
             - name: 👩🏻‍💻
               url: /zh/blog/tech/
 
