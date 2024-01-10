@@ -9,11 +9,11 @@
     <lastBuildDate>Wed, 21 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.yunyitang.me/zh/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>建站日志</title>
-      <link>https://www.yunyitang.me/zh/blog/tech/log/</link>
+      <link>https://www.yunyitang.me/zh/log/</link>
       <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.yunyitang.me/zh/blog/tech/log/</guid>
-      <description>2022-09-21 基于Ghost的yunyi-tang.ghost.io启用。 2022-09-26 域名更新为yunyitang.me，购自Google Domain。 2023-11-1 Ghos</description>
+      <guid>https://www.yunyitang.me/zh/log/</guid>
+      <description>2022-09-21 基于 Ghost 的 yunyi-tang.ghost.io 启用。 2022-09-26 域名更新为 yunyitang.me，购自 Google Domain。 2023-11-1 Ghost 订阅结束，yunyi-tang.ghost.io 停用。 2023-11-7 迁移</description>
     </item>
     
   </channel>
