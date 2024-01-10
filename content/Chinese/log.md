@@ -49,7 +49,7 @@ weight: null
 
 > 2024-01-07 优化[GitHub Pages site with HTTPS](https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https)。
 
-> 2024-01-08 在中文页面添加[归档（Archives）](https://www.yunyitang.me/zh/archives/)；因主要在英工作，删去中文目录的简历入口。
+> 2024-01-08 在中文页面添加[归档（Archives）](https://www.yunyitang.me/zh/archives/)。
 
 ---
 

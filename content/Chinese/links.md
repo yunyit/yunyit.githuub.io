@@ -66,6 +66,13 @@ title: 友链
 
 <div class="friend">
 
+{{< friend name="Aiar's Site" url="https://aiar.site" avatar="https://raw.githubusercontent.com/Arrackisarookie/images/main/fox.png" desc="愿余生所有的珍惜，都不用失去来懂得。" >}}
+
+
+</div>
+
+<div class="friend">
+
 {{< friend name="PRIN BLOG" url="https://printempw.github.io" avatar="https://printempw.github.io/images/favicon.png" desc="半吊子全栈开发者的日常" >}}
 
 
@@ -88,13 +95,6 @@ title: 友链
 <div class="friend">
 
 {{< friend name="凡梦星尘空间站" url="https://lisenhui.cn" avatar="https://lisenhui.cn/imgs/avatar.png" desc="再平凡的人也有属于他的梦想！" >}}
-
-
-</div>
-
-<div class="friend">
-
-{{< friend name="Aiar's Site" url="https://aiar.site" avatar="https://raw.githubusercontent.com/Arrackisarookie/images/main/fox.png" desc="愿余生所有的珍惜，都不用失去来懂得。" >}}
 
 
 </div>

@@ -66,14 +66,14 @@ title: Links
 
 <div class="friend">
 
-{{< friend name="新世界的大门" url="blog.xinshijiededa.men" avatar="https://raw.githubusercontent.com/OverflowCat/blog/test_a/imgs/avatar/xni.png" desc="So fancy is the world, who knows, maybe they sing" >}}
+{{< friend name="Aiar's Site" url="https://aiar.site" avatar="https://raw.githubusercontent.com/Arrackisarookie/images/main/fox.png" desc="愿余生所有的珍惜，都不用失去来懂得。" >}}
 
 
 </div>
 
 <div class="friend">
 
-{{< friend name="Say My Name" url="https://kyxie.github.io/zh/" avatar="https://kyxie.github.io/White.png" desc="Kunyang Xie" >}}
+{{< friend name="新世界的大门" url="blog.xinshijiededa.men" avatar="https://raw.githubusercontent.com/OverflowCat/blog/test_a/imgs/avatar/xni.png" desc="So fancy is the world, who knows, maybe they sing" >}}
 
 
 </div>

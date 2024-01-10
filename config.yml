@@ -74,6 +74,10 @@ languages:
               name: 关于
               url: /zh/about/
               weight: 10
+            - identifier: log
+              name: 建站
+              url: /zh/log/
+              weight: 20
             - identifier: blog
               name: 博客
               url: /zh/blog/
@@ -83,7 +87,7 @@ languages:
               url: /zh/links/
               weight: 40
             - identifier: tags
-              name: 🕹️ 标签
+              name: 🕹️ 
               url: /zh/tags/
               weight: 50
             - identifier: archives
