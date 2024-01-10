@@ -260,16 +260,6 @@
   </url><url>
     <loc>https://www.yunyitang.me/en/blog/tech/log/</loc>
     <lastmod>2024-01-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.yunyitang.me/zh/blog/tech/log/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.yunyitang.me/en/blog/tech/log/"
-                />
   </url><url>
     <loc>https://www.yunyitang.me/en/tags/mongodb/</loc>
     <lastmod>2024-01-06T00:00:00+00:00</lastmod>

@@ -297,18 +297,8 @@
     <loc>https://www.yunyitang.me/zh/tags/%E5%BB%BA%E7%AB%99/</loc>
     <lastmod>2024-01-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.yunyitang.me/zh/blog/tech/log/</loc>
+    <loc>https://www.yunyitang.me/zh/log/</loc>
     <lastmod>2024-01-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.yunyitang.me/en/blog/tech/log/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.yunyitang.me/zh/blog/tech/log/"
-                />
   </url><url>
     <loc>https://www.yunyitang.me/zh/blog/life/2020/</loc>
     <lastmod>2020-12-31T00:00:00+00:00</lastmod>
