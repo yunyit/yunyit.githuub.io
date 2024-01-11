@@ -59,6 +59,7 @@ weight: null
 1. 豆瓣卡片；
 2. 工具栏；
 3. 音乐播放器；
+4. UptimeRobot API；
 
 ---
 
@@ -67,7 +68,3 @@ weight: null
 
 此外，如非特别标注，本站使用配图都多源于网络，如有侵权，请联系我删除。
 
-
-{{< details " " >}}
-流量统计请看 [umami面板](https://analytics.eu.umami.is/share/mNvu6TLrju52UZ97/Yunyi's%20Blog)
-{{< /details >}}
