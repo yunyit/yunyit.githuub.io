@@ -71,12 +71,12 @@
     </item>
     
     <item>
-      <title>关于我 👋🏼</title>
+      <title>你好 👋🏼</title>
       <link>https://www.yunyitang.me/zh/about/</link>
       <pubDate>Tue, 07 Nov 2023 14:31:25 +0000</pubDate>
       
       <guid>https://www.yunyitang.me/zh/about/</guid>
-      <description>class Me: def __init__(self): self.name = &amp;#34;Yunyi Tang&amp;#34; self.prefer_name = &amp;#34;Yunyi&amp;#34; self.born_year = 1998 self.MBTI = INFJ self.hometown = &amp;#34;Guangzhou, Guangdong, CN&amp;#34; self.curr_location = &amp;#34;Bristol, UK&amp;#34; self.grad_school = &amp;#34;uBristol&amp;#34; self.undergrad_school = &amp;#34;SDU&amp;#34;</description>
+      <description>关于博主 class Me: def __init__(self): self.name = &amp;#34;Yunyi Tang&amp;#34; self.prefer_name = &amp;#34;Yunyi&amp;#34; self.born_year = 1998 self.MBTI = INFJ self.hometown = &amp;#34;Guangzhou, Guangdong, CN&amp;#34; self.curr_location = &amp;#34;Bristol, UK&amp;#34; self.grad_school = &amp;#34;uBristol&amp;#34; self.undergrad_school = &amp;#34;SDU&amp;#34; 关于本站 本站通过 Hugo 的 PaperMod 生成，并托管在 Github Pages 上 本站图标来自 Evangelion: 3.0 You Can (Not) Redo 本</description>
     </item>
     
     <item>
@@ -94,7 +94,7 @@
       <pubDate>Tue, 07 Nov 2023 14:31:25 +0000</pubDate>
       
       <guid>https://www.yunyitang.me/zh/links/</guid>
-      <description>在这个独立博客式微的时代，友情链接的意义 是什么？ 按照 Wikipedia 上的定义，这种“两个或者以上的网站互相放上对方的链接，达到向用户推荐以互相共享用户群的</description>
+      <description>在这个独立博客式微的时代，友情链接的意义是什么？ 和 Medium、简书之类的写作平台不同，每一个独立博客都是一个信息孤岛。我们没有类似「你可能</description>
     </item>
     
     <item>
