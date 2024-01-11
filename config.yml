@@ -143,7 +143,7 @@ outputs:
 # 这里的参数会被代码以 .Site.Params 的形式读取
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Yunyi's blog, tech, life, data, 技术博客"
+  description: "Yunyi的技术博客"
   author: Yunyi
   defaultTheme: auto  # defaultTheme: light or  dark 
   disableThemeToggle: false
