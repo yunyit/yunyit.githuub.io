@@ -139,6 +139,14 @@ title: 友链
 
 </div>
 
+<div class="friend">
+
+{{< friend name="Project RC" url="hhttps://stdrc.cc" avatar="https://stdrc.cc/static/favicons/favicon-32x32.png" desc="  " >}}
+
+
+</div>
+
+
 
 
 ----
