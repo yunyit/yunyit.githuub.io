@@ -122,8 +122,8 @@ languages:
               url: /zh/about/
             - name: 博客
               url: /zh/blog/
-            - name: 👩🏻‍💻
-              url: /zh/blog/tech/
+            - name: 开往
+              url: https://www.travellings.cn/go.html
         socialIcons:
             - name: github
               url: "https://github.com/yunyit"

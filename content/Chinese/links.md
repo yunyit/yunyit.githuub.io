@@ -8,13 +8,13 @@ showToc: false
 title: 友链
 ---
 
-在这个独立博客式微的时代，[友情链接的意义](http://www.jetli.com.cn/about.html) 是什么？
-
-按照 [Wikipedia](https://zh.wikipedia.org/wiki/友情链接) 上的定义，这种“两个或者以上的网站互相放上对方的链接，达到向用户推荐以互相共享用户群的一种 SEO 方式”有着不少优点，但这些不是最重要的。
-
-“和 Medium、简书之类的写作平台不同，每一个独立博客都是一个信息孤岛。我们没有类似“你可能喜欢其他人写的这些文章”的推荐机制，所以除了搜索引擎、社交网络引荐之外，我们应该还需要通过某种方法将这些信息孤岛连接起来：[交换友情链接就是一种很棒的架桥方式](https://printempw.github.io/friends/)。”
-
-如果你正好看到了这个页面，不妨往下翻翻，看看下面的链接中有没有什么你感兴趣的内容。
+> 在这个独立博客式微的时代，友情链接的意义是什么？
+> 
+> 和 Medium、简书之类的写作平台不同，每一个独立博客都是一个信息孤岛。我们没有类似「你可能喜欢其他人写的这些文章」的推荐机制，所以除了搜索引擎、社交网络引荐之外，我们应该还需要通过某种方法将这些信息孤岛连接起来：
+> 
+> 交换友情链接就是一种很棒的架桥方式。
+> 
+> ——摘自 [Printempw Blog](https://printempw.github.io/friends/) 
 
 ---
 以下站点按照添加的时间顺序排列：
@@ -65,6 +65,13 @@ title: 友链
 <div class="friend">
 
 {{< friend name="Aiar's Site" url="https://aiar.site" avatar="https://raw.githubusercontent.com/Arrackisarookie/images/main/fox.png" desc="愿余生所有的珍惜，都不用失去来懂得。" >}}
+
+
+</div>
+
+<div class="friend">
+
+{{< friend name="思宁HERE" url="https://www.snhere.com" avatar="https://cloud-cn.snhere.cn/link/huoban-f.webp" desc="设计与生活" >}}
 
 
 </div>
@@ -134,13 +141,6 @@ title: 友链
 
 <div class="friend">
 
-{{< friend name="思宁HERE" url="https://www.snhere.com" avatar="https://cloud-cn.snhere.cn/link/huoban-f.webp" desc="设计与生活" >}}
-
-
-</div>
-
-<div class="friend">
-
 {{< friend name="Project RC" url="hhttps://stdrc.cc" avatar="https://stdrc.cc/static/favicons/favicon-32x32.png" desc="  " >}}
 
 
@@ -150,14 +150,16 @@ title: 友链
 
 
 ----
-互换友链格式（可点击右上角图标直接复制）：
+本站的友链格式和 **Yunyi** 的友链信息如下所示，欢迎通过 **评论区** 交换友链！
+```JavaScript
+{
+	"name": "Yunyi's Blog" 
+	"url": "https://www.yunyitang.me/zh/" 
+	"avatar": "https://www.yunyitang.me/img/Avatar.png" 
+	"desc": "Little squirrel Hopping around"
+}
+```
 
-```
-name="Yunyi's Blog"
-url="https://www.yunyitang.me/zh/"
-avatar="https://www.yunyitang.me/img/Avatar.png"
-desc="Little squirrel Hopping around"
-```
 
 友链交换须知:
 ``` sql
