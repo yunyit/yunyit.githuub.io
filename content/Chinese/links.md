@@ -14,7 +14,7 @@ title: 友链
 > 
 > 交换友情链接就是一种很棒的架桥方式。
 > 
-> ——摘自 [Printempw Blog](https://printempw.github.io/friends/) 
+> —— 摘自 [PRIN BLOG](https://printempw.github.io/friends/) 
 
 ---
 以下站点按照添加的时间顺序排列：
@@ -78,6 +78,13 @@ title: 友链
 
 <div class="friend">
 
+{{< friend name="新世界的大门" url="https://blog.xinshijiededa.men" avatar="https://raw.githubusercontent.com/OverflowCat/blog/test_a/imgs/avatar/xni.png" desc="悟已往之不諫，知來者之可追" >}}
+
+
+</div>
+
+<div class="friend">
+
 {{< friend name="PRIN BLOG" url="https://printempw.github.io" avatar="https://printempw.github.io/images/favicon.png" desc="半吊子全栈开发者的日常" >}}
 
 
@@ -134,14 +141,7 @@ title: 友链
 
 <div class="friend">
 
-{{< friend name="新世界的大门" url="https://blog.xinshijiededa.men" avatar="https://raw.githubusercontent.com/OverflowCat/blog/test_a/imgs/avatar/xni.png" desc="悟已往之不諫，知來者之可追" >}}
-
-
-</div>
-
-<div class="friend">
-
-{{< friend name="Project RC" url="hhttps://stdrc.cc" avatar="https://stdrc.cc/static/favicons/favicon-32x32.png" desc="  " >}}
+{{< friend name="Project RC" url="https://stdrc.cc" avatar="https://stdrc.cc/static/favicons/favicon-32x32.png" desc="  " >}}
 
 
 </div>

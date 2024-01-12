@@ -33,7 +33,7 @@ weight: null
 
 > 2023-11-1 [Ghost](https://ghost.org/) 订阅结束，yunyi-tang.ghost.io 停用。
 
-> 2023-11-7 迁移至 Github Pages（[yunyit.github.io](https://github.com/yunyit/yunyit.github.io)），域名[yunyitang.me](https://www.yunyitang.me/)与yunyi-tang.ghost.io解绑。
+> 2023-11-7 迁移至 Github Pages（[yunyit.github.io](https://github.com/yunyit/yunyit.github.io)），域名 [yunyitang.me](https://www.yunyitang.me/) 与 yunyi-tang.ghost.io 解绑。
 
 > 2023-11-9 博客引擎迁移至 [Hugo](https://github.com/gohugoio/hugo) 的 [PaperMod](https://github.com/adityatelange/hugo-PaperMod) 主题，因工作所在地在英，同时开设 [中文](https://www.yunyitang.me/zh/) 与 [英文](https://www.yunyitang.me/en/) 页面。
 
