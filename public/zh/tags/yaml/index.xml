@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>YAML on Yunyi&#39;s Blog</title>
+    <link>https://www.yunyitang.me/zh/tags/yaml/</link>
+    <description>Recent content in YAML on Yunyi&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 12 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.yunyitang.me/zh/tags/yaml/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>YAML</title>
+      <link>https://www.yunyitang.me/zh/blog/tech/ymal/</link>
+      <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.yunyitang.me/zh/blog/tech/ymal/</guid>
+      <description>认知始于 Markdown 文件，不知道终于哪儿。 定义 YAML Ain&amp;rsquo;t a Markup Language / Yet Another Markup Language 文件后缀为 .yml 应用 配置文件； 表达或编辑数据结构； 数据类型 对象 mapping/hash/</description>
+    </item>
+    
+  </channel>
+</rss>

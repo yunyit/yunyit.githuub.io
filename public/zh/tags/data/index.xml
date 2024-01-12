@@ -8,6 +8,15 @@
     <language>zh</language>
     <lastBuildDate>Fri, 12 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.yunyitang.me/zh/tags/data/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>YAML</title>
+      <link>https://www.yunyitang.me/zh/blog/tech/ymal/</link>
+      <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.yunyitang.me/zh/blog/tech/ymal/</guid>
+      <description>认知始于 Markdown 文件，不知道终于哪儿。 定义 YAML Ain&amp;rsquo;t a Markup Language / Yet Another Markup Language 文件后缀为 .yml 应用 配置文件； 表达或编辑数据结构； 数据类型 对象 mapping/hash/</description>
+    </item>
+    
+    <item>
       <title>友链相关阅读</title>
       <link>https://www.yunyitang.me/zh/blog/tech/link-posts/</link>
       <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
@@ -49,7 +58,7 @@
       <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.yunyitang.me/zh/blog/tech/regular-expression/</guid>
-      <description>认知始于Excel，不知道终于哪儿。 介绍与应用 属性：用于匹配和操作文本的工具 设计思想：用一种描述性的语言来给字符串定义一个规则，凡是符合规则</description>
+      <description>认知始于 Excel，不知道终于哪儿。 介绍与应用 属性：用于匹配和操作文本的工具 设计思想：用一种描述性的语言来给字符串定义一个规则，凡是符合规则</description>
     </item>
     
     <item>
