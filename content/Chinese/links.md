@@ -5,7 +5,7 @@ disableShare: true
 draft: false
 hidemeta: false
 showToc: false
-title: 友链
+title: 友情链接
 ---
 
 > 在这个独立博客式微的时代，友情链接的意义是什么？

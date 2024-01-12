@@ -2,11 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.yunyitang.me/zh/blog/life/2023/</loc>
-    <lastmod>2024-01-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.yunyitang.me/zh/tags/data/</loc>
-    <lastmod>2024-01-11T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -18,21 +15,11 @@
                 href="https://www.yunyitang.me/zh/tags/data/"
                 />
   </url><url>
-    <loc>https://www.yunyitang.me/zh/tags/log/</loc>
-    <lastmod>2024-01-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.yunyitang.me/en/tags/log/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.yunyitang.me/zh/tags/log/"
-                />
+    <loc>https://www.yunyitang.me/zh/tags/markdown/</loc>
+    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.yunyitang.me/zh/</loc>
-    <lastmod>2024-01-11T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -45,7 +32,7 @@
                 />
   </url><url>
     <loc>https://www.yunyitang.me/zh/blog/</loc>
-    <lastmod>2024-01-11T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -58,7 +45,7 @@
                 />
   </url><url>
     <loc>https://www.yunyitang.me/zh/tags/</loc>
-    <lastmod>2024-01-11T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -68,6 +55,38 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://www.yunyitang.me/zh/tags/"
+                />
+  </url><url>
+    <loc>https://www.yunyitang.me/zh/blog/tech/</loc>
+    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.yunyitang.me/en/blog/tech/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.yunyitang.me/zh/blog/tech/"
+                />
+  </url><url>
+    <loc>https://www.yunyitang.me/zh/blog/tech/link-posts/</loc>
+    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.yunyitang.me/zh/blog/life/2023/</loc>
+    <lastmod>2024-01-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.yunyitang.me/zh/tags/log/</loc>
+    <lastmod>2024-01-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.yunyitang.me/en/tags/log/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.yunyitang.me/zh/tags/log/"
                 />
   </url><url>
     <loc>https://www.yunyitang.me/zh/blog/life/</loc>
@@ -83,9 +102,6 @@
                 href="https://www.yunyitang.me/zh/blog/life/"
                 />
   </url><url>
-    <loc>https://www.yunyitang.me/zh/tags/markdown/</loc>
-    <lastmod>2024-01-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.yunyitang.me/zh/tags/obsidian/</loc>
     <lastmod>2024-01-09T00:00:00+00:00</lastmod>
   </url><url>
@@ -97,19 +113,6 @@
   </url><url>
     <loc>https://www.yunyitang.me/zh/tags/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2024-01-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.yunyitang.me/zh/blog/tech/</loc>
-    <lastmod>2024-01-09T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.yunyitang.me/en/blog/tech/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.yunyitang.me/zh/blog/tech/"
-                />
   </url><url>
     <loc>https://www.yunyitang.me/zh/tags/javascript/</loc>
     <lastmod>2024-01-07T00:00:00+00:00</lastmod>
