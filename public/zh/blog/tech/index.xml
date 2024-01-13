@@ -6,14 +6,14 @@
     <description>Recent content in 技术 🔧 on Yunyi&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 12 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.yunyitang.me/zh/blog/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.yunyitang.me/zh/blog/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>YAML</title>
       <link>https://www.yunyitang.me/zh/blog/tech/ymal/</link>
-      <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 13 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.yunyitang.me/zh/blog/tech/ymal/</guid>
-      <description>认知始于 Markdown 文件，不知道终于哪儿。 定义 YAML Ain&amp;rsquo;t a Markup Language / Yet Another Markup Language 文件后缀为 .yml 应用 配置文件； 表达或编辑数据结构； 数据类型 对象 mapping/hash/</description>
+      <description>认知始于 Markdown 文件，不知道终于哪儿。 定义 YAML Ain&amp;rsquo;t a Markup Language / Yet Another Markup Language 文件后缀：.yml 或 .yaml 注释：井号 或 哈希符号 # 结构：映射或列表，遵循层次结构，具体取决</description>
     </item>
     
     <item>

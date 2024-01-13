@@ -121,7 +121,7 @@ languages:
             - name: 关于
               url: /zh/about/
             - name: 博客
-              url: /zh/blog/
+              url: /zh/blog/tech/
             - name: 开往
               url: https://www.travellings.cn/go.html
         socialIcons:

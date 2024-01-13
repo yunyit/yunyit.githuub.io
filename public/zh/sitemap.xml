@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.yunyitang.me/zh/tags/data/</loc>
-    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-13T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,17 +15,17 @@
                 href="https://www.yunyitang.me/zh/tags/data/"
                 />
   </url><url>
-    <loc>https://www.yunyitang.me/zh/tags/markdown/</loc>
-    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
+    <loc>https://www.yunyitang.me/zh/tags/database/</loc>
+    <lastmod>2024-01-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.yunyitang.me/zh/tags/yaml/</loc>
-    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.yunyitang.me/zh/blog/tech/ymal/</loc>
-    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.yunyitang.me/zh/</loc>
-    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-13T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -38,7 +38,7 @@
                 />
   </url><url>
     <loc>https://www.yunyitang.me/zh/blog/</loc>
-    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-13T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -51,7 +51,7 @@
                 />
   </url><url>
     <loc>https://www.yunyitang.me/zh/tags/</loc>
-    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-13T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -64,7 +64,7 @@
                 />
   </url><url>
     <loc>https://www.yunyitang.me/zh/blog/tech/</loc>
-    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-13T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -77,6 +77,12 @@
                 />
   </url><url>
     <loc>https://www.yunyitang.me/zh/tags/%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F/</loc>
+    <lastmod>2024-01-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.yunyitang.me/zh/tags/markdown/</loc>
+    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.yunyitang.me/zh/tags/%E5%BB%BA%E7%AB%99/</loc>
     <lastmod>2024-01-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.yunyitang.me/zh/blog/tech/link-posts/</loc>
@@ -305,9 +311,6 @@
                 hreflang="zh"
                 href="https://www.yunyitang.me/zh/tags/vercel/"
                 />
-  </url><url>
-    <loc>https://www.yunyitang.me/zh/tags/%E5%BB%BA%E7%AB%99/</loc>
-    <lastmod>2024-01-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.yunyitang.me/zh/log/</loc>
     <lastmod>2024-01-10T00:00:00+00:00</lastmod>
