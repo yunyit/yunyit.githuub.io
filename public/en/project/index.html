@@ -88,6 +88,22 @@ I used R to visualised COVID-19 data from the first several weeks of the outbrea
   gtag('js', new Date());
 
   gtag('config', 'G-0K2EFCEZGW');
+</script>
+
+<script>
+  
+  function shuffleElements(container) {
+      var elements = Array.from(container.children);
+      for (var i = elements.length; i >= 0; i--) {
+          container.appendChild(elements[Math.random() * i | 0]);
+      }
+  }
+
+  
+  window.addEventListener('load', function () {
+      var container = document.getElementById('shuffle');
+      shuffleElements(container);
+  });
 </script><meta property="og:title" content="Projects" />
 <meta property="og:description" content="Personal Projects My Personal Website Nov. 2023 - Now, HTML / CSS / JavaScript
 Github: https://github.com/yunyit/yunyit.github.io

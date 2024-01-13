@@ -43,6 +43,23 @@ SELECT * FROM Links WHERE blog = '正常安全网址，稳定域名，不要接�
 
 以下站点按照添加的时间顺序排列：
 
+<script>
+    // Function to shuffle the order of elements within a container
+    function shuffleElements(container) {
+        var elements = Array.from(container.children);
+        for (var i = elements.length; i >= 0; i--) {
+            container.appendChild(elements[Math.random() * i | 0]);
+        }
+    }
+
+    // Wait for the page to fully load before shuffling the elements
+    window.addEventListener('load', function () {
+        var container = document.getElementById('shuffle');
+        shuffleElements(container);
+    });
+</script>
+
+<div id="shuffle">
 
 
 <div class="friend">
@@ -172,11 +189,14 @@ SELECT * FROM Links WHERE blog = '正常安全网址，稳定域名，不要接�
 
 </div>
 
+</div>
+
+
 
 {{< details " " >}}
 友链会定期清理，如果出现没有互关、网站无法访问、内容违法等情况会立即删除！如有我忘记添加友链的小伙伴，请及时留言给我！
 
-本次清理友链时间为2024-01-02，预计三个月清理一次!
+本次清理友链时间为 2024-01-12，预计三个月清理一次!
 {{< /details >}}
 
 

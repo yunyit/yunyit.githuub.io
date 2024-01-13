@@ -83,6 +83,22 @@
   gtag('js', new Date());
 
   gtag('config', 'G-0K2EFCEZGW');
+</script>
+
+<script>
+  
+  function shuffleElements(container) {
+      var elements = Array.from(container.children);
+      for (var i = elements.length; i >= 0; i--) {
+          container.appendChild(elements[Math.random() * i | 0]);
+      }
+  }
+
+  
+  window.addEventListener('load', function () {
+      var container = document.getElementById('shuffle');
+      shuffleElements(container);
+  });
 </script><meta property="og:title" content="2020年终总结" />
 <meta property="og:description" content="“我生活在妙不可言的等待中，等待随便哪种未来” “我生活在妙不可言的等待中，等待随便哪种未来“，这是纪德在《地粮》里的一句话，也是我收到单向历" />
 <meta property="og:type" content="article" />

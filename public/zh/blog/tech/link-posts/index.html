@@ -83,6 +83,22 @@
   gtag('js', new Date());
 
   gtag('config', 'G-0K2EFCEZGW');
+</script>
+
+<script>
+  
+  function shuffleElements(container) {
+      var elements = Array.from(container.children);
+      for (var i = elements.length; i >= 0; i--) {
+          container.appendChild(elements[Math.random() * i | 0]);
+      }
+  }
+
+  
+  window.addEventListener('load', function () {
+      var container = document.getElementById('shuffle');
+      shuffleElements(container);
+  });
 </script><meta property="og:title" content="友链相关阅读" />
 <meta property="og:description" content="在这个独立博客式微的时代，友情链接的意义是什么？ 和 Medium、简书之类的写作平台不同，每一个独立博客都是一个信息孤岛。我们没有类似「你可能" />
 <meta property="og:type" content="article" />

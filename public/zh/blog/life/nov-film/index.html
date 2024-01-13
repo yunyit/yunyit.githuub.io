@@ -84,6 +84,22 @@
   gtag('js', new Date());
 
   gtag('config', 'G-0K2EFCEZGW');
+</script>
+
+<script>
+  
+  function shuffleElements(container) {
+      var elements = Array.from(container.children);
+      for (var i = elements.length; i >= 0; i--) {
+          container.appendChild(elements[Math.random() * i | 0]);
+      }
+  }
+
+  
+  window.addEventListener('load', function () {
+      var container = document.getElementById('shuffle');
+      shuffleElements(container);
+  });
 </script><meta property="og:title" content="十一月在看" />
 <meta property="og:description" content="时空恋旅人 About Time / 回到最爱的一天(港) / 真爱每一天(台) 饥饿游戏：鸣鸟与蛇之歌 The Ballad of Songbirds and Snakes / 饥饿游戏：鸣鸟与蛇的歌谣 / 饥饿游戏前传：鸣鸟与灵蛇" />
 <meta property="og:type" content="article" />

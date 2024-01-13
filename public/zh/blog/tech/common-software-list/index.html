@@ -83,6 +83,22 @@
   gtag('js', new Date());
 
   gtag('config', 'G-0K2EFCEZGW');
+</script>
+
+<script>
+  
+  function shuffleElements(container) {
+      var elements = Array.from(container.children);
+      for (var i = elements.length; i >= 0; i--) {
+          container.appendChild(elements[Math.random() * i | 0]);
+      }
+  }
+
+  
+  window.addEventListener('load', function () {
+      var container = document.getElementById('shuffle');
+      shuffleElements(container);
+  });
 </script><meta property="og:title" content="个人常用MacOS软件清单" />
 <meta property="og:description" content="在日常工作中，合适的效率工具能帮助我们快速完成工作，起到事半功倍的效果。 下面是我常用的一些软件，个人用起来比较得心应手，推荐给大家。按照软件" />
 <meta property="og:type" content="article" />

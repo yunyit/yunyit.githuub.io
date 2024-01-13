@@ -8,8 +8,6 @@ showToc: false
 title: Links
 ---
 
-
-
 <div class="friend">
 
 {{< friend name="Barney’s Blog" url="https://hugo.bnblogs.cc/" avatar="https://hugo.bnblogs.cc/images/img/20220215001349.png" desc="All the truth is simple" >}}
@@ -94,6 +92,7 @@ title: Links
 
 
 </div>
+
 
 
 ----

@@ -83,6 +83,22 @@
   gtag('js', new Date());
 
   gtag('config', 'G-0K2EFCEZGW');
+</script>
+
+<script>
+  
+  function shuffleElements(container) {
+      var elements = Array.from(container.children);
+      for (var i = elements.length; i >= 0; i--) {
+          container.appendChild(elements[Math.random() * i | 0]);
+      }
+  }
+
+  
+  window.addEventListener('load', function () {
+      var container = document.getElementById('shuffle');
+      shuffleElements(container);
+  });
 </script><meta property="og:title" content="JSON" />
 <meta property="og:description" content="在实习公司的数据岗位还挺常用的。 定义 JavaScript Object Notation - { &#34;key&#34;: &#34;value&#34;, &#34;key2&#34;: &#34;value2&#34; } 网络传输中常使用的格式：以节省内存和传输所用的网络带宽 {&#34;key&#34;:&#34;value&#34;,&#34;key2&#34;:&#34;value2&#34;} 数据类型 文本/字符串 Strings { &#34;key&#34;: &#34;value&#34;" />
 <meta property="og:type" content="article" />

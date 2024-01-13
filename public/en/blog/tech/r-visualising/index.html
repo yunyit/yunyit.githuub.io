@@ -85,6 +85,22 @@ Import libraries library(readr) library(ggplot2) library(dplyr) Import data From
   gtag('js', new Date());
 
   gtag('config', 'G-0K2EFCEZGW');
+</script>
+
+<script>
+  
+  function shuffleElements(container) {
+      var elements = Array.from(container.children);
+      for (var i = elements.length; i >= 0; i--) {
+          container.appendChild(elements[Math.random() * i | 0]);
+      }
+  }
+
+  
+  window.addEventListener('load', function () {
+      var container = document.getElementById('shuffle');
+      shuffleElements(container);
+  });
 </script><meta property="og:title" content="R Visualising" />
 <meta property="og:description" content="Reviewing visualing data with R with this exmaple project。
 Import libraries library(readr) library(ggplot2) library(dplyr) Import data From csv to dataset Read datasets/confirmed_cases_worldwide.csv into confirmed_cases_worldwide Select/filter data # Filter for China, from Feb 15 china_after_feb15 &lt;- confirmed_cases_china_vs_world %&gt;% filter(is_china == &#34;China&#34;, date &gt;= &#34;2020-02-15&#34;) Plot One line # Draw a line plot of cumulative cases vs. date # Label the y-axis ggplot(confirmed_cases_worldwide, aes(date, cum_cases)) &#43; geom_line() &#43; ylab(&#34;Cumulative confirmed cases&#34;) Multiple lines # Using confirmed_cases_top7_outside_china, draw a line plot of # cum_cases vs." />
