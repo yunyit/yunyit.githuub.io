@@ -3,8 +3,9 @@ comments: true
 date: "2023-11-07T14:31:25Z"
 disableShare: true
 draft: false
+hiddenFromSearch: true
 hidemeta: false
-showToc: false
+showToc: true
 title: 友情链接
 ---
 
@@ -16,8 +17,37 @@ title: 友情链接
 > 
 > —— 摘自 [PRIN BLOG](https://printempw.github.io/friends/) 
 
----
+## 交个朋友吧 👋🏼
+
+本站的友链格式和 **Yunyi** 的友链信息如下所示，欢迎通过 **评论区** 交换友链！
+```json
+{
+	"name": "Yunyi's Blog" 
+	"url": "https://www.yunyitang.me/zh/" 
+	"avatar": "https://www.yunyitang.me/img/Avatar.png" 
+	"desc": "Little squirrel Hopping around"
+}
+```
+
+
+友链交换须知:
+``` sql
+SELECT * FROM Links WHERE blog = '正常安全网址，稳定域名，不要接入广告，尽量定期更新';
+```
+
+
+{{< details " " >}}
+本站会根据 [uptimerobot](https://uptimerobot.com/api/) 的检测结果判断友链的可访问性，不可访问的友链会被移动至“无法访问”栏目；如果连续长时间不可访问，则该友链会被隐藏，直至可正常访问。
+{{< /details >}}
+
+
+## 友情链接
+
 以下站点按照添加的时间顺序排列：
+
+{{< friends-shuffle >}}
+
+<div id="friends-container">
 
 <div class="friend">
 
@@ -141,35 +171,17 @@ title: 友情链接
 
 <div class="friend">
 
-{{< friend name="Project RC" url="https://stdrc.cc" avatar="https://stdrc.cc/static/favicons/favicon-32x32.png" desc="  " >}}
+{{< friend name="Project RC" url="https://stdrc.cc" avatar="https://stdrc.cc/static/favicons/favicon-32x32.png" desc="Richard Chien" >}}
 
 
 </div>
 
-
-
-
-----
-本站的友链格式和 **Yunyi** 的友链信息如下所示，欢迎通过 **评论区** 交换友链！
-```JavaScript
-{
-	"name": "Yunyi's Blog" 
-	"url": "https://www.yunyitang.me/zh/" 
-	"avatar": "https://www.yunyitang.me/img/Avatar.png" 
-	"desc": "Little squirrel Hopping around"
-}
-```
-
-
-友链交换须知:
-``` sql
-SELECT * FROM Links WHERE blog = '正常安全网址，稳定域名，不要接入广告，尽量定期更新';
-```
-
-
 {{< details " " >}}
-本站会根据 [uptimerobot](https://uptimerobot.com/api/) 的检测结果判断友链的可访问性，不可访问的友链会被移动至“无法访问”栏目；如果连续长时间不可访问，则该友链会被隐藏，直至可正常访问。
+友链会定期清理，如果出现没有互关、网站无法访问、内容违法等情况会立即删除！如有我忘记添加友链的小伙伴，请及时留言给我！
+
+本次清理友链时间为2024-01-02，预计三个月清理一次!
 {{< /details >}}
+
 
 <!---
 yunyi.tang.820@gmail.com

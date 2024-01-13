@@ -40,6 +40,7 @@ weight: null
 
 [Obsidian 工作笔记](http://yunyitang.me/zh/blog/tech/obsedian/) -
 [RC](https://stdrc.cc) 总结的 [中文写作风格指南](https://stdrc.cc/style-guides/chinese)；
+[Barney](https://hugo.bnblogs.cc) 的 [yaml 语法](https://hugo.bnblogs.cc/yaml语法/) 整理；
 
 ---
 

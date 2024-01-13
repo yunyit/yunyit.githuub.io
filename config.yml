@@ -91,7 +91,7 @@ languages:
               weight: 20
             - identifier: blog
               name: 博客
-              url: /zh/blog/
+              url: /zh/blog/tech/
               weight: 30
             - identifier: links
               name: 友链
