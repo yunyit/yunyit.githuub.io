@@ -45,10 +45,6 @@ SELECT * FROM Links WHERE blog = '正常安全网址，稳定域名，不要接�
 
 以下站点按照添加的时间顺序排列：
 
-{{< friends-shuffle >}}
-
-<div id="friends-container">
-
 <div class="friend">
 
 {{< friend name="Barney’s Blog" url="https://hugo.bnblogs.cc/" avatar="https://hugo.bnblogs.cc/images/img/20220215001349.png" desc="All the truth is simple" >}}
@@ -191,4 +187,20 @@ yunyi.tang.820@gmail.com
 简介：Little squirrel Hopping around
 头像：https://www.yunyitang.me/img/Avatar.png
 地址：https://www.yunyitang.me/zh/
+-->
+
+<!--
+{{- if .IsNamedParams -}}
+<a target="_blank" href={{ .Get "url" }} title={{ .Get "name" }} class="friendurl">
+  <div class="frienddiv">
+    <div class="frienddivleft">
+      <img class="myfriend" src={{ .Get "avatar" }} />
+    </div>
+    <div class="frienddivright">
+      <div class="friendname">{{- .Get "name" -}}</div>
+      <div class="friendinfo">{{- .Get "desc" -}}</div>
+    </div>
+  </div>
+</a>
+{{- end }}
 -->

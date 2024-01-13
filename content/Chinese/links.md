@@ -44,28 +44,133 @@ SELECT * FROM Links WHERE blog = '正常安全网址，稳定域名，不要接�
 以下站点按照添加的时间顺序排列：
 
 
-{{< friendlist >}}
 
-{{< friend name="Barney’s Blog" url="https://hugo.bnblogs.cc/" avatar="https://hugo.bnblogs.cc/images/img/20220215001349.png" desc="All the truth is simple" />}}
-{{< friend name="豆豆 / Amos" url="https://amoshk.top" avatar="https://amoshk.top/img/avatar.png" desc="无限进步.✍️" />}}
-{{< friend name="Bing's Blog" url="https://imcbc.cn/" avatar="https://imcbc.cn/android-chrome-192x192.png" desc="自由 分享 合作" />}}
-{{< friend name="L1nSn0w's Blog" url="https://blog.linsnow.cn" avatar="https://blog.linsnow.cn/img/avatar.png" desc="无限进步.✍️" />}}
-{{< friend name="Cynosura" url="https://cynosura.one" avatar="https://cynosura.one/img/avatar.webp" desc="Trying to light up the dark." />}}
-{{< friend name="Empty SEKAI" url="https://prpr.rip" avatar="https://github.com/prprnya.png" desc="一只游荡在无人 SEKAI 的小白葱" />}}
-{{< friend name="Aiar's Site" url="https://aiar.site" avatar="https://raw.githubusercontent.com/Arrackisarookie/images/main/fox.png" desc="愿余生所有的珍惜，都不用失去来懂得。" />}}
-{{< friend name="思宁HERE" url="https://www.snhere.com" avatar="https://cloud-cn.snhere.cn/link/huoban-f.webp" desc="设计与生活" />}}
-{{< friend name="新世界的大门" url="https://blog.xinshijiededa.men" avatar="https://raw.githubusercontent.com/OverflowCat/blog/test_a/imgs/avatar/xni.png" desc="悟已往之不諫，知來者之可追" />}}
-{{< friend name="PRIN BLOG" url="https://printempw.github.io" avatar="https://printempw.github.io/images/favicon.png" desc="半吊子全栈开发者的日常" />}}
-{{< friend name="Chawye Hsu" url="https://chawyehsu.com" avatar="https://chawyehsu.com/favicon.ico" desc="Personal Website of Chawye Hsu" />}}
-{{< friend name="Say My Name" url="https://kyxie.github.io/zh/" avatar="https://kyxie.github.io/White.png" desc="Kunyang Xie" />}}
-{{< friend name="凡梦星尘空间站" url="https://lisenhui.cn" avatar="https://lisenhui.cn/imgs/avatar.png" desc="再平凡的人也有属于他的梦想！" />}}
-{{< friend name="米米的博客" url="https://zhangshuqiao.org" avatar="https://gravatar.loli.net/avatar/f56980e9dc026727282a04eea02b4f4d?s=512" desc="米米的博客！！" />}}
-{{< friend name="nopdan's blog" url="https://nopdan.com/" avatar="https://nopdan.com/avatar.webp" desc="但知行好事，莫要问前程" />}}
-{{< friend name="芝士部落格" url="https://blog.youmuwhisper.space" avatar="https://blog.youmuwhisper.space/images/avatar.jpg" desc="有思想，也有忧伤和理想" />}}
-{{< friend name="野生糖喵" url="https://candinya.com/" avatar="https://candinya.com/images/candinya.webp" desc="好伙伴们在哪里~" />}}
-{{< friend name="Project RC" url="https://stdrc.cc" avatar="https://stdrc.cc/static/favicons/favicon-32x32.png" desc="Richard Chien" />}}
+<div class="friend">
 
-{{< /friendlist >}}
+{{< friend name="Barney’s Blog" url="https://hugo.bnblogs.cc/" avatar="https://hugo.bnblogs.cc/images/img/20220215001349.png" desc="All the truth is simple" >}}
+
+
+</div>
+
+<div class="friend">
+
+{{< friend name="豆豆 / Amos" url="https://amoshk.top" avatar="https://amoshk.top/img/avatar.png" desc="无限进步.✍️" >}}
+
+
+</div>
+
+
+<div class="friend">
+
+{{< friend name="Bing's Blog" url="https://imcbc.cn/" avatar="https://imcbc.cn/android-chrome-192x192.png" desc="自由 分享 合作" >}}
+
+
+</div>
+
+<div class="friend">
+
+{{< friend name="L1nSn0w's Blog" url="https://blog.linsnow.cn" avatar="https://blog.linsnow.cn/img/avatar.png" desc="无限进步.✍️" >}}
+
+
+</div>
+
+<div class="friend">
+
+{{< friend name="Cynosura" url="https://cynosura.one" avatar="https://cynosura.one/img/avatar.webp" desc="Trying to light up the dark." >}}
+
+
+</div>
+
+<div class="friend">
+
+{{< friend name="Empty SEKAI" url="https://prpr.rip" avatar="https://github.com/prprnya.png" desc="一只游荡在无人 SEKAI 的小白葱" >}}
+
+
+</div>
+
+<div class="friend">
+
+{{< friend name="Aiar's Site" url="https://aiar.site" avatar="https://raw.githubusercontent.com/Arrackisarookie/images/main/fox.png" desc="愿余生所有的珍惜，都不用失去来懂得。" >}}
+
+
+</div>
+
+<div class="friend">
+
+{{< friend name="思宁HERE" url="https://www.snhere.com" avatar="https://cloud-cn.snhere.cn/link/huoban-f.webp" desc="设计与生活" >}}
+
+
+</div>
+
+<div class="friend">
+
+{{< friend name="新世界的大门" url="https://blog.xinshijiededa.men" avatar="https://raw.githubusercontent.com/OverflowCat/blog/test_a/imgs/avatar/xni.png" desc="悟已往之不諫，知來者之可追" >}}
+
+
+</div>
+
+<div class="friend">
+
+{{< friend name="PRIN BLOG" url="https://printempw.github.io" avatar="https://printempw.github.io/images/favicon.png" desc="半吊子全栈开发者的日常" >}}
+
+
+</div>
+
+<div class="friend">
+
+{{< friend name="Chawye Hsu" url="https://chawyehsu.com" avatar="https://chawyehsu.com/favicon.ico" desc="Personal Website of Chawye Hsu" >}}
+
+
+</div>
+
+<div class="friend">
+
+{{< friend name="Say My Name" url="https://kyxie.github.io/zh/" avatar="https://kyxie.github.io/White.png" desc="Kunyang Xie" >}}
+
+
+</div>
+
+<div class="friend">
+
+{{< friend name="凡梦星尘空间站" url="https://lisenhui.cn" avatar="https://lisenhui.cn/imgs/avatar.png" desc="再平凡的人也有属于他的梦想！" >}}
+
+
+</div>
+
+<div class="friend">
+
+{{< friend name="米米的博客" url="https://zhangshuqiao.org" avatar="https://gravatar.loli.net/avatar/f56980e9dc026727282a04eea02b4f4d?s=512" desc="米米的博客！！" >}}
+
+
+</div>
+
+<div class="friend">
+
+{{< friend name="nopdan's blog" url="https://nopdan.com/" avatar="https://nopdan.com/avatar.webp" desc="但知行好事，莫要问前程" >}}
+
+
+</div>
+
+<div class="friend">
+
+{{< friend name="芝士部落格" url="https://blog.youmuwhisper.space" avatar="https://blog.youmuwhisper.space/images/avatar.jpg" desc="有思想，也有忧伤和理想" >}}
+
+
+</div>
+
+<div class="friend">
+
+{{< friend name="野生糖喵" url="https://candinya.com/" avatar="https://candinya.com/images/candinya.webp" desc="好伙伴们在哪里~" >}}
+
+
+</div>
+
+<div class="friend">
+
+{{< friend name="Project RC" url="https://stdrc.cc" avatar="https://stdrc.cc/static/favicons/favicon-32x32.png" desc="Richard Chien" >}}
+
+
+</div>
 
 
 {{< details " " >}}

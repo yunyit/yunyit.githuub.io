@@ -1,37 +1,41 @@
 <div class="friend" id="{{ .Get "id" }}">
   {{- with .Inner -}}
-    {{ . }}
-  {{- end -}}
+    {{ if .IsNamedParams }}
+      <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          var targetList = document.getElementById('{{ .Get "id" }}');
+          var myFriends = [
+                {{ range .Params }}
+                  ["{{ .url }}", "{{ .avatar }}", "{{ .name }}", "{{ .desc }}"],
+                {{ end }};
+              ];
+
+              // Randomize the order of myFriends array
+              myFriends.sort(function() {
+                return 0.5 - Math.random();
+              });
+
+              myFriends.forEach(function(friend) {
+                var friendNode = document.createElement("li");
+                var friendLink = document.createElement("a");
+                var friendImg = document.createElement("img");
+                var friendName = document.createElement("h4");
+                var friendAbout = document.createElement("p");
+
+                friendLink.target = "_blank";
+                friendLink.href = friend[0];
+                friendImg.src = friend[1];
+                friendName.innerText = friend[2];
+                friendAbout.innerText = friend[3];
+
+                friendLink.appendChild(friendImg);
+                friendLink.appendChild(friendName);
+                friendLink.appendChild(friendAbout);
+                friendNode.appendChild(friendLink);
+                targetList.appendChild(friendNode);
+              });
+            });
+      </script>
+    {{ end }}
+  {{- end }}
 </div>
-
-{{ if .IsNamedParams }}
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      var targetList = document.getElementById('{{ .Get "id" }}');
-      var myFriends = [
-            {{ range .Params }}
-              ["{{ .url }}", "{{ .avatar }}", "{{ .name }}", "{{ .desc }}"]
-            {{ end }}
-          ];
-
-          var rndNum = Math.floor(Math.random() * myFriends.length);
-          var friendNode = document.createElement("li");
-          var friendLink = document.createElement("a");
-          var friendImg = document.createElement("img");
-          var friendName = document.createElement("h4");
-          var friendAbout = document.createElement("p");
-
-          friendLink.target = "_blank";
-          friendLink.href = myFriends[rndNum][0];
-          friendImg.src = myFriends[rndNum][1];
-          friendName.innerText = myFriends[rndNum][2];
-          friendAbout.innerText = myFriends[rndNum][3];
-
-          friendLink.appendChild(friendImg);
-          friendLink.appendChild(friendName);
-          friendLink.appendChild(friendAbout);
-          friendNode.appendChild(friendLink);
-          targetList.appendChild(friendNode);
-        });
-  </script>
-{{ end }}
