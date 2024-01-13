@@ -170,6 +170,13 @@ SELECT * FROM Links WHERE blog = '正常安全网址，稳定域名，不要接�
 
 </div>
 
+<div class="friend">
+
+{{< friend name="Dejavu's Blog" url="https://blog.dejavu.moe/" avatar="https://blog.dejavu.moe/avatar.webp" desc="Not for success, just for growing." >}}
+
+
+</div>
+
 
 
 {{< details " " >}}
