@@ -83,22 +83,6 @@
   gtag('js', new Date());
 
   gtag('config', 'G-0K2EFCEZGW');
-</script>
-
-<script>
-  
-  function shuffleElements(container) {
-      var elements = Array.from(container.children);
-      for (var i = elements.length; i >= 0; i--) {
-          container.appendChild(elements[Math.random() * i | 0]);
-      }
-  }
-
-  
-  window.addEventListener('load', function () {
-      var container = document.getElementById('shuffle');
-      shuffleElements(container);
-  });
 </script><meta property="og:title" content="2023年终总结" />
 <meta property="og:description" content="博客建设 2023 年底把博客从 Ghost 搬到了 Github Pages，动手照着教程 Hugo &#43; PaperMod搭建技术博客 做了一个静态网页做博客，重心放在技术学习整理、以输出" />
 <meta property="og:type" content="article" />
@@ -546,6 +530,13 @@
             codeblock.parentNode.appendChild(copybutton);
         }
     });
+</script>
+<script>
+	function shuffleElements(container) {
+    for (var i = container.children.length; i >= 0; i--) {
+        container.appendChild(container.children[Math.random() * i | 0]);
+    }
+}
 </script>
 </body>
 

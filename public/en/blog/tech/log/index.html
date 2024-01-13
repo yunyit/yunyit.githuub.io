@@ -89,22 +89,6 @@
   gtag('js', new Date());
 
   gtag('config', 'G-0K2EFCEZGW');
-</script>
-
-<script>
-  
-  function shuffleElements(container) {
-      var elements = Array.from(container.children);
-      for (var i = elements.length; i >= 0; i--) {
-          container.appendChild(elements[Math.random() * i | 0]);
-      }
-  }
-
-  
-  window.addEventListener('load', function () {
-      var container = document.getElementById('shuffle');
-      shuffleElements(container);
-  });
 </script><meta property="og:title" content="Log" />
 <meta property="og:description" content="2022-09-21 Started blogging via Ghost on yunyi-tang.ghost.io.
 2022-09-26 Brought domain yunyitang.me from Google Domain, and link yunyi-tang.ghost.io to yunyitang.me.
@@ -572,6 +556,13 @@
             codeblock.parentNode.appendChild(copybutton);
         }
     });
+</script>
+<script>
+	function shuffleElements(container) {
+    for (var i = container.children.length; i >= 0; i--) {
+        container.appendChild(container.children[Math.random() * i | 0]);
+    }
+}
 </script>
 </body>
 

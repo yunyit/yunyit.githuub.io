@@ -84,22 +84,6 @@
   gtag('js', new Date());
 
   gtag('config', 'G-0K2EFCEZGW');
-</script>
-
-<script>
-  
-  function shuffleElements(container) {
-      var elements = Array.from(container.children);
-      for (var i = elements.length; i >= 0; i--) {
-          container.appendChild(elements[Math.random() * i | 0]);
-      }
-  }
-
-  
-  window.addEventListener('load', function () {
-      var container = document.getElementById('shuffle');
-      shuffleElements(container);
-  });
 </script><meta property="og:title" content="十一月在读" />
 <meta property="og:description" content="YUNYI IS CURRENTLY READING The Body Keeps the Score Mind, Brain and Body in the Transformation of Trauma by Bessel van der Kolk 冬牧场 作者：李娟, Jack Hargreaves (Translator), and Yan Yan (Translator) &lsquo;Encouraged by her neighbors, Li decides to join a family of Kazakh herders as they take their 30 boisterous camels, 500 sheep, and over 100 cattle and horses to pasture for" />
 <meta property="og:type" content="article" />
@@ -522,6 +506,13 @@
             codeblock.parentNode.appendChild(copybutton);
         }
     });
+</script>
+<script>
+	function shuffleElements(container) {
+    for (var i = container.children.length; i >= 0; i--) {
+        container.appendChild(container.children[Math.random() * i | 0]);
+    }
+}
 </script>
 </body>
 

@@ -84,22 +84,6 @@
   gtag('js', new Date());
 
   gtag('config', 'G-0K2EFCEZGW');
-</script>
-
-<script>
-  
-  function shuffleElements(container) {
-      var elements = Array.from(container.children);
-      for (var i = elements.length; i >= 0; i--) {
-          container.appendChild(elements[Math.random() * i | 0]);
-      }
-  }
-
-  
-  window.addEventListener('load', function () {
-      var container = document.getElementById('shuffle');
-      shuffleElements(container);
-  });
 </script><meta property="og:title" content="About Me 👋🏼" />
 <meta property="og:description" content="class Me: def __init__(self): self.name = &#34;Yunyi Tang&#34; self.prefer_name = &#34;Yunyi&#34; self.born_year = 1998 self.MBTI = INFJ self.hometown = &#34;Guangzhou, Guangdong, CN&#34; self.curr_location = &#34;Bristol, UK&#34; self.grad_school = &#34;uBristol&#34; self.undergrad_school = &#34;SDU&#34; " />
 <meta property="og:type" content="article" />
@@ -403,6 +387,13 @@
             codeblock.parentNode.appendChild(copybutton);
         }
     });
+</script>
+<script>
+	function shuffleElements(container) {
+    for (var i = container.children.length; i >= 0; i--) {
+        container.appendChild(container.children[Math.random() * i | 0]);
+    }
+}
 </script>
 </body>
 

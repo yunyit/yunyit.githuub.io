@@ -28,20 +28,4 @@
 
   gtag('config', 'G-0K2EFCEZGW');
 </script>
-<!-- random friend list on page load-->
-<script>
-  // Function to shuffle the order of elements within a container
-  function shuffleElements(container) {
-      var elements = Array.from(container.children);
-      for (var i = elements.length; i >= 0; i--) {
-          container.appendChild(elements[Math.random() * i | 0]);
-      }
-  }
-
-  // Wait for the page to fully load before shuffling the elements
-  window.addEventListener('load', function () {
-      var container = document.getElementById('shuffle');
-      shuffleElements(container);
-  });
-</script>
 {{- /* Head custom content area end */ -}}

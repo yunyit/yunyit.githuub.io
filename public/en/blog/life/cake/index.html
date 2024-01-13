@@ -83,22 +83,6 @@
   gtag('js', new Date());
 
   gtag('config', 'G-0K2EFCEZGW');
-</script>
-
-<script>
-  
-  function shuffleElements(container) {
-      var elements = Array.from(container.children);
-      for (var i = elements.length; i >= 0; i--) {
-          container.appendChild(elements[Math.random() * i | 0]);
-      }
-  }
-
-  
-  window.addEventListener('load', function () {
-      var container = document.getElementById('shuffle');
-      shuffleElements(container);
-  });
 </script><meta property="og:title" content="Burnt Basque Cheesecake" />
 <meta property="og:description" content="Translation source: 真网红流心巴斯克蛋糕，满满细节，大写好吃！【马壮实Maxkitchen】 Size: 6 inch round cake tin Ingredients Cream Cheese 350g Sugar 90g 2 Eggs &#43; 1 Egg Yolk Cream 150g Low Gluten Flour (Corn Flour works well too!) 10g Method #1 Cream" />
 <meta property="og:type" content="article" />
@@ -632,6 +616,13 @@
             codeblock.parentNode.appendChild(copybutton);
         }
     });
+</script>
+<script>
+	function shuffleElements(container) {
+    for (var i = container.children.length; i >= 0; i--) {
+        container.appendChild(container.children[Math.random() * i | 0]);
+    }
+}
 </script>
 </body>
 

@@ -83,22 +83,6 @@
   gtag('js', new Date());
 
   gtag('config', 'G-0K2EFCEZGW');
-</script>
-
-<script>
-  
-  function shuffleElements(container) {
-      var elements = Array.from(container.children);
-      for (var i = elements.length; i >= 0; i--) {
-          container.appendChild(elements[Math.random() * i | 0]);
-      }
-  }
-
-  
-  window.addEventListener('load', function () {
-      var container = document.getElementById('shuffle');
-      shuffleElements(container);
-  });
 </script><meta property="og:title" content="谷歌套件替换使用状况" />
 <meta property="og:description" content="原链：豆瓣笔记 首先，利益相关，谷歌全家桶吹，科技产品苦手。 其次，整理出来的意思当然不是说，国内相关软件的目标就是完美模仿谷歌，这太ummm了" />
 <meta property="og:type" content="article" />
@@ -466,6 +450,13 @@
             codeblock.parentNode.appendChild(copybutton);
         }
     });
+</script>
+<script>
+	function shuffleElements(container) {
+    for (var i = container.children.length; i >= 0; i--) {
+        container.appendChild(container.children[Math.random() * i | 0]);
+    }
+}
 </script>
 </body>
 

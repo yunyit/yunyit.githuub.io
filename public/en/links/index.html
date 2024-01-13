@@ -84,22 +84,6 @@
   gtag('js', new Date());
 
   gtag('config', 'G-0K2EFCEZGW');
-</script>
-
-<script>
-  
-  function shuffleElements(container) {
-      var elements = Array.from(container.children);
-      for (var i = elements.length; i >= 0; i--) {
-          container.appendChild(elements[Math.random() * i | 0]);
-      }
-  }
-
-  
-  window.addEventListener('load', function () {
-      var container = document.getElementById('shuffle');
-      shuffleElements(container);
-  });
 </script><meta property="og:title" content="Links" />
 <meta property="og:description" content="Barney’s Blog All the truth is simple 豆豆 / Amos 无限进步.✍️ Bing&#39;s Blog 自由 分享 合作 L1nSn0w&#39;s Blog 无限进步.✍️ Cynosura Trying to light up the dark. Empty SEKAI 一只游荡在无人 SEKAI 的小白葱 Aiar&#39;s Site 愿余生所有" />
 <meta property="og:type" content="article" />
@@ -571,6 +555,13 @@
             codeblock.parentNode.appendChild(copybutton);
         }
     });
+</script>
+<script>
+	function shuffleElements(container) {
+    for (var i = container.children.length; i >= 0; i--) {
+        container.appendChild(container.children[Math.random() * i | 0]);
+    }
+}
 </script>
 </body>
 

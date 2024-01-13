@@ -83,22 +83,6 @@
   gtag('js', new Date());
 
   gtag('config', 'G-0K2EFCEZGW');
-</script>
-
-<script>
-  
-  function shuffleElements(container) {
-      var elements = Array.from(container.children);
-      for (var i = elements.length; i >= 0; i--) {
-          container.appendChild(elements[Math.random() * i | 0]);
-      }
-  }
-
-  
-  window.addEventListener('load', function () {
-      var container = document.getElementById('shuffle');
-      shuffleElements(container);
-  });
 </script><meta property="og:title" content="Obsidian工作笔记" />
 <meta property="og:description" content="启用日期：2024-01-09 应用场景：工作笔记 自定义：荷叶绿 HEYELV #1A6840 RGB(26, 104, 64)；字体 JetBrains Mono 常用功能属性 daily template interlink tags YAML 分类方法 标签：PARA &#43; 工作内容" />
 <meta property="og:type" content="article" />
@@ -590,6 +574,13 @@
             codeblock.parentNode.appendChild(copybutton);
         }
     });
+</script>
+<script>
+	function shuffleElements(container) {
+    for (var i = container.children.length; i >= 0; i--) {
+        container.appendChild(container.children[Math.random() * i | 0]);
+    }
+}
 </script>
 </body>
 

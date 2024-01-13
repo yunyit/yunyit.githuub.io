@@ -43,25 +43,6 @@ SELECT * FROM Links WHERE blog = '正常安全网址，稳定域名，不要接�
 
 以下站点按照添加的时间顺序排列：
 
-<script>
-    // Function to shuffle the order of elements within a container
-    function shuffleElements(container) {
-        var elements = Array.from(container.children);
-        for (var i = elements.length; i >= 0; i--) {
-            container.appendChild(elements[Math.random() * i | 0]);
-        }
-    }
-
-    // Wait for the page to fully load before shuffling the elements
-    window.addEventListener('load', function () {
-        var container = document.getElementById('shuffle');
-        shuffleElements(container);
-    });
-</script>
-
-<div id="shuffle">
-
-
 <div class="friend">
 
 {{< friend name="Barney’s Blog" url="https://hugo.bnblogs.cc/" avatar="https://hugo.bnblogs.cc/images/img/20220215001349.png" desc="All the truth is simple" >}}
@@ -186,8 +167,6 @@ SELECT * FROM Links WHERE blog = '正常安全网址，稳定域名，不要接�
 
 {{< friend name="Project RC" url="https://stdrc.cc" avatar="https://stdrc.cc/static/favicons/favicon-32x32.png" desc="Richard Chien" >}}
 
-
-</div>
 
 </div>
 
