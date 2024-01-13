@@ -36,12 +36,10 @@ weight: null
 
 平时整理博文的时候，也向 [友链](http://yunyitang.me/zh/links/) 的大家学习了不少。一一列在友链页面有些太臃肿了，所以单独整理在这页。
 
----
 
-[Obsidian 工作笔记](http://yunyitang.me/zh/blog/tech/obsedian/) -
+- [Obsidian 工作笔记](http://yunyitang.me/zh/blog/tech/obsedian/) -
 [RC](https://stdrc.cc) 总结的 [中文写作风格指南](https://stdrc.cc/style-guides/chinese)；
-[Barney](https://hugo.bnblogs.cc) 的 [yaml 语法](https://hugo.bnblogs.cc/yaml语法/) 整理；
+- [Barney](https://hugo.bnblogs.cc) 的 [yaml 语法](https://hugo.bnblogs.cc/yaml语法/) 整理；
 
----
 
 持续整理中，更多友链相关请看 [这里](http://yunyitang.me/zh/links/) 👋🏼

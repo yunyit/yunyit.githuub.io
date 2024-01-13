@@ -49,7 +49,7 @@ weight: null
 
 > 2024-01-08 在中文页面添加 [归档（Archives）](https://www.yunyitang.me/zh/archives/)。
 
-> 2024-01-10 启用 [uptimerobot](https://uptimerobot.com/api/) 判断友链可访问性；限制文章最多显示5个[tag](https://www.yunyitang.me/zh/tags/)；添加 [umami](https://umami.is) 流量统计并添加于页脚。
+> 2024-01-10 启用 [uptimerobot](https://uptimerobot.com/api/) 判断友链可访问性；限制文章最多显示 5 个 [tag](https://www.yunyitang.me/zh/tags/)；添加 [umami](https://analytics.eu.umami.is/share/mNvu6TLrju52UZ97/Yunyi's%20Blog) 流量统计并添加于页脚。
 
 ---
 
