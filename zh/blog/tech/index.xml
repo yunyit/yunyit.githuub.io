@@ -6,7 +6,16 @@
     <description>Recent content in 技术 🔧 on Yunyi&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 12 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.yunyitang.me/zh/blog/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.yunyitang.me/zh/blog/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>YAML</title>
+      <link>https://www.yunyitang.me/zh/blog/tech/ymal/</link>
+      <pubDate>Sat, 13 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.yunyitang.me/zh/blog/tech/ymal/</guid>
+      <description>认知始于 Markdown 文件，不知道终于哪儿。 定义 YAML Ain&amp;rsquo;t a Markup Language / Yet Another Markup Language 文件后缀：.yml 或 .yaml 注释：井号 或 哈希符号 # 结构：映射或列表，遵循层次结构，具体取决</description>
+    </item>
+    
     <item>
       <title>友链相关阅读</title>
       <link>https://www.yunyitang.me/zh/blog/tech/link-posts/</link>
@@ -40,7 +49,7 @@
       <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.yunyitang.me/zh/blog/tech/regular-expression/</guid>
-      <description>认知始于Excel，不知道终于哪儿。 介绍与应用 属性：用于匹配和操作文本的工具 设计思想：用一种描述性的语言来给字符串定义一个规则，凡是符合规则</description>
+      <description>认知始于 Excel，不知道终于哪儿。 介绍与应用 属性：用于匹配和操作文本的工具 设计思想：用一种描述性的语言来给字符串定义一个规则，凡是符合规则</description>
     </item>
     
     <item>
