@@ -24,13 +24,13 @@
         {{- $img = $img.Resize "50x50" }}
         {{- end }}
         {{- end }}
-        <img draggable="false" src="{{ $img.Permalink }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
+        <a href="https://www.yunyitang.me/img/Avatar.png" ><img draggable="false" src="{{ $img.Permalink }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
         height="{{ .imageHeight | default 50 }}" width="{{ .imageWidth | default 100 }}" style="border-radius: 50%!important; 
-        background-color: #fff; padding: 2px;" />
+        background-color: #fff; padding: 2px;" /></a>
         {{- else }}
-        <img draggable="false" src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
+        <a href="https://www.yunyitang.me/img/Avatar.png" ><img draggable="false" src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
         height="{{ .imageHeight | default 50 }}" width="{{ .imageWidth | default 100 }}" style="border-radius: 50%!important; 
-        background-color: #fff; padding: 2px;" />
+        background-color: #fff; padding: 2px;" /></a>
         {{- end }}
         {{- end }}
     </div>

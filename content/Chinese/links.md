@@ -116,7 +116,7 @@ SELECT * FROM Links WHERE blog = '正常安全网址，稳定域名，不要接�
 
 <div class="friend">
 
-{{< friend name="Chawye Hsu" url="https://chawyehsu.com" avatar="https://chawyehsu.com/favicon.ico" desc="Personal Website of Chawye Hsu" >}}
+{{< friend name="Chawye Hsu" url="https://chawyehsu.com" avatar="https://avatars.githubusercontent.com/u/5764917?v=4" desc="Personal Website of Chawye Hsu" >}}
 
 
 </div>
@@ -158,7 +158,7 @@ SELECT * FROM Links WHERE blog = '正常安全网址，稳定域名，不要接�
 
 <div class="friend">
 
-{{< friend name="Project RC" url="https://stdrc.cc" avatar="https://stdrc.cc/static/favicons/favicon-32x32.png" desc="Richard Chien" >}}
+{{< friend name="Project RC" url="https://stdrc.cc" avatar="https://avatars.githubusercontent.com/u/5317095?v=4" desc="Richard Chien" >}}
 
 
 </div>
@@ -169,6 +169,14 @@ SELECT * FROM Links WHERE blog = '正常安全网址，稳定域名，不要接�
 
 
 </div>
+
+<div class="friend">
+
+{{< friend name="绒绒洛" url="https://qwq.dog" avatar="https://qwq.dog/pic/avatar.png" desc="俯いたまま大人になって" >}}
+
+
+</div>
+
 
 
 

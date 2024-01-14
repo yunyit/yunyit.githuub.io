@@ -60,8 +60,7 @@ weight: null
 
 1. 豆瓣卡片；
 2. 工具栏；
-3. 音乐播放器；
-4. UptimeRobot API；
+3. UptimeRobot API；
 
 ---
 
