@@ -182,7 +182,7 @@ languages:
             homeInfoParams:
               enabled: true
               Title: Yunyi's Blog
-              Content: Little squirrel Hopping around
+              Content: const desc = "Little squirrel Hopping around";
               imageUrl: "img/Avatar.png"
               imageWidth: 110
               imageHeight: 110     
