@@ -16,7 +16,7 @@
 2023-12-20 Built the twikoo commenting system via MongoDB and Vercel, and posted the first comment on yunyitang.">
 <meta name="author" content="Yunyi">
 <link rel="canonical" href="https://www.yunyitang.me/en/blog/tech/log/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.86130342f4c4dcb63a12bb9e268cf468a86c5c5a0f95138f65f0039aedc43192.css" integrity="sha256-hhMDQvTE3LY6ErueJoz0aKhsXFoPlROPZfADmu3EMZI=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.a379412c4ca886825ab6988786ab138d28a891b3de631ab0537542a79633af6c.css" integrity="sha256-o3lBLEyohoJatpiHhqsTjSiokbPeYxqwU3VCp5Yzr2w=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://www.yunyitang.me/favicon/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://www.yunyitang.me/favicon/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.yunyitang.me/favicon/favicon-32x32.png">
@@ -87,7 +87,18 @@
   gtag('js', new Date());
 
   gtag('config', 'G-0K2EFCEZGW');
-</script><meta property="og:title" content="Log" />
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0K2EFCEZGW"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-0K2EFCEZGW', { 'anonymize_ip': false });
+}
+</script>
+<meta property="og:title" content="Log" />
 <meta property="og:description" content="2022-09-21 Started blogging via Ghost on yunyi-tang.ghost.io.
 2022-09-26 Brought domain yunyitang.me from Google Domain, and link yunyi-tang.ghost.io to yunyitang.me.
 2023-11-1 The subscription from Ghost ended and yunyi-tang.ghost.io deactivated.
@@ -414,22 +425,31 @@
   </footer>
   
   <div id="disqus_thread"></div>
-<script type="text/javascript">
-
-(function() {
+<script>
     
     
     if (window.location.hostname == "localhost")
         return;
+    
 
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    var disqus_shortname = '';
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-})();
+    
+    var disqus_config = function () {
+        this.page.url = "https://www.yunyitang.me/";  
+        this.page.identifier = PAGE_IDENTIFIER; 
+
+    
+        var languageCode = 'en';  
+        this.language = languageCode.toLowerCase();  
+    };
+    
+    (function() { 
+        var d = document, s = d.createElement('script');
+        s.src = 'https://yunyitang-me.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 </article>
     </main>
     
