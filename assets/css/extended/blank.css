@@ -204,7 +204,7 @@ body {
 
 #home-info-header:hover,
 #profile-header:hover {
-    transition: transform 0.1s; /* 动画时间 */
+    transition: transform 0.15s; /* 动画时间 */
     webkit-transform: scale(1.02); /* Safari 和 Chrome */
     -moz-transform: scale(1.02); /* Firefox */
     -ms-transform: scale(1.02); /* IE 9 */
