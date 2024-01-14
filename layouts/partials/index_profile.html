@@ -30,7 +30,7 @@
             height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
         {{- end }}
         {{- end }}
-        <h1>{{ .title | default site.Title | markdownify }}</h1>
+        <a href="https://www.yunyitang.me/zh/"><h1 id="profile-header">{{ .title | default site.Title | markdownify }}</h1></a>
         <span>{{ .subtitle | markdownify }}</span>
         {{- partial "social_icons.html" -}}
 

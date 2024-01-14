@@ -202,6 +202,23 @@ body {
     }
 }
 
+#home-info-header:hover,
+#profile-header:hover {
+    background: var(--theme);
+    transition: transform 0.1s; /* 动画时间 */
+    webkit-transform: scale(1.02); /* Safari 和 Chrome */
+    -moz-transform: scale(1.02); /* Firefox */
+    -ms-transform: scale(1.02); /* IE 9 */
+    -o-transform: scale(1.02); /* Opera */
+    transform: scale(1.02); /* W3C */
+}
+
+#home-info-desc:hover {
+    background: var(--theme);
+    transition: 0.15s;
+    color: var(--secondary);
+}
+
 /* GitHub 链接样式 */
 .post-content a {
     color: #0969da;

@@ -35,11 +35,11 @@
         {{- end }}
     </div>
     {{- end }}
-    <header class="entry-header" style="padding-top: 20px; padding-bottom: 0;">
-        <h1>{{ .Title | markdownify }}</h1>
+    <header id="home-info-header" class="entry-header" style="margin-top: 20px; margin-bottom: 0;">
+        <a href="https://www.yunyitang.me/en/"><h1>{{ .Title | markdownify }}</h1></a>
     </header>
     <div class="entry-content" style="padding-top: 0; padding-bottom: 0; font-size: 1rem;">
-        {{ .Content | markdownify }}
+        <a id="home-info-desc" href="https://www.yunyitang.me/zh/about/">{{ .Content | markdownify }}</a>
     </div>
     <footer class="entry-footer">
         {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
