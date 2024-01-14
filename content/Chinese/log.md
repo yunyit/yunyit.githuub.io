@@ -1,10 +1,9 @@
 ---
 Tags:
 - Hugo
-- 建站
 - MongoDB
 - Vercel
-- SEO
+- 建站
 - Log
 TocOpen: true
 author:

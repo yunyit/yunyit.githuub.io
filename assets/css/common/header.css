@@ -40,23 +40,23 @@ svg:hover {
     transition: 0.15s;
 }
 
-.social-icons a:nth-child(1) svg:hover{
+.social-icons a[href*="github"]:hover svg {
     color: #333 !important;
 }
 
-.social-icons a:nth-child(2) svg:hover {
+.social-icons a[href*="linkedin"]:hover svg {
     color: #0A66C2 !important;
 }
 
-.social-icons a:nth-child(3) svg:hover {
+.social-icons a[href*="instagram"]:hover svg {
     color: #d62976 !important;
 }
 
-.social-icons a:nth-child(4) svg:hover {
+.social-icons a[href*="goodreads"]:hover svg {
     color: #75420e !important;
 }
 
-.social-icons a:nth-child(5) svg:hover {
+.social-icons a[href^="mailto"]:hover svg {
     color: #f2a60c !important;
 }
 
