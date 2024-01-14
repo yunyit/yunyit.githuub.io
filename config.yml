@@ -41,6 +41,7 @@ params:
   VisitCount: true
   ShowLastMod: true #显示文章更新时间
   ShowFullTextinRSS: false # RSS全文输出
+  hideTags: false # 隐藏标签
 
   ShowToc: true # 显示目录
   TocOpen: true # 自动展开目录
@@ -70,6 +71,7 @@ params:
         threshold: 1
         minMatchCharLength: 0
         keys: ["title", "permalink", "summary"]
+
 
 services:
   disqus: # https://gohugo.io/templates/internal/#disqus
@@ -171,16 +173,17 @@ languages:
             - identifier: search
               name: 搜索
               url: /zh/search/
-              weight: 70
+              weight: 60
             - identifier: travellings
               name: 开往
               url: https://www.travellings.cn/go.html
-              weight: 80
+              weight: 70
         params:
             homeInfoParams:
               enabled: true
               Title: Yunyi's Blog
-              Content: const desc = "Little squirrel Hopping around";
+              Content: >
+                const desc = "Little squirrel Hopping around"; </br>
               imageUrl: "img/Avatar.png"
               imageWidth: 110
               imageHeight: 110   

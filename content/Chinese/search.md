@@ -1,5 +1,5 @@
 ---
 layout: search
-placeholder: 请输入
+placeholder: "\U0001F579️ 是标签页哦！"
 title: 搜索
 ---

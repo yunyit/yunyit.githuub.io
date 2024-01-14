@@ -177,6 +177,12 @@ SELECT * FROM Links WHERE blog = '正常安全网址，稳定域名，不要接�
 
 </div>
 
+<div class="friend">
+
+{{< friend name="lvbibir's Blog" url="https://www.lvbibir.cn" avatar="https://www.lvbibir.cn/img/avatar.gif" desc="life is a fucking movie" >}}
+
+
+</div>
 
 
 
