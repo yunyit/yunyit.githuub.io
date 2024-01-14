@@ -204,7 +204,6 @@ body {
 
 #home-info-header:hover,
 #profile-header:hover {
-    background: var(--theme);
     transition: transform 0.1s; /* 动画时间 */
     webkit-transform: scale(1.02); /* Safari 和 Chrome */
     -moz-transform: scale(1.02); /* Firefox */
@@ -214,7 +213,6 @@ body {
 }
 
 #home-info-desc:hover {
-    background: var(--theme);
     transition: 0.15s;
     color: var(--secondary);
 }
