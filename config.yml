@@ -52,7 +52,7 @@ languages:
         profileMode:
           enabled: true
           title: Yunyi Tang
-          subtitle: Little squirrel Hopping around
+          subtitle: Little squirrel Hopping around 
           imageUrl: "img/Avatar.png"
           imageTitle: 
           imageWidth: 150
