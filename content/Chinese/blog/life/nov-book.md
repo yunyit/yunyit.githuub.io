@@ -10,7 +10,7 @@ cover:
   caption: ""
   image: ""
   relative: false
-date: "2023-12-1"
+date: "2023-11-30"
 description: ""
 disableShare: true
 draft: false

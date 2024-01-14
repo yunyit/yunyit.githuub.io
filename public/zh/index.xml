@@ -89,6 +89,15 @@
     </item>
     
     <item>
+      <title>十一月在读</title>
+      <link>https://www.yunyitang.me/zh/blog/life/nov-book/</link>
+      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.yunyitang.me/zh/blog/life/nov-book/</guid>
+      <description>YUNYI IS CURRENTLY READING The Body Keeps the Score Mind, Brain and Body in the Transformation of Trauma by Bessel van der Kolk 冬牧场 作者：李娟, Jack Hargreaves (Translator), and Yan Yan (Translator) &amp;lsquo;Encouraged by her neighbors, Li decides to join a family of Kazakh herders as they take their 30 boisterous camels, 500 sheep, and over 100 cattle and horses to pasture for</description>
+    </item>
+    
+    <item>
       <title>十一月在看</title>
       <link>https://www.yunyitang.me/zh/blog/life/nov-film/</link>
       <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
@@ -103,7 +112,7 @@
       <pubDate>Tue, 07 Nov 2023 14:31:25 +0000</pubDate>
       
       <guid>https://www.yunyitang.me/zh/about/</guid>
-      <description>关于博主 class Me: def __init__(self): self.name = &amp;#34;Yunyi Tang&amp;#34; self.prefer_name = &amp;#34;Yunyi&amp;#34; self.born_year = 1998 self.MBTI = INFJ self.hometown = &amp;#34;Guangzhou, Guangdong, CN&amp;#34; self.curr_location = &amp;#34;Bristol, UK&amp;#34; self.grad_school = &amp;#34;uBristol&amp;#34; self.undergrad_school = &amp;#34;SDU&amp;#34; 关于本站 本站通过 Hugo 的 PaperMod 生成，并托管在 Github Pages 上 本站图标来自 Evangelion: 3.0 You Can (Not) Redo 本</description>
+      <description>关于博主 class Me: def __init__(self): self.name = &amp;#34;Yunyi Tang&amp;#34; self.prefer_name = &amp;#34;Yunyi&amp;#34; self.born_year = 1998 self.MBTI = INFJ self.hometown = &amp;#34;Guangzhou, Guangdong, CN&amp;#34; self.curr_location = &amp;#34;Bristol, UK&amp;#34; self.grad_school = &amp;#34;uBristol&amp;#34; self.undergrad_school = &amp;#34;SDU&amp;#34; 关于本站 本站通过 Hugo 的 PaperMod 生成，并托管在 Github Pages 上； 本站图标来自 Evangelion: 3.0 You Can (Not) R</description>
     </item>
     
     <item>
@@ -169,15 +178,6 @@
       <description>原链：豆瓣笔记 首先，利益相关，谷歌全家桶吹，科技产品苦手。 其次，整理出来的意思当然不是说，国内相关软件的目标就是完美模仿谷歌，这太ummm了</description>
     </item>
     
-    
-    <item>
-      <title>十一月在读</title>
-      <link>https://www.yunyitang.me/zh/blog/life/nov-book/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.yunyitang.me/zh/blog/life/nov-book/</guid>
-      <description>YUNYI IS CURRENTLY READING The Body Keeps the Score Mind, Brain and Body in the Transformation of Trauma by Bessel van der Kolk 冬牧场 作者：李娟, Jack Hargreaves (Translator), and Yan Yan (Translator) &amp;lsquo;Encouraged by her neighbors, Li decides to join a family of Kazakh herders as they take their 30 boisterous camels, 500 sheep, and over 100 cattle and horses to pasture for</description>
-    </item>
     
     
   </channel>

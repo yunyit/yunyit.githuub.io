@@ -130,13 +130,6 @@ SELECT * FROM Links WHERE blog = '正常安全网址，稳定域名，不要接�
 
 <div class="friend">
 
-{{< friend name="凡梦星尘空间站" url="https://lisenhui.cn" avatar="https://lisenhui.cn/imgs/avatar.png" desc="再平凡的人也有属于他的梦想！" >}}
-
-
-</div>
-
-<div class="friend">
-
 {{< friend name="米米的博客" url="https://zhangshuqiao.org" avatar="https://gravatar.loli.net/avatar/f56980e9dc026727282a04eea02b4f4d?s=512" desc="米米的博客！！" >}}
 
 
@@ -180,7 +173,7 @@ SELECT * FROM Links WHERE blog = '正常安全网址，稳定域名，不要接�
 
 
 {{< details " " >}}
-友链会定期清理，如果出现没有互关、网站无法访问、内容违法等情况会立即删除！如有我忘记添加友链的小伙伴，请及时留言给我！
+友链会定期清理，如果出现没有互关、网站无法访问、内容违法等情况会删除。如有我忘记添加友链的小伙伴，请及时留言给我！
 
 本次清理友链时间为 2024-01-12，预计三个月清理一次!
 {{< /details >}}

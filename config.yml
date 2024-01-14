@@ -91,7 +91,7 @@ languages:
               weight: 20
             - identifier: blog
               name: 博客
-              url: /zh/blog/tech/
+              url: /zh/blog/
               weight: 30
             - identifier: links
               name: 友链
@@ -101,22 +101,21 @@ languages:
               name: 🕹️ 
               url: /zh/tags/
               weight: 50
-            - identifier: archives
-              name: 归档
-              url: /zh/archives/
-              weight: 60
             - identifier: search
               name: 搜索
               url: /zh/search/
               weight: 70
-        profileMode:
+            - identifier: travellings
+              name: 开往
+              url: https://www.travellings.cn/go.html
+              weight: 80
+        homeInfoParams:
           enabled: true
-          title: Yunyi Tang
-          subtitle: Little squirrel Hopping around
+          Title: Yunyi's Blog
+          Content: Little squirrel Hopping around
           imageUrl: "img/Avatar.png"
-          imageTitle: 
-          imageWidth: 150
-          imageHeight: 150
+          imageWidth: 100
+          imageHeight: 100
           buttons:
             - name: 关于
               url: /zh/about/
@@ -127,6 +126,8 @@ languages:
         socialIcons:
             - name: github
               url: "https://github.com/yunyit"
+            - name: linkedin
+              url: "https://www.linkedin.com/in/yunyitang820/"
             - name: instagram
               url: "https://www.instagram.com/yunyi_cam/"
             - name: goodreads

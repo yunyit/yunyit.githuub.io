@@ -51,6 +51,8 @@ weight: null
 
 > 2024-01-10 启用 [uptimerobot](https://uptimerobot.com/api/) 判断友链可访问性；限制文章最多显示 5 个 [tag](https://www.yunyitang.me/zh/tags/)；添加 [umami](https://analytics.eu.umami.is/share/mNvu6TLrju52UZ97/Yunyi's%20Blog) 流量统计并添加于页脚。
 
+> 2024-01-14 中文页面更换为 [Home-Info Mode](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#home-info-mode)，增加博文的主页展示面积，并在 [PaperMod 模板](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#home-info-mode) 的基础上添加网站头像。
+
 ---
 
 
