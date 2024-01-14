@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>技术 👩🏻‍💻 on Yunyi&#39;s Blog</title>
+    <link>https://www.yunyitang.me/zh/blog/tech/</link>
+    <description>Recent content in 技术 👩🏻‍💻 on Yunyi&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 13 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.yunyitang.me/zh/blog/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>YAML</title>
+      <link>https://www.yunyitang.me/zh/blog/tech/ymal/</link>
+      <pubDate>Sat, 13 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/blog/tech/ymal/</guid>
+      <description>认知始于 Markdown 文件，不知道终于哪儿。 定义 YAML Ain&amp;rsquo;t a Markup Language / Yet Another Markup Language 文件后缀：.yml 或 .yaml 注释：井号 或 哈希符号 # 结构：映射或列表，遵循层次结构，具体取决</description>
+    </item>
+    <item>
+      <title>友链相关阅读</title>
+      <link>https://www.yunyitang.me/zh/blog/tech/link-posts/</link>
+      <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/blog/tech/link-posts/</guid>
+      <description>在这个独立博客式微的时代，友情链接的意义是什么？ 和 Medium、简书之类的写作平台不同，每一个独立博客都是一个信息孤岛。我们没有类似「你可能</description>
+    </item>
+    <item>
+      <title>Obsidian工作笔记</title>
+      <link>https://www.yunyitang.me/zh/blog/tech/obsedian/</link>
+      <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/blog/tech/obsedian/</guid>
+      <description>启用日期：2024-01-09 应用场景：工作笔记 自定义：荷叶绿 HEYELV #1A6840 RGB(26, 104, 64)；字体 JetBrains Mono 常用功能属性 daily template interlink tags YAML 分类方法 标签：PARA + 工作内容</description>
+    </item>
+    <item>
+      <title>JSON</title>
+      <link>https://www.yunyitang.me/zh/blog/tech/json/</link>
+      <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/blog/tech/json/</guid>
+      <description>在实习公司的数据岗位还挺常用的。 定义 JavaScript Object Notation - { &amp;#34;key&amp;#34;: &amp;#34;value&amp;#34;, &amp;#34;key2&amp;#34;: &amp;#34;value2&amp;#34; } 网络传输中常使用的格式：以节省内存和传输所用的网络带宽 {&amp;#34;key&amp;#34;:&amp;#34;value&amp;#34;,&amp;#34;key2&amp;#34;:&amp;#34;value2&amp;#34;} 数据类型 文本/字符串 Strings { &amp;#34;key&amp;#34;: &amp;#34;value&amp;#34;</description>
+    </item>
+    <item>
+      <title>正则表达式</title>
+      <link>https://www.yunyitang.me/zh/blog/tech/regular-expression/</link>
+      <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/blog/tech/regular-expression/</guid>
+      <description>认知始于 Excel，不知道终于哪儿。 介绍与应用 属性：用于匹配和操作文本的工具 设计思想：用一种描述性的语言来给字符串定义一个规则，凡是符合规则</description>
+    </item>
+    <item>
+      <title>R可视化</title>
+      <link>https://www.yunyitang.me/zh/blog/tech/r-visualising/</link>
+      <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/blog/tech/r-visualising/</guid>
+      <description>因为实习兼职的公司用R，温习如下，示例取自此项目。 可视化libraries library(readr) library(ggplot2) library(dplyr) 导入数据 将csv导入dataset Read datasets/confirmed_cases_worldwide.csv into confirmed_cases_worldwide 选择部分数据 # Filter for</description>
+    </item>
+    <item>
+      <title>个人常用MacOS软件清单</title>
+      <link>https://www.yunyitang.me/zh/blog/tech/common-software-list/</link>
+      <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/blog/tech/common-software-list/</guid>
+      <description>在日常工作中，合适的效率工具能帮助我们快速完成工作，起到事半功倍的效果。 下面是我常用的一些软件，个人用起来比较得心应手，推荐给大家。按照软件</description>
+    </item>
+    <item>
+      <title>谷歌套件替换使用状况</title>
+      <link>https://www.yunyitang.me/zh/blog/tech/google-2019/</link>
+      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/blog/tech/google-2019/</guid>
+      <description>原链：豆瓣笔记 首先，利益相关，谷歌全家桶吹，科技产品苦手。 其次，整理出来的意思当然不是说，国内相关软件的目标就是完美模仿谷歌，这太ummm了</description>
+    </item>
+  </channel>
+</rss>

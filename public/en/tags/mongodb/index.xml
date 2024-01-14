@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MongoDB on Yunyi&#39;s Blog</title>
+    <link>https://www.yunyitang.me/en/tags/mongodb/</link>
+    <description>Recent content in MongoDB on Yunyi&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 21 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.yunyitang.me/en/tags/mongodb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Log</title>
+      <link>https://www.yunyitang.me/en/blog/tech/log/</link>
+      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/en/blog/tech/log/</guid>
+      <description>2022-09-21 Started blogging via Ghost on yunyi-tang.ghost.io.
+2022-09-26 Brought domain yunyitang.me from Google Domain, and link yunyi-tang.ghost.io to yunyitang.me.
+2023-11-1 The subscription from Ghost ended and yunyi-tang.ghost.io deactivated.
+2023-11-7 Migrated personal blog to Github Pages（yunyit.github.io）and disconnected the domain yunyitang.me from yunyi-tang.ghost.io.
+2023-11-9 Rebuilt blog via Hugo and PaperMod with both English blogging and Chinese blogging.
+2023-12-19 Started building the twikoo commenting system for the blog.
+2023-12-20 Built the twikoo commenting system via MongoDB and Vercel, and posted the first comment on yunyitang.</description>
+    </item>
+  </channel>
+</rss>

@@ -15,9 +15,84 @@ enableEmoji: true # 允许使用 Emoji 表情，建议 true
 enableRobotsTXT: true # 允许爬虫抓取到搜索引擎，建议 true
 hasCJKLanguage: true # 自动检测是否包含 中文日文韩文 如果文章中使用了很多中文引号的话可以开启
 
-defaultContentLanguage: en
-defaultContentLanguageInSubdir: true
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary for the search function
 
+# 这里的参数会被代码以 .Site.Params 的形式读取
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "Yunyi 的技术博客"
+  author: Yunyi
+  defaultTheme: auto  # defaultTheme: light or  dark 
+  disableThemeToggle: false
+  DateFormat: "2006-01-02"
+  ShowShareButtons: false
+  ShowReadingTime: true
+  # disableSpecialistPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideFooter: false # 隐藏页脚
+  ShowWordCounts: true
+  VisitCount: true
+  ShowLastMod: true #显示文章更新时间
+  ShowFullTextinRSS: false # RSS全文输出
+
+  ShowToc: true # 显示目录
+  TocOpen: true # 自动展开目录
+
+  extendCodeBackground: false # 代码块是否自动横向展开
+
+  comments: true 
+  twikoo: 
+      version: 1.6.27 # 这个版本号要自己手动修改，和twikoo的版本号要对得上
+      # tkserver - bdayTtyy!
+      # MangoDB yunyit - HsdK3JAKhZbsUnAq Gmail-longin
+      # mongodb+srv://yunyit:HsdK3JAKhZbsUnAq@cluster0.p9y20lj.mongodb.net/?retryWrites=true&w=majority
+      # https://vercel.com/yunyis-projects/twikoo-api/C5MeWSz2yNXj3RqBa7t23BxjYQDJ 
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/yunyit"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/yunyitang820/"
+    - name: instagram
+      url: "https://www.instagram.com/yunyi_cam/"
+    - name: goodreads
+      url: "https://www.goodreads.com/user/show/161105203-yunyi-tang"
+    - name: email
+      url: "mailto:yunyi.tang.820@gmail.com"
+
+
+  label:
+    text: "Home"
+    # icon: "img/Icon.png"
+    iconHeight: 35
+  
+  assets:
+    # disableHLJS: true 
+    favicon: "favicon/favicon.ico"
+    favicon16x16: "favicon/favicon-16x16.png"
+    favicon32x32: "favicon/favicon-32x32.png"
+    apple_touch_icon: "favicon/apple-touch-icon.png"
+    safari_pinned_tab: "favicon/favicon.ico"
+
+  fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 1
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary"]
+
+
+defaultContentLanguage: en # 默认语言
+defaultContentLanguageInSubdir: true # 默认语言是否放在子目录中
 languages:
     en:
         languageName: English
@@ -49,32 +124,21 @@ languages:
               name: Search
               url: /en/search/
               weight: 60
-        profileMode:
-          enabled: true
-          title: Yunyi Tang
-          subtitle: Little squirrel Hopping around 
-          imageUrl: "img/Avatar.png"
-          imageTitle: 
-          imageWidth: 150
-          imageHeight: 150
-          buttons:
-            - name: Project
-              url: /en/project/
-            - name: Resume
-              url: /en/resume.pdf
-            - name: Log
-              url: /en/blog/tech/log/
-        socialIcons:
-            - name: github
-              url: "https://github.com/yunyit"
-            - name: linkedin
-              url: "https://www.linkedin.com/in/yunyitang820/"
-            - name: instagram
-              url: "https://www.instagram.com/yunyi_cam/"
-            - name: goodreads
-              url: "https://www.goodreads.com/user/show/161105203-yunyi-tang"
-            - name: email
-              url: "mailto:yunyi.tang.820@gmail.com"
+        params:
+            profileMode:
+              enabled: true
+              title: Yunyi Tang
+              subtitle: Little squirrel Hopping around 
+              imageUrl: "img/Avatar.png"
+              imageWidth: 150
+              imageHeight: 150
+              buttons:
+                - name: Project
+                  url: /en/project/
+                - name: Resume
+                  url: /en/resume.pdf
+                - name: Log
+                  url: /en/blog/tech/log/
     zh:
         languageName: 中文
         languageCode: zh
@@ -109,91 +173,11 @@ languages:
               name: 开往
               url: https://www.travellings.cn/go.html
               weight: 80
-        homeInfoParams:
-          enabled: true
-          Title: Yunyi's Blog
-          Content: Little squirrel Hopping around
-          imageUrl: "img/Avatar.png"
-          imageWidth: 100
-          imageHeight: 100
-          buttons:
-            - name: 关于
-              url: /zh/about/
-            - name: 博客
-              url: /zh/blog/tech/
-            - name: 开往
-              url: https://www.travellings.cn/go.html
-        socialIcons:
-            - name: github
-              url: "https://github.com/yunyit"
-            - name: linkedin
-              url: "https://www.linkedin.com/in/yunyitang820/"
-            - name: instagram
-              url: "https://www.instagram.com/yunyi_cam/"
-            - name: goodreads
-              url: "https://www.goodreads.com/user/show/161105203-yunyi-tang"
-            - name: email
-              url: "mailto:yunyi.tang.820@gmail.com"          
-
-outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON # is necessary for the search function
-
-# 这里的参数会被代码以 .Site.Params 的形式读取
-params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Yunyi的技术博客"
-  author: Yunyi
-  defaultTheme: auto  # defaultTheme: light or  dark 
-  disableThemeToggle: false
-  DateFormat: "2006-01-02"
-  ShowShareButtons: false
-  ShowReadingTime: true
-  # disableSpecialistPost: true
-  displayFullLangName: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
-  hideFooter: false # 隐藏页脚
-  ShowWordCounts: true
-  VisitCount: true
-  ShowLastMod: true #显示文章更新时间
-  ShowFullTextinRSS: false # RSS全文输出
-
-  ShowToc: true # 显示目录
-  TocOpen: true # 自动展开目录
-
-  extendCodeBackground: false # 代码块是否自动横向展开
-
-  comments: true 
-  twikoo: 
-      version: 1.6.27 # 这个版本号要自己手动修改，和twikoo的版本号要对得上
-      # tkserver - bdayTtyy!
-      # MangoDB yunyit - HsdK3JAKhZbsUnAq Gmail-longin
-      # mongodb+srv://yunyit:HsdK3JAKhZbsUnAq@cluster0.p9y20lj.mongodb.net/?retryWrites=true&w=majority
-      # https://vercel.com/yunyis-projects/twikoo-api/C5MeWSz2yNXj3RqBa7t23BxjYQDJ 
-
-
-  label:
-    text: "Home"
-    # icon: "img/Icon.png"
-    iconHeight: 35
-  
-  assets:
-    # disableHLJS: true 
-    favicon: "favicon/favicon.ico"
-    favicon16x16: "favicon/favicon-16x16.png"
-    favicon32x32: "favicon/favicon-32x32.png"
-    apple_touch_icon: "favicon/apple-touch-icon.png"
-    safari_pinned_tab: "favicon/favicon.ico"
-
-  fuseOpts:
-        isCaseSensitive: false
-        shouldSort: true
-        location: 0
-        distance: 1000
-        threshold: 1
-        minMatchCharLength: 0
-        keys: ["title", "permalink", "summary"]
+        params:
+            homeInfoParams:
+              enabled: true
+              Title: Yunyi's Blog
+              Content: Little squirrel Hopping around
+              imageUrl: "img/Avatar.png"
+              imageWidth: 100
+              imageHeight: 100     

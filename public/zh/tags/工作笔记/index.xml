@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>工作笔记 on Yunyi&#39;s Blog</title>
+    <link>https://www.yunyitang.me/zh/tags/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/</link>
+    <description>Recent content in 工作笔记 on Yunyi&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Tue, 09 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.yunyitang.me/zh/tags/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Obsidian工作笔记</title>
+      <link>https://www.yunyitang.me/zh/blog/tech/obsedian/</link>
+      <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/blog/tech/obsedian/</guid>
+      <description>启用日期：2024-01-09 应用场景：工作笔记 自定义：荷叶绿 HEYELV #1A6840 RGB(26, 104, 64)；字体 JetBrains Mono 常用功能属性 daily template interlink tags YAML 分类方法 标签：PARA + 工作内容</description>
+    </item>
+  </channel>
+</rss>

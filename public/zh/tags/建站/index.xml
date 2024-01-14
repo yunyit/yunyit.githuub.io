@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>建站 on Yunyi&#39;s Blog</title>
+    <link>https://www.yunyitang.me/zh/tags/%E5%BB%BA%E7%AB%99/</link>
+    <description>Recent content in 建站 on Yunyi&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 12 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.yunyitang.me/zh/tags/%E5%BB%BA%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>友链相关阅读</title>
+      <link>https://www.yunyitang.me/zh/blog/tech/link-posts/</link>
+      <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/blog/tech/link-posts/</guid>
+      <description>在这个独立博客式微的时代，友情链接的意义是什么？ 和 Medium、简书之类的写作平台不同，每一个独立博客都是一个信息孤岛。我们没有类似「你可能</description>
+    </item>
+    <item>
+      <title>建站日志</title>
+      <link>https://www.yunyitang.me/zh/log/</link>
+      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/log/</guid>
+      <description>2022-09-21 基于 Ghost 的 yunyi-tang.ghost.io 启用。 2022-09-26 域名更新为 yunyitang.me，购自 Google Domain。 2023-11-1 Ghost 订阅结束，yunyi-tang.ghost.io 停用。 2023-11-7 迁移</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="zh" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>YAML | Yunyi&#39;s Blog</title>
+<meta name="keywords" content="Data, YAML, 数据格式, Database">
+<meta name="description" content="认知始于 Markdown 文件，不知道终于哪儿。 定义 YAML Ain&rsquo;t a Markup Language / Yet Another Markup Language 文件后缀：.yml 或 .yaml 注释：井号 或 哈希符号 # 结构：映射或列表，遵循层次结构，具体取决">
+<meta name="author" content="Yunyi">
+<link rel="canonical" href="https://www.yunyitang.me/zh/blog/tech/ymal/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.7aea056dc704069fa9399cbdc0dc32d894c64e6390b52463d31825dabc5bfeaa.css" integrity="sha256-euoFbccEBp&#43;pOZy9wNwy2JTGTmOQtSRj0xgl2rxb/qo=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://www.yunyitang.me/favicon/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.yunyitang.me/favicon/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.yunyitang.me/favicon/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://www.yunyitang.me/favicon/apple-touch-icon.png">
+<link rel="mask-icon" href="https://www.yunyitang.me/favicon/favicon.ico">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="zh" href="https://www.yunyitang.me/zh/blog/tech/ymal/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+
+<script>
+    var host = window.location.hostname;
+    if(host != "localhost") {
+        var script = document.createElement('script');
+        script.src = "https://eu.umami.is/script.js";
+        script.async = true;
+        script.dataset.websiteId = "ff42c1d4-d7db-4925-af13-c30c26df5816";
+        document.head.appendChild(script);
+    }
+</script>
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+<link rel="manifest" href="/favicon_io/site.webmanifest">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0K2EFCEZGW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0K2EFCEZGW');
+</script><meta property="og:title" content="YAML" />
+<meta property="og:description" content="认知始于 Markdown 文件，不知道终于哪儿。 定义 YAML Ain&rsquo;t a Markup Language / Yet Another Markup Language 文件后缀：.yml 或 .yaml 注释：井号 或 哈希符号 # 结构：映射或列表，遵循层次结构，具体取决" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.yunyitang.me/zh/blog/tech/ymal/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2024-01-13T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-01-13T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="YAML"/>
+<meta name="twitter:description" content="认知始于 Markdown 文件，不知道终于哪儿。 定义 YAML Ain&rsquo;t a Markup Language / Yet Another Markup Language 文件后缀：.yml 或 .yaml 注释：井号 或 哈希符号 # 结构：映射或列表，遵循层次结构，具体取决"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "博客",
+      "item": "https://www.yunyitang.me/zh/blog/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "技术 👩🏻‍💻",
+      "item": "https://www.yunyitang.me/zh/blog/tech/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "YAML",
+      "item": "https://www.yunyitang.me/zh/blog/tech/ymal/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "YAML",
+  "name": "YAML",
+  "description": "认知始于 Markdown 文件，不知道终于哪儿。 定义 YAML Ain\u0026rsquo;t a Markup Language / Yet Another Markup Language 文件后缀：.yml 或 .yaml 注释：井号 或 哈希符号 # 结构：映射或列表，遵循层次结构，具体取决",
+  "keywords": [
+    "Data", "YAML", "数据格式", "Database"
+  ],
+  "articleBody": " 认知始于 Markdown 文件，不知道终于哪儿。\n定义 YAML Ain’t a Markup Language / Yet Another Markup Language\n文件后缀：.yml 或 .yaml\n注释：井号 或 哈希符号 #\n结构：映射或列表，遵循层次结构，具体取决于缩进以及定义键值的方式。\n语法：\n大小写敏感； 使用缩进表示层级关系； 缩进时不允许使用 Tab 键，只允许使用空格； 缩进的空格数目不重要，只要相同层级的元素左侧对齐即可； 应用 配置文件 configuration files -\nYAML / JSON 相比 JSON，因为 YAML 有更好的可读性，对用户更友好，所以通常建议用 YAML 来编写配置文件，尽管它们在大多数情况下可以互换使用。\n数据类型 对象 mapping/hash/dictionary：键值对的集合； 数组 sequence/list：一组按次序排列的值；数组和对象可以构成复合结构； 纯量：最基本的，不可再分的值； 对象 对象的一组键值对，使用冒号结构表示。\nanimal: pets 转为 JavaScript 如下：\n{ animal: 'pets' } Yaml 也允许另一种写法，将所有键值对写成一个行内对象。\nhash: { name: Steve, foo: bar } 转为 JavaScript 如下：\n{ hash: { name: 'Steve', foo: 'bar' } } 数组 一组连词线开头的行，构成一个数组。\n- Cat - Dog - Goldfish 转为 JavaScript 如下：\n[ 'Cat', 'Dog', 'Goldfish' ] 纯量 纯量是最基本的、不可再分的值。\n以下数据类型都属于 JavaScript 的纯量：\n字符串 布尔值 整数 浮点数 null：用 ~ 表示 时间 日期 复合结构 对象和数组可以结合使用，形成复合结构。\n示例 选自 Red Hat 的学生信息例子：\n#Comment: Student record #Describes some characteristics and preferences --- name: Martin D'vloper #key-value age: 26 hobbies: - painting #first list item - playing_music #second list item - cooking #third list item programming_languages: java: Intermediate python: Advanced javascript: Beginner favorite_food: - vegetables: tomatoes - fruits: citrics: oranges tropical: bananas nuts: peanuts sweets: raisins 使用 Python 的 PyYAML 库，可转化为：\n[ { \"name\": \"Martin D'vloper\", \"age\": 26, \"hobbies\": [\"painting\", \"playing_music\", \"cooking\"], \"programming_languages\": { \"java\": \"Intermediate\", \"python\": \"Advanced\", \"javascript\": \"Beginner\", }, \"favorite_food\": [ {\"vegetables\": \"tomatoes\"}, { \"fruits\": { \"citrics\": \"oranges\", \"tropical\": \"bananas\", \"nuts\": \"peanuts\", \"sweets\": \"raisins\", } }, ], } ] 相关阅读 Barney 的 yaml 语法 整理； 阮一峰 的 YAML 语言教程； YAML 1.2 规格； ",
+  "wordCount" : "650",
+  "inLanguage": "zh",
+  "datePublished": "2024-01-13T00:00:00Z",
+  "dateModified": "2024-01-13T00:00:00Z",
+  "author":[{
+    "@type": "Person",
+    "name": "Yunyi"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.yunyitang.me/zh/blog/tech/ymal/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Yunyi's Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.yunyitang.me/favicon/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://www.yunyitang.me/zh/" accesskey="h" title="Home (Alt + H)">Home</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="https://www.yunyitang.me/en/" title="English"
+                            aria-label="English">English</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://www.yunyitang.me/zh/about/" title="关于">
+                    <span>关于</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.yunyitang.me/zh/log/" title="建站">
+                    <span>建站</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.yunyitang.me/zh/blog/" title="博客">
+                    <span>博客</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.yunyitang.me/zh/links/" title="友链">
+                    <span>友链</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.yunyitang.me/zh/tags/" title="🕹️">
+                    <span>🕹️</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.yunyitang.me/zh/search/" title="搜索 (Alt &#43; /)" accesskey=/>
+                    <span>搜索</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.travellings.cn/go.html" title="开往">
+                    <span>开往</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://www.yunyitang.me/zh/">主页</a>&nbsp;»&nbsp;<a href="https://www.yunyitang.me/zh/blog/">博客</a>&nbsp;»&nbsp;<a href="https://www.yunyitang.me/zh/blog/tech/">技术 👩🏻‍💻</a></div>
+    <h1 class="post-title">
+      YAML
+    </h1>
+    <div class="post-meta"><span title='2024-01-13 00:00:00 +0000 UTC'>2024-01-13</span>&nbsp;·&nbsp;2 分钟&nbsp;·&nbsp;Yunyi
+
+
+</div>
+  </header> <aside id="toc-container" class="toc-container wide">
+    <div class="toc">
+        <details  open>
+            <summary accesskey="c" title="(Alt + C)">
+                <span class="details">目录</span>
+            </summary>
+
+            <div class="inner"><ul>
+                    <li>
+                        <a href="#%e5%ae%9a%e4%b9%89" aria-label="定义">定义</a></li>
+                    <li>
+                        <a href="#%e5%ba%94%e7%94%a8" aria-label="应用">应用</a><ul>
+                            
+                    <li>
+                        <a href="#yaml--json" aria-label="YAML / JSON">YAML / JSON</a></li></ul>
+                    </li>
+                    <li>
+                        <a href="#%e6%95%b0%e6%8d%ae%e7%b1%bb%e5%9e%8b" aria-label="数据类型">数据类型</a><ul>
+                            
+                    <li>
+                        <a href="#%e5%af%b9%e8%b1%a1" aria-label="对象">对象</a></li>
+                    <li>
+                        <a href="#%e6%95%b0%e7%bb%84" aria-label="数组">数组</a></li>
+                    <li>
+                        <a href="#%e7%ba%af%e9%87%8f" aria-label="纯量">纯量</a></li></ul>
+                    </li>
+                    <li>
+                        <a href="#%e5%a4%8d%e5%90%88%e7%bb%93%e6%9e%84" aria-label="复合结构">复合结构</a><ul>
+                            
+                    <li>
+                        <a href="#%e7%a4%ba%e4%be%8b" aria-label="示例">示例</a></li></ul>
+                    </li>
+                    <li>
+                        <a href="#%e7%9b%b8%e5%85%b3%e9%98%85%e8%af%bb" aria-label="相关阅读">相关阅读</a>
+                    </li>
+                </ul>
+            </div>
+        </details>
+    </div>
+</aside>
+<script>
+    let activeElement;
+    let elements;
+    window.addEventListener('DOMContentLoaded', function (event) {
+        checkTocPosition();
+
+        elements = document.querySelectorAll('h1[id],h2[id],h3[id],h4[id],h5[id],h6[id]');
+         
+         activeElement = elements[0];
+         const id = encodeURI(activeElement.getAttribute('id')).toLowerCase();
+         document.querySelector(`.inner ul li a[href="#${id}"]`).classList.add('active');
+     }, false);
+
+    window.addEventListener('resize', function(event) {
+        checkTocPosition();
+    }, false);
+
+    window.addEventListener('scroll', () => {
+        
+        activeElement = Array.from(elements).find((element) => {
+            if ((getOffsetTop(element) - window.pageYOffset) > 0 && 
+                (getOffsetTop(element) - window.pageYOffset) < window.innerHeight/2) {
+                return element;
+            }
+        }) || activeElement
+
+        elements.forEach(element => {
+             const id = encodeURI(element.getAttribute('id')).toLowerCase();
+             if (element === activeElement){
+                 document.querySelector(`.inner ul li a[href="#${id}"]`).classList.add('active');
+             } else {
+                 document.querySelector(`.inner ul li a[href="#${id}"]`).classList.remove('active');
+             }
+         })
+     }, false);
+
+    const main = parseInt(getComputedStyle(document.body).getPropertyValue('--article-width'), 10);
+    const toc = parseInt(getComputedStyle(document.body).getPropertyValue('--toc-width'), 10);
+    const gap = parseInt(getComputedStyle(document.body).getPropertyValue('--gap'), 10);
+
+    function checkTocPosition() {
+        const width = document.body.scrollWidth;
+
+        if (width - main - (toc * 2) - (gap * 4) > 0) {
+            document.getElementById("toc-container").classList.add("wide");
+        } else {
+            document.getElementById("toc-container").classList.remove("wide");
+        }
+    }
+
+    function getOffsetTop(element) {
+        if (!element.getClientRects().length) {
+            return 0;
+        }
+        let rect = element.getBoundingClientRect();
+        let win = element.ownerDocument.defaultView;
+        return rect.top + win.pageYOffset;   
+    }
+</script>
+
+  <div class="post-content"><blockquote>
+<p>认知始于 Markdown 文件，不知道终于哪儿。</p>
+</blockquote>
+<h1 id="定义">定义<a hidden class="anchor" aria-hidden="true" href="#定义">#</a></h1>
+<blockquote>
+<p>YAML Ain&rsquo;t a Markup Language / Yet Another Markup Language</p>
+</blockquote>
+<p>文件后缀：<code>.yml</code> 或 <code>.yaml</code></p>
+<p>注释：井号 或 哈希符号 <code>#</code></p>
+<p>结构：映射或列表，遵循层次结构，具体取决于缩进以及定义键值的方式。</p>
+<p>语法：</p>
+<ul>
+<li>大小写敏感；</li>
+<li>使用缩进表示层级关系；</li>
+<li>缩进时不允许使用 <code>Tab</code> 键，只允许使用空格；</li>
+<li>缩进的空格数目不重要，只要相同层级的元素左侧对齐即可；</li>
+</ul>
+<h1 id="应用">应用<a hidden class="anchor" aria-hidden="true" href="#应用">#</a></h1>
+<p>配置文件 configuration files -</p>
+<h2 id="yaml--json">YAML / JSON<a hidden class="anchor" aria-hidden="true" href="#yaml--json">#</a></h2>
+<p>相比 JSON，因为 YAML 有更好的可读性，对用户更友好，所以通常建议用 YAML 来编写配置文件，尽管它们在大多数情况下可以互换使用。</p>
+<h1 id="数据类型">数据类型<a hidden class="anchor" aria-hidden="true" href="#数据类型">#</a></h1>
+<ul>
+<li>对象 mapping/hash/dictionary：键值对的集合；</li>
+<li>数组 sequence/list：一组按次序排列的值；数组和对象可以构成复合结构；</li>
+<li>纯量：最基本的，不可再分的值；</li>
+</ul>
+<h2 id="对象">对象<a hidden class="anchor" aria-hidden="true" href="#对象">#</a></h2>
+<p>对象的一组键值对，使用冒号结构表示。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">animal</span>: <span style="color:#ae81ff">pets</span>
+</span></span></code></pre></div><p>转为 JavaScript 如下：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JavaScript" data-lang="JavaScript"><span style="display:flex;"><span>{ <span style="color:#a6e22e">animal</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;pets&#39;</span> }
+</span></span></code></pre></div><p>Yaml 也允许另一种写法，将所有键值对写成一个行内对象。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">hash</span>: { <span style="color:#f92672">name: Steve, foo</span>: <span style="color:#ae81ff">bar } </span>
+</span></span></code></pre></div><p>转为 JavaScript 如下：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JavaScript" data-lang="JavaScript"><span style="display:flex;"><span>{ <span style="color:#a6e22e">hash</span><span style="color:#f92672">:</span> { <span style="color:#a6e22e">name</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;Steve&#39;</span>, <span style="color:#a6e22e">foo</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;bar&#39;</span> } }
+</span></span></code></pre></div><h2 id="数组">数组<a hidden class="anchor" aria-hidden="true" href="#数组">#</a></h2>
+<p>一组连词线开头的行，构成一个数组。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>- <span style="color:#ae81ff">Cat</span>
+</span></span><span style="display:flex;"><span>- <span style="color:#ae81ff">Dog</span>
+</span></span><span style="display:flex;"><span>- <span style="color:#ae81ff">Goldfish</span>
+</span></span></code></pre></div><p>转为 JavaScript 如下：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JavaScript" data-lang="JavaScript"><span style="display:flex;"><span>[ <span style="color:#e6db74">&#39;Cat&#39;</span>, <span style="color:#e6db74">&#39;Dog&#39;</span>, <span style="color:#e6db74">&#39;Goldfish&#39;</span> ]
+</span></span></code></pre></div><h2 id="纯量">纯量<a hidden class="anchor" aria-hidden="true" href="#纯量">#</a></h2>
+<p>纯量是最基本的、不可再分的值。</p>
+<p>以下数据类型都属于 JavaScript 的纯量：</p>
+<ul>
+<li>字符串</li>
+<li>布尔值</li>
+<li>整数</li>
+<li>浮点数</li>
+<li><code>null</code>：用 <code>~</code> 表示</li>
+<li>时间</li>
+<li>日期</li>
+</ul>
+<h1 id="复合结构">复合结构<a hidden class="anchor" aria-hidden="true" href="#复合结构">#</a></h1>
+<p>对象和数组可以结合使用，形成复合结构。</p>
+<h2 id="示例">示例<a hidden class="anchor" aria-hidden="true" href="#示例">#</a></h2>
+<p>选自 <a href="https://www.redhat.com/en/topics/automation/what-is-yaml">Red Hat</a> 的学生信息例子：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#75715e">#Comment: Student record</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#Describes some characteristics and preferences</span>
+</span></span><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span><span style="color:#f92672">name</span>: <span style="color:#ae81ff">Martin D&#39;vloper</span> <span style="color:#75715e">#key-value</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">age</span>: <span style="color:#ae81ff">26</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">hobbies</span>: 
+</span></span><span style="display:flex;"><span>  - <span style="color:#ae81ff">painting</span> <span style="color:#75715e">#first list item</span>
+</span></span><span style="display:flex;"><span>  - <span style="color:#ae81ff">playing_music</span> <span style="color:#75715e">#second list item</span>
+</span></span><span style="display:flex;"><span>  - <span style="color:#ae81ff">cooking</span> <span style="color:#75715e">#third list item</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">programming_languages</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">java</span>: <span style="color:#ae81ff">Intermediate</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">python</span>: <span style="color:#ae81ff">Advanced</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">javascript</span>: <span style="color:#ae81ff">Beginner</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">favorite_food</span>: 
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">vegetables</span>: <span style="color:#ae81ff">tomatoes </span>
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">fruits</span>: 
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">citrics</span>: <span style="color:#ae81ff">oranges </span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">tropical</span>: <span style="color:#ae81ff">bananas</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">nuts</span>: <span style="color:#ae81ff">peanuts</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">sweets</span>: <span style="color:#ae81ff">raisins</span>
+</span></span></code></pre></div><p>使用 Python 的 PyYAML 库，可转化为：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>[
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;Martin D&#39;vloper&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;age&#34;</span>: <span style="color:#ae81ff">26</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;hobbies&#34;</span>: [<span style="color:#e6db74">&#34;painting&#34;</span>, <span style="color:#e6db74">&#34;playing_music&#34;</span>, <span style="color:#e6db74">&#34;cooking&#34;</span>],
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;programming_languages&#34;</span>: {
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#34;java&#34;</span>: <span style="color:#e6db74">&#34;Intermediate&#34;</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#34;python&#34;</span>: <span style="color:#e6db74">&#34;Advanced&#34;</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#34;javascript&#34;</span>: <span style="color:#e6db74">&#34;Beginner&#34;</span>,
+</span></span><span style="display:flex;"><span>        },
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;favorite_food&#34;</span>: [
+</span></span><span style="display:flex;"><span>            {<span style="color:#e6db74">&#34;vegetables&#34;</span>: <span style="color:#e6db74">&#34;tomatoes&#34;</span>},
+</span></span><span style="display:flex;"><span>            {
+</span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#34;fruits&#34;</span>: {
+</span></span><span style="display:flex;"><span>                    <span style="color:#e6db74">&#34;citrics&#34;</span>: <span style="color:#e6db74">&#34;oranges&#34;</span>,
+</span></span><span style="display:flex;"><span>                    <span style="color:#e6db74">&#34;tropical&#34;</span>: <span style="color:#e6db74">&#34;bananas&#34;</span>,
+</span></span><span style="display:flex;"><span>                    <span style="color:#e6db74">&#34;nuts&#34;</span>: <span style="color:#e6db74">&#34;peanuts&#34;</span>,
+</span></span><span style="display:flex;"><span>                    <span style="color:#e6db74">&#34;sweets&#34;</span>: <span style="color:#e6db74">&#34;raisins&#34;</span>,
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>            },
+</span></span><span style="display:flex;"><span>        ],
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>]
+</span></span></code></pre></div><h1 id="相关阅读">相关阅读<a hidden class="anchor" aria-hidden="true" href="#相关阅读">#</a></h1>
+<ul>
+<li><a href="https://hugo.bnblogs.cc">Barney</a> 的 <a href="https://hugo.bnblogs.cc/yaml%E8%AF%AD%E6%B3%95/">yaml 语法</a> 整理；</li>
+<li><a href="https://www.ruanyifeng.com/blog/">阮一峰</a> 的 <a href="https://www.ruanyifeng.com/blog/2016/07/yaml.html">YAML 语言教程</a>；</li>
+<li><a href="https://yaml.org/spec/1.2.2/">YAML 1.2 规格</a>；</li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://www.yunyitang.me/zh/tags/data/">Data</a></li>
+      <li><a href="https://www.yunyitang.me/zh/tags/yaml/">YAML</a></li>
+      <li><a href="https://www.yunyitang.me/zh/tags/%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F/">数据格式</a></li>
+      <li><a href="https://www.yunyitang.me/zh/tags/database/">Database</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="https://www.yunyitang.me/zh/blog/tech/link-posts/">
+    <span class="title">下一页 »</span>
+    <br>
+    <span>友链相关阅读</span>
+  </a>
+</nav>
+
+  </footer>
+<div>
+    <div class="pagination__title">
+        <span class="pagination__title-h" style="font-size: 16px; line-height: 1.5;">💬 let's chat</span>
+        <hr />
+    </div>
+    <div id="tcomment"></div>
+    <script src="https://cdn.staticfile.org/twikoo/1.6.27/twikoo.all.min.js"></script>
+    <script>
+        twikoo.init({
+            envId: "https://twikoo-api-yunyis-projects.vercel.app/",  
+            el: "#tcomment",
+            lang: 'en',
+            
+            path: window.TWIKOO_MAGIC_PATH||window.location.pathname,
+        });
+    </script>
+</div>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2024 <a href="https://www.yunyitang.me/zh/">Yunyi&#39;s Blog</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+    
+    <span xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"> 
+        Licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" 
+        rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0 ></a></span>
+    <span>
+        <a href="https://analytics.eu.umami.is/share/mNvu6TLrju52UZ97/Yunyi's%20Blog" 
+        rel="noopener noreferrer" target="_blank">Analytics</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = '复制';
+
+        function copyingDone() {
+            copybutton.innerHTML = '已复制！';
+            setTimeout(() => {
+                copybutton.innerHTML = '复制';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

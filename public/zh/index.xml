@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yunyi&#39;s Blog</title>
+    <link>https://www.yunyitang.me/zh/</link>
+    <description>Recent content on Yunyi&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 13 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.yunyitang.me/zh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>YAML</title>
+      <link>https://www.yunyitang.me/zh/blog/tech/ymal/</link>
+      <pubDate>Sat, 13 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/blog/tech/ymal/</guid>
+      <description>认知始于 Markdown 文件，不知道终于哪儿。 定义 YAML Ain&amp;rsquo;t a Markup Language / Yet Another Markup Language 文件后缀：.yml 或 .yaml 注释：井号 或 哈希符号 # 结构：映射或列表，遵循层次结构，具体取决</description>
+    </item>
+    <item>
+      <title>友链相关阅读</title>
+      <link>https://www.yunyitang.me/zh/blog/tech/link-posts/</link>
+      <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/blog/tech/link-posts/</guid>
+      <description>在这个独立博客式微的时代，友情链接的意义是什么？ 和 Medium、简书之类的写作平台不同，每一个独立博客都是一个信息孤岛。我们没有类似「你可能</description>
+    </item>
+    <item>
+      <title>2023年终总结</title>
+      <link>https://www.yunyitang.me/zh/blog/life/2023/</link>
+      <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/blog/life/2023/</guid>
+      <description>博客建设 2023 年底把博客从 Ghost 搬到了 Github Pages，动手照着教程 Hugo + PaperMod搭建技术博客 做了一个静态网页做博客，重心放在技术学习整理、以输出</description>
+    </item>
+    <item>
+      <title>Obsidian工作笔记</title>
+      <link>https://www.yunyitang.me/zh/blog/tech/obsedian/</link>
+      <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/blog/tech/obsedian/</guid>
+      <description>启用日期：2024-01-09 应用场景：工作笔记 自定义：荷叶绿 HEYELV #1A6840 RGB(26, 104, 64)；字体 JetBrains Mono 常用功能属性 daily template interlink tags YAML 分类方法 标签：PARA + 工作内容</description>
+    </item>
+    <item>
+      <title>JSON</title>
+      <link>https://www.yunyitang.me/zh/blog/tech/json/</link>
+      <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/blog/tech/json/</guid>
+      <description>在实习公司的数据岗位还挺常用的。 定义 JavaScript Object Notation - { &amp;#34;key&amp;#34;: &amp;#34;value&amp;#34;, &amp;#34;key2&amp;#34;: &amp;#34;value2&amp;#34; } 网络传输中常使用的格式：以节省内存和传输所用的网络带宽 {&amp;#34;key&amp;#34;:&amp;#34;value&amp;#34;,&amp;#34;key2&amp;#34;:&amp;#34;value2&amp;#34;} 数据类型 文本/字符串 Strings { &amp;#34;key&amp;#34;: &amp;#34;value&amp;#34;</description>
+    </item>
+    <item>
+      <title>正则表达式</title>
+      <link>https://www.yunyitang.me/zh/blog/tech/regular-expression/</link>
+      <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/blog/tech/regular-expression/</guid>
+      <description>认知始于 Excel，不知道终于哪儿。 介绍与应用 属性：用于匹配和操作文本的工具 设计思想：用一种描述性的语言来给字符串定义一个规则，凡是符合规则</description>
+    </item>
+    <item>
+      <title>R可视化</title>
+      <link>https://www.yunyitang.me/zh/blog/tech/r-visualising/</link>
+      <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/blog/tech/r-visualising/</guid>
+      <description>因为实习兼职的公司用R，温习如下，示例取自此项目。 可视化libraries library(readr) library(ggplot2) library(dplyr) 导入数据 将csv导入dataset Read datasets/confirmed_cases_worldwide.csv into confirmed_cases_worldwide 选择部分数据 # Filter for</description>
+    </item>
+    <item>
+      <title>个人常用MacOS软件清单</title>
+      <link>https://www.yunyitang.me/zh/blog/tech/common-software-list/</link>
+      <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/blog/tech/common-software-list/</guid>
+      <description>在日常工作中，合适的效率工具能帮助我们快速完成工作，起到事半功倍的效果。 下面是我常用的一些软件，个人用起来比较得心应手，推荐给大家。按照软件</description>
+    </item>
+    <item>
+      <title>十二月在看</title>
+      <link>https://www.yunyitang.me/zh/blog/life/dec-film/</link>
+      <pubDate>Mon, 18 Dec 2023 15:54:25 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/blog/life/dec-film/</guid>
+      <description>饮食男女 Eat Drink Man Woman / 飲食男女 至暗时刻 Darkest Hour / 黑暗对峙(港) / 最黑暗的时刻(台) &lt;!DOCTYPE HTML&gt; 国王的演讲 The King&amp;rsquo;s Speech / 皇上无话儿(港) / 王者之声：宣战时刻(台) 普</description>
+    </item>
+    <item>
+      <title>十一月在读</title>
+      <link>https://www.yunyitang.me/zh/blog/life/nov-book/</link>
+      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/blog/life/nov-book/</guid>
+      <description>YUNYI IS CURRENTLY READING The Body Keeps the Score Mind, Brain and Body in the Transformation of Trauma by Bessel van der Kolk 冬牧场 作者：李娟, Jack Hargreaves (Translator), and Yan Yan (Translator) &amp;lsquo;Encouraged by her neighbors, Li decides to join a family of Kazakh herders as they take their 30 boisterous camels, 500 sheep, and over 100 cattle and horses to pasture for</description>
+    </item>
+    <item>
+      <title>十一月在看</title>
+      <link>https://www.yunyitang.me/zh/blog/life/nov-film/</link>
+      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/blog/life/nov-film/</guid>
+      <description>时空恋旅人 About Time / 回到最爱的一天(港) / 真爱每一天(台) 饥饿游戏：鸣鸟与蛇之歌 The Ballad of Songbirds and Snakes / 饥饿游戏：鸣鸟与蛇的歌谣 / 饥饿游戏前传：鸣鸟与灵蛇</description>
+    </item>
+    <item>
+      <title>你好 👋🏼</title>
+      <link>https://www.yunyitang.me/zh/about/</link>
+      <pubDate>Tue, 07 Nov 2023 14:31:25 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/about/</guid>
+      <description>关于博主 class Me: def __init__(self): self.name = &amp;#34;Yunyi Tang&amp;#34; self.prefer_name = &amp;#34;Yunyi&amp;#34; self.born_year = 1998 self.MBTI = INFJ self.hometown = &amp;#34;Guangzhou, Guangdong, CN&amp;#34; self.curr_location = &amp;#34;Bristol, UK&amp;#34; self.grad_school = &amp;#34;uBristol&amp;#34; self.undergrad_school = &amp;#34;SDU&amp;#34; 关于本站 本站通过 Hugo 的 PaperMod 生成，并托管在 Github Pages 上； 本站图标来自 Evangelion: 3.0 You Can (Not) R</description>
+    </item>
+    <item>
+      <title>项目</title>
+      <link>https://www.yunyitang.me/zh/project/</link>
+      <pubDate>Tue, 07 Nov 2023 14:31:25 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/project/</guid>
+      <description>个人项目 个人网站 Nov. 2023 至 今, HTML / CSS / JavaScript Github: https://github.com/yunyit/yunyit.github.io 这个网页是基于Hugo的PaperMod主题。 基于MongoDB和Vercel部署twikoo评论系</description>
+    </item>
+    <item>
+      <title>友情链接</title>
+      <link>https://www.yunyitang.me/zh/links-old/</link>
+      <pubDate>Tue, 07 Nov 2023 14:31:25 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/links-old/</guid>
+      <description>在这个独立博客式微的时代，友情链接的意义是什么？ 和 Medium、简书之类的写作平台不同，每一个独立博客都是一个信息孤岛。我们没有类似「你可能</description>
+    </item>
+    <item>
+      <title>友情链接</title>
+      <link>https://www.yunyitang.me/zh/links/</link>
+      <pubDate>Tue, 07 Nov 2023 14:31:25 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/links/</guid>
+      <description>在这个独立博客式微的时代，友情链接的意义是什么？ 和 Medium、简书之类的写作平台不同，每一个独立博客都是一个信息孤岛。我们没有类似「你可能</description>
+    </item>
+    <item>
+      <title>建站日志</title>
+      <link>https://www.yunyitang.me/zh/log/</link>
+      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/log/</guid>
+      <description>2022-09-21 基于 Ghost 的 yunyi-tang.ghost.io 启用。 2022-09-26 域名更新为 yunyitang.me，购自 Google Domain。 2023-11-1 Ghost 订阅结束，yunyi-tang.ghost.io 停用。 2023-11-7 迁移</description>
+    </item>
+    <item>
+      <title>2020年终总结</title>
+      <link>https://www.yunyitang.me/zh/blog/life/2020/</link>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/blog/life/2020/</guid>
+      <description>“我生活在妙不可言的等待中，等待随便哪种未来” “我生活在妙不可言的等待中，等待随便哪种未来“，这是纪德在《地粮》里的一句话，也是我收到单向历</description>
+    </item>
+    <item>
+      <title>2019年终总结</title>
+      <link>https://www.yunyitang.me/zh/blog/life/2019/</link>
+      <pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/blog/life/2019/</guid>
+      <description>在记忆干枯前描绘2019 当作课间休息，这个年终总结一点点地在键盘敲打出来。 每到写年终总结都是我最心虚的时候。一是因为一个学年都是秋起夏终，冬</description>
+    </item>
+    <item>
+      <title>谷歌套件替换使用状况</title>
+      <link>https://www.yunyitang.me/zh/blog/tech/google-2019/</link>
+      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/blog/tech/google-2019/</guid>
+      <description>原链：豆瓣笔记 首先，利益相关，谷歌全家桶吹，科技产品苦手。 其次，整理出来的意思当然不是说，国内相关软件的目标就是完美模仿谷歌，这太ummm了</description>
+    </item>
+  </channel>
+</rss>

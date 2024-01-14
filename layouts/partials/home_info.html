@@ -1,5 +1,6 @@
 {{- with site.Params.homeInfoParams }}
 <article class="first-entry home-info">
+    {{- with site.Params.homeInfoParams }}
     <div class="profile_inner">
         {{- if .imageUrl -}}
         {{- $img := "" }}
@@ -33,6 +34,7 @@
         {{- end }}
         {{- end }}
     </div>
+    {{- end }}
     <header class="entry-header" style="padding-top: 20px; padding-bottom: 0;">
         <h1>{{ .Title | markdownify }}</h1>
     </header>
@@ -40,7 +42,7 @@
         {{ .Content | markdownify }}
     </div>
     <footer class="entry-footer">
-        {{ partial "social_icons.html" site.Params.socialIcons }}
+        {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
     </footer>
 </article>
 {{- end -}}

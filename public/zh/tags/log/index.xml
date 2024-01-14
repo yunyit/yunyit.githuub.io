@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Log on Yunyi&#39;s Blog</title>
+    <link>https://www.yunyitang.me/zh/tags/log/</link>
+    <description>Recent content in Log on Yunyi&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Thu, 11 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.yunyitang.me/zh/tags/log/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023年终总结</title>
+      <link>https://www.yunyitang.me/zh/blog/life/2023/</link>
+      <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/blog/life/2023/</guid>
+      <description>博客建设 2023 年底把博客从 Ghost 搬到了 Github Pages，动手照着教程 Hugo + PaperMod搭建技术博客 做了一个静态网页做博客，重心放在技术学习整理、以输出</description>
+    </item>
+    <item>
+      <title>建站日志</title>
+      <link>https://www.yunyitang.me/zh/log/</link>
+      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/log/</guid>
+      <description>2022-09-21 基于 Ghost 的 yunyi-tang.ghost.io 启用。 2022-09-26 域名更新为 yunyitang.me，购自 Google Domain。 2023-11-1 Ghost 订阅结束，yunyi-tang.ghost.io 停用。 2023-11-7 迁移</description>
+    </item>
+    <item>
+      <title>2020年终总结</title>
+      <link>https://www.yunyitang.me/zh/blog/life/2020/</link>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/blog/life/2020/</guid>
+      <description>“我生活在妙不可言的等待中，等待随便哪种未来” “我生活在妙不可言的等待中，等待随便哪种未来“，这是纪德在《地粮》里的一句话，也是我收到单向历</description>
+    </item>
+    <item>
+      <title>2019年终总结</title>
+      <link>https://www.yunyitang.me/zh/blog/life/2019/</link>
+      <pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/blog/life/2019/</guid>
+      <description>在记忆干枯前描绘2019 当作课间休息，这个年终总结一点点地在键盘敲打出来。 每到写年终总结都是我最心虚的时候。一是因为一个学年都是秋起夏终，冬</description>
+    </item>
+  </channel>
+</rss>
