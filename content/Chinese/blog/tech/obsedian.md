@@ -31,7 +31,7 @@ weight: null
 
 > 应用场景：工作笔记
 
-> 自定义：[荷叶绿](https://color-term.com/color/heyelv-1a6840/) HEYELV #1A6840 RGB(26, 104, 64)；字体 [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+> 自定义：<a href="https://color-term.com/color/heyelv-1a6840/" style="color: #1A6840 !important;">荷叶绿</a> HEYELV #1A6840 RGB(26, 104, 64)；字体 [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 
 # 常用功能属性
 - daily template

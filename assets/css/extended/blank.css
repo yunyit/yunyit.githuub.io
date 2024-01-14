@@ -202,7 +202,7 @@ body {
     }
 }
 
-/* 链接样式 */
+/* GitHub 链接样式 */
 .post-content a {
     color: #0969da;
     box-shadow: none;
@@ -221,22 +221,26 @@ body {
 } */
 /* 图片居中 */
 .post-content img {
-    margin: auto;
+    margin: auto; 
 }
 
-/* GitHub 样式的表格 */
+/* GitHub 表格样式 */
+.post-content table {
+    width: 100%;
+    table-layout: fixed;
+    word-wrap: break-word; /* Enable word wrap */
+    white-space: normal; /* Allow wrapping within table cells */
+}
 .post-content table tr {
-    border: 1px solid #979da3 !important;
+    border: 1px solid #979da3 !important; /* 表格边框 */
 }
-.post-content table tr:nth-child(2n),
+.post-content table tr:nth-child(2n), 
 .post-content thead {
-    background-color: var(--code-bg);
+    background-color: var(--code-bg); /* 表格背景 */
 }
-.post-content table th {
-    border: 1px solid #979da3 !important;
-}
+.post-content table th,
 .post-content table td {
-    border: 1px solid #979da3 !important;
+    border: 1px solid #979da3 !important; /* 表格边框 */
 }
 
 /*标签*/
