@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Software on Yunyi&#39;s Blog</title>
     <link>https://www.yunyitang.me/zh/tags/software/</link>
     <description>Recent content in Software on Yunyi&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Wed, 20 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.yunyitang.me/zh/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.yunyitang.me/zh/tags/software/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>个人常用MacOS软件清单</title>
       <link>https://www.yunyitang.me/zh/blog/tech/common-software-list/</link>
       <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://www.yunyitang.me/zh/blog/tech/common-software-list/</guid>
       <description>在日常工作中，合适的效率工具能帮助我们快速完成工作，起到事半功倍的效果。 下面是我常用的一些软件，个人用起来比较得心应手，推荐给大家。按照软件</description>
     </item>
-    
   </channel>
 </rss>
