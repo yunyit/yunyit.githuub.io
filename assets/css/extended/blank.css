@@ -202,7 +202,6 @@ body {
     }
 }
 
-#home-info-header:hover,
 #profile-header:hover {
     transition: transform 0.15s; /* 动画时间 */
     webkit-transform: scale(1.02); /* Safari 和 Chrome */
@@ -212,6 +211,7 @@ body {
     transform: scale(1.02); /* W3C */
 }
 
+#home-info-header:hover,
 #home-info-desc:hover {
     transition: 0.15s;
     color: var(--secondary);

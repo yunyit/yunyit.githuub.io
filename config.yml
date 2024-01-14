@@ -49,19 +49,6 @@ params:
 
   comments: ture 
 
-  socialIcons:
-    - name: github
-      url: "https://github.com/yunyit"
-    - name: linkedin
-      url: "https://www.linkedin.com/in/yunyitang820/"
-    - name: instagram
-      url: "https://www.instagram.com/yunyi_cam/"
-    - name: goodreads
-      url: "https://www.goodreads.com/user/show/161105203-yunyi-tang"
-    - name: email
-      url: "mailto:yunyi.tang.820@gmail.com"
-
-
   label:
     text: "Home"
     # icon: "img/Icon.png"
@@ -144,6 +131,17 @@ languages:
                   url: /en/resume.pdf
                 - name: Log
                   url: /en/blog/tech/log/
+            socialIcons:
+                - name: github
+                  url: "https://github.com/yunyit"
+                - name: linkedin
+                  url: "https://www.linkedin.com/in/yunyitang820/"
+                - name: instagram
+                  url: "https://www.instagram.com/yunyi_cam/"
+                - name: goodreads
+                  url: "https://www.goodreads.com/user/show/161105203-yunyi-tang"
+                - name: email
+                  url: "mailto:yunyi.tang.820@gmail.com"
     zh:
         languageName: 中文
         languageCode: zh
@@ -185,4 +183,13 @@ languages:
               Content: const desc = "Little squirrel Hopping around";
               imageUrl: "img/Avatar.png"
               imageWidth: 110
-              imageHeight: 110     
+              imageHeight: 110   
+            socialIcons:
+            - name: github
+              url: "https://github.com/yunyit"
+            - name: instagram
+              url: "https://www.instagram.com/yunyi_cam/"
+            - name: goodreads
+              url: "https://www.goodreads.com/user/show/161105203-yunyi-tang"
+            - name: email
+              url: "mailto:yunyi.tang.820@gmail.com"  
