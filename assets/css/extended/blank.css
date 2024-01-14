@@ -296,3 +296,7 @@ body {
 .terms-tags li {
     margin: 5px;
 }
+
+#disqus_thread {
+    padding-top: 20px;
+}
