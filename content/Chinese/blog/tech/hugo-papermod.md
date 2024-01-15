@@ -31,21 +31,22 @@ weight: 1
 
 
 # 安装 
-1. 首先需要安装 `Hugo`，安装 `Hugo` 需要利用一个包管理工具。对于 MacOS 系统 `Hugo` 可以直接用 `Homebrew` 来安装，打开终端输入
+1. 安装 `Hugo`：安装 `Hugo` 需要利用一个包管理工具。对于 MacOS 系统 `Hugo` 可以直接用 `Homebrew` 来安装，打开终端输入
 ```shell
 brew install hugo
 ```
 
-2. `Hugo` 的 [tutorial](https://gohugo.io/getting-started/quick-start/) 介绍了如何创建一个项目，其中 `step2`（.yml的config文件）和 `step3`（下载主题）要根据 `PaperMod` 的 [guide](https://github.com/adityatelange/hugo-PaperMod/wiki/Installation0) 来配置。
+2. 安装 `PaperMod`：根据 `PaperMod` 的 [官方文档](https://github.com/adityatelange/hugo-PaperMod/wiki/Installation0) 配置。
 
 # 文件夹管理
+- `archetypes`：不用管
+- `asset`：[自定义的 CSS 和 JavaScript](#自定义页面布局-htmlcss)
 - `content`：用于放博客内容
 - `data`：不用管
-- `layouts`：自定义的 HTML
-- `public`：项目导出文件
-- `resources`：自定义的 CSS 和 JavaScript
+- `layouts`：[自定义的 HTML](#自定义页面布局-htmlcss)
+- `public`：项目导出文件 - 用于静态网页部署
 - `static`：存放图片
-- `themes`：主题
+- `themes`：主题 - PaperMod
 
 进入 `themes/PaperMod` 则是 [PaperMod](https://github.com/adityatelange/hugo-PaperMod/) 的相关代码，比较主要的目录有：
 - `assets`：PaperMod 的 CSS 和 JavaScript 代码
@@ -271,10 +272,10 @@ weight: null
 [Github Pages](https://pages.github.com) 发布静态博客 -
 
 优点：
-- 仅需一个 github 账号和简单配置即可将静态博客发布到 github pages；
+- 仅需一个 GitHub 账号和简单配置即可将静态博客发布到 GitHub Pages；
 - 没有维护的时间成本, 可以将精力更多的放到博客内容本身上去；
 - 无需备案；
-- 无需 ssl 证书；
+- 无需 SSL 证书；
 
 缺点：
 - 访问速度较慢
@@ -282,7 +283,7 @@ weight: null
 - 访问速度较慢
 
 
-# 自定义页面布局 html/css
+# 自定义页面布局 HTML/CSS
 参考 [PaperMod官方文档](https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-faq/#override-theme-template)：
 
 通过 `Hugo` 的查找顺序，您可以覆盖主题的任何部分。比如，自定义 `footer`，只需复制列表模板即可：

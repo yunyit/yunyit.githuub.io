@@ -217,9 +217,9 @@ body {
     color: var(--secondary);
 }
 
-/* GitHub 链接样式 */
+/* 链接样式 */
 .post-content a {
-    color: #0969da;
+    color: #E46828;
     box-shadow: none;
     text-decoration: none;
 }

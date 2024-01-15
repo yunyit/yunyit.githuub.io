@@ -1,0 +1,149 @@
+/* Personalized Syntax Highlighting */
+
+/* Comment */
+.chroma .c,
+.chroma .cm,
+.chroma .c1,
+.chroma .cs,
+.chroma .cp,
+.chroma .cpf {
+    font-weight: 200;
+    color: #7f848e !important;
+}
+
+/* HTML Tags and Deletion */
+.chroma .nt,
+.chroma .nx,
+.chroma .n1,
+.chroma .n2,
+.chroma .nq {
+    font-weight: 200;
+    color: #63071C !important;
+}
+
+/* HTML Attributes */
+.chroma .at,
+.chroma .na,
+.chroma .nc,
+.chroma .no {
+    font-weight: 200;
+    color: #ffa631 !important;
+}
+
+/* CSS Class Names */
+.chroma .nv,
+.chroma .vc,
+.chroma .vi,
+.chroma .vd {
+    font-weight: 200;
+    color: #057748 !important;
+}
+
+/* Built-in Functions */
+.chroma .nf,
+.chroma .fm {
+    font-weight: 200;
+    color: #56b6c2 !important;
+}
+
+/* Function Parameters */
+.chroma .p,
+.chroma .w {
+    font-weight: 200;
+    color: #e5c07b !important;
+}
+
+/* Numbers */
+.chroma .m,
+.chroma .mi,
+.chroma .mo,
+.chroma .mf,
+.chroma .mh {
+    font-weight: 200;
+    color: #ffa631 !important;
+}
+
+/* CSS Attributes */
+.chroma .na,
+.chroma .nb,
+.chroma .nc {
+    font-weight: 200;
+    color: #E46828 !important;
+}
+
+/* Strings */
+.chroma .s,
+.chroma .sc,
+.chroma .sx,
+.chroma .s1,
+.chroma .s2,
+.chroma .se,
+.chroma .sh,
+.chroma .si,
+.chroma .sr,
+.chroma .ss {
+    font-weight: 200;
+    color: #4c8dae !important;
+}
+
+/* Section and Title */
+.chroma .hl,
+.chroma .hh {
+    font-weight: 200;
+    color: #E46828 !important;
+}
+
+/* Keywords and Literals */
+.chroma .k,
+.chroma .kt,
+.chroma .kr,
+.chroma .kc,
+.chroma .kv,
+.chroma .kp,
+.chroma .ow,
+.chroma .o {
+    font-weight: 200;
+    color: #D2D97A !important;
+}
+
+/* General Styling */
+.chroma {
+    display: block;
+    overflow-x: auto;
+    background: #1c1d21; /* or use your preferred background color */
+    color: #c2ccd0; /* or use your preferred text color */
+    padding: 0.5em;
+}
+
+.chroma .hl {
+    background-color: #474733;
+}
+
+.chroma .hljs-emphasis {
+    font-style: italic;
+}
+
+.chroma .hljs-strong {
+    font-weight: 700;
+}
+
+.chroma .ln {
+    color: #8087a2;
+}
+
+.chroma .ln:hover {
+    background-color: #363a4f;
+}
+
+/* Custom CSS for language names and content directories */
+.chroma .language-name {
+    color: #E46828 !important;
+}
+
+.chroma .content-dir {
+    color: #ae81ff !important;
+}
+
+.chroma .language-value {
+    color: #e6db74 !important;
+}

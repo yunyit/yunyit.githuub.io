@@ -13,7 +13,7 @@
       <link>https://www.yunyitang.me/zh/blog/tech/hugo-papermod/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://www.yunyitang.me/zh/blog/tech/hugo-papermod/</guid>
-      <description>从入门到踩坑到从坑里爬起来！ 安装 首先需要安装 Hugo，安装 Hugo 需要利用一个包管理工具。对于 MacOS 系统 Hugo 可以直接用 Homebrew 来安装，打开终端输入 brew install hugo Hugo 的 tutorial</description>
+      <description>从入门到踩坑到从坑里爬起来！ 安装 安装 Hugo：安装 Hugo 需要利用一个包管理工具。对于 MacOS 系统 Hugo 可以直接用 Homebrew 来安装，打开终端输入 brew install hugo 安装 Paper</description>
     </item>
     <item>
       <title>建站日志</title>
