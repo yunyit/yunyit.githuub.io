@@ -299,7 +299,7 @@ your-site/layouts/partials/footer.html
 
 
 ## Home-Info 主页添加头像
-修改在 `/layouts/partials/home_info.html`：
+修改在 `layouts/partials/home_info.html`：
 ```html
 {{- with site.Params.homeInfoParams }}
 <article class="first-entry home-info">
@@ -345,7 +345,7 @@ your-site/layouts/partials/footer.html
 
 # 自定义 hover
 
-主要在 `/assets/css/common/header.css` 中修改：
+主要在 `assets/css/common/header.css` 中修改：
 
 ## Home 主页键 hover
 为页面左上角的 Home 添加 hover：
@@ -425,7 +425,7 @@ svg:hover {
 
 # 修改字体
 ## 修改全局字体
-在 [Google Fonts](https://fonts.google.com) 中查询开源字体，我目前的文章字体为 [JetBrains Mono](https://www.jetbrains.com/lp/mono/)。Google Fonts 会生成 HTML 和 css ，将 HTML 插入到 `/layouts/partials/extend_head.html` 中，将 CSS 插入到 `/assets/css/extended/blank.css`：
+在 [Google Fonts](https://fonts.google.com) 中查询开源字体，我目前的文章字体为 [JetBrains Mono](https://www.jetbrains.com/lp/mono/)。Google Fonts 会生成 HTML 和 css ，将 HTML 插入到 `layouts/partials/extend_head.html` 中，将 CSS 插入到 `assets/css/extended/blank.css`：
 ```css
 body {
     font-family: 'JetBrains Mono', monospace;
@@ -437,7 +437,7 @@ body {
 
 ## 修改代码字体
 
-与全局字体类似，区别为 CSS 代码插入 `/assets/css/extended/blank.css` 的位置不同：
+与全局字体类似，区别为 CSS 代码插入 `assets/css/extended/blank.css` 的位置不同：
 ```css
 .post-content pre, code {
     font-family: 'JetBrains Mono', monospace;
@@ -451,7 +451,7 @@ body {
 ## 代码高亮
 在两个地方修改 -
 
-一个是 `/assets/css/common/post-single.css`：
+一个是 `assets/css/common/post-single.css`：
 ```css
 .post-content pre code {
     display: block;
@@ -465,7 +465,7 @@ body {
 }
 ```
 
-另一个是在 `/assets/css/hljs/an-old-hope.min.css`：
+另一个是在 `assets/css/hljs/an-old-hope.min.css`：
 ```css
 /* 注释 */
 .hljs-comment,
@@ -588,7 +588,7 @@ body {
 # 添加评论
 一开始基于 [MongoDB](https://www.mongodb.com/cloud/atlas/register) 和 [Vercel](https://vercel.com/signup) 部署 [twikoo](https://twikoo.js.org/en/intro.html) 评论系统，后来更换为 [Disqus](https://disqus.com)：
 
-`Disqus` 在 `Hugo` 有内置选项，但我没有弄好，还是按照 [官方文档](https://disqus.com/admin/install/platforms/universalcode/) ，修改代码到 `/layouts/partials/comment.html`：
+`Disqus` 在 `Hugo` 有内置选项，但我没有弄好，还是按照 [官方文档](https://disqus.com/admin/install/platforms/universalcode/) ，修改代码到 `layouts/partials/comment.html`：
 ```html
 <div id="disqus_thread"></div>
 <script>
@@ -633,6 +633,24 @@ body {
 {{- if not (.Param "hideFooter") }}
 <footer class="footer">
     <!-- other codes -->
+    <span>
+        <a href="https://analytics.eu.umami.is/share/mNvu6TLrju52UZ97/Yunyi's%20Blog" 
+        rel="noopener noreferrer" target="_blank">Analytics</a>
+    </span>
+</footer>
+{{- end }}
+```
+
+# 知识共享协议
+
+从 [官方指南](https://chooser-beta.creativecommons.org) 选自适合自己的知识共享协议，并在 `layouts/partials/footer.html` 自定义 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans) 页脚：
+```html
+{{- if not (.Param "hideFooter") }}
+<footer class="footer">
+    <!-- other codes -->
+    <span xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"> 
+        Licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" 
+        rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0 ></a></span>
     <span>
         <a href="https://analytics.eu.umami.is/share/mNvu6TLrju52UZ97/Yunyi's%20Blog" 
         rel="noopener noreferrer" target="_blank">Analytics</a>
