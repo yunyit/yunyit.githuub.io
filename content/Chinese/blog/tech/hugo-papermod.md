@@ -622,6 +622,9 @@ body {
 - [bilibili、YouTube、豆瓣阅读和电影卡片](https://www.sulvblog.cn/posts/blog/shortcodes/)
 - [Spotify](https://gist.github.com/j-un/e7d0b3118556479392bd2269f7059242)
 
+# Tags 标签云
+[Sulv's Blog：Hugo博客添加标签云](https://www.sulvblog.cn/posts/blog/hugo_tag_cloud/)
+
 # 添加友链
 [Sulv’s Blog：Hugo博客添加友链](https://www.sulvblog.cn/posts/blog/hugo_link/)
 
