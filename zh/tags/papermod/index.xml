@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on Yunyi&#39;s Blog</title>
-    <link>https://www.yunyitang.me/zh/tags/hugo/</link>
-    <description>Recent content in Hugo on Yunyi&#39;s Blog</description>
+    <title>PaperMod on Yunyi&#39;s Blog</title>
+    <link>https://www.yunyitang.me/zh/tags/papermod/</link>
+    <description>Recent content in PaperMod on Yunyi&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.yunyitang.me/zh/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.yunyitang.me/zh/tags/papermod/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo/PaperMod 双语 Home-Info/Profile 博客搭建</title>
       <link>https://www.yunyitang.me/zh/blog/tech/hugo-papermod/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://www.yunyitang.me/zh/blog/tech/hugo-papermod/</guid>
       <description>从入门到踩坑到从坑里爬起来！ 安装 首先需要安装 Hugo，安装 Hugo 需要利用一个包管理工具。对于 MacOS 系统 Hugo 可以直接用 Homebrew 来安装，打开终端输入 brew install hugo Hugo 的 tutorial</description>
-    </item>
-    <item>
-      <title>建站日志</title>
-      <link>https://www.yunyitang.me/zh/log/</link>
-      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.yunyitang.me/zh/log/</guid>
-      <description>2022-09-21 基于 Ghost 的 yunyi-tang.ghost.io 启用。 2022-09-26 域名更新为 yunyitang.me，购自 Google Domain。 2023-11-1 Ghost 订阅结束，yunyi-tang.ghost.io 停用。 2023-11-7 迁移</description>
     </item>
   </channel>
 </rss>

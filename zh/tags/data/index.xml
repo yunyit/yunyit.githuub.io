@@ -23,14 +23,14 @@
       <description>在这个独立博客式微的时代，友情链接的意义是什么？ 和 Medium、简书之类的写作平台不同，每一个独立博客都是一个信息孤岛。我们没有类似「你可能</description>
     </item>
     <item>
-      <title>2023年终总结</title>
+      <title>2023 年终总结</title>
       <link>https://www.yunyitang.me/zh/blog/life/2023/</link>
       <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://www.yunyitang.me/zh/blog/life/2023/</guid>
       <description>博客建设 2023 年底把博客从 Ghost 搬到了 Github Pages，动手照着教程 Hugo + PaperMod搭建技术博客 做了一个静态网页做博客，重心放在技术学习整理、以输出</description>
     </item>
     <item>
-      <title>Obsidian工作笔记</title>
+      <title>Obsidian 工作笔记</title>
       <link>https://www.yunyitang.me/zh/blog/tech/obsedian/</link>
       <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://www.yunyitang.me/zh/blog/tech/obsedian/</guid>
@@ -51,7 +51,7 @@
       <description>认知始于 Excel，不知道终于哪儿。 介绍与应用 属性：用于匹配和操作文本的工具 设计思想：用一种描述性的语言来给字符串定义一个规则，凡是符合规则</description>
     </item>
     <item>
-      <title>R可视化</title>
+      <title>R 可视化</title>
       <link>https://www.yunyitang.me/zh/blog/tech/r-visualising/</link>
       <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://www.yunyitang.me/zh/blog/tech/r-visualising/</guid>

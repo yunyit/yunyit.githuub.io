@@ -6,8 +6,15 @@
     <description>Recent content in Markdown on Yunyi&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 12 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.yunyitang.me/zh/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo/PaperMod 双语 Home-Info/Profile 博客搭建</title>
+      <link>https://www.yunyitang.me/zh/blog/tech/hugo-papermod/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/blog/tech/hugo-papermod/</guid>
+      <description>从入门到踩坑到从坑里爬起来！ 安装 首先需要安装 Hugo，安装 Hugo 需要利用一个包管理工具。对于 MacOS 系统 Hugo 可以直接用 Homebrew 来安装，打开终端输入 brew install hugo Hugo 的 tutorial</description>
+    </item>
     <item>
       <title>友链相关阅读</title>
       <link>https://www.yunyitang.me/zh/blog/tech/link-posts/</link>
@@ -16,7 +23,7 @@
       <description>在这个独立博客式微的时代，友情链接的意义是什么？ 和 Medium、简书之类的写作平台不同，每一个独立博客都是一个信息孤岛。我们没有类似「你可能</description>
     </item>
     <item>
-      <title>Obsidian工作笔记</title>
+      <title>Obsidian 工作笔记</title>
       <link>https://www.yunyitang.me/zh/blog/tech/obsedian/</link>
       <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://www.yunyitang.me/zh/blog/tech/obsedian/</guid>
