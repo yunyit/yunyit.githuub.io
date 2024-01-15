@@ -19,7 +19,7 @@ lastmod: "2023-12-20"
 showToc: true
 showbreadcrumbs: true
 slug: ""
-title: 个人常用MacOS软件清单
+title: 个人常用 MacOS 软件清单
 weight: null
 ---
 

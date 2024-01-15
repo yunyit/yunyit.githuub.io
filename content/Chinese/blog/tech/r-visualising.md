@@ -19,7 +19,7 @@ lastmod: "2024-01-06"
 showToc: true
 showbreadcrumbs: true
 slug: ""
-title: R可视化
+title: R 可视化
 weight: null
 ---
 

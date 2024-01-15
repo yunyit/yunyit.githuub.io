@@ -13,19 +13,17 @@ cover:
   caption: ""
   image: ""
   relative: false
-date:
-  '{ .Date }': null
+date: "2024-01-15"
 description: ""
 disableShare: true
 draft: true
 hidemeta: false
-lastmod:
-  '{ .Date }': null
+lastmod: "2024-01-15"
 showToc: true
 showbreadcrumbs: true
 slug: ""
-title: Hugo + PaperMod 自定义 Homeinfo 中英博客搭建
-weight: null
+title: Hugo/PaperMod 自定义 Home-Info/Profile 双语博客搭建
+weight: 1
 ---
 
 > 从入门到踩坑到从坑里爬起来！
@@ -33,7 +31,7 @@ weight: null
 
 # 安装过程
 1. 首先需要安装 Hugo，安装 Hugo 需要利用一个包管理工具。对于 MacOS 系统 Hugo 可以直接用 `Homebrew` 来安装，打开终端输入
-```
+```shell
 brew install hugo
 ```
 
@@ -48,7 +46,7 @@ brew install hugo
 - `static`：存放图片
 - `themes`：主题
 
-进入 `themes/PaperMod` 则是 PaperMod 的相关代码，比较主要的目录有：
+进入 `themes/PaperMod` 则是 [PaperMod](https://github.com/adityatelange/hugo-PaperMod/) 的相关代码，比较主要的目录有：
 - `assets`：PaperMod 的 CSS 和 JavaScript 代码
 - `layouts`：PaperMod 的 HTML
 
@@ -56,27 +54,28 @@ brew install hugo
 建议直接按照 [Sulv’s Blog ：hugo博客搭建 | PaperMod主题](https://www.sulvblog.cn/posts/blog/build_hugo/)进行配置。
 
 # 创建文章
-1. 在终端输入`hugo new 文章名称.md`，就会在`content`文件夹下创建 markdown 文件；
-2. 或在对应`content`文件夹下新建`文章名称.md`；
+1. 在终端输入 `hugo new 文章名称.md`，就会在 `content` 文件夹下创建 markdown 文件；
+2. 或在对应 `content` 文件夹下新建 `文章名称.md`；
 
 文章头部信息可以修改这篇文章的属性，建议按照 [Sulv’s Blog ：hugo博客搭建 | PaperMod主题](https://www.sulvblog.cn/posts/blog/build_hugo/) 进行配置。
 
 # 本地预览
-1. 在终端输入`hugo server -D`启动。
-2. 启动服务器后，打开浏览器，本地预览网址为`localhost:1313`。
+1. 在终端输入 `hugo server -D` 启动。
+2. 启动服务器后，打开浏览器，本地预览网址为 `localhost:1313`。
 
 # 网站部署
-Github Pages 发布静态博客。
+[Github Pages](https://pages.github.com) 发布静态博客 -
 
-- 优点
-  - 仅需一个 github 账号和简单配置即可将静态博客发布到 github pages
-  - 没有维护的时间成本, 可以将精力更多的放到博客内容本身上去
-  - 无需备案
-  - 无需 ssl 证书
-- 缺点
-  - 访问速度较慢
-  - 访问速度较慢
-  - 访问速度较慢
+优点：
+- 仅需一个 github 账号和简单配置即可将静态博客发布到 github pages；
+- 没有维护的时间成本, 可以将精力更多的放到博客内容本身上去；
+- 无需备案；
+- 无需 ssl 证书；
+
+缺点：
+- 访问速度较慢
+- 访问速度较慢
+- 访问速度较慢
 
 # 自定义目录
 `content` 里每个文件夹内都可以添加一个 `_index.md` 文件，该文件里面可以加 Front Matter 自定义（多语言）标题，如：
@@ -153,6 +152,59 @@ languages:
         contentDir: content/Chinese
 ```
 
+# Hover
+
+主要在 `themes/PaperMod/assets/css/common/header.css` 中修改：
+
+## Home 主页键 hover
+```css
+.logo a:hover {
+    transition: 0.15s;
+    color: grey;
+}
+```
+
+## 社交媒体 hover
+以下为本人所标注的 5 个社交媒体标识的自定义颜色，选了各软件的主题色：
+
+```css
+svg:hover {
+    transition: 0.15s;
+}
+
+.social-icons a[href*="github"]:hover svg {
+    color: #333 !important;
+}
+
+.social-icons a[href*="linkedin"]:hover svg {
+    color: #0A66C2 !important;
+}
+
+.social-icons a[href*="instagram"]:hover svg {
+    color: #d62976 !important;
+}
+
+.social-icons a[href*="goodreads"]:hover svg {
+    color: #75420e !important;
+}
+
+.social-icons a[href^="mailto"]:hover svg {
+    color: #f2a60c !important;
+}
+```
+
+## 黑夜模式和白天模式的 hover
+```css
+#moon:hover {
+    transition: 0.15s;
+    color: #1772b4;
+}
+
+#sun:hover {
+    transition: 0.15s;
+    color: #f4a83a;
+}
+```
 
 # 部署 Disqus 评论
 

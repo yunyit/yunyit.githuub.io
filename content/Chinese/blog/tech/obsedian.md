@@ -23,7 +23,7 @@ lastmod: "2024-01-09"
 showToc: true
 showbreadcrumbs: true
 slug: ""
-title: Obsidian工作笔记
+title: Obsidian 工作笔记
 weight: null
 ---
 
