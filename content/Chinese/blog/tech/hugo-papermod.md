@@ -450,131 +450,19 @@ body {
 
 # 代码外观自定义
 ## 代码高亮
-在两个地方修改 -
 
-一个是 `assets/css/common/post-single.css`：
-```css
-.post-content pre code {
-    display: block;
-    margin: auto 0;
-    padding: 10px;
-    /* 主要代码颜色 */
-    color: #c2ccd0;
-    font-weight: 200;
-    overflow-x: auto;
-    word-break: break-all;
-}
+最近一次 [更新](https://github.com/jimangel/jimangel.io#update-code-syntax-css) 换成了 [Chroma](https://xyproto.github.io/splash/docs/all.html)，对应配置文件 `config.yml` 内容为：
+```yaml
+markup:
+  markup.highlight:
+    noclasses: false
 ```
 
-另一个是在 `assets/css/hljs/an-old-hope.min.css`：
-```css
-/* 注释 */
-.hljs-comment,
-.hljs-quote {
-    font-weight: 200;
-    color: #7f848e;
-}
-
-/* html标签 */
-.hljs-deletion,
-.hljs-name,
-.hljs-regexp,
-.hljs-tag {
-    font-weight: 200;
-    color: #63071C;
-}
-
-/* html属性 */
-.hljs-tag {
-    font-weight: 200;
-    color: #ffa631;
-}
-
-/* css类名 */
-.hljs-template-variable,
-.hljs-variable,
-.hljs-selector-class,
-.hljs-selector-id {
-    font-weight: 200;
-    color: #057748;
-}
-
-/* 内置函数 */
-.hljs-built_in,
-.hljs-builtin-name {
-    font-weight: 200;
-    color: #56b6c2;
-}
-
-/* 函数输入 */
-.hljs-params {
-    font-weight: 200;
-    color: #e5c07b;
-}
-
-/* 数字 */
-.hljs-number {
-    font-weight: 200;
-    color: #ffa631;
-}
-
-/* css属性 */
-.hljs-attribute {
-    font-weight: 200;
-    color: #A7A8DB;
-}
-
-/* 字符串 */
-.hljs-addition,
-.hljs-bullet,
-.hljs-symbol,
-.hljs-string {
-    font-weight: 200;
-    color: #4c8dae;
-}
-
-/* 函数名称 */
-.hljs-section,
-.hljs-title {
-    font-weight: 200;
-    color: #F25A47;
-}
-
-/* 关键字 */
-.hljs-keyword,
-.hljs-selector-tag,
-.hljs-literal,
-.hljs-link,
-.hljs-meta,
-.hljs-type {
-    font-weight: 200;
-    color: #D2D97A;
-}
-
-.hljs {
-    display: block;
-    overflow-x: auto;
-    background: #1c1d21;
-    color: #c2ccd0;
-    padding: 0.5em;
-}
-
-.hljs-emphasis {
-    font-style: italic;
-}
-
-.hljs-strong {
-    font-weight: 700;
-}
-
-/* 选中时的背景颜色 */
-.hljs ::selection,
-.hljs::selection {
-    background-color: #3d4556;
-}
+配合本站的橙色系，我选择了 [gruvbox](https://xyproto.github.io/splash/docs/gruvbox.html)，`Hugo` 的安装过程：https://bwiggs.com/posts/2021-08-03-hugo-syntax-highlight-dark-light/ 
+```shell
+hugo gen chromastyles --style=gruvbox > assets/css/includes/chroma-styles.css
 ```
 
-贪新鲜经常更改代码颜色，主要从 [500 Plus Traditional Colors of China](https://color-term.com/traditional-color-of-china/) 里选。
 
 ## 代码边框圆角
 
