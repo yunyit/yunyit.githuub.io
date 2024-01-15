@@ -1,0 +1,1125 @@
+<!DOCTYPE html>
+<html lang="zh" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Hugo/PaperMod 双语 Home-Info/Profile 博客搭建 | Yunyi&#39;s Blog</title>
+<meta name="keywords" content="PaperMod, Hugo, Markdown, 建站, YAML">
+<meta name="description" content="从入门到踩坑到从坑里爬起来！ 安装 首先需要安装 Hugo，安装 Hugo 需要利用一个包管理工具。对于 MacOS 系统 Hugo 可以直接用 Homebrew 来安装，打开终端输入 brew install hugo Hugo 的 tutorial">
+<meta name="author" content="Yunyi">
+<link rel="canonical" href="https://www.yunyitang.me/zh/blog/tech/hugo-papermod/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.a0c91ebcf0a75d3d249e3bf1df31bee70c8f51392ef88b1b56d83726546d10c0.css" integrity="sha256-oMkevPCnXT0knjvx3zG&#43;5wyPUTku&#43;IsbVtg3JlRtEMA=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://www.yunyitang.me/favicon/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.yunyitang.me/favicon/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.yunyitang.me/favicon/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://www.yunyitang.me/favicon/apple-touch-icon.png">
+<link rel="mask-icon" href="https://www.yunyitang.me/favicon/favicon.ico">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="zh" href="https://www.yunyitang.me/zh/blog/tech/hugo-papermod/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+
+<script>
+    var host = window.location.hostname;
+    if(host != "localhost") {
+        var script = document.createElement('script');
+        script.src = "https://eu.umami.is/script.js";
+        script.async = true;
+        script.dataset.websiteId = "ff42c1d4-d7db-4925-af13-c30c26df5816";
+        document.head.appendChild(script);
+    }
+</script>
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+<link rel="manifest" href="/favicon_io/site.webmanifest">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0K2EFCEZGW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0K2EFCEZGW');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0K2EFCEZGW"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-0K2EFCEZGW', { 'anonymize_ip': false });
+}
+</script>
+<meta property="og:title" content="Hugo/PaperMod 双语 Home-Info/Profile 博客搭建" />
+<meta property="og:description" content="从入门到踩坑到从坑里爬起来！ 安装 首先需要安装 Hugo，安装 Hugo 需要利用一个包管理工具。对于 MacOS 系统 Hugo 可以直接用 Homebrew 来安装，打开终端输入 brew install hugo Hugo 的 tutorial" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.yunyitang.me/zh/blog/tech/hugo-papermod/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2024-01-15T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-01-15T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Hugo/PaperMod 双语 Home-Info/Profile 博客搭建"/>
+<meta name="twitter:description" content="从入门到踩坑到从坑里爬起来！ 安装 首先需要安装 Hugo，安装 Hugo 需要利用一个包管理工具。对于 MacOS 系统 Hugo 可以直接用 Homebrew 来安装，打开终端输入 brew install hugo Hugo 的 tutorial"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "博客",
+      "item": "https://www.yunyitang.me/zh/blog/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "技术 👩🏻‍💻",
+      "item": "https://www.yunyitang.me/zh/blog/tech/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "Hugo/PaperMod 双语 Home-Info/Profile 博客搭建",
+      "item": "https://www.yunyitang.me/zh/blog/tech/hugo-papermod/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Hugo/PaperMod 双语 Home-Info/Profile 博客搭建",
+  "name": "Hugo\/PaperMod 双语 Home-Info\/Profile 博客搭建",
+  "description": "从入门到踩坑到从坑里爬起来！ 安装 首先需要安装 Hugo，安装 Hugo 需要利用一个包管理工具。对于 MacOS 系统 Hugo 可以直接用 Homebrew 来安装，打开终端输入 brew install hugo Hugo 的 tutorial",
+  "keywords": [
+    "PaperMod", "Hugo", "Markdown", "建站", "YAML"
+  ],
+  "articleBody": " 从入门到踩坑到从坑里爬起来！\n安装 首先需要安装 Hugo，安装 Hugo 需要利用一个包管理工具。对于 MacOS 系统 Hugo 可以直接用 Homebrew 来安装，打开终端输入 brew install hugo Hugo 的 tutorial 介绍了如何创建一个项目，其中 step2（.yml的config文件）和 step3（下载主题）要根据 PaperMod 的 guide 来配置。 文件夹管理 content：用于放博客内容 data：不用管 layouts：自定义的 HTML public：项目导出文件 resources：自定义的 CSS 和 JavaScript static：存放图片 themes：主题 进入 themes/PaperMod 则是 PaperMod 的相关代码，比较主要的目录有：\nassets：PaperMod 的 CSS 和 JavaScript 代码 layouts：PaperMod 的 HTML 自定义博文目录 content 里每个文件夹内都可以添加一个 _index.md 文件，该文件里面可以加 Front Matter 自定义（多语言）标题，如：\n--- hidemeta: true title: 博客 --- 初始项目文件夹结构如下：\n. ├── config.yml ├── content/ │ ├── archives.md │ ├── search.md │ └── posts/ ├── static/ │ ├── img/ │ └── ... └── themes └── PaperMod Config.yml Sulv’s Blog ：hugo博客搭建 | PaperMod主题 PaperMod 官方文档 多语言 config.yml 设置 如果我们想要使用多语言（中英为例），就需要在 content 文件夹下准备两个文件夹，例如 Chinese 和 English ，一个放中文，另一个放英文。\n在 config.yml 中需要做以下修改：\ndefaultContentLanguage: en defaultContentLanguageInSubdir: true languages: en: languageName: \"English\" contentDir: content/English zh: languageName: \"中文\" contentDir: content/Chinese 双语双模式 config.yml 设置 一开始照本宣科做中英一式两份的个人网站，后来随着 扩展 友链、多读多看，加之自己在英工作，逐渐调整了个站中英页面的各自侧重。\n英文页面 有求职相关，主页保持 portfolio 的简洁， 选用了 Profile Mode：\ndefaultContentLanguage: en # 默认语言 defaultContentLanguageInSubdir: true # 默认语言是否放在子目录中 languages: en: languageName: English languageCode: en contentDir: content/English menu: main: - identifier: about name: About url: /en/about/ weight: 10 - identifier: project name: Project url: /en/project/ weight: 20 - identifier: resume name: Resume url: /en/resume.pdf weight: 30 - identifier: blog name: Blog url: /en/blog/ weight: 40 - identifier: tags name: 🕹️ url: /en/tags/ weight: 50 - identifier: search name: Search url: /en/search/ weight: 60 params: profileMode: enabled: true title: Yunyi Tang subtitle: Little squirrel Hopping around imageUrl: \"img/Avatar.png\" imageWidth: 150 imageHeight: 150 buttons: - name: Project url: /en/project/ - name: Resume url: /en/resume.pdf - name: Log url: /en/blog/tech/log/ socialIcons: - name: github url: \"https://github.com/yunyit\" - name: linkedin url: \"https://www.linkedin.com/in/yunyitang820/\" - name: instagram url: \"https://www.instagram.com/yunyi_cam/\" - name: goodreads url: \"https://www.goodreads.com/user/show/161105203-yunyi-tang\" - name: email url: \"mailto:yunyi.tang.820@gmail.com\" 中文页面 则更侧重博客输出，魔改了 Home-Info Mode：\ndefaultContentLanguage: en # 默认语言 defaultContentLanguageInSubdir: true # 默认语言是否放在子目录中 languages: en: # 参照上节 zh: languageName: 中文 languageCode: zh contentDir: content/Chinese menu: main: - identifier: about name: 关于 url: /zh/about/ weight: 10 - identifier: log name: 建站 url: /zh/log/ weight: 20 - identifier: blog name: 博客 url: /zh/blog/ weight: 30 - identifier: links name: 友链 url: /zh/links/ weight: 40 - identifier: tags name: 🕹️ url: /zh/tags/ weight: 50 - identifier: search name: 搜索 url: /zh/search/ weight: 60 - identifier: travellings name: 开往 url: https://www.travellings.cn/go.html weight: 70 params: homeInfoParams: enabled: true Title: Yunyi's Blog Content: const desc = \"Little squirrel Hopping around\"; imageUrl: \"img/Avatar.png\" imageWidth: 110 imageHeight: 110 socialIcons: - name: github url: \"https://github.com/yunyit\" - name: instagram url: \"https://www.instagram.com/yunyi_cam/\" - name: goodreads url: \"https://www.goodreads.com/user/show/161105203-yunyi-tang\" - name: email url: \"mailto:yunyi.tang.820@gmail.com\" 创建文章 在终端输入 hugo new 文章名称.md，在 content 文件夹下创建 markdown 文件； 但我懒，直接在对应 content 文件夹下新建 文章名称.md； 自定义文章 Front Matter 文章头部信息可以修改这篇文章的属性，建议按照 Sulv’s Blog ：hugo博客搭建 | PaperMod主题 进行配置。\n我的 Front Matter 如下，在 PaperMod 默认基础上稍加修改，供参考:\n--- Tags: - PaperMod - Hugo - Disqus - 建站 TocOpen: true author: - Yunyi comments: true cover: alt: \"\" caption: \"\" image: \"\" relative: false date: '{ .Date }': null description: \"\" disableShare: true draft: true hidemeta: false lastmod: '{ .Date }': null showToc: true showbreadcrumbs: true slug: \"\" title: Hugo + PaperMod 自定义 Homeinfo 中英博客搭建 weight: null --- 本地预览 在终端输入 hugo server -D 启动。 启动服务器后，打开浏览器，本地预览网址为 localhost:1313。 网站部署 Github Pages 发布静态博客 -\n优点：\n仅需一个 github 账号和简单配置即可将静态博客发布到 github pages； 没有维护的时间成本, 可以将精力更多的放到博客内容本身上去； 无需备案； 无需 ssl 证书； 缺点：\n访问速度较慢 访问速度较慢 访问速度较慢 自定义页面布局 html/css 参考 PaperMod官方文档：\n通过 Hugo 的查找顺序，您可以覆盖主题的任何部分。比如，自定义 footer，只需复制列表模板即可：\nyour-site/themes/papermod/layouts/partials/footer.html 然后粘贴到自己的 layout 文件夹下：\nyour-site/layouts/partials/footer.html 然后就可以对 footer 进行任何修改了。 Hugo 创建网站时，将使用 your-site/layouts/partials/ 里的 footer.html，而不是 your-site/themes/papermod/layouts/partials/ 里的 footer.html。\ngit pull 更新 your-site/themes/papermod/ 之后，记得也更新对应的自定义 html css，眼瞎 debug 体会！\nHome-Info 主页添加头像 修改在 /layouts/partials/home_info.html：\n{{- with site.Params.homeInfoParams }} \u003carticle class=\"first-entry home-info\"\u003e {{- with site.Params.homeInfoParams }} \u003cdiv class=\"profile_inner\"\u003e {{- if .imageUrl -}} {{- $img := \"\" }} {{- if not (urls.Parse .imageUrl).IsAbs }} {{- $img = resources.Get .imageUrl }} {{- end }} {{- if $img }} {{- $processableFormats := (slice \"jpg\" \"jpeg\" \"png\" \"tif\" \"bmp\" \"gif\") -}} {{- if hugo.IsExtended -}} {{- $processableFormats = $processableFormats | append \"webp\" -}} {{- end -}} {{- $prod := (hugo.IsProduction | or (eq site.Params.env \"production\")) }} {{- if and (in $processableFormats $img.MediaType.SubType) (eq $prod true)}} {{- if (not (and (not .imageHeight) (not .imageWidth))) }} {{- $img = $img.Resize (printf \"%dx%d\" .imageWidth .imageHeight) }} {{- else if .imageHeight }} {{- $img = $img.Resize (printf \"x%d\" .imageHeight) }} {{ else if .imageWidth }} {{- $img = $img.Resize (printf \"%dx\" .imageWidth) }} {{ else }} {{- $img = $img.Resize \"50x50\" }} {{- end }} {{- end }} \u003ca href=\"https://www.yunyitang.me/img/Avatar.png\" \u003e\u003cimg id=\"home-info-avatar\" draggable=\"false\" src=\"{{ $img.Permalink }}\" alt=\"{{ .imageTitle | default \"profile image\" }}\" title=\"{{ .imageTitle }}\" height=\"{{ .imageHeight | default 50 }}\" width=\"{{ .imageWidth | default 100 }}\" style=\"border-radius: 50%!important; background-color: #fff; padding: 2px;\" /\u003e\u003c/a\u003e {{- else }} \u003ca href=\"https://www.yunyitang.me/img/Avatar.png\" \u003e\u003cimg id=\"home-info-avatar\" draggable=\"false\" src=\"{{ .imageUrl | absURL }}\" alt=\"{{ .imageTitle | default \"profile image\" }}\" title=\"{{ .imageTitle }}\" height=\"{{ .imageHeight | default 50 }}\" width=\"{{ .imageWidth | default 100 }}\" style=\"border-radius: 50%!important; background-color: #fff; padding: 2px;\" /\u003e\u003c/a\u003e {{- end }} {{- end }} \u003c/div\u003e {{- end }} \u003c/article\u003e {{- end -}} 自定义 hover 主要在 /assets/css/common/header.css 中修改：\nHome 主页键 hover 为页面左上角的 Home 添加 hover：\n.logo a:hover { transition: 0.15s; color: grey; } 社交媒体 hover 以下为本人所标注的 5 个社交媒体标识的自定义颜色，选了各软件的主题色：\nsvg:hover { transition: 0.15s; } .social-icons a[href*=\"github\"]:hover svg { color: #333 !important; } .social-icons a[href*=\"linkedin\"]:hover svg { color: #0A66C2 !important; } .social-icons a[href*=\"instagram\"]:hover svg { color: #d62976 !important; } .social-icons a[href*=\"goodreads\"]:hover svg { color: #75420e !important; } .social-icons a[href^=\"mailto\"]:hover svg { color: #f2a60c !important; } 黑夜模式和白天模式的 hover #moon:hover { transition: 0.15s; color: #1772b4; } #sun:hover { transition: 0.15s; color: #f4a83a; } 主页 menu 中链接 hover #menu a:hover { transition: 0.15s; color: grey; } Profile mode 按钮 hover 在 /assets/css/common/profile-mode.css 中修改：\n.button:hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -ms-transform: scale(1.1); -o-transform: scale(1.1); /* box-shadow: 0 0 0 1px grey; */ transform: scale(1.1) translateZ(0) translate3d(0, 0, 0) rotate(0.01deg); } 目录栏目放侧边 Sulv’s Blog：Hugo博客目录放在侧边 | PaperMod主题\n修改字体 修改全局字体 在 Google Fonts 中查询开源字体，我目前的文章字体为 JetBrains Mono。Google Fonts 会生成 HTML 和 css ，将 HTML 插入到 /layouts/partials/extend_head.html 中，将 CSS 插入到 /assets/css/extended/blank.css：\nbody { font-family: 'JetBrains Mono', monospace; font-size: 1rem; line-height: 1.5; margin: 0; } 修改代码字体 与全局字体类似，区别为 CSS 代码插入 /assets/css/extended/blank.css 的位置不同：\n.post-content pre, code { font-family: 'JetBrains Mono', monospace; font-size: 13; line-height: 1.2; max-height: 40rem; } 代码外观自定义 代码高亮 在两个地方修改 -\n一个是 /assets/css/common/post-single.css：\n.post-content pre code { display: block; margin: auto 0; padding: 10px; /* 主要代码颜色 */ color: #c2ccd0; font-weight: 200; overflow-x: auto; word-break: break-all; } 另一个是在 /assets/css/hljs/an-old-hope.min.css：\n/* 注释 */ .hljs-comment, .hljs-quote { font-weight: 200; color: #7f848e; } /* html标签 */ .hljs-deletion, .hljs-name, .hljs-regexp, .hljs-tag { font-weight: 200; color: #63071C; } /* html属性 */ .hljs-tag { font-weight: 200; color: #ffa631; } /* css类名 */ .hljs-template-variable, .hljs-variable, .hljs-selector-class, .hljs-selector-id { font-weight: 200; color: #057748; } /* 内置函数 */ .hljs-built_in, .hljs-builtin-name { font-weight: 200; color: #56b6c2; } /* 函数输入 */ .hljs-params { font-weight: 200; color: #e5c07b; } /* 数字 */ .hljs-number { font-weight: 200; color: #ffa631; } /* css属性 */ .hljs-attribute { font-weight: 200; color: #A7A8DB; } /* 字符串 */ .hljs-addition, .hljs-bullet, .hljs-symbol, .hljs-string { font-weight: 200; color: #4c8dae; } /* 函数名称 */ .hljs-section, .hljs-title { font-weight: 200; color: #F25A47; } /* 关键字 */ .hljs-keyword, .hljs-selector-tag, .hljs-literal, .hljs-link, .hljs-meta, .hljs-type { font-weight: 200; color: #D2D97A; } .hljs { display: block; overflow-x: auto; background: #1c1d21; color: #c2ccd0; padding: 0.5em; } .hljs-emphasis { font-style: italic; } .hljs-strong { font-weight: 700; } /* 选中时的背景颜色 */ .hljs ::selection, .hljs::selection { background-color: #3d4556; } 贪新鲜经常更改代码颜色，主要从 500 Plus Traditional Colors of China 里选。\n代码边框圆角 在 /assets/css/common/post-single.css 中修改：\n.post-content .highlight pre { background-color: var(--theme) !important; margin: 0; } 添加评论 一开始基于 MongoDB 和 Vercel 部署 twikoo 评论系统，后来更换为 Disqus：\nDisqus 在 Hugo 有内置选项，但我没有弄好，还是按照 官方文档 ，修改代码到 /layouts/partials/comment.html：\n\u003cdiv id=\"disqus_thread\"\u003e\u003c/div\u003e \u003cscript\u003e var disqus_config = function () { this.page.url = \"https://www.yunyitang.me/\"; // 域名 this.page.identifier = PAGE_IDENTIFIER; // 无需更改 (function() { // DON'T EDIT BELOW THIS LINE var d = document, s = d.createElement('script'); s.src = 'https://yunyitang-me.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); \u003c/script\u003e \u003cnoscript\u003ePlease enable JavaScript to view the \u003ca href=\"https://disqus.com/?ref_noscript\"\u003ecomments powered by Disqus.\u003c/a\u003e\u003c/noscript\u003e 调用上述 Disqus 代码的位置：layouts/_default/single.html：\n{{- if (.Param \"comments\") }} {{ partial \"comments.html\" . }} {{- end }} \u003c/article\u003e {{- end }}{{/* end main */}} Shortcodes 扩展功能/插件 bilibili、YouTube、豆瓣阅读和电影卡片 Spotify 添加友链 Sulv’s Blog：Hugo博客添加友链\n流量统计 我使用了 umami 流量统计，并添加在页脚 footer 。\n在 layouts/partials/footer.html 中修改：\n{{- if not (.Param \"hideFooter\") }} \u003cfooter class=\"footer\"\u003e \u003cspan\u003e \u003ca href=\"https://analytics.eu.umami.is/share/mNvu6TLrju52UZ97/Yunyi's%20Blog\" rel=\"noopener noreferrer\" target=\"_blank\"\u003eAnalytics\u003c/a\u003e \u003c/span\u003e \u003c/footer\u003e {{- end }} ",
+  "wordCount" : "2853",
+  "inLanguage": "zh",
+  "datePublished": "2024-01-15T00:00:00Z",
+  "dateModified": "2024-01-15T00:00:00Z",
+  "author":[{
+    "@type": "Person",
+    "name": "Yunyi"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.yunyitang.me/zh/blog/tech/hugo-papermod/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Yunyi's Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.yunyitang.me/favicon/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://www.yunyitang.me/zh/" accesskey="h" title="Home (Alt + H)">Home</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="https://www.yunyitang.me/en/" title="English"
+                            aria-label="English">English</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://www.yunyitang.me/zh/about/" title="关于">
+                    <span>关于</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.yunyitang.me/zh/log/" title="建站">
+                    <span>建站</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.yunyitang.me/zh/blog/" title="博客">
+                    <span>博客</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.yunyitang.me/zh/links/" title="友链">
+                    <span>友链</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.yunyitang.me/zh/tags/" title="🕹️">
+                    <span>🕹️</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.yunyitang.me/zh/search/" title="搜索 (Alt &#43; /)" accesskey=/>
+                    <span>搜索</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.travellings.cn/go.html" title="开往">
+                    <span>开往</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://www.yunyitang.me/zh/">主页</a>&nbsp;»&nbsp;<a href="https://www.yunyitang.me/zh/blog/">博客</a>&nbsp;»&nbsp;<a href="https://www.yunyitang.me/zh/blog/tech/">技术 👩🏻‍💻</a></div>
+    <h1 class="post-title">
+      Hugo/PaperMod 双语 Home-Info/Profile 博客搭建
+    </h1>
+    <div class="post-meta"><span title='2024-01-15 00:00:00 +0000 UTC'>2024-01-15</span>&nbsp;·&nbsp;6 分钟&nbsp;·&nbsp;Yunyi
+
+
+</div>
+  </header> <aside id="toc-container" class="toc-container wide">
+    <div class="toc">
+        <details  open>
+            <summary accesskey="c" title="(Alt + C)">
+                <span class="details">目录</span>
+            </summary>
+
+            <div class="inner"><ul>
+                    <li>
+                        <a href="#%e5%ae%89%e8%a3%85" aria-label="安装">安装</a></li>
+                    <li>
+                        <a href="#%e6%96%87%e4%bb%b6%e5%a4%b9%e7%ae%a1%e7%90%86" aria-label="文件夹管理">文件夹管理</a><ul>
+                            
+                    <li>
+                        <a href="#%e8%87%aa%e5%ae%9a%e4%b9%89%e5%8d%9a%e6%96%87%e7%9b%ae%e5%bd%95" aria-label="自定义博文目录">自定义博文目录</a></li></ul>
+                    </li>
+                    <li>
+                        <a href="#configyml" aria-label="Config.yml">Config.yml</a><ul>
+                            
+                    <li>
+                        <a href="#%e5%a4%9a%e8%af%ad%e8%a8%80-configyml-%e8%ae%be%e7%bd%ae" aria-label="多语言 config.yml 设置">多语言 config.yml 设置</a></li>
+                    <li>
+                        <a href="#%e5%8f%8c%e8%af%ad%e5%8f%8c%e6%a8%a1%e5%bc%8f-configyml-%e8%ae%be%e7%bd%ae" aria-label="双语双模式 config.yml 设置">双语双模式 config.yml 设置</a></li></ul>
+                    </li>
+                    <li>
+                        <a href="#%e5%88%9b%e5%bb%ba%e6%96%87%e7%ab%a0" aria-label="创建文章">创建文章</a><ul>
+                            
+                    <li>
+                        <a href="#%e8%87%aa%e5%ae%9a%e4%b9%89%e6%96%87%e7%ab%a0-front-matter" aria-label="自定义文章 Front Matter">自定义文章 Front Matter</a></li></ul>
+                    </li>
+                    <li>
+                        <a href="#%e6%9c%ac%e5%9c%b0%e9%a2%84%e8%a7%88" aria-label="本地预览">本地预览</a></li>
+                    <li>
+                        <a href="#%e7%bd%91%e7%ab%99%e9%83%a8%e7%bd%b2" aria-label="网站部署">网站部署</a></li>
+                    <li>
+                        <a href="#%e8%87%aa%e5%ae%9a%e4%b9%89%e9%a1%b5%e9%9d%a2%e5%b8%83%e5%b1%80-htmlcss" aria-label="自定义页面布局 html/css">自定义页面布局 html/css</a><ul>
+                            
+                    <li>
+                        <a href="#home-info-%e4%b8%bb%e9%a1%b5%e6%b7%bb%e5%8a%a0%e5%a4%b4%e5%83%8f" aria-label="Home-Info 主页添加头像">Home-Info 主页添加头像</a></li></ul>
+                    </li>
+                    <li>
+                        <a href="#%e8%87%aa%e5%ae%9a%e4%b9%89-hover" aria-label="自定义 hover">自定义 hover</a><ul>
+                            
+                    <li>
+                        <a href="#home-%e4%b8%bb%e9%a1%b5%e9%94%ae-hover" aria-label="Home 主页键 hover">Home 主页键 hover</a></li>
+                    <li>
+                        <a href="#%e7%a4%be%e4%ba%a4%e5%aa%92%e4%bd%93-hover" aria-label="社交媒体 hover">社交媒体 hover</a></li>
+                    <li>
+                        <a href="#%e9%bb%91%e5%a4%9c%e6%a8%a1%e5%bc%8f%e5%92%8c%e7%99%bd%e5%a4%a9%e6%a8%a1%e5%bc%8f%e7%9a%84-hover" aria-label="黑夜模式和白天模式的 hover">黑夜模式和白天模式的 hover</a></li>
+                    <li>
+                        <a href="#%e4%b8%bb%e9%a1%b5-menu-%e4%b8%ad%e9%93%be%e6%8e%a5-hover" aria-label="主页 menu 中链接 hover">主页 menu 中链接 hover</a></li>
+                    <li>
+                        <a href="#profile-mode-%e6%8c%89%e9%92%ae-hover" aria-label="Profile mode 按钮 hover">Profile mode 按钮 hover</a></li></ul>
+                    </li>
+                    <li>
+                        <a href="#%e7%9b%ae%e5%bd%95%e6%a0%8f%e7%9b%ae%e6%94%be%e4%be%a7%e8%be%b9" aria-label="目录栏目放侧边">目录栏目放侧边</a></li>
+                    <li>
+                        <a href="#%e4%bf%ae%e6%94%b9%e5%ad%97%e4%bd%93" aria-label="修改字体">修改字体</a><ul>
+                            
+                    <li>
+                        <a href="#%e4%bf%ae%e6%94%b9%e5%85%a8%e5%b1%80%e5%ad%97%e4%bd%93" aria-label="修改全局字体">修改全局字体</a></li>
+                    <li>
+                        <a href="#%e4%bf%ae%e6%94%b9%e4%bb%a3%e7%a0%81%e5%ad%97%e4%bd%93" aria-label="修改代码字体">修改代码字体</a></li></ul>
+                    </li>
+                    <li>
+                        <a href="#%e4%bb%a3%e7%a0%81%e5%a4%96%e8%a7%82%e8%87%aa%e5%ae%9a%e4%b9%89" aria-label="代码外观自定义">代码外观自定义</a><ul>
+                            
+                    <li>
+                        <a href="#%e4%bb%a3%e7%a0%81%e9%ab%98%e4%ba%ae" aria-label="代码高亮">代码高亮</a></li>
+                    <li>
+                        <a href="#%e4%bb%a3%e7%a0%81%e8%be%b9%e6%a1%86%e5%9c%86%e8%a7%92" aria-label="代码边框圆角">代码边框圆角</a></li></ul>
+                    </li>
+                    <li>
+                        <a href="#%e6%b7%bb%e5%8a%a0%e8%af%84%e8%ae%ba" aria-label="添加评论">添加评论</a></li>
+                    <li>
+                        <a href="#shortcodes-%e6%89%a9%e5%b1%95%e5%8a%9f%e8%83%bd%e6%8f%92%e4%bb%b6" aria-label="Shortcodes 扩展功能/插件">Shortcodes 扩展功能/插件</a></li>
+                    <li>
+                        <a href="#%e6%b7%bb%e5%8a%a0%e5%8f%8b%e9%93%be" aria-label="添加友链">添加友链</a></li>
+                    <li>
+                        <a href="#%e6%b5%81%e9%87%8f%e7%bb%9f%e8%ae%a1" aria-label="流量统计">流量统计</a>
+                    </li>
+                </ul>
+            </div>
+        </details>
+    </div>
+</aside>
+<script>
+    let activeElement;
+    let elements;
+    window.addEventListener('DOMContentLoaded', function (event) {
+        checkTocPosition();
+
+        elements = document.querySelectorAll('h1[id],h2[id],h3[id],h4[id],h5[id],h6[id]');
+         
+         activeElement = elements[0];
+         const id = encodeURI(activeElement.getAttribute('id')).toLowerCase();
+         document.querySelector(`.inner ul li a[href="#${id}"]`).classList.add('active');
+     }, false);
+
+    window.addEventListener('resize', function(event) {
+        checkTocPosition();
+    }, false);
+
+    window.addEventListener('scroll', () => {
+        
+        activeElement = Array.from(elements).find((element) => {
+            if ((getOffsetTop(element) - window.pageYOffset) > 0 && 
+                (getOffsetTop(element) - window.pageYOffset) < window.innerHeight/2) {
+                return element;
+            }
+        }) || activeElement
+
+        elements.forEach(element => {
+             const id = encodeURI(element.getAttribute('id')).toLowerCase();
+             if (element === activeElement){
+                 document.querySelector(`.inner ul li a[href="#${id}"]`).classList.add('active');
+             } else {
+                 document.querySelector(`.inner ul li a[href="#${id}"]`).classList.remove('active');
+             }
+         })
+     }, false);
+
+    const main = parseInt(getComputedStyle(document.body).getPropertyValue('--article-width'), 10);
+    const toc = parseInt(getComputedStyle(document.body).getPropertyValue('--toc-width'), 10);
+    const gap = parseInt(getComputedStyle(document.body).getPropertyValue('--gap'), 10);
+
+    function checkTocPosition() {
+        const width = document.body.scrollWidth;
+
+        if (width - main - (toc * 2) - (gap * 4) > 0) {
+            document.getElementById("toc-container").classList.add("wide");
+        } else {
+            document.getElementById("toc-container").classList.remove("wide");
+        }
+    }
+
+    function getOffsetTop(element) {
+        if (!element.getClientRects().length) {
+            return 0;
+        }
+        let rect = element.getBoundingClientRect();
+        let win = element.ownerDocument.defaultView;
+        return rect.top + win.pageYOffset;   
+    }
+</script>
+
+  <div class="post-content"><blockquote>
+<p>从入门到踩坑到从坑里爬起来！</p>
+</blockquote>
+<h1 id="安装">安装<a hidden class="anchor" aria-hidden="true" href="#安装">#</a></h1>
+<ol>
+<li>首先需要安装 <code>Hugo</code>，安装 <code>Hugo</code> 需要利用一个包管理工具。对于 MacOS 系统 <code>Hugo</code> 可以直接用 <code>Homebrew</code> 来安装，打开终端输入</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>brew install hugo
+</span></span></code></pre></div><ol start="2">
+<li><code>Hugo</code> 的 <a href="https://gohugo.io/getting-started/quick-start/">tutorial</a> 介绍了如何创建一个项目，其中 <code>step2</code>（.yml的config文件）和 <code>step3</code>（下载主题）要根据 <code>PaperMod</code> 的 <a href="https://github.com/adityatelange/hugo-PaperMod/wiki/Installation0">guide</a> 来配置。</li>
+</ol>
+<h1 id="文件夹管理">文件夹管理<a hidden class="anchor" aria-hidden="true" href="#文件夹管理">#</a></h1>
+<ul>
+<li><code>content</code>：用于放博客内容</li>
+<li><code>data</code>：不用管</li>
+<li><code>layouts</code>：自定义的 HTML</li>
+<li><code>public</code>：项目导出文件</li>
+<li><code>resources</code>：自定义的 CSS 和 JavaScript</li>
+<li><code>static</code>：存放图片</li>
+<li><code>themes</code>：主题</li>
+</ul>
+<p>进入 <code>themes/PaperMod</code> 则是 <a href="https://github.com/adityatelange/hugo-PaperMod/">PaperMod</a> 的相关代码，比较主要的目录有：</p>
+<ul>
+<li><code>assets</code>：PaperMod 的 CSS 和 JavaScript 代码</li>
+<li><code>layouts</code>：PaperMod 的 HTML</li>
+</ul>
+<h2 id="自定义博文目录">自定义博文目录<a hidden class="anchor" aria-hidden="true" href="#自定义博文目录">#</a></h2>
+<p><code>content</code> 里每个文件夹内都可以添加一个 <code>_index.md</code> 文件，该文件里面可以加 Front Matter 自定义（多语言）标题，如：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span><span style="color:#f92672">hidemeta</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">title</span>: <span style="color:#ae81ff">博客</span>
+</span></span><span style="display:flex;"><span>---
+</span></span></code></pre></div><p>初始项目文件夹结构如下：</p>
+<pre tabindex="0"><code>.
+├── config.yml
+├── content/
+│   ├── archives.md  
+│   ├── search.md 
+│   └── posts/
+├── static/
+│   ├── img/
+│   └── ...
+└── themes
+    └── PaperMod
+</code></pre><h1 id="configyml">Config.yml<a hidden class="anchor" aria-hidden="true" href="#configyml">#</a></h1>
+<ul>
+<li><a href="https://www.sulvblog.cn/posts/blog/build_hugo/">Sulv’s Blog ：hugo博客搭建 | PaperMod主题</a></li>
+<li><a href="https://github.com/adityatelange/hugo-PaperMod/wiki/Features#intro">PaperMod 官方文档</a></li>
+</ul>
+<h2 id="多语言-configyml-设置">多语言 config.yml 设置<a hidden class="anchor" aria-hidden="true" href="#多语言-configyml-设置">#</a></h2>
+<p>如果我们想要使用多语言（中英为例），就需要在 <code>content</code> 文件夹下准备两个文件夹，例如 <code>Chinese</code> 和 <code>English</code> ，一个放中文，另一个放英文。</p>
+<p>在 <code>config.yml</code> 中需要做以下修改：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">defaultContentLanguage</span>: <span style="color:#ae81ff">en</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">defaultContentLanguageInSubdir</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">languages</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">en</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">languageName</span>: <span style="color:#e6db74">&#34;English&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">contentDir</span>: <span style="color:#ae81ff">content/English</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">zh</span>:
+</span></span><span style="display:flex;"><span>    	<span style="color:#f92672">languageName</span>: <span style="color:#e6db74">&#34;中文&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">contentDir</span>: <span style="color:#ae81ff">content/Chinese</span>
+</span></span></code></pre></div><h2 id="双语双模式-configyml-设置">双语双模式 config.yml 设置<a hidden class="anchor" aria-hidden="true" href="#双语双模式-configyml-设置">#</a></h2>
+<p>一开始照本宣科做中英一式两份的个人网站，<a href="https://www.yunyitang.me/zh/blog/life/2023/">后来随着</a> 扩展 <a href="https://www.yunyitang.me/zh/links/">友链</a>、多读多看，加之自己在英工作，逐渐调整了个站中英页面的各自侧重。</p>
+<p><a href="https://www.yunyitang.me/en/">英文页面</a> 有求职相关，主页保持 portfolio 的简洁， 选用了 <a href="https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode">Profile Mode</a>：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">defaultContentLanguage</span>: <span style="color:#ae81ff">en</span> <span style="color:#75715e"># 默认语言</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">defaultContentLanguageInSubdir</span>: <span style="color:#66d9ef">true</span> <span style="color:#75715e"># 默认语言是否放在子目录中</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">languages</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">en</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">languageName</span>: <span style="color:#ae81ff">English</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">languageCode</span>: <span style="color:#ae81ff">en</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">contentDir</span>: <span style="color:#ae81ff">content/English</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">menu</span>:
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">main</span>:
+</span></span><span style="display:flex;"><span>            - <span style="color:#f92672">identifier</span>: <span style="color:#ae81ff">about</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">name</span>: <span style="color:#ae81ff">About</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">url</span>: <span style="color:#ae81ff">/en/about/</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">weight</span>: <span style="color:#ae81ff">10</span>
+</span></span><span style="display:flex;"><span>            - <span style="color:#f92672">identifier</span>: <span style="color:#ae81ff">project</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Project</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">url</span>: <span style="color:#ae81ff">/en/project/</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">weight</span>: <span style="color:#ae81ff">20</span>
+</span></span><span style="display:flex;"><span>            - <span style="color:#f92672">identifier</span>: <span style="color:#ae81ff">resume</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Resume</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">url</span>: <span style="color:#ae81ff">/en/resume.pdf</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">weight</span>: <span style="color:#ae81ff">30</span>
+</span></span><span style="display:flex;"><span>            - <span style="color:#f92672">identifier</span>: <span style="color:#ae81ff">blog</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Blog</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">url</span>: <span style="color:#ae81ff">/en/blog/</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">weight</span>: <span style="color:#ae81ff">40</span>
+</span></span><span style="display:flex;"><span>            - <span style="color:#f92672">identifier</span>: <span style="color:#ae81ff">tags</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">name</span>: <span style="color:#ae81ff">🕹️</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">url</span>: <span style="color:#ae81ff">/en/tags/</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">weight</span>: <span style="color:#ae81ff">50</span>
+</span></span><span style="display:flex;"><span>            - <span style="color:#f92672">identifier</span>: <span style="color:#ae81ff">search</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Search</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">url</span>: <span style="color:#ae81ff">/en/search/</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">weight</span>: <span style="color:#ae81ff">60</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">params</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">profileMode</span>:
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">enabled</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">title</span>: <span style="color:#ae81ff">Yunyi Tang</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">subtitle</span>: <span style="color:#ae81ff">Little squirrel Hopping around </span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">imageUrl</span>: <span style="color:#e6db74">&#34;img/Avatar.png&#34;</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">imageWidth</span>: <span style="color:#ae81ff">150</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">imageHeight</span>: <span style="color:#ae81ff">150</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">buttons</span>:
+</span></span><span style="display:flex;"><span>                - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Project</span>
+</span></span><span style="display:flex;"><span>                  <span style="color:#f92672">url</span>: <span style="color:#ae81ff">/en/project/</span>
+</span></span><span style="display:flex;"><span>                - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Resume</span>
+</span></span><span style="display:flex;"><span>                  <span style="color:#f92672">url</span>: <span style="color:#ae81ff">/en/resume.pdf</span>
+</span></span><span style="display:flex;"><span>                - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Log</span>
+</span></span><span style="display:flex;"><span>                  <span style="color:#f92672">url</span>: <span style="color:#ae81ff">/en/blog/tech/log/</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">socialIcons</span>:
+</span></span><span style="display:flex;"><span>                - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">github</span>
+</span></span><span style="display:flex;"><span>                  <span style="color:#f92672">url</span>: <span style="color:#e6db74">&#34;https://github.com/yunyit&#34;</span>
+</span></span><span style="display:flex;"><span>                - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">linkedin</span>
+</span></span><span style="display:flex;"><span>                  <span style="color:#f92672">url</span>: <span style="color:#e6db74">&#34;https://www.linkedin.com/in/yunyitang820/&#34;</span>
+</span></span><span style="display:flex;"><span>                - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">instagram</span>
+</span></span><span style="display:flex;"><span>                  <span style="color:#f92672">url</span>: <span style="color:#e6db74">&#34;https://www.instagram.com/yunyi_cam/&#34;</span>
+</span></span><span style="display:flex;"><span>                - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">goodreads</span>
+</span></span><span style="display:flex;"><span>                  <span style="color:#f92672">url</span>: <span style="color:#e6db74">&#34;https://www.goodreads.com/user/show/161105203-yunyi-tang&#34;</span>
+</span></span><span style="display:flex;"><span>                - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">email</span>
+</span></span><span style="display:flex;"><span>                  <span style="color:#f92672">url</span>: <span style="color:#e6db74">&#34;mailto:yunyi.tang.820@gmail.com&#34;</span>
+</span></span></code></pre></div><p><a href="https://www.yunyitang.me/zh/">中文页面</a> 则更侧重博客输出，魔改了 <a href="https://github.com/adityatelange/hugo-PaperMod/wiki/Features#home-info-mode">Home-Info Mode</a>：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">defaultContentLanguage</span>: <span style="color:#ae81ff">en</span> <span style="color:#75715e"># 默认语言</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">defaultContentLanguageInSubdir</span>: <span style="color:#66d9ef">true</span> <span style="color:#75715e"># 默认语言是否放在子目录中</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">languages</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">en</span>: <span style="color:#75715e"># 参照上节</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">zh</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">languageName</span>: <span style="color:#ae81ff">中文</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">languageCode</span>: <span style="color:#ae81ff">zh</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">contentDir</span>: <span style="color:#ae81ff">content/Chinese</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">menu</span>:
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">main</span>:
+</span></span><span style="display:flex;"><span>            - <span style="color:#f92672">identifier</span>: <span style="color:#ae81ff">about</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">name</span>: <span style="color:#ae81ff">关于</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">url</span>: <span style="color:#ae81ff">/zh/about/</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">weight</span>: <span style="color:#ae81ff">10</span>
+</span></span><span style="display:flex;"><span>            - <span style="color:#f92672">identifier</span>: <span style="color:#ae81ff">log</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">name</span>: <span style="color:#ae81ff">建站</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">url</span>: <span style="color:#ae81ff">/zh/log/</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">weight</span>: <span style="color:#ae81ff">20</span>
+</span></span><span style="display:flex;"><span>            - <span style="color:#f92672">identifier</span>: <span style="color:#ae81ff">blog</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">name</span>: <span style="color:#ae81ff">博客</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">url</span>: <span style="color:#ae81ff">/zh/blog/</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">weight</span>: <span style="color:#ae81ff">30</span>
+</span></span><span style="display:flex;"><span>            - <span style="color:#f92672">identifier</span>: <span style="color:#ae81ff">links</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">name</span>: <span style="color:#ae81ff">友链</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">url</span>: <span style="color:#ae81ff">/zh/links/</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">weight</span>: <span style="color:#ae81ff">40</span>
+</span></span><span style="display:flex;"><span>            - <span style="color:#f92672">identifier</span>: <span style="color:#ae81ff">tags</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">name</span>: <span style="color:#ae81ff">🕹️ </span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">url</span>: <span style="color:#ae81ff">/zh/tags/</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">weight</span>: <span style="color:#ae81ff">50</span>
+</span></span><span style="display:flex;"><span>            - <span style="color:#f92672">identifier</span>: <span style="color:#ae81ff">search</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">name</span>: <span style="color:#ae81ff">搜索</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">url</span>: <span style="color:#ae81ff">/zh/search/</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">weight</span>: <span style="color:#ae81ff">60</span>
+</span></span><span style="display:flex;"><span>            - <span style="color:#f92672">identifier</span>: <span style="color:#ae81ff">travellings</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">name</span>: <span style="color:#ae81ff">开往</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">url</span>: <span style="color:#ae81ff">https://www.travellings.cn/go.html</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">weight</span>: <span style="color:#ae81ff">70</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">params</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">homeInfoParams</span>:
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">enabled</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">Title</span>: <span style="color:#ae81ff">Yunyi&#39;s Blog</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">Content</span>: <span style="color:#ae81ff">const desc = &#34;Little squirrel Hopping around&#34;;</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">imageUrl</span>: <span style="color:#e6db74">&#34;img/Avatar.png&#34;</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">imageWidth</span>: <span style="color:#ae81ff">110</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">imageHeight</span>: <span style="color:#ae81ff">110</span>   
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">socialIcons</span>:
+</span></span><span style="display:flex;"><span>            - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">github</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">url</span>: <span style="color:#e6db74">&#34;https://github.com/yunyit&#34;</span>
+</span></span><span style="display:flex;"><span>            - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">instagram</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">url</span>: <span style="color:#e6db74">&#34;https://www.instagram.com/yunyi_cam/&#34;</span>
+</span></span><span style="display:flex;"><span>            - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">goodreads</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">url</span>: <span style="color:#e6db74">&#34;https://www.goodreads.com/user/show/161105203-yunyi-tang&#34;</span>
+</span></span><span style="display:flex;"><span>            - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">email</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">url</span>: <span style="color:#e6db74">&#34;mailto:yunyi.tang.820@gmail.com&#34;</span>  
+</span></span></code></pre></div><h1 id="创建文章">创建文章<a hidden class="anchor" aria-hidden="true" href="#创建文章">#</a></h1>
+<ol>
+<li>在终端输入 <code>hugo new 文章名称.md</code>，在 <code>content</code> 文件夹下创建 markdown 文件；</li>
+<li>但我懒，直接在对应 <code>content</code> 文件夹下新建 <code>文章名称.md</code>；</li>
+</ol>
+<h2 id="自定义文章-front-matter">自定义文章 Front Matter<a hidden class="anchor" aria-hidden="true" href="#自定义文章-front-matter">#</a></h2>
+<p>文章头部信息可以修改这篇文章的属性，建议按照 <a href="https://www.sulvblog.cn/posts/blog/build_hugo/">Sulv’s Blog ：hugo博客搭建 | PaperMod主题</a> 进行配置。</p>
+<p>我的 Front Matter 如下，在 <a href="https://github.com/adityatelange/hugo-PaperMod/">PaperMod</a> 默认基础上稍加修改，供参考:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span><span style="color:#f92672">Tags</span>:
+</span></span><span style="display:flex;"><span>- <span style="color:#ae81ff">PaperMod</span>
+</span></span><span style="display:flex;"><span>- <span style="color:#ae81ff">Hugo</span>
+</span></span><span style="display:flex;"><span>- <span style="color:#ae81ff">Disqus</span>
+</span></span><span style="display:flex;"><span>- <span style="color:#ae81ff">建站</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">TocOpen</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">author</span>:
+</span></span><span style="display:flex;"><span>- <span style="color:#ae81ff">Yunyi</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">comments</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">cover</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">alt</span>: <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">caption</span>: <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">image</span>: <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">relative</span>: <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">date</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#39;{ .Date }&#39;</span>: <span style="color:#66d9ef">null</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">description</span>: <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">disableShare</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">draft</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">hidemeta</span>: <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">lastmod</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#39;{ .Date }&#39;</span>: <span style="color:#66d9ef">null</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">showToc</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">showbreadcrumbs</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">slug</span>: <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">title</span>: <span style="color:#ae81ff">Hugo + PaperMod 自定义 Homeinfo 中英博客搭建</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">weight</span>: <span style="color:#66d9ef">null</span>
+</span></span><span style="display:flex;"><span>---
+</span></span></code></pre></div><h1 id="本地预览">本地预览<a hidden class="anchor" aria-hidden="true" href="#本地预览">#</a></h1>
+<ol>
+<li>在终端输入 <code>hugo server -D</code> 启动。</li>
+<li>启动服务器后，打开浏览器，本地预览网址为 <code>localhost:1313</code>。</li>
+</ol>
+<h1 id="网站部署">网站部署<a hidden class="anchor" aria-hidden="true" href="#网站部署">#</a></h1>
+<p><a href="https://pages.github.com">Github Pages</a> 发布静态博客 -</p>
+<p>优点：</p>
+<ul>
+<li>仅需一个 github 账号和简单配置即可将静态博客发布到 github pages；</li>
+<li>没有维护的时间成本, 可以将精力更多的放到博客内容本身上去；</li>
+<li>无需备案；</li>
+<li>无需 ssl 证书；</li>
+</ul>
+<p>缺点：</p>
+<ul>
+<li>访问速度较慢</li>
+<li>访问速度较慢</li>
+<li>访问速度较慢</li>
+</ul>
+<h1 id="自定义页面布局-htmlcss">自定义页面布局 html/css<a hidden class="anchor" aria-hidden="true" href="#自定义页面布局-htmlcss">#</a></h1>
+<p>参考 <a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-faq/#override-theme-template">PaperMod官方文档</a>：</p>
+<p>通过 <code>Hugo</code> 的查找顺序，您可以覆盖主题的任何部分。比如，自定义 <code>footer</code>，只需复制列表模板即可：</p>
+<pre tabindex="0"><code>your-site/themes/papermod/layouts/partials/footer.html
+</code></pre><p>然后粘贴到自己的 <code>layout</code> 文件夹下：</p>
+<pre tabindex="0"><code>your-site/layouts/partials/footer.html
+</code></pre><p>然后就可以对 <code>footer</code> 进行任何修改了。 <code>Hugo</code> 创建网站时，将使用 <code>your-site/layouts/partials/</code> 里的 <code>footer.html</code>，而不是 <code>your-site/themes/papermod/layouts/partials/</code> 里的 <code>footer.html</code>。</p>
+<blockquote>
+<p><code>git pull</code> 更新 <code>your-site/themes/papermod/</code> 之后，记得也更新对应的自定义 html css，眼瞎 debug 体会！</p>
+</blockquote>
+<h2 id="home-info-主页添加头像">Home-Info 主页添加头像<a hidden class="anchor" aria-hidden="true" href="#home-info-主页添加头像">#</a></h2>
+<p>修改在 <code>/layouts/partials/home_info.html</code>：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>{{- with site.Params.homeInfoParams }}
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">article</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;first-entry home-info&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>    {{- with site.Params.homeInfoParams }}
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;profile_inner&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>        {{- if .imageUrl -}}
+</span></span><span style="display:flex;"><span>        {{- $img := &#34;&#34; }}
+</span></span><span style="display:flex;"><span>        {{- if not (urls.Parse .imageUrl).IsAbs }}
+</span></span><span style="display:flex;"><span>        {{- $img = resources.Get .imageUrl }}
+</span></span><span style="display:flex;"><span>        {{- end }}
+</span></span><span style="display:flex;"><span>        {{- if $img }}
+</span></span><span style="display:flex;"><span>        {{- $processableFormats := (slice &#34;jpg&#34; &#34;jpeg&#34; &#34;png&#34; &#34;tif&#34; &#34;bmp&#34; &#34;gif&#34;) -}}
+</span></span><span style="display:flex;"><span>        {{- if hugo.IsExtended -}}
+</span></span><span style="display:flex;"><span>        {{- $processableFormats = $processableFormats | append &#34;webp&#34; -}}
+</span></span><span style="display:flex;"><span>        {{- end -}}
+</span></span><span style="display:flex;"><span>        {{- $prod := (hugo.IsProduction | or (eq site.Params.env &#34;production&#34;)) }}
+</span></span><span style="display:flex;"><span>        {{- if and (in $processableFormats $img.MediaType.SubType) (eq $prod true)}}
+</span></span><span style="display:flex;"><span>        {{- if (not (and (not .imageHeight) (not .imageWidth))) }}
+</span></span><span style="display:flex;"><span>        {{- $img = $img.Resize (printf &#34;%dx%d&#34; .imageWidth .imageHeight) }}
+</span></span><span style="display:flex;"><span>        {{- else if .imageHeight }}
+</span></span><span style="display:flex;"><span>        {{- $img = $img.Resize (printf &#34;x%d&#34; .imageHeight) }}
+</span></span><span style="display:flex;"><span>        {{ else if .imageWidth }}
+</span></span><span style="display:flex;"><span>        {{- $img = $img.Resize (printf &#34;%dx&#34; .imageWidth) }}
+</span></span><span style="display:flex;"><span>        {{ else }}
+</span></span><span style="display:flex;"><span>        {{- $img = $img.Resize &#34;50x50&#34; }}
+</span></span><span style="display:flex;"><span>        {{- end }}
+</span></span><span style="display:flex;"><span>        {{- end }}
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://www.yunyitang.me/img/Avatar.png&#34;</span> &gt;&lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;home-info-avatar&#34;</span> <span style="color:#a6e22e">draggable</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;false&#34;</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ $img.Permalink }}&#34;</span> <span style="color:#a6e22e">alt</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .imageTitle | default &#34;</span><span style="color:#a6e22e">profile</span> <span style="color:#a6e22e">image</span><span style="color:#960050;background-color:#1e0010">&#34;</span> <span style="color:#960050;background-color:#1e0010">}}&#34;</span> <span style="color:#a6e22e">title</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .imageTitle }}&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">height</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .imageHeight | default 50 }}&#34;</span> <span style="color:#a6e22e">width</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .imageWidth | default 100 }}&#34;</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;border-radius: 50%!important; 
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        background-color: #fff; padding: 2px;&#34;</span> /&gt;&lt;/<span style="color:#f92672">a</span>&gt;
+</span></span><span style="display:flex;"><span>        {{- else }}
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://www.yunyitang.me/img/Avatar.png&#34;</span> &gt;&lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;home-info-avatar&#34;</span> <span style="color:#a6e22e">draggable</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;false&#34;</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .imageUrl | absURL }}&#34;</span> <span style="color:#a6e22e">alt</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .imageTitle | default &#34;</span><span style="color:#a6e22e">profile</span> <span style="color:#a6e22e">image</span><span style="color:#960050;background-color:#1e0010">&#34;</span> <span style="color:#960050;background-color:#1e0010">}}&#34;</span> <span style="color:#a6e22e">title</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .imageTitle }}&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">height</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .imageHeight | default 50 }}&#34;</span> <span style="color:#a6e22e">width</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .imageWidth | default 100 }}&#34;</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;border-radius: 50%!important; 
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        background-color: #fff; padding: 2px;&#34;</span> /&gt;&lt;/<span style="color:#f92672">a</span>&gt;
+</span></span><span style="display:flex;"><span>        {{- end }}
+</span></span><span style="display:flex;"><span>        {{- end }}
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>    {{- end }}
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">&lt;!-- original codes --&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">article</span>&gt;
+</span></span><span style="display:flex;"><span>{{- end -}}
+</span></span></code></pre></div><h1 id="自定义-hover">自定义 hover<a hidden class="anchor" aria-hidden="true" href="#自定义-hover">#</a></h1>
+<p>主要在 <code>/assets/css/common/header.css</code> 中修改：</p>
+<h2 id="home-主页键-hover">Home 主页键 hover<a hidden class="anchor" aria-hidden="true" href="#home-主页键-hover">#</a></h2>
+<p>为页面左上角的 Home 添加 hover：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>.<span style="color:#a6e22e">logo</span> <span style="color:#f92672">a</span>:<span style="color:#a6e22e">hover</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">transition</span>: <span style="color:#ae81ff">0.15</span><span style="color:#66d9ef">s</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">grey</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="社交媒体-hover">社交媒体 hover<a hidden class="anchor" aria-hidden="true" href="#社交媒体-hover">#</a></h2>
+<p>以下为本人所标注的 5 个社交媒体标识的自定义颜色，选了各软件的主题色：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#f92672">svg</span>:<span style="color:#a6e22e">hover</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">transition</span>: <span style="color:#ae81ff">0.15</span><span style="color:#66d9ef">s</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">social-icons</span> <span style="color:#f92672">a</span><span style="color:#f92672">[</span><span style="color:#f92672">href</span><span style="color:#f92672">*=</span><span style="color:#e6db74">&#34;github&#34;</span><span style="color:#f92672">]</span>:<span style="color:#a6e22e">hover</span> <span style="color:#f92672">svg</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">color</span>: <span style="color:#ae81ff">#333</span> <span style="color:#75715e">!important</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">social-icons</span> <span style="color:#f92672">a</span><span style="color:#f92672">[</span><span style="color:#f92672">href</span><span style="color:#f92672">*=</span><span style="color:#e6db74">&#34;linkedin&#34;</span><span style="color:#f92672">]</span>:<span style="color:#a6e22e">hover</span> <span style="color:#f92672">svg</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">color</span>: <span style="color:#ae81ff">#0A66C2</span> <span style="color:#75715e">!important</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">social-icons</span> <span style="color:#f92672">a</span><span style="color:#f92672">[</span><span style="color:#f92672">href</span><span style="color:#f92672">*=</span><span style="color:#e6db74">&#34;instagram&#34;</span><span style="color:#f92672">]</span>:<span style="color:#a6e22e">hover</span> <span style="color:#f92672">svg</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">color</span>: <span style="color:#ae81ff">#d62976</span> <span style="color:#75715e">!important</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">social-icons</span> <span style="color:#f92672">a</span><span style="color:#f92672">[</span><span style="color:#f92672">href</span><span style="color:#f92672">*=</span><span style="color:#e6db74">&#34;goodreads&#34;</span><span style="color:#f92672">]</span>:<span style="color:#a6e22e">hover</span> <span style="color:#f92672">svg</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">color</span>: <span style="color:#ae81ff">#75420e</span> <span style="color:#75715e">!important</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">social-icons</span> <span style="color:#f92672">a</span><span style="color:#f92672">[</span><span style="color:#f92672">href</span><span style="color:#f92672">^=</span><span style="color:#e6db74">&#34;mailto&#34;</span><span style="color:#f92672">]</span>:<span style="color:#a6e22e">hover</span> <span style="color:#f92672">svg</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">color</span>: <span style="color:#ae81ff">#f2a60c</span> <span style="color:#75715e">!important</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="黑夜模式和白天模式的-hover">黑夜模式和白天模式的 hover<a hidden class="anchor" aria-hidden="true" href="#黑夜模式和白天模式的-hover">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>#moon:<span style="color:#a6e22e">hover</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">transition</span>: <span style="color:#ae81ff">0.15</span><span style="color:#66d9ef">s</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">color</span>: <span style="color:#ae81ff">#1772b4</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>#sun:<span style="color:#a6e22e">hover</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">transition</span>: <span style="color:#ae81ff">0.15</span><span style="color:#66d9ef">s</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">color</span>: <span style="color:#ae81ff">#f4a83a</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="主页-menu-中链接-hover">主页 menu 中链接 hover<a hidden class="anchor" aria-hidden="true" href="#主页-menu-中链接-hover">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>#menu <span style="color:#f92672">a</span>:<span style="color:#a6e22e">hover</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">transition</span>: <span style="color:#ae81ff">0.15</span><span style="color:#66d9ef">s</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">grey</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="profile-mode-按钮-hover">Profile mode 按钮 hover<a hidden class="anchor" aria-hidden="true" href="#profile-mode-按钮-hover">#</a></h2>
+<p>在 <code>/assets/css/common/profile-mode.css</code> 中修改：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>.<span style="color:#a6e22e">button</span>:<span style="color:#a6e22e">hover</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">transform</span>: scale(<span style="color:#ae81ff">1.1</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-moz-</span><span style="color:#66d9ef">transform</span>: scale(<span style="color:#ae81ff">1.1</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-ms-</span><span style="color:#66d9ef">transform</span>: scale(<span style="color:#ae81ff">1.1</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-o-</span><span style="color:#66d9ef">transform</span>: scale(<span style="color:#ae81ff">1.1</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">/* box-shadow: 0 0 0 1px grey; */</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">transform</span>: scale(<span style="color:#ae81ff">1.1</span>) translateZ(<span style="color:#ae81ff">0</span>) translate3d(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>) rotate(<span style="color:#ae81ff">0.01</span><span style="color:#66d9ef">deg</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h1 id="目录栏目放侧边">目录栏目放侧边<a hidden class="anchor" aria-hidden="true" href="#目录栏目放侧边">#</a></h1>
+<p><a href="https://www.sulvblog.cn/posts/blog/hugo_toc_side/">Sulv’s Blog：Hugo博客目录放在侧边 | PaperMod主题</a></p>
+<h1 id="修改字体">修改字体<a hidden class="anchor" aria-hidden="true" href="#修改字体">#</a></h1>
+<h2 id="修改全局字体">修改全局字体<a hidden class="anchor" aria-hidden="true" href="#修改全局字体">#</a></h2>
+<p>在 <a href="https://fonts.google.com">Google Fonts</a> 中查询开源字体，我目前的文章字体为 <a href="https://www.jetbrains.com/lp/mono/">JetBrains Mono</a>。Google Fonts 会生成 HTML 和 css ，将 HTML 插入到 <code>/layouts/partials/extend_head.html</code> 中，将 CSS 插入到 <code>/assets/css/extended/blank.css</code>：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#f92672">body</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">font-family</span>: <span style="color:#e6db74">&#39;JetBrains Mono&#39;</span>, <span style="color:#66d9ef">monospace</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">rem</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">line-height</span>: <span style="color:#ae81ff">1.5</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">margin</span>: <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="修改代码字体">修改代码字体<a hidden class="anchor" aria-hidden="true" href="#修改代码字体">#</a></h2>
+<p>与全局字体类似，区别为 CSS 代码插入 <code>/assets/css/extended/blank.css</code> 的位置不同：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>.<span style="color:#a6e22e">post-content</span> <span style="color:#f92672">pre</span><span style="color:#f92672">,</span> <span style="color:#f92672">code</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">font-family</span>: <span style="color:#e6db74">&#39;JetBrains Mono&#39;</span>, <span style="color:#66d9ef">monospace</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">13</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">line-height</span>: <span style="color:#ae81ff">1.2</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">max-height</span>: <span style="color:#ae81ff">40</span><span style="color:#66d9ef">rem</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h1 id="代码外观自定义">代码外观自定义<a hidden class="anchor" aria-hidden="true" href="#代码外观自定义">#</a></h1>
+<h2 id="代码高亮">代码高亮<a hidden class="anchor" aria-hidden="true" href="#代码高亮">#</a></h2>
+<p>在两个地方修改 -</p>
+<p>一个是 <code>/assets/css/common/post-single.css</code>：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>.<span style="color:#a6e22e">post-content</span> <span style="color:#f92672">pre</span> <span style="color:#f92672">code</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">display</span>: <span style="color:#66d9ef">block</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">margin</span>: <span style="color:#66d9ef">auto</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">/* 主要代码颜色 */</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">color</span>: <span style="color:#ae81ff">#c2ccd0</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">font-weight</span>: <span style="color:#ae81ff">200</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">overflow-x</span>: <span style="color:#66d9ef">auto</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">word-break</span>: break-all;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>另一个是在 <code>/assets/css/hljs/an-old-hope.min.css</code>：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#75715e">/* 注释 */</span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">hljs-comment</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">hljs-quote</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">font-weight</span>: <span style="color:#ae81ff">200</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">color</span>: <span style="color:#ae81ff">#7f848e</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">/* html标签 */</span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">hljs-deletion</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">hljs-name</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">hljs-regexp</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">hljs-tag</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">font-weight</span>: <span style="color:#ae81ff">200</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">color</span>: <span style="color:#ae81ff">#63071C</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">/* html属性 */</span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">hljs-tag</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">font-weight</span>: <span style="color:#ae81ff">200</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">color</span>: <span style="color:#ae81ff">#ffa631</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">/* css类名 */</span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">hljs-template-variable</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">hljs-variable</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">hljs-selector-class</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">hljs-selector-id</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">font-weight</span>: <span style="color:#ae81ff">200</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">color</span>: <span style="color:#ae81ff">#057748</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">/* 内置函数 */</span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">hljs-built_in</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">hljs-builtin-name</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">font-weight</span>: <span style="color:#ae81ff">200</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">color</span>: <span style="color:#ae81ff">#56b6c2</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">/* 函数输入 */</span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">hljs-params</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">font-weight</span>: <span style="color:#ae81ff">200</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">color</span>: <span style="color:#ae81ff">#e5c07b</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">/* 数字 */</span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">hljs-number</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">font-weight</span>: <span style="color:#ae81ff">200</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">color</span>: <span style="color:#ae81ff">#ffa631</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">/* css属性 */</span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">hljs-attribute</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">font-weight</span>: <span style="color:#ae81ff">200</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">color</span>: <span style="color:#ae81ff">#A7A8DB</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">/* 字符串 */</span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">hljs-addition</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">hljs-bullet</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">hljs-symbol</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">hljs-string</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">font-weight</span>: <span style="color:#ae81ff">200</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">color</span>: <span style="color:#ae81ff">#4c8dae</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">/* 函数名称 */</span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">hljs-section</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">hljs-title</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">font-weight</span>: <span style="color:#ae81ff">200</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">color</span>: <span style="color:#ae81ff">#F25A47</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">/* 关键字 */</span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">hljs-keyword</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">hljs-selector-tag</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">hljs-literal</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">hljs-link</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">hljs-meta</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">hljs-type</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">font-weight</span>: <span style="color:#ae81ff">200</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">color</span>: <span style="color:#ae81ff">#D2D97A</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">hljs</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">display</span>: <span style="color:#66d9ef">block</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">overflow-x</span>: <span style="color:#66d9ef">auto</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">background</span>: <span style="color:#ae81ff">#1c1d21</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">color</span>: <span style="color:#ae81ff">#c2ccd0</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">0.5</span><span style="color:#66d9ef">em</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">hljs-emphasis</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">font-style</span>: <span style="color:#66d9ef">italic</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">hljs-strong</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">font-weight</span>: <span style="color:#ae81ff">700</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">/* 选中时的背景颜色 */</span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">hljs</span> ::<span style="color:#a6e22e">selection</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">hljs</span>::<span style="color:#a6e22e">selection</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">background-color</span>: <span style="color:#ae81ff">#3d4556</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>贪新鲜经常更改代码颜色，主要从 <a href="https://color-term.com/traditional-color-of-china/">500 Plus Traditional Colors of China</a> 里选。</p>
+<h2 id="代码边框圆角">代码边框圆角<a hidden class="anchor" aria-hidden="true" href="#代码边框圆角">#</a></h2>
+<p>在 <code>/assets/css/common/post-single.css</code> 中修改：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>.<span style="color:#a6e22e">post-content</span> .<span style="color:#a6e22e">highlight</span> <span style="color:#f92672">pre</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">background-color</span>: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>theme) <span style="color:#75715e">!important</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">margin</span>: <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h1 id="添加评论">添加评论<a hidden class="anchor" aria-hidden="true" href="#添加评论">#</a></h1>
+<p>一开始基于 <a href="https://www.mongodb.com/cloud/atlas/register">MongoDB</a> 和 <a href="https://vercel.com/signup">Vercel</a> 部署 <a href="https://twikoo.js.org/en/intro.html">twikoo</a> 评论系统，后来更换为 <a href="https://disqus.com">Disqus</a>：</p>
+<p><code>Disqus</code> 在 <code>Hugo</code> 有内置选项，但我没有弄好，还是按照 <a href="https://disqus.com/admin/install/platforms/universalcode/">官方文档</a> ，修改代码到 <code>/layouts/partials/comment.html</code>：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;disqus_thread&#34;</span>&gt;&lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">script</span>&gt;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">disqus_config</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span> () {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">page</span>.<span style="color:#a6e22e">url</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;https://www.yunyitang.me/&#34;</span>;  <span style="color:#75715e">// 域名
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">page</span>.<span style="color:#a6e22e">identifier</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">PAGE_IDENTIFIER</span>; <span style="color:#75715e">// 无需更改
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    
+</span></span><span style="display:flex;"><span>    (<span style="color:#66d9ef">function</span>() { <span style="color:#75715e">// DON&#39;T EDIT BELOW THIS LINE
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">d</span> <span style="color:#f92672">=</span> document, <span style="color:#a6e22e">s</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">d</span>.<span style="color:#a6e22e">createElement</span>(<span style="color:#e6db74">&#39;script&#39;</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">s</span>.<span style="color:#a6e22e">src</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;https://yunyitang-me.disqus.com/embed.js&#39;</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">s</span>.<span style="color:#a6e22e">setAttribute</span>(<span style="color:#e6db74">&#39;data-timestamp&#39;</span>, <span style="color:#f92672">+</span><span style="color:#66d9ef">new</span> Date());
+</span></span><span style="display:flex;"><span>        (<span style="color:#a6e22e">d</span>.<span style="color:#a6e22e">head</span> <span style="color:#f92672">||</span> <span style="color:#a6e22e">d</span>.<span style="color:#a6e22e">body</span>).<span style="color:#a6e22e">appendChild</span>(<span style="color:#a6e22e">s</span>);
+</span></span><span style="display:flex;"><span>    })();
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">script</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">noscript</span>&gt;Please enable JavaScript to view the &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://disqus.com/?ref_noscript&#34;</span>&gt;comments powered by Disqus.&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">noscript</span>&gt;
+</span></span></code></pre></div><p>调用上述 <code>Disqus</code> 代码的位置：<code>layouts/_default/single.html</code>：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#75715e">&lt;!-- other codes --&gt;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  {{- if (.Param &#34;comments&#34;) }}
+</span></span><span style="display:flex;"><span>  {{ partial &#34;comments.html&#34; . }}
+</span></span><span style="display:flex;"><span>  {{- end }}
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">article</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>{{- end }}{{/* end main */}}
+</span></span></code></pre></div><h1 id="shortcodes-扩展功能插件">Shortcodes 扩展功能/插件<a hidden class="anchor" aria-hidden="true" href="#shortcodes-扩展功能插件">#</a></h1>
+<ul>
+<li><a href="https://www.sulvblog.cn/posts/blog/shortcodes/">bilibili、YouTube、豆瓣阅读和电影卡片</a></li>
+<li><a href="https://gist.github.com/j-un/e7d0b3118556479392bd2269f7059242">Spotify</a></li>
+</ul>
+<h1 id="添加友链">添加友链<a hidden class="anchor" aria-hidden="true" href="#添加友链">#</a></h1>
+<p><a href="https://www.sulvblog.cn/posts/blog/hugo_link/">Sulv’s Blog：Hugo博客添加友链</a></p>
+<h1 id="流量统计">流量统计<a hidden class="anchor" aria-hidden="true" href="#流量统计">#</a></h1>
+<p>我使用了 <a href="https://analytics.eu.umami.is/share/mNvu6TLrju52UZ97/Yunyi's%20Blog">umami</a> 流量统计，并添加在页脚 <code>footer</code> 。</p>
+<p>在 <code>layouts/partials/footer.html</code> 中修改：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>{{- if not (.Param &#34;hideFooter&#34;) }}
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">footer</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;footer&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">&lt;!-- other codes --&gt;</span>
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">span</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://analytics.eu.umami.is/share/mNvu6TLrju52UZ97/Yunyi&#39;s%20Blog&#34;</span> 
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;noopener noreferrer&#34;</span> <span style="color:#a6e22e">target</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;_blank&#34;</span>&gt;Analytics&lt;/<span style="color:#f92672">a</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">span</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">footer</span>&gt;
+</span></span><span style="display:flex;"><span>{{- end }}
+</span></span></code></pre></div>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://www.yunyitang.me/zh/tags/papermod/">PaperMod</a></li>
+      <li><a href="https://www.yunyitang.me/zh/tags/hugo/">Hugo</a></li>
+      <li><a href="https://www.yunyitang.me/zh/tags/markdown/">Markdown</a></li>
+      <li><a href="https://www.yunyitang.me/zh/tags/%E5%BB%BA%E7%AB%99/">建站</a></li>
+      <li><a href="https://www.yunyitang.me/zh/tags/yaml/">YAML</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="https://www.yunyitang.me/zh/blog/tech/ymal/">
+    <span class="title">下一页 »</span>
+    <br>
+    <span>YAML</span>
+  </a>
+</nav>
+
+  </footer>
+  
+<div id="disqus_thread"></div>
+<script>
+    
+
+    
+    var disqus_config = function () {
+        this.page.url = "https://www.yunyitang.me/";  
+        this.page.identifier = PAGE_IDENTIFIER; 
+
+    
+        var languageCode = 'zh';  
+        this.language = languageCode.toLowerCase();  
+    };
+    
+    (function() { 
+        var d = document, s = d.createElement('script');
+        s.src = 'https://yunyitang-me.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2024 <a href="https://www.yunyitang.me/zh/">Yunyi&#39;s Blog</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+    
+    <span xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"> 
+        Licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" 
+        rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0 ></a></span>
+    <span>
+        <a href="https://analytics.eu.umami.is/share/mNvu6TLrju52UZ97/Yunyi's%20Blog" 
+        rel="noopener noreferrer" target="_blank">Analytics</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = '复制';
+
+        function copyingDone() {
+            copybutton.innerHTML = '已复制！';
+            setTimeout(() => {
+                copybutton.innerHTML = '复制';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

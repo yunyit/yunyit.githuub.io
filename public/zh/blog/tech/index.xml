@@ -6,8 +6,15 @@
     <description>Recent content in 技术 👩🏻‍💻 on Yunyi&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 13 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.yunyitang.me/zh/blog/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo/PaperMod 双语 Home-Info/Profile 博客搭建</title>
+      <link>https://www.yunyitang.me/zh/blog/tech/hugo-papermod/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/blog/tech/hugo-papermod/</guid>
+      <description>从入门到踩坑到从坑里爬起来！ 安装 首先需要安装 Hugo，安装 Hugo 需要利用一个包管理工具。对于 MacOS 系统 Hugo 可以直接用 Homebrew 来安装，打开终端输入 brew install hugo Hugo 的 tutorial</description>
+    </item>
     <item>
       <title>YAML</title>
       <link>https://www.yunyitang.me/zh/blog/tech/ymal/</link>
@@ -23,7 +30,7 @@
       <description>在这个独立博客式微的时代，友情链接的意义是什么？ 和 Medium、简书之类的写作平台不同，每一个独立博客都是一个信息孤岛。我们没有类似「你可能</description>
     </item>
     <item>
-      <title>Obsidian工作笔记</title>
+      <title>Obsidian 工作笔记</title>
       <link>https://www.yunyitang.me/zh/blog/tech/obsedian/</link>
       <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://www.yunyitang.me/zh/blog/tech/obsedian/</guid>
@@ -44,14 +51,14 @@
       <description>认知始于 Excel，不知道终于哪儿。 介绍与应用 属性：用于匹配和操作文本的工具 设计思想：用一种描述性的语言来给字符串定义一个规则，凡是符合规则</description>
     </item>
     <item>
-      <title>R可视化</title>
+      <title>R 可视化</title>
       <link>https://www.yunyitang.me/zh/blog/tech/r-visualising/</link>
       <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://www.yunyitang.me/zh/blog/tech/r-visualising/</guid>
       <description>因为实习兼职的公司用R，温习如下，示例取自此项目。 可视化libraries library(readr) library(ggplot2) library(dplyr) 导入数据 将csv导入dataset Read datasets/confirmed_cases_worldwide.csv into confirmed_cases_worldwide 选择部分数据 # Filter for</description>
     </item>
     <item>
-      <title>个人常用MacOS软件清单</title>
+      <title>个人常用 MacOS 软件清单</title>
       <link>https://www.yunyitang.me/zh/blog/tech/common-software-list/</link>
       <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://www.yunyitang.me/zh/blog/tech/common-software-list/</guid>

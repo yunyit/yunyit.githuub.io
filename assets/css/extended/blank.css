@@ -101,9 +101,9 @@ body {
 
 .post-content pre, code {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 13;
-    line-height: 1.2;
-    max-height: 40rem;
+    font-size: 12;
+    line-height: 0.8rem;
+    max-height: 30rem;
 }
 
 .friendurl {
