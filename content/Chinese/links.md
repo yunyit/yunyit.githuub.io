@@ -195,6 +195,7 @@ SELECT * FROM Links WHERE blog = '正常安全网址，稳定域名，不要接�
 
 <!---
 yunyi.tang.820@gmail.com
+https://www.yunyitang.me/zh/index.xml
 
 大佬，已添加贵站链接了，谢谢😊
 名称：Yunyi's Blog
