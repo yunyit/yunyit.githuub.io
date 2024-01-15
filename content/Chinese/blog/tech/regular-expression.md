@@ -156,6 +156,9 @@ weight: null
 
 # 记不住语法的解决方案
 
-正则表达式元字符手册：[菜鸟教程：正则表达式 - 元字符](https://www.runoob.com/regexp/regexp-metachar.html)
+正则表达式元字符手册：[Road To Coding：正则表达式](https://www.r2coding.com/#/README?id=正则表达式)
+- [基础正则表达式速查表](https://www.r2coding.com/#/README?id=基础正则表达式速查表)
+- [正则表达式可视化工具](https://www.r2coding.com/#/README?id=正则表达式可视化工具)
+- [常用正则表达式示例](https://www.r2coding.com/#/README?id=常用正则表达式示例)
 
 在线测试正则表达式：[Regular expression tester](https://regex101.com)
