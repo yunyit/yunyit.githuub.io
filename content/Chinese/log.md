@@ -26,13 +26,13 @@ title: 建站日志
 weight: null
 ---
 
-> 2022-09-21 基于 [Ghost](https://ghost.org/) 的 yunyi-tang.ghost.io 启用。
+> 2022-09-21 基于 [Ghost](https://ghost.org/) 的 `yunyi-tang.ghost.io` 启用。
 
 > 2022-09-26 域名更新为 [yunyitang.me](https://www.yunyitang.me/)，购自 [Google Domain](https://domains.google.com/registrar)。
 
-> 2023-11-1 [Ghost](https://ghost.org/) 订阅结束，yunyi-tang.ghost.io 停用。
+> 2023-11-1 [Ghost](https://ghost.org/) 订阅结束，`yunyi-tang.ghost.io` 停用。
 
-> 2023-11-7 迁移至 Github Pages（[yunyit.github.io](https://github.com/yunyit/yunyit.github.io)），域名 [yunyitang.me](https://www.yunyitang.me/) 与 yunyi-tang.ghost.io 解绑。
+> 2023-11-7 迁移至 Github Pages（[yunyit.github.io](https://github.com/yunyit/yunyit.github.io)），域名 [yunyitang.me](https://www.yunyitang.me/) 与 `yunyi-tang.ghost.io` 解绑。
 
 > 2023-11-9 博客引擎迁移至 [Hugo](https://github.com/gohugoio/hugo) 的 [PaperMod](https://github.com/adityatelange/hugo-PaperMod) 主题，因工作所在地在英，同时开设 [中文](https://www.yunyitang.me/zh/) 与 [英文](https://www.yunyitang.me/en/) 页面。
 
@@ -51,6 +51,8 @@ weight: null
 > 2024-01-10 启用 [uptimerobot](https://uptimerobot.com/api/) 判断友链可访问性；限制文章最多显示 5 个 [tag](https://www.yunyitang.me/zh/tags/)；添加 [umami](https://analytics.eu.umami.is/share/mNvu6TLrju52UZ97/Yunyi's%20Blog) 流量统计并添加于页脚。
 
 > 2024-01-14 中文页面更换为 [Home-Info Mode](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#home-info-mode)，增加博文的主页展示面积，并在 [PaperMod 模板](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#home-info-mode) 的基础上添加网站头像；评论系统更新为 [Disqus](https://disqus.com)。
+
+> 2024-01-16 配合 Hugo [更新](https://github.com/adityatelange/hugo-PaperMod/pull/1364) 改用 Hugo 内置的 [Chroma](https://xyproto.github.io/splash/docs/all.html) 调整代码高亮，选用 [trac](https://xyproto.github.io/splash/docs/trac.html) 并将主题中所有 `#bb8844` 配色更换为 [陶瓷红](https://color-term.com/color/taocihong-e16723/) `#E16723` 以配合本站的 [超链接配色](https://www.yunyitang.me/zh/blog/tech/hugo-papermod/#修改链接颜色)；评论系统改用 [gitcus](https://giscus.app)。
 
 ---
 

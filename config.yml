@@ -77,9 +77,9 @@ params:
         keys: ["title", "permalink", "summary"]
 
 
-services:
-  disqus: # https://gohugo.io/templates/internal/#disqus
-    shortname: yunyitang-me
+# services:
+  # disqus: # https://gohugo.io/templates/internal/#disqus
+    # shortname: yunyitang-me
 # twikoo: 
     # version: 1.6.27 # 这个版本号要自己手动修改，和twikoo的版本号要对得上
     # tkserver - bdayTtyy!

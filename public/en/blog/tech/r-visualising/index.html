@@ -83,18 +83,7 @@ Import libraries library(readr) library(ggplot2) library(dplyr) Import data From
   gtag('js', new Date());
 
   gtag('config', 'G-0K2EFCEZGW');
-</script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0K2EFCEZGW"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-0K2EFCEZGW', { 'anonymize_ip': false });
-}
-</script>
-<meta property="og:title" content="R Visualising" />
+</script><meta property="og:title" content="R Visualising" />
 <meta property="og:description" content="Reviewing visualing data with R with this exmaple project。
 Import libraries library(readr) library(ggplot2) library(dplyr) Import data From csv to dataset Read datasets/confirmed_cases_worldwide.csv into confirmed_cases_worldwide Select/filter data # Filter for China, from Feb 15 china_after_feb15 &lt;- confirmed_cases_china_vs_world %&gt;% filter(is_china == &#34;China&#34;, date &gt;= &#34;2020-02-15&#34;) Plot One line # Draw a line plot of cumulative cases vs. date # Label the y-axis ggplot(confirmed_cases_worldwide, aes(date, cum_cases)) &#43; geom_line() &#43; ylab(&#34;Cumulative confirmed cases&#34;) Multiple lines # Using confirmed_cases_top7_outside_china, draw a line plot of # cum_cases vs." />
 <meta property="og:type" content="article" />
@@ -416,28 +405,22 @@ Import libraries library(readr) library(ggplot2) library(dplyr) Import data From
 
   </footer>
   
-<div id="disqus_thread"></div>
-<script>
-    
 
-    
-    var disqus_config = function () {
-        this.page.url = "https://www.yunyitang.me/";  
-        this.page.identifier = PAGE_IDENTIFIER; 
-
-    
-        var languageCode = 'en';  
-        this.language = languageCode.toLowerCase();  
-    };
-    
-    (function() { 
-        var d = document, s = d.createElement('script');
-        s.src = 'https://yunyitang-me.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
+<script src="https://giscus.app/client.js"
+        data-repo="yunyit/yunyit.github.io"
+        data-repo-id="R_kgDOKqkPYw"
+        data-category="Comments"
+        data-category-id="DIC_kwDOKqkPY84CceDi"
+        data-mapping="url"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </article>
     </main>
     

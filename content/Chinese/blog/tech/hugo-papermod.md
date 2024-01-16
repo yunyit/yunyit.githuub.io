@@ -23,7 +23,7 @@ lastmod: "2024-01-15"
 showToc: true
 showbreadcrumbs: true
 slug: ""
-title: Hugo/PaperMod 双语 Home-Info/Profile 博客搭建
+title: Hugo+PaperMod 博客搭建 Home-Info+Profile Mode
 weight: 1
 ---
 
@@ -46,11 +46,11 @@ brew install hugo
 - `layouts`：[自定义的 HTML](#自定义页面布局-htmlcss)
 - `public`：项目导出文件 - 用于静态网页部署
 - `static`：存放图片
-- `themes`：主题 - PaperMod
+- `themes`：主题 - [PaperMod](https://github.com/adityatelange/hugo-PaperMod/)
 
-进入 `themes/PaperMod` 则是 [PaperMod](https://github.com/adityatelange/hugo-PaperMod/) 的相关代码，比较主要的目录有：
-- `assets`：PaperMod 的 CSS 和 JavaScript 代码
-- `layouts`：PaperMod 的 HTML
+进入 `themes/PaperMod` 则是 `PaperMod` 的相关代码，比较主要的目录有：
+- `assets`：`PaperMod` 的 CSS 和 JavaScript 代码
+- `layouts`：`PaperMod` 的 HTML
 
 ## 自定义博文目录
 `content` 里每个文件夹内都可以添加一个 `_index.md` 文件，该文件里面可以加 Front Matter 自定义（多语言）标题，如：
@@ -346,7 +346,7 @@ your-site/layouts/partials/footer.html
 主要在 `assets/css/common/header.css` 中修改：
 
 ## Home 主页键 hover
-为页面左上角的 Home 添加 hover：
+为页面左上角的 `Home` 添加 hover：
 ```css
 .logo a:hover {
     transition: 0.15s;
@@ -487,7 +487,7 @@ hugo gen chromastyles --style=trac > assets/css/includes/chroma-styles.css
 ```
 
 # 修改链接颜色
-参考 [lvbibir's Blog：Hello, hugo!](https://www.lvbibir.cn/posts/blog/hello-hugo/#修改链接颜色) ，我选择了 [陶瓷红](https://color-term.com/color/taocihong-e16723/) #E16723 rgb(225, 103, 35)。
+参考 [lvbibir's Blog：Hello, hugo!](https://www.lvbibir.cn/posts/blog/hello-hugo/#修改链接颜色) ，我选择了 [陶瓷红](https://color-term.com/color/taocihong-e16723/) `#E16723` rgb(225, 103, 35)。
 ```html
 <a href="{{ .Destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if strings.HasPrefix .Destination "http" }} target="_blank" rel="noopener" style="color:#E16723";{{ end }}>{{ .Text | safeHTML }}</a>
 ```
