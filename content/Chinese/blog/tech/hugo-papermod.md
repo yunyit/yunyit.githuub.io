@@ -493,36 +493,81 @@ hugo gen chromastyles --style=trac > assets/css/includes/chroma-styles.css
 ```
 
 # 添加评论
-一开始基于 [MongoDB](https://www.mongodb.com/cloud/atlas/register) 和 [Vercel](https://vercel.com/signup) 部署 [twikoo](https://twikoo.js.org/en/intro.html) 评论系统，后来更换为 [Disqus](https://disqus.com)：
+一开始基于 [MongoDB](https://www.mongodb.com/cloud/atlas/register) 和 [Vercel](https://vercel.com/signup) 部署 [twikoo](https://twikoo.js.org/en/intro.html) 评论系统，后来更换为 [Disqus](https://disqus.com) 没调好，还是 [gitcus](https://giscus.app) 吧！
 
-`Disqus` 在 `Hugo` 有内置选项，但我没有弄好，还是按照 [官方文档](https://disqus.com/admin/install/platforms/universalcode/) ，修改代码到 `layouts/partials/comment.html`：
+为适应日夜主题调整，在（chatgpt 帮助下）在 `layouts/partials/comments.html` 设置如下：
 ```html
-<div id="disqus_thread"></div>
 <script>
-    var disqus_config = function () {
-        this.page.url = "https://www.yunyitang.me/";  // 域名
-        this.page.identifier = PAGE_IDENTIFIER; // 无需更改
-    
-    (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        s.src = 'https://yunyitang-me.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
+    function createGiscusScript(data) {
+        const giscusScript = document.createElement("script");
+
+        // 动态设置脚本属性
+        Object.entries(data).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+
+        // 将脚本标签添加到 <article> 中
+        document.querySelector('article').appendChild(giscusScript);
+
+        // 切换主题时更新 giscus 主题
+        const toggle = document.querySelector('label[for="switch_default"]');
+        if (toggle) {
+            toggle.addEventListener('click', function () {
+                // 根据 body 类动态设置 giscus 主题
+                const theme = document.body.classList.contains('dark') ? 'transparent_dark' : 'light';
+                giscusScript.setAttribute('data-theme', theme);
+
+                // 给 giscus iframe发送消息，更新主题
+                sendMessage({ setConfig: { theme } });
+            });
+        }
+    }
+
+    function sendMessage(message) {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (iframe) {
+            iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+        // 定义 Giscus 数据属性
+        const giscusAttributes = {
+            "src": "https://giscus.app/client.js",
+            "data-repo": "yunyit/yunyit.github.io",
+            "data-repo-id": "R_kgDOKqkPYw",
+            "data-category": "Comments",
+            "data-category-id": "DIC_kwDOKqkPY84CceDi",
+            "data-mapping": "url",
+            "data-strict": "0",
+            "data-reactions-enabled": "1",
+            "data-emit-metadata": "0",
+            "data-input-position": "top",
+            "data-lang": "en",
+            "crossorigin": "anonymous",
+            "async": "",
+        };
+
+        // 根据 body 类设置初始 giscus 主题
+        giscusAttributes["data-theme"] = document.body.classList.contains('dark') ? 'transparent_dark' : 'light';
+
+        // 调用函数，使用属性创建 giscus 脚本
+        createGiscusScript(giscusAttributes);
+
+        // body 类变化时动态更新 giscus 主题
+        const bodyObserver = new MutationObserver(() => {
+            const theme = document.body.classList.contains('dark') ? 'transparent_dark' : 'light';
+            sendMessage({ setConfig: { theme } });
+        });
+
+        bodyObserver.observe(document.body, { attributes: true, attributeFilter: ['class'] });
+    });
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 ```
 
-调用上述 `Disqus` 代码的位置：`layouts/_default/single.html`：
-```html
-<!-- other codes -->
-
-  {{- if (.Param "comments") }}
-  {{ partial "comments.html" . }}
-  {{- end }}
-</article>
-
-{{- end }}{{/* end main */}}
+在 `assets/css/extended/blank.css` 调整文末导航栏和评论区的距离：
+```css
+.paginav {
+    margin-bottom: 45px;
+}
 ```
 
 # Shortcodes 扩展功能/插件

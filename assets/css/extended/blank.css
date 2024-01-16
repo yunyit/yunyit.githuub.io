@@ -308,7 +308,7 @@ body {
     margin: 5px;
 }
 
-/* 评论 */
-#disqus_thread {
-    padding-top: 10px;
+/* 评论与正文/导航栏的距离 */
+.paginav {
+    margin-bottom: 45px;
 }

@@ -81,12 +81,12 @@ body:not(.dark) #sun {
 
 #moon:hover {
     transition: 0.15s;
-    color: #1772b4;
+    color: #1661AB;
 }
 
 #sun:hover {
     transition: 0.15s;
-    color: #f4a83a;
+    color: #E16723;
 }
 
 #menu {

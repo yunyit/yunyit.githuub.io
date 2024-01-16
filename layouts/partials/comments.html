@@ -42,18 +42,68 @@
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 -->
 
-<script src="https://giscus.app/client.js"
-        data-repo="yunyit/yunyit.github.io"
-        data-repo-id="R_kgDOKqkPYw"
-        data-category="Comments"
-        data-category-id="DIC_kwDOKqkPY84CceDi"
-        data-mapping="url"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
+<!-- Giscus -->
+<script id="gitcus">
+    function createGiscusScript(data) {
+        const giscusScript = document.createElement("script");
+
+        // Set script attributes dynamically
+        Object.entries(data).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+
+        // Append the script tag to the <article> element
+        document.querySelector('article').appendChild(giscusScript);
+
+        // Update Giscus theme dynamically when theme switcher is clicked
+        const toggle = document.querySelector('label[for="switch_default"]');
+        if (toggle) {
+            toggle.addEventListener('click', function () {
+                // Dynamically set Giscus theme based on body class
+                const theme = document.body.classList.contains('dark') ? 'transparent_dark' : 'light';
+                giscusScript.setAttribute('data-theme', theme);
+
+                // Send a message to the Giscus iframe to update the theme
+                sendMessage({ setConfig: { theme } });
+            });
+        }
+    }
+
+    function sendMessage(message) {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (iframe) {
+            iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+        // Define Giscus data attributes
+        const giscusAttributes = {
+            "src": "https://giscus.app/client.js",
+            "data-repo": "yunyit/yunyit.github.io",
+            "data-repo-id": "R_kgDOKqkPYw",
+            "data-category": "Comments",
+            "data-category-id": "DIC_kwDOKqkPY84CceDi",
+            "data-mapping": "url",
+            "data-strict": "0",
+            "data-reactions-enabled": "1",
+            "data-emit-metadata": "0",
+            "data-input-position": "top",
+            "data-lang": "en",
+            "crossorigin": "anonymous",
+            "async": "",
+        };
+
+        // Set initial Giscus theme based on body class
+        giscusAttributes["data-theme"] = document.body.classList.contains('dark') ? 'transparent_dark' : 'light';
+
+        // Call the function to create Giscus script with attributes
+        createGiscusScript(giscusAttributes);
+
+        // Update Giscus theme dynamically when body class changes
+        const bodyObserver = new MutationObserver(() => {
+            const theme = document.body.classList.contains('dark') ? 'transparent_dark' : 'light';
+            sendMessage({ setConfig: { theme } });
+        });
+
+        bodyObserver.observe(document.body, { attributes: true, attributeFilter: ['class'] });
+    });
 </script>
