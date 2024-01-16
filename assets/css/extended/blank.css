@@ -101,9 +101,11 @@ body {
 
 .post-content pre, code {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 12;
+    font-size: 13;
     line-height: 0.8rem;
     max-height: 30rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .post-content pre code , 
@@ -112,7 +114,7 @@ body {
  {
     background: unset !important;
     background-color: var(--code-bg) !important;
-    color: unset !important;
+    color: var(--secondary) !important;
 }
 
 .friendurl {

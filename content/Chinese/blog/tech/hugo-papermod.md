@@ -234,11 +234,10 @@ languages:
 
 ```yaml
 ---
-Tags:
+Tags: # 标签数量丰俭由人
 - PaperMod
 - Hugo
-- Disqus
-- 建站
+- 建站 
 TocOpen: true
 author:
 - Yunyi
@@ -248,19 +247,17 @@ cover:
   caption: ""
   image: ""
   relative: false
-date:
-  '{ .Date }': null
-description: ""
+date: "2024-01-15"
+description: "" # 为页头简介，省略
 disableShare: true
-draft: true
+draft: false # 未发布时为 true
 hidemeta: false
-lastmod:
-  '{ .Date }': null
+lastmod: "2024-01-15"
 showToc: true
 showbreadcrumbs: true
 slug: ""
 title: Hugo + PaperMod 自定义 Homeinfo 中英博客搭建
-weight: null
+weight: null # 若置顶则为对应数字
 ---
 ```
 
@@ -462,7 +459,8 @@ markup:
 ```shell
 hugo gen chromastyles --style=trac > assets/css/includes/chroma-styles.css
 ```
-`assets/css/includes/chroma-mod.css` 文件保持原设定，记得在 `git pull` 之后更新对应的 [CSS 自定义](#自定义页面布局-htmlcss)文件夹就好。
+
+其中，所有 `#bb8844` 配色更换为 [陶瓷红](https://color-term.com/color/taocihong-e16723/) `#E16723`，配合本站的 [超链接配色](#修改链接颜色)。`assets/css/includes/chroma-mod.css` 文件保持原设定，记得在 `git pull` 之后更新对应的 [CSS 自定义](#自定义页面布局-htmlcss)文件夹就好。
 
 目前在 `assets/css/extended/blank.css` 的配置为：
 ```css
@@ -471,8 +469,8 @@ hugo gen chromastyles --style=trac > assets/css/includes/chroma-styles.css
 .post-content .highlight table
  {
     background: unset !important;
-    background-color: var(--code-bg) !important; /* 保证代码框内容在日夜模式兼容 */
-    color: unset !important;
+    background-color: var(--code-bg) !important; /* 兼容日夜显示模式 */
+    color: var(--secondary) !important; /* 兼容日夜显示模式 */
 }
 ```
 此更新的进度具体看这个 [issue](https://github.com/adityatelange/hugo-PaperMod/issues/1386)。
@@ -486,6 +484,12 @@ hugo gen chromastyles --style=trac > assets/css/includes/chroma-styles.css
     background-color: var(--theme) !important;
     margin: 0;
 }
+```
+
+# 修改链接颜色
+参考 [lvbibir's Blog：Hello, hugo!](https://www.lvbibir.cn/posts/blog/hello-hugo/#修改链接颜色) ，我选择了 [陶瓷红](https://color-term.com/color/taocihong-e16723/) #E16723 rgb(225, 103, 35)。
+```html
+<a href="{{ .Destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if strings.HasPrefix .Destination "http" }} target="_blank" rel="noopener" style="color:#E16723";{{ end }}>{{ .Text | safeHTML }}</a>
 ```
 
 # 添加评论
