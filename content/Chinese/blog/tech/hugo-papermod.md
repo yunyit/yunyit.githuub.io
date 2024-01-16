@@ -451,17 +451,31 @@ body {
 # 代码外观自定义
 ## 代码高亮
 
-最近一次 [更新](https://github.com/jimangel/jimangel.io#update-code-syntax-css) 换成了 [Chroma](https://xyproto.github.io/splash/docs/all.html)，对应配置文件 `config.yml` 内容为：
+最近一次 [更新](https://github.com/adityatelange/hugo-PaperMod/pull/1364)，改用 `Hugo` 内置的 [Chroma](https://xyproto.github.io/splash/docs/all.html)，CSS 文件位置更改为 `assets/css/includes/chroma-styles.css`。对应配置文件 `config.yml` 内容为：
 ```yaml
 markup:
   markup.highlight:
     noclasses: false
 ```
 
-配合本站的橙色系，我选择了 [gruvbox](https://xyproto.github.io/splash/docs/gruvbox.html)，`Hugo` 的安装过程：https://bwiggs.com/posts/2021-08-03-hugo-syntax-highlight-dark-light/ 
+配合本站的橙色系，我选择了 [trac](https://xyproto.github.io/splash/docs/trac.html)，并用 `Hugo` 安装：
 ```shell
-hugo gen chromastyles --style=gruvbox > assets/css/includes/chroma-styles.css
+hugo gen chromastyles --style=trac > assets/css/includes/chroma-styles.css
 ```
+`assets/css/includes/chroma-mod.css` 文件保持原设定，记得在 `git pull` 之后更新对应的 [CSS 自定义](#自定义页面布局-htmlcss)文件夹就好。
+
+目前在 `assets/css/extended/blank.css` 的配置为：
+```css
+.post-content pre code , 
+.post-content .highlight:not(table) ,
+.post-content .highlight table
+ {
+    background: unset !important;
+    background-color: var(--code-bg) !important; /* 保证代码框内容在日夜模式兼容 */
+    color: unset !important;
+}
+```
+此更新的进度具体看这个 [issue](https://github.com/adityatelange/hugo-PaperMod/issues/1386)。
 
 
 ## 代码边框圆角

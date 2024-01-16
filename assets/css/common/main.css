@@ -17,9 +17,8 @@
 .pagination a {
     color: var(--theme);
     font-size: 13px;
-    font-weight: 550;
     line-height: 36px;
-    background: var(--secondary);
+    background: var(--primary);
     border-radius: calc(36px / 2);
     padding: 0 16px;
 }
@@ -28,17 +27,14 @@
     margin-inline-start: auto;
 }
 
-.social-icons {
-    padding: 10px 0;
-}
-
-.social-icons a:not(:last-of-type) {
-    margin-inline-end: 10px;
+.social-icons a {
+    display: inline-flex;
+    padding: 10px;
 }
 
 .social-icons a svg {
-    height: 25px;
-    width: 25px;
+    height: 26px;
+    width: 26px;
 }
 
 code {

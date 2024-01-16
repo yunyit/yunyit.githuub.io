@@ -15,9 +15,9 @@ enableEmoji: true # 允许使用 Emoji 表情，建议 true
 enableRobotsTXT: true # 允许爬虫抓取到搜索引擎，建议 true
 hasCJKLanguage: true # 自动检测是否包含 中文日文韩文 如果文章中使用了很多中文引号的话可以开启
 
-markup:
-  markup.highlight:
-    noclasses: false
+# 代码高亮
+markup.highlight.noclasses: false
+pygmentsUseClasses: true
 
 outputs:
     home:
