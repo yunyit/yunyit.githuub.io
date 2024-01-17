@@ -2,8 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.yunyitang.me/en/blog/tech/app-default/</loc>
+    <lastmod>2024-01-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.yunyitang.me/zh/blog/tech/app-default/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.yunyitang.me/en/blog/tech/app-default/"
+                />
+  </url><url>
+    <loc>https://www.yunyitang.me/en/tags/appdefaults/</loc>
+    <lastmod>2024-01-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.yunyitang.me/zh/tags/appdefaults/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.yunyitang.me/en/tags/appdefaults/"
+                />
+  </url><url>
     <loc>https://www.yunyitang.me/en/blog/</loc>
-    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -13,6 +39,71 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://www.yunyitang.me/en/blog/"
+                />
+  </url><url>
+    <loc>https://www.yunyitang.me/en/tags/google/</loc>
+    <lastmod>2024-01-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.yunyitang.me/zh/tags/google/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.yunyitang.me/en/tags/google/"
+                />
+  </url><url>
+    <loc>https://www.yunyitang.me/en/tags/</loc>
+    <lastmod>2024-01-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.yunyitang.me/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.yunyitang.me/en/tags/"
+                />
+  </url><url>
+    <loc>https://www.yunyitang.me/en/blog/tech/</loc>
+    <lastmod>2024-01-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.yunyitang.me/zh/blog/tech/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.yunyitang.me/en/blog/tech/"
+                />
+  </url><url>
+    <loc>https://www.yunyitang.me/en/tags/tools/</loc>
+    <lastmod>2024-01-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.yunyitang.me/zh/tags/tools/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.yunyitang.me/en/tags/tools/"
+                />
+  </url><url>
+    <loc>https://www.yunyitang.me/en/</loc>
+    <lastmod>2024-01-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.yunyitang.me/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.yunyitang.me/en/"
                 />
   </url><url>
     <loc>https://www.yunyitang.me/en/tags/data/</loc>
@@ -52,45 +143,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://www.yunyitang.me/en/blog/tech/r-visualising/"
-                />
-  </url><url>
-    <loc>https://www.yunyitang.me/en/tags/</loc>
-    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.yunyitang.me/zh/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.yunyitang.me/en/tags/"
-                />
-  </url><url>
-    <loc>https://www.yunyitang.me/en/blog/tech/</loc>
-    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.yunyitang.me/zh/blog/tech/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.yunyitang.me/en/blog/tech/"
-                />
-  </url><url>
-    <loc>https://www.yunyitang.me/en/</loc>
-    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.yunyitang.me/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.yunyitang.me/en/"
                 />
   </url><url>
     <loc>https://www.yunyitang.me/en/blog/life/dec-film/</loc>
@@ -218,19 +270,6 @@
   </url><url>
     <loc>https://www.yunyitang.me/en/tags/bing/</loc>
     <lastmod>2024-01-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.yunyitang.me/en/tags/google/</loc>
-    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.yunyitang.me/zh/tags/google/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.yunyitang.me/en/tags/google/"
-                />
   </url><url>
     <loc>https://www.yunyitang.me/en/tags/hugo/</loc>
     <lastmod>2024-01-06T00:00:00+00:00</lastmod>
