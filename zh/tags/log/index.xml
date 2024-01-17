@@ -16,13 +16,6 @@
       <description>博客建设 2023 年底把博客从 Ghost 搬到了 Github Pages，动手照着教程 Hugo + PaperMod搭建技术博客 做了一个静态网页做博客，重心放在技术学习整理、以输出</description>
     </item>
     <item>
-      <title>建站日志</title>
-      <link>https://www.yunyitang.me/zh/log/</link>
-      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.yunyitang.me/zh/log/</guid>
-      <description>2022-09-21 基于 Ghost 的 yunyi-tang.ghost.io 启用。 2022-09-26 域名更新为 yunyitang.me，购自 Google Domain。 2023-11-1 Ghost 订阅结束，yunyi-tang.ghost.io 停用。 2023-11-7 迁移</description>
-    </item>
-    <item>
       <title>2020 年终总结</title>
       <link>https://www.yunyitang.me/zh/blog/life/2020/</link>
       <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
