@@ -11,6 +11,7 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
     --toc-width: 300px;
 }
 
+/* toc */
 .toc {
     margin: 0 2px 40px 2px;
     border: 1px solid var(--border);
@@ -92,6 +93,7 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
     color: var(--secondary);
 }
 
+/* 字体调整 */
 body {
     font-family: 'JetBrains Mono', monospace;
     font-size: 1rem;
@@ -108,6 +110,7 @@ body {
     margin-bottom: 20px;
 }
 
+/* 代码高亮 */
 .post-content pre code , 
 .post-content .highlight:not(table) ,
 .post-content .highlight table
@@ -117,6 +120,7 @@ body {
     color: var(--secondary) !important;
 }
 
+/* 友链 
 .friendurl {
     text-decoration: none !important;
     color: black;
@@ -124,8 +128,8 @@ body {
 }
 
 .myfriend {
-    width: 56px !important;
-    height: 56px !important;
+    width: 45px !important;
+    height: 45px !important;
     border-radius: 50%!important;
     padding: 2px;
     margin-top: 20px !important;
@@ -134,9 +138,9 @@ body {
 }
 
 .frienddiv {
-    overflow: auto;
+    overflow: auto; 
     height: 100px;
-    width: 47%;
+    width: 100% !important;
     display: inline-block !important;
     border-radius: var(--radius);
     background: none;
@@ -154,10 +158,10 @@ body {
 .frienddiv:hover {
     background: var(--theme);
     transition: transform 1s;
-    webkit-transform: scale(1.02);
-    -moz-transform: scale(1.02);
-    -ms-transform: scale(1.02);
-    -o-transform: scale(1.02);
+    webkit-transform: scale(1.02); 
+    -moz-transform: scale(1.02); 
+    -ms-transform: scale(1.02); 
+    -o-transform: scale(1.02); 
     transform: scale(1.1);
 }
 
@@ -182,7 +186,7 @@ body {
 
 .friendname {
     text-overflow: ellipsis;
-    font-size: 100%;
+    font-size: 90%;
     margin-bottom: 5px;
     color: var(--primary);
 }
@@ -193,7 +197,7 @@ body {
     color: var(--primary);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) { 
     .friendinfo {
         display: none;
     }
@@ -211,8 +215,106 @@ body {
     .friendname {
         font-size: 18px;
     }
+} 
+*/
+.friendurl {
+    text-decoration: none !important;
+    color: black;
+    box-shadow: none !important;
 }
 
+.myfriend {
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50%!important;
+    padding: 2px;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    margin-left: 14px !important;
+    background-color: #fff;
+}
+
+.frienddiv {
+    overflow: auto; 
+    height: 50px;
+    width: 100% !important;
+    display: inline-block !important; /* 使得div能够在一行显示 */
+    border-radius: var(--radius);
+    background: none;
+    
+    -webkit-transition: all ease-out 0.3s;
+    -moz-transition: all ease-out 0.3s;
+    -o-transition: all ease-out 0.3s;
+    transition: all ease-out 0.3s;
+}
+
+.dark .frienddiv:hover {
+    background: var(--code-bg);
+}
+
+.frienddiv:hover {
+    background: var(--theme);
+    transition: transform 1s;
+    webkit-transform: scale(1.02); 
+    -moz-transform: scale(1.02); 
+    -ms-transform: scale(1.02); 
+    -o-transform: scale(1.02); 
+    transform: scale(1.1);
+}
+
+.frienddiv:hover{background:var(--theme);
+    transition:transform .15s;
+    -webkit-transform:scale(1.05);
+    -moz-transform:scale(1.05);
+    -ms-transform:scale(1.05);
+    -o-transform:scale(1.05);
+    transform:scale(1.05)}
+
+.frienddivleft {
+    width: 65px;
+    float: left;
+    margin-left: 5px;
+}
+
+.frienddivright {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-right: 15px;
+}
+
+.friendname {
+    text-overflow: ellipsis; /* 文字超出部分用省略号代替 */
+    font-size: 100%;
+    color: var(--primary);
+}
+
+.friendinfo {
+    text-overflow: ellipsis; /* 文字超出部分用省略号代替 */
+    font-size: 80%;
+    color: var(--primary);
+}
+
+@media screen and (max-width: 600px) { 
+    .friendinfo {
+        display: none;
+    }
+    .frienddivleft {
+        width: 84px;
+        margin: auto;
+    }
+    .frienddivright {
+        height: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .friendname {
+        font-size: 18px;
+    }
+} 
+
+/* 按键变化 */
 #profile-header:hover {
     transition: transform 0.15s; /* 动画时间 */
     webkit-transform: scale(1.02); /* Safari 和 Chrome */

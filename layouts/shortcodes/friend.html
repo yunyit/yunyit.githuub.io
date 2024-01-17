@@ -1,3 +1,4 @@
+<!--  
 {{- if .IsNamedParams -}}
 <a target="_blank" href={{ .Get "url" }} title={{ .Get "name" }} class="friendurl">
   <div class="frienddiv">
@@ -10,4 +11,21 @@
     </div>
   </div>
 </a>
+{{- end }}
+-->
+
+{{- if .IsNamedParams -}}
+<div class="frienddiv">
+  <a target="_blank" href={{ .Get "url" }} title={{ .Get "name" }} class="friendurl">
+    <div id="frienddivleft" class="frienddivleft">
+      <img class="myfriend" src={{ .Get "avatar" }} />
+    </div>
+    <div id="frienddivright" class="frienddivright">
+      <a target="_blank" href={{ .Get "url" }} title={{ .Get "name" }} class="friendurl"> 
+        <span class="friendname">{{- .Get "name" -}}</span>
+      </a>
+      <span class="friendinfo">{{- .Get "desc" -}}</span>
+    </div>
+  </a>
+</div>
 {{- end }}
