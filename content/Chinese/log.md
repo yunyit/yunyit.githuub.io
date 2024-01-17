@@ -1,10 +1,6 @@
 ---
 Tags:
-- Hugo
-- MongoDB
-- Vercel
-- 建站
-- Log
+- null
 TocOpen: true
 author:
 - Yunyi
@@ -70,4 +66,3 @@ weight: null
 
 此外，如非特别标注，本站使用配图都多源于网络，如有侵权，请联系我删除。
 
-### 留言板

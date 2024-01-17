@@ -563,9 +563,10 @@ hugo gen chromastyles --style=trac > assets/css/includes/chroma-styles.css
 </script>
 ```
 
-在 `assets/css/extended/blank.css` 调整文末导航栏和评论区的距离：
+在 `assets/css/extended/blank.css` 调整文末标签和导航栏和评论区的距离：
 ```css
-.paginav {
+.paginav,
+.post-tags {
     margin-bottom: 45px;
 }
 ```
