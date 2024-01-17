@@ -1,5 +1,5 @@
 
-Personal domain [Yunyi Tang (yunyitang.me)](http://www.yunyitang.me/). 
+Personal domain: [Yunyi Tang (yunyitang.me)](http://www.yunyitang.me/)
 
 ## 关于本站
 - 本站通过 [Hugo](https://gohugo.io/) 的 [PaperMod](https://github.com/adityatelange/hugo-PaperMod/) 生成，并托管在 [Github Pages](https://pages.cloudflare.com/) 上
