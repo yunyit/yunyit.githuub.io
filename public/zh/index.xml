@@ -6,7 +6,7 @@
     <description>Recent content on Yunyi&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.yunyitang.me/zh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo&#43;PaperMod 博客搭建 Home-Info&#43;Profile Mode</title>
@@ -14,6 +14,13 @@
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://www.yunyitang.me/zh/blog/tech/hugo-papermod/</guid>
       <description>从入门到踩坑到从坑里爬起来！ 安装 安装 Hugo：安装 Hugo 需要利用一个包管理工具。对于 MacOS 系统 Hugo 可以直接用 Homebrew 来安装，打开终端输入 brew install hugo 安装 Paper</description>
+    </item>
+    <item>
+      <title>个人常用软件清单</title>
+      <link>https://www.yunyitang.me/zh/blog/tech/app-default/</link>
+      <pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/blog/tech/app-default/</guid>
+      <description>App Defaults collected by Robb 信息来源：Another Dayu：My App Defaults 2023 App Defaults 📨 Mail Client: Outlook, GMails 📮 Mail Server: Outlook, GMails 📝 Notes: Apple notes ✅ To-Do: Apple notes 📷 iPhone Photo Shooting: iPhone camera, Dazz Cam 🟦 Photo Management: Apple photos 📆 Calendar: Apple calendar, Outlook calendar 📁 Cloud File Storage:</description>
     </item>
     <item>
       <title>YAML</title>
@@ -63,13 +70,6 @@
       <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://www.yunyitang.me/zh/blog/tech/r-visualising/</guid>
       <description>因为实习兼职的公司用R，温习如下，示例取自此项目。 可视化libraries library(readr) library(ggplot2) library(dplyr) 导入数据 将csv导入dataset Read datasets/confirmed_cases_worldwide.csv into confirmed_cases_worldwide 选择部分数据 # Filter for</description>
-    </item>
-    <item>
-      <title>个人常用 MacOS 软件清单</title>
-      <link>https://www.yunyitang.me/zh/blog/tech/common-software-list/</link>
-      <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.yunyitang.me/zh/blog/tech/common-software-list/</guid>
-      <description>在日常工作中，合适的效率工具能帮助我们快速完成工作，起到事半功倍的效果。 下面是我常用的一些软件，个人用起来比较得心应手，推荐给大家。按照软件</description>
     </item>
     <item>
       <title>十二月在看</title>

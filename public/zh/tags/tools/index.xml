@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools on Yunyi&#39;s Blog</title>
+    <link>https://www.yunyitang.me/zh/tags/tools/</link>
+    <description>Recent content in Tools on Yunyi&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 17 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.yunyitang.me/zh/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>个人常用软件清单</title>
+      <link>https://www.yunyitang.me/zh/blog/tech/app-default/</link>
+      <pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/blog/tech/app-default/</guid>
+      <description>App Defaults collected by Robb 信息来源：Another Dayu：My App Defaults 2023 App Defaults 📨 Mail Client: Outlook, GMails 📮 Mail Server: Outlook, GMails 📝 Notes: Apple notes ✅ To-Do: Apple notes 📷 iPhone Photo Shooting: iPhone camera, Dazz Cam 🟦 Photo Management: Apple photos 📆 Calendar: Apple calendar, Outlook calendar 📁 Cloud File Storage:</description>
+    </item>
+    <item>
+      <title>谷歌套件替换使用状况</title>
+      <link>https://www.yunyitang.me/zh/blog/tech/google-2019/</link>
+      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/zh/blog/tech/google-2019/</guid>
+      <description>原链：豆瓣笔记 首先，利益相关，谷歌全家桶吹，科技产品苦手。 其次，整理出来的意思当然不是说，国内相关软件的目标就是完美模仿谷歌，这太ummm了</description>
+    </item>
+  </channel>
+</rss>

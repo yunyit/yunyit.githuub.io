@@ -116,6 +116,20 @@ SELECT * FROM Links WHERE blog = '正常安全网址，稳定域名，不要接�
 
 <div class="friend">
 
+{{< friend name="lvbibir's Blog" url="https://www.lvbibir.cn" avatar="https://www.lvbibir.cn/img/avatar.gif" desc="life is a fucking movie" >}}
+
+
+</div>
+
+<div class="friend">
+
+{{< friend name="nopdan's blog" url="https://nopdan.com/" avatar="https://nopdan.com/avatar.webp" desc="但知行好事，莫要问前程" >}}
+
+
+</div>
+
+<div class="friend">
+
 {{< friend name="Chawye Hsu" url="https://chawyehsu.com" avatar="https://avatars.githubusercontent.com/u/5764917?v=4" desc="Personal Website of Chawye Hsu" >}}
 
 
@@ -137,7 +151,7 @@ SELECT * FROM Links WHERE blog = '正常安全网址，稳定域名，不要接�
 
 <div class="friend">
 
-{{< friend name="nopdan's blog" url="https://nopdan.com/" avatar="https://nopdan.com/avatar.webp" desc="但知行好事，莫要问前程" >}}
+{{< friend name="绒绒洛" url="https://qwq.dog" avatar="https://qwq.dog/pic/avatar.png" desc="俯いたまま大人になって" >}}
 
 
 </div>
@@ -170,19 +184,6 @@ SELECT * FROM Links WHERE blog = '正常安全网址，稳定域名，不要接�
 
 </div>
 
-<div class="friend">
-
-{{< friend name="绒绒洛" url="https://qwq.dog" avatar="https://qwq.dog/pic/avatar.png" desc="俯いたまま大人になって" >}}
-
-
-</div>
-
-<div class="friend">
-
-{{< friend name="lvbibir's Blog" url="https://www.lvbibir.cn" avatar="https://www.lvbibir.cn/img/avatar.gif" desc="life is a fucking movie" >}}
-
-
-</div>
 
 
 
