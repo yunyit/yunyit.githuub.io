@@ -334,8 +334,8 @@ body {
     display: inline-block !important;
     margin-right: 10px !important;
     margin-left: 10px !important;
-    margin-top: 10px !important;
-    margin-bottom: 10px !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
 
     transition: transform 0.3s ease-out;
     vertical-align: middle; /* Set vertical alignment to middle */
