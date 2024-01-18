@@ -44,7 +44,7 @@ params:
   ShowWordCounts: true
   VisitCount: true
   ShowLastMod: true #显示文章更新时间
-  ShowFullTextinRSS: false # RSS全文输出
+  ShowFullTextinRSS: ture # RSS全文输出
   hideTags: false # 隐藏标签
 
   ShowToc: true # 显示目录

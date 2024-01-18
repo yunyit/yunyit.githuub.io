@@ -14,6 +14,82 @@
       <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://www.yunyitang.me/zh/blog/tech/json/</guid>
       <description>在实习公司的数据岗位还挺常用的。 定义 JavaScript Object Notation - { &amp;#34;key&amp;#34;: &amp;#34;value&amp;#34;, &amp;#34;key2&amp;#34;: &amp;#34;value2&amp;#34; } 网络传输中常使用的格式：以节省内存和传输所用的网络带宽 {&amp;#34;key&amp;#34;:&amp;#34;value&amp;#34;,&amp;#34;key2&amp;#34;:&amp;#34;value2&amp;#34;} 数据类型 文本/字符串 Strings { &amp;#34;key&amp;#34;: &amp;#34;value&amp;#34;</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>在实习公司的数据岗位还挺常用的。</p>
+</blockquote>
+<h1 id="定义">定义</h1>
+<p>JavaScript Object Notation -</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;key&#34;</span><span class="o">:</span> <span class="s2">&#34;value&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;key2&#34;</span><span class="o">:</span> <span class="s2">&#34;value2&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>网络传输中常使用的格式：以节省内存和传输所用的网络带宽</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="line"><span class="cl"><span class="p">{</span><span class="s2">&#34;key&#34;</span><span class="o">:</span><span class="s2">&#34;value&#34;</span><span class="p">,</span><span class="s2">&#34;key2&#34;</span><span class="o">:</span><span class="s2">&#34;value2&#34;</span><span class="p">}</span>
+</span></span></code></pre></div><h1 id="数据类型">数据类型</h1>
+<h2 id="文本字符串-strings">文本/字符串 Strings</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;key&#34;</span><span class="o">:</span> <span class="s2">&#34;value&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h2 id="数字-numbers">数字 Numbers</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;key&#34;</span><span class="o">:</span> <span class="mf">123.</span> <span class="mi">456</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><ul>
+<li>弱类型语言：没有长度限制</li>
+<li>强类型语言：根据取数类型</li>
+</ul>
+<h2 id="对象-objects">对象 Objects</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;key&#34;</span><span class="o">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;key2&#34;</span><span class="o">:</span> <span class="s2">&#34;value2&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;key3&#34;</span><span class="o">:</span> <span class="s2">&#34;value3&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h2 id="数组-arrays">数组 Arrays</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;key&#34;</span><span class="o">:</span> <span class="p">[</span><span class="mi">123</span><span class="p">,</span> <span class="mi">456</span><span class="p">,</span> <span class="mf">7.89</span><span class="p">];</span> <span class="c1">//数字
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="s2">&#34;key2&#34;</span><span class="o">:</span> <span class="p">[</span><span class="s2">&#34;今天&#34;</span><span class="p">,</span> <span class="s2">&#34;天气&#34;</span><span class="p">,</span> <span class="s2">&#34;不错&#34;</span><span class="p">];</span> <span class="c1">//字符串
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="s2">&#34;key3&#34;</span><span class="o">:</span>  <span class="p">[</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="s2">&#34;name&#34;</span><span class="o">:</span> <span class="s2">&#34;0&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="s2">&#34;age&#34;</span><span class="o">:</span> <span class="s2">&#34;1&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},{</span>
+</span></span><span class="line"><span class="cl">      <span class="s2">&#34;name&#34;</span><span class="o">:</span> <span class="s2">&#34;a&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="s2">&#34;age&#34;</span><span class="o">:</span> <span class="s2">&#34;2&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},{</span>
+</span></span><span class="line"><span class="cl">      <span class="s2">&#34;name&#34;</span><span class="o">:</span> <span class="s2">&#34;b&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="s2">&#34;age&#34;</span><span class="o">:</span> <span class="s2">&#34;3&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">]</span> <span class="c1">//对象
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">}</span> 
+</span></span></code></pre></div><h2 id="null">null</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;key&#34;</span><span class="o">:</span> <span class="kc">null</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h1 id="取值方式">取值方式</h1>
+<p>根据不同编程语言具体不同：
+相应 function 后加</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="line"><span class="cl"><span class="nx">key</span><span class="p">.</span><span class="nx">key3</span>
+</span></span></code></pre></div><p>或</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="line"><span class="cl"><span class="nx">key</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nx">name</span>
+</span></span></code></pre></div><h1 id="应用">应用</h1>
+<ol>
+<li>广泛应用于前后端的数据交换；</li>
+<li>配置文件的格式，如VS Code；</li>
+</ol>
+<h2 id="类似的其他数据交换格式">类似的其他数据交换格式</h2>
+<ul>
+<li>YMAL</li>
+<li>XML</li>
+<li>PROPERTIES</li>
+<li>&hellip;</li>
+</ul>
+<h2 id="json的优点">JSON的优点</h2>
+<ol>
+<li>语法简单，易读易写；</li>
+<li>简洁，易于计算机解析；</li>
+</ol>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

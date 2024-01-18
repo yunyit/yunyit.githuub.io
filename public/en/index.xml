@@ -27,6 +27,34 @@
 🌐 Browser: Safari, Google Chrome
 💬 Chat: Whatsapp, WeChat
 🔖 Bookmarks: (tbd)</description>
+      <content:encoded><![CDATA[<blockquote>
+<p><a href="https://defaults.rknight.me" target="_blank" rel="noopener" style="color:#E16723";>App Defaults</a> collected by <a href="https://rknight.me" target="_blank" rel="noopener" style="color:#E16723";>Robb</a></p>
+</blockquote>
+<p>📨 Mail Client: Outlook, GMails</p>
+<p>📮 Mail Server: Outlook, GMails</p>
+<p>📝 Notes: Apple notes, Obsidian</p>
+<p>✅ To-Do: Apple notes</p>
+<p>📷 iPhone Photo Shooting: iPhone camera, Dazz Cam</p>
+<p>🟦 Photo Management: Apple photos</p>
+<p>📆 Calendar: Apple calendar, Outlook calendar</p>
+<p>📁 Cloud File Storage: iCloud, OneDrive, Google Drive</p>
+<p>📖 RSS: (tbd)</p>
+<p>🙍🏻‍♂️ Contacts: Apple contacts</p>
+<p>🌐 Browser: Safari, Google Chrome</p>
+<p>💬 Chat: Whatsapp, WeChat</p>
+<p>🔖 Bookmarks: (tbd)</p>
+<p>📑 Read It Later: (tbd)</p>
+<p>📜 Word Processing: MS Word, Obsidian</p>
+<p>📈 Spreadsheets: MS Excel, Numbers</p>
+<p>📊 Presentations: MS PowerPoint</p>
+<p>🛒 Shopping Lists: Amazon</p>
+<p>🍴 Meal Planning: NO!</p>
+<p>💰 Budgeting and Personal Finance: Numbers</p>
+<p>📰 News: (a weird mix)</p>
+<p>🎵 Music: Spotify</p>
+<p>🎤 Podcasts: Spotify</p>
+<p>🔐 Password Management: ******</p>
+]]></content:encoded>
     </item>
     <item>
       <title>R Visualising</title>
@@ -35,6 +63,44 @@
       <guid>https://www.yunyitang.me/en/blog/tech/r-visualising/</guid>
       <description>Reviewing visualing data with R with this exmaple project。
 Import libraries library(readr) library(ggplot2) library(dplyr) Import data From csv to dataset Read datasets/confirmed_cases_worldwide.csv into confirmed_cases_worldwide Select/filter data # Filter for China, from Feb 15 china_after_feb15 &amp;lt;- confirmed_cases_china_vs_world %&amp;gt;% filter(is_china == &amp;#34;China&amp;#34;, date &amp;gt;= &amp;#34;2020-02-15&amp;#34;) Plot One line # Draw a line plot of cumulative cases vs. date # Label the y-axis ggplot(confirmed_cases_worldwide, aes(date, cum_cases)) + geom_line() + ylab(&amp;#34;Cumulative confirmed cases&amp;#34;) Multiple lines # Using confirmed_cases_top7_outside_china, draw a line plot of # cum_cases vs.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>Reviewing visualing data with R with this <a href="https://app.datacamp.com/workspace/w/980fb8cc-bfa9-4071-aea3-ca8b1e3a95a8/edit" target="_blank" rel="noopener" style="color:#E16723";>exmaple project</a>。</p>
+</blockquote>
+<h1 id="import-libraries">Import libraries</h1>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="nf">library</span><span class="p">(</span><span class="n">readr</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">library</span><span class="p">(</span><span class="n">ggplot2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">library</span><span class="p">(</span><span class="n">dplyr</span><span class="p">)</span>
+</span></span></code></pre></div><h1 id="import-data">Import data</h1>
+<h2 id="from-csv-to-dataset">From csv to dataset</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="n">Read</span> <span class="n">datasets</span><span class="o">/</span><span class="n">confirmed_cases_worldwide.csv</span> <span class="n">into</span> <span class="n">confirmed_cases_worldwide</span>
+</span></span></code></pre></div><h2 id="selectfilter-data">Select/filter data</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1"># Filter for China, from Feb 15</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">china_after_feb15</span> <span class="o">&lt;-</span> <span class="n">confirmed_cases_china_vs_world</span> <span class="o">%&gt;%</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">filter</span><span class="p">(</span><span class="n">is_china</span> <span class="o">==</span> <span class="s">&#34;China&#34;</span><span class="p">,</span> <span class="n">date</span> <span class="o">&gt;=</span> <span class="s">&#34;2020-02-15&#34;</span><span class="p">)</span>
+</span></span></code></pre></div><h1 id="plot">Plot</h1>
+<h2 id="one-line">One line</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1"># Draw a line plot of cumulative cases vs. date</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Label the y-axis</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">ggplot</span><span class="p">(</span><span class="n">confirmed_cases_worldwide</span><span class="p">,</span> <span class="nf">aes</span><span class="p">(</span><span class="n">date</span><span class="p">,</span> <span class="n">cum_cases</span><span class="p">))</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_line</span><span class="p">()</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">ylab</span><span class="p">(</span><span class="s">&#34;Cumulative confirmed cases&#34;</span><span class="p">)</span>
+</span></span></code></pre></div><h2 id="multiple-lines">Multiple lines</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1"># Using confirmed_cases_top7_outside_china, draw a line plot of</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># cum_cases vs. date, colored by country</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">ggplot</span><span class="p">(</span><span class="n">confirmed_cases_top7_outside_china</span><span class="p">,</span> <span class="nf">aes</span><span class="p">(</span><span class="n">date</span><span class="p">,</span> <span class="n">cum_cases</span><span class="p">,</span> <span class="n">color</span> <span class="o">=</span> <span class="n">country</span><span class="p">))</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_line</span><span class="p">()</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">ylab</span><span class="p">(</span><span class="s">&#34;Cumulative confirmed cases&#34;</span><span class="p">)</span>
+</span></span></code></pre></div><h2 id="scale">Scale</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1"># Modify the plot to use a logarithmic scale on the y-axis</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">plt_not_china_trend_lin</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">scale_y_log10</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">`geom_smooth</span><span class="p">()</span><span class="n">`</span> <span class="n">using</span> <span class="n">formula</span> <span class="s">&#39;y ~ x&#39;</span>
+</span></span></code></pre></div>]]></content:encoded>
     </item>
     <item>
       <title>December Watched</title>
@@ -42,6 +108,123 @@ Import libraries library(readr) library(ggplot2) library(dplyr) Import data From
       <pubDate>Mon, 18 Dec 2023 15:54:25 +0000</pubDate>
       <guid>https://www.yunyitang.me/en/blog/life/dec-film/</guid>
       <description>Darkest Hour 至暗时刻 / 黑暗对峙(港) / 最黑暗的时刻(台) &lt;!DOCTYPE HTML&gt; The King&amp;rsquo;s Speech 国王的演讲 / 皇上无话儿(港) / 王者之声：宣战时刻(台) &lt;!DOCTYPE HTML&gt; Prometheus 普罗米修斯 / 异形前传 /</description>
+      <content:encoded><![CDATA[<h1 id="darkest-hour">Darkest Hour</h1>
+<p>至暗时刻 / 黑暗对峙(港) / 最黑暗的时刻(台)
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <style type="text/css">
+        .youtube_shortcodes {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 66%;
+            margin: auto;
+            overflow: hidden;
+            text-align: center;
+        }
+        .youtube_shortcodes iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+<div class="youtube_shortcodes">
+    <iframe
+            class="youtube-player"
+            type="text/html"
+            width="640"
+            height="385"
+            src="https://www.youtube.com/embed/LtJ60u7SUSw?autoplay=0"
+            style="
+                 position: absolute;
+                 top: 0;
+                 left: 0;
+                 width: 100%;
+                 height: 100%;
+                 border:0;"
+            allowfullscreen frameborder="0">
+    </iframe>
+</div>
+</body>
+</html></p>
+<h1 id="the-kings-speech">The King&rsquo;s Speech</h1>
+<p>国王的演讲 / 皇上无话儿(港) / 王者之声：宣战时刻(台)
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <style type="text/css">
+        .youtube_shortcodes {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 66%;
+            margin: auto;
+            overflow: hidden;
+            text-align: center;
+        }
+        .youtube_shortcodes iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+<div class="youtube_shortcodes">
+    <iframe
+            class="youtube-player"
+            type="text/html"
+            width="640"
+            height="385"
+            src="https://www.youtube.com/embed/EcxBrTvLbBM?autoplay=0"
+            style="
+                 position: absolute;
+                 top: 0;
+                 left: 0;
+                 width: 100%;
+                 height: 100%;
+                 border:0;"
+            allowfullscreen frameborder="0">
+    </iframe>
+</div>
+</body>
+</html></p>
+<h1 id="prometheus">Prometheus</h1>
+<p>普罗米修斯 / 异形前传 / 异形前传：普罗米修斯</p>
+<h1 id="out-of-africa">Out of Africa</h1>
+<p>走出非洲 / 非洲之旅(港) / 远离非洲(台)</p>
+<h1 id="hidden-figures">Hidden Figures</h1>
+<p>隐藏人物 / NASA无名英雌(港) / 关键少数(台)</p>
+
+
+
+<iframe src="https://open.spotify.com/embed/album/5ydGsF9Qy1IZsFmLRpJ4oc"
+    width="100%"
+    height="380"
+    frameborder="0"
+    allowtransparency="true"
+    allow="encrypted-media"></iframe>
+
+<h1 id="wonka">Wonka</h1>
+<p>旺卡</p>
+<h1 id="the-whale">The Whale</h1>
+<p>鲸 / 庞然大物 / 我的鲸鱼老爸(台)</p>
+<h1 id="big-fish">Big Fish</h1>
+<p>大鱼 / 大鱼奇缘(港) / 大智若鱼(台)</p>
+<h1 id="marriage-story">Marriage Story</h1>
+<p>婚姻故事</p>
+<h1 id="edie">Edie</h1>
+<p>伊蒂</p>
+]]></content:encoded>
     </item>
     <item>
       <title>November Reads</title>
@@ -54,6 +237,21 @@ by Bessel van der Kolk
 Winter Pasture One Woman&amp;rsquo;s Journey with China&amp;rsquo;s Kazakh Herders
 by Li Juan, Jack Hargreaves (Translator), and Yan Yan (Translator)
 &amp;lsquo;Encouraged by her neighbors, Li decides to join a family of Kazakh herders as they take their 30 boisterous camels, 500 sheep, and over 100 cattle and horses to pasture for the winter.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p><a href="https://www.goodreads.com/review/list/161105203-yunyi-tang?shelf=currently-reading" target="_blank" rel="noopener" style="color:#E16723";>YUNYI IS CURRENTLY READING</a></p>
+</blockquote>
+<h1 id="the-body-keeps-the-score">The Body Keeps the Score</h1>
+<blockquote>
+<p>Mind, Brain and Body in the Transformation of Trauma</p>
+</blockquote>
+<p>by Bessel van der Kolk</p>
+<h1 id="winter-pasture">Winter Pasture</h1>
+<blockquote>
+<p>One Woman&rsquo;s Journey with China&rsquo;s Kazakh Herders</p>
+</blockquote>
+<p>by Li Juan, Jack Hargreaves (Translator), and Yan Yan (Translator)</p>
+<p>&lsquo;Encouraged by her neighbors, Li decides to join a family of Kazakh herders as they take their 30 boisterous camels, 500 sheep, and over 100 cattle and horses to pasture for the winter.&rsquo; It&rsquo;s a cold lonely journey but also a warm family journey into the freezing-cold Kazakh winter pasture. It&rsquo;s amazing that her words bring me so vividly into the unfamiliar Kazakh land in a cold winter in the hot summer when I first finished reading it, and I feel eager to reread it in an actually cold winter now. Her words are like snow, seemingly weightless, but silently nourishing the earth. Life and talent have given Juan a unique sense of perception of the Kazakh world.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>November Watched</title>
@@ -61,6 +259,27 @@ by Li Juan, Jack Hargreaves (Translator), and Yan Yan (Translator)
       <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
       <guid>https://www.yunyitang.me/en/blog/life/nov-film/</guid>
       <description>About Time 时空恋旅人 / 回到最爱的一天(港) / 真爱每一天(台) The Hunger Games: The Ballad of Songbirds &amp;amp; Snakes 饥饿游戏：鸣鸟与蛇之歌 / 饥饿游戏：鸣鸟与蛇的歌谣 / 饥饿游戏前传：鸣鸟</description>
+      <content:encoded><![CDATA[<h1 id="about-time">About Time</h1>
+<p>时空恋旅人 / 回到最爱的一天(港) / 真爱每一天(台)</p>
+
+
+
+<iframe src="https://open.spotify.com/embed/album/5GSdUC9xT8nv0NG7gXV8No"
+    width="100%"
+    height="380"
+    frameborder="0"
+    allowtransparency="true"
+    allow="encrypted-media"></iframe>
+
+<h1 id="the-hunger-games-the-ballad-of-songbirds--snakes">The Hunger Games: The Ballad of Songbirds &amp; Snakes</h1>
+<p>饥饿游戏：鸣鸟与蛇之歌 / 饥饿游戏：鸣鸟与蛇的歌谣 / 饥饿游戏前传：鸣鸟与灵蛇之歌(港)</p>
+<h1 id="amélie">Amélie</h1>
+<p>天使爱美丽 / 艾蜜莉的异想世界(台) / 天使艾米莉</p>
+<h1 id="nyad">Nyad</h1>
+<p>奈德 / 尼亚德 / 泳不放弃(台)</p>
+<h1 id="the-creator">The Creator</h1>
+<p>AI创世者 / A.I.创世者(台) / 造物主</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Burnt Basque Cheesecake</title>
@@ -68,6 +287,99 @@ by Li Juan, Jack Hargreaves (Translator), and Yan Yan (Translator)
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
       <guid>https://www.yunyitang.me/en/blog/life/cake/</guid>
       <description>Translation source: 真网红流心巴斯克蛋糕，满满细节，大写好吃！【马壮实Maxkitchen】 Size: 6 inch round cake tin Ingredients Cream Cheese 350g Sugar 90g 2 Eggs + 1 Egg Yolk Cream 150g Low Gluten Flour (Corn Flour works well too!) 10g Method #1 Cream</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>Translation source: <a href="https://youtu.be/7lgzm65Q1tc?si=U2kbEGFf91Kk1e7y" target="_blank" rel="noopener" style="color:#E16723";>真网红流心巴斯克蛋糕，满满细节，大写好吃！【马壮实Maxkitchen】</a></p>
+</blockquote>
+<p><img loading="lazy" src="/img/cake/2-ideal.jpg" alt="ideal"  />
+</p>
+<blockquote>
+<p>Size: 6 inch round cake tin</p>
+</blockquote>
+<p><img loading="lazy" src="/img/cake/3-tin.jpg" alt="tin"  />
+</p>
+<h1 id="ingredients">Ingredients</h1>
+<ul>
+<li>Cream Cheese 350g</li>
+<li>Sugar 90g</li>
+<li>2 Eggs + 1 Egg Yolk</li>
+<li>Cream 150g</li>
+<li>Low Gluten Flour (Corn Flour works well too!) 10g</li>
+</ul>
+<p><img loading="lazy" src="/img/cake/1-ingredient.jpg" alt="ingredient"  />
+</p>
+<h1 id="method">Method</h1>
+<h2 id="1">#1</h2>
+<p>Cream cheese 350g melts in room temperature til they are easy to stir.</p>
+<p><img loading="lazy" src="/img/cake/5-creamcheese.jpg" alt="creamcheese"  />
+</p>
+<h2 id="2">#2</h2>
+<p>Add 90g of sugar. This is a reduced amount and the cake would taste good.</p>
+<p><img loading="lazy" src="/img/cake/6-sugar.jpg" alt="sugar"  />
+</p>
+<h2 id="3">#3</h2>
+<p>Add the two eggs and one egg yolk one by one. Adding only one egg yolk is to make the cheesecake less sponge; adding three whole eggs also works.</p>
+<p><img loading="lazy" src="/img/cake/7-egg.jpg" alt="egg"  />
+</p>
+<h2 id="4">#4</h2>
+<p>Add 150g of cream. Mix them well in each step.</p>
+<p><img loading="lazy" src="/img/cake/8-cream.jpg" alt="cream"  />
+</p>
+<h2 id="5">#5</h2>
+<p>Add 10g of low gluten flour or corn flour. If using bread flour or all purpose flour, the cheesecake will be more sponge.</p>
+<p><img loading="lazy" src="/img/cake/9-flour.jpg" alt="flour"  />
+</p>
+<h2 id="6">#6</h2>
+<p>Sift and pour them into the cake tin with two layers of baking paper.</p>
+<p><img loading="lazy" src="/img/cake/10-sift.jpg" alt="sift"  />
+</p>
+<p><img loading="lazy" src="/img/cake/11-baking-paper.jpg" alt="baking paper"  />
+</p>
+<p>Give the tin a sharp bang on the worktop to remove any air bubbles.</p>
+<h2 id="7">#7</h2>
+<p>Pre heat the oven to 230°C.</p>
+<p><img loading="lazy" src="/img/cake/12-oven-tem.jpg" alt="oven temperature"  />
+</p>
+<p>Best tempereture for this cake size and amount of materials is between 230°C and 240°C.</p>
+<p>Bake for less than 30 minutes. The best length of time for baking is between 23 minutes and 25 minutes.</p>
+<p><img loading="lazy" src="/img/cake/13-oven.jpg" alt="oven"  />
+</p>
+<h2 id="8">#8</h2>
+<p>Take the cake out and chill in room temperature.</p>
+<p><img loading="lazy" src="/img/cake/14-post-oven.jpg" alt="post oven"  />
+</p>
+<p>Put the cake in the fridge for one hour or overnight.</p>
+<p><img loading="lazy" src="/img/cake/15-cool.jpg" alt="cool"  />
+</p>
+<p>Cut slices and serve with any flavour of ice cream.</p>
+<p><img loading="lazy" src="/img/cake/19-ice-cream.jpg" alt="serve with ice cream"  />
+</p>
+<h1 id="experiments-with-temerature-and-time">Experiments with temerature and time</h1>
+<h2 id="chill-in-room-temperature-1-hour--fridge-overnight">chill in room temperature 1 hour + fridge overnight</h2>
+<p>Quite solid.</p>
+<p><img loading="lazy" src="/img/cake/16-cut.jpg" alt="cut"  />
+</p>
+<p>Sweep the knife for each cut, to have a clean cut.</p>
+<h2 id="chill-in-room-temperature-1-hour--fridge-1-hour">chill in room temperature 1 hour + fridge 1 hour</h2>
+<p>More soft and a bit lava in the cake centre.</p>
+<p><img loading="lazy" src="/img/cake/17-second-combo.jpg" alt="second combo"  />
+</p>
+<h2 id="oven-240c-for-26-minutes">oven 240°C for 26 minutes</h2>
+<p>More lava!</p>
+<p><img loading="lazy" src="/img/cake/18-third-combo.jpg" alt="third combo"  />
+</p>
+<h1 id="other-flavour">Other flavour</h1>
+<h2 id="blue-cheesecomté-cheese">Blue cheese/Comté cheese</h2>
+<p><img loading="lazy" src="/img/cake/20-other-cheese.jpg" alt="other cheese"  />
+</p>
+<p>Same ingredients and steps before pouring in the cake tin.</p>
+<p>Pour half in the cake tin and add some blue cheese/Comté cheese fractions in the middle of the cake tin.</p>
+<p><img loading="lazy" src="/img/cake/22-add-half.jpg" alt="add half"  />
+</p>
+<p>Then pour the second half in the cake tin. Adjust the cheese to the centre to the tin when pouring.</p>
+<p><img loading="lazy" src="/img/cake/23-adjust-centre.jpg" alt="adjust centre"  />
+</p>
+<p>230°C in fan mode oven for 28 minutes. Chill in room temperature and fridge overnight.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>About Me 👋🏼</title>
@@ -75,6 +387,17 @@ by Li Juan, Jack Hargreaves (Translator), and Yan Yan (Translator)
       <pubDate>Tue, 07 Nov 2023 14:31:25 +0000</pubDate>
       <guid>https://www.yunyitang.me/en/about/</guid>
       <description>class Me: def __init__(self): self.name = &amp;#34;Yunyi Tang&amp;#34; self.prefer_name = &amp;#34;Yunyi&amp;#34; self.born_year = 1998 self.MBTI = INFJ self.hometown = &amp;#34;Guangzhou, Guangdong, CN&amp;#34; self.curr_location = &amp;#34;Bristol, UK&amp;#34; self.grad_school = &amp;#34;uBristol&amp;#34; self.undergrad_school = &amp;#34;SDU&amp;#34; </description>
+      <content:encoded><![CDATA[<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Me</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s2">&#34;Yunyi Tang&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">prefer_name</span> <span class="o">=</span> <span class="s2">&#34;Yunyi&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">born_year</span> <span class="o">=</span> <span class="mi">1998</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">MBTI</span> <span class="o">=</span> <span class="n">INFJ</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">hometown</span> <span class="o">=</span> <span class="s2">&#34;Guangzhou, Guangdong, CN&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">curr_location</span> <span class="o">=</span> <span class="s2">&#34;Bristol, UK&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">grad_school</span> <span class="o">=</span> <span class="s2">&#34;uBristol&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">undergrad_school</span> <span class="o">=</span> <span class="s2">&#34;SDU&#34;</span>
+</span></span></code></pre></div>]]></content:encoded>
     </item>
     <item>
       <title>Links</title>
@@ -82,6 +405,57 @@ by Li Juan, Jack Hargreaves (Translator), and Yan Yan (Translator)
       <pubDate>Tue, 07 Nov 2023 14:31:25 +0000</pubDate>
       <guid>https://www.yunyitang.me/en/links/</guid>
       <description>Barney’s Blog All the truth is simple Amos&amp;rsquo;s Blog 无限进步.✍️ Bing&amp;rsquo;s Blog 自由 分享 合作 L1nSn0w&amp;rsquo;s Blog 无限进步.✍️ Cynosura Trying to light up the dark. Empty SEKAI 一只游荡在无人 SEKAI 的小白葱 Aiar&amp;rsquo;s Site 愿余生所有的珍</description>
+      <content:encoded><![CDATA[<p><figure class="myfriend">
+    <img loading="lazy" src="https://hugo.bnblogs.cc/images/img/20220215001349.png"
+         alt="Barney’s Blog"/> 
+</figure>
+<a href="https://hugo.bnblogs.cc/" target="_blank" rel="noopener" style="color:#E16723";>Barney’s Blog</a> <code>All the truth is simple</code> <figure class="myfriend">
+    <img loading="lazy" src="https://amoshk.top/img/avatar.png"
+         alt="Amos"/> 
+</figure>
+ <a href="https://amoshk.top/" target="_blank" rel="noopener" style="color:#E16723";>Amos&rsquo;s Blog</a> <code>无限进步.✍️</code> <figure class="myfriend">
+    <img loading="lazy" src="https://imcbc.cn/android-chrome-192x192.png"
+         alt="Bing&#39;s Blog"/> 
+</figure>
+ <a href="https://imcbc.cn/" target="_blank" rel="noopener" style="color:#E16723";>Bing&rsquo;s Blog</a> <code>自由 分享 合作</code> <figure class="myfriend">
+    <img loading="lazy" src="https://blog.linsnow.cn/img/avatar.png"
+         alt="L1nSn0w&#39;s Blog"/> 
+</figure>
+ <a href="https://blog.linsnow.cn" target="_blank" rel="noopener" style="color:#E16723";>L1nSn0w&rsquo;s Blog</a> <code>无限进步.✍️</code> <figure class="myfriend">
+    <img loading="lazy" src="https://cynosura.one/img/avatar.webp"
+         alt="Cynosura"/> 
+</figure>
+ <a href="https://cynosura.one" target="_blank" rel="noopener" style="color:#E16723";>Cynosura</a> <code>Trying to light up the dark.</code> <figure class="myfriend">
+    <img loading="lazy" src="https://github.com/prprnya.png"
+         alt="Empty SEKAI"/> 
+</figure>
+ <a href="https://prpr.rip" target="_blank" rel="noopener" style="color:#E16723";>Empty SEKAI</a> <code>一只游荡在无人 SEKAI 的小白葱</code> <figure class="myfriend">
+    <img loading="lazy" src="https://raw.githubusercontent.com/Arrackisarookie/images/main/fox.png"
+         alt="Aiar&#39;s Site"/> 
+</figure>
+ <a href="https://aiar.site" target="_blank" rel="noopener" style="color:#E16723";>Aiar&rsquo;s Site</a> <code>愿余生所有的珍惜，都不用失去来懂得。</code> <figure class="myfriend">
+    <img loading="lazy" src="https://cloud-cn.snhere.cn/link/huoban-f.webp"
+         alt="思宁HERE"/> 
+</figure>
+ <a href="https://www.snhere.com" target="_blank" rel="noopener" style="color:#E16723";>思宁HERE</a> <code>设计与生活</code> <figure class="myfriend">
+    <img loading="lazy" src="https://raw.githubusercontent.com/OverflowCat/blog/test_a/imgs/avatar/xni.png"
+         alt="新世界的大门"/> 
+</figure>
+ <a href="https://blog.xinshijiededa.men" target="_blank" rel="noopener" style="color:#E16723";>新世界的大门</a> <code>悟已往之不諫，知來者之可追</code> <figure class="myfriend">
+    <img loading="lazy" src="https://printempw.github.io/images/favicon.png"
+         alt="PRIN BLOG"/> 
+</figure>
+ <a href="https://printempw.github.io" target="_blank" rel="noopener" style="color:#E16723";>PRIN BLOG</a> <code>半吊子全栈开发者的日常</code> <figure class="myfriend">
+    <img loading="lazy" src="https://www.lvbibir.cn/img/avatar.gif"
+         alt="lvbibir&#39;s Blog"/> 
+</figure>
+ <a href="https://www.lvbibir.cn" target="_blank" rel="noopener" style="color:#E16723";>lvbibir&rsquo;s Blog</a> <code>life is a fucking movie</code></p>
+<hr>
+<p>Links format:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">figure src=&#34;https://www.yunyitang.me/img/Avatar.png&#34; 
+</span></span><span class="line"><span class="cl">[<span class="nt">Yunyi&#39;s Blog</span>](<span class="na">https://www.yunyitang.me/zh/</span>) 
+</span></span><span class="line"><span class="cl"><span class="sb">`Little squirrel Hopping around`</span>
+</span></span></code></pre></div>]]></content:encoded>
     </item>
     <item>
       <title>Projects</title>
@@ -93,6 +467,45 @@ Github: https://github.com/yunyit/yunyit.github.io
 This website uses PaperMod theme and base on Hugo. It uses the Twikoo comment system which supports API to batch get article comment count and latest comments. Visualising COVID-19 Jul. 2022, R
 DataCamp workspace: https://app.datacamp.com/workspace/w/980fb8cc-bfa9-4071-aea3-ca8b1e3a95a8/edit
 I used R to visualised COVID-19 data from the first several weeks of the outbreak. Academic Projects Systematic Reviews Prevalence of antibiotic prescribing in COVID-19 patients in China and other low- and middle-income countries during the pandemic (December 2019-March 2021): a systematic review and meta-analysis</description>
+      <content:encoded><![CDATA[<h1 id="personal-projects">Personal Projects</h1>
+<h2 id="my-personal-website">My Personal Website</h2>
+<p><em>Nov. 2023 - Now, HTML / CSS / JavaScript</em></p>
+<blockquote>
+<p>Github: <a href="https://github.com/yunyit/yunyit.github.io" target="_blank" rel="noopener" style="color:#E16723";>https://github.com/yunyit/yunyit.github.io</a></p>
+</blockquote>
+<ul>
+<li>This website uses <a href="https://github.com/adityatelange/hugo-PaperMod" target="_blank" rel="noopener" style="color:#E16723";>PaperMod</a> theme and base on <a href="https://github.com/gohugoio/hugo" target="_blank" rel="noopener" style="color:#E16723";>Hugo</a>.</li>
+<li>It uses the <a href="https://twikoo.js.org/en/intro.html" target="_blank" rel="noopener" style="color:#E16723";>Twikoo</a> comment system which supports API to batch get article comment count and latest comments.</li>
+</ul>
+<h2 id="visualising-covid-19">Visualising COVID-19</h2>
+<p><em>Jul. 2022, R</em></p>
+<blockquote>
+<p>DataCamp workspace: <a href="https://app.datacamp.com/workspace/w/980fb8cc-bfa9-4071-aea3-ca8b1e3a95a8/edit" target="_blank" rel="noopener" style="color:#E16723";>https://app.datacamp.com/workspace/w/980fb8cc-bfa9-4071-aea3-ca8b1e3a95a8/edit</a></p>
+</blockquote>
+<ul>
+<li>I used R to visualised <a href="https://github.com/RamiKrispin/coronavirus" target="_blank" rel="noopener" style="color:#E16723";>COVID-19 data</a> from the first several weeks of the outbreak.</li>
+</ul>
+<h1 id="academic-projects">Academic Projects</h1>
+<h2 id="systematic-reviews">Systematic Reviews</h2>
+<p><strong>Prevalence of antibiotic prescribing in COVID-19 patients in China and other low- and middle-income countries during the pandemic (December 2019-March 2021): a systematic review and meta-analysis</strong></p>
+<p><em>Oct. 2023, EndNote / Microsoft Excel</em></p>
+<blockquote>
+<p>DOI: <a href="https://doi.org/10.1093/jac/dkad302" target="_blank" rel="noopener" style="color:#E16723";>https://doi.org/10.1093/jac/dkad302</a></p>
+</blockquote>
+<ul>
+<li>Author: Wenjuan Cong, Hung-Yuan Cheng, Beth Stuart, Binjuan Liu, Yunyi Tang, Yi Wang, Nour AIhusein, Hexing Wang, Amit Manchundiya, Helen Lambert</li>
+<li>This review and analysis of antibiotic prescribing rates for COVID-19 patients in China and other LMICs from December 2019 to March 2021 show that the scale of antibiotic use in COVID-19 patients in these settings remains concerning.</li>
+</ul>
+<p><strong>Antibiotic Use and Bacterial Infection in COVID-19 Patients in the Second Phase of the SARS-CoV-2 Pandemic: A Scoping Review</strong></p>
+<p><em>Jul. 2022, EndNote / Microsoft Excel</em></p>
+<blockquote>
+<p>DOI: <a href="https://doi.org/10.3390/antibiotics11080991" target="_blank" rel="noopener" style="color:#E16723";>https://doi.org/10.3390/antibiotics11080991</a></p>
+</blockquote>
+<ul>
+<li>Author: Wenjuan Cong, Beth Stuart, Nour AI Husein, Binjuan Liu, Yunyi Tang, Hexing Wang, Amit Manchundiya, Helen Lambert</li>
+<li>This scoping review aimed to explore the prevalence and patterns of global antibiotic use and bacterial infection in COVID-19 patients from studies published between June 2020 and March 2021.</li>
+</ul>
+]]></content:encoded>
     </item>
     <item>
       <title>Log</title>
@@ -106,6 +519,54 @@ I used R to visualised COVID-19 data from the first several weeks of the outbrea
 2023-11-9 Rebuilt blog via Hugo and PaperMod with both English blogging and Chinese blogging.
 2023-12-19 Started building the twikoo commenting system for the blog.
 2023-12-20 Built the twikoo commenting system via MongoDB and Vercel, and posted the first comment on yunyitang.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>2022-09-21 Started blogging via <a href="https://ghost.org/" target="_blank" rel="noopener" style="color:#E16723";>Ghost</a> on yunyi-tang.ghost.io.</p>
+</blockquote>
+<blockquote>
+<p>2022-09-26 Brought domain <a href="https://www.yunyitang.me/" target="_blank" rel="noopener" style="color:#E16723";>yunyitang.me</a> from <a href="https://domains.google.com/registrar" target="_blank" rel="noopener" style="color:#E16723";>Google Domain</a>, and link yunyi-tang.ghost.io to <a href="https://www.yunyitang.me/" target="_blank" rel="noopener" style="color:#E16723";>yunyitang.me</a>.</p>
+</blockquote>
+<blockquote>
+<p>2023-11-1 The subscription from <a href="https://ghost.org/" target="_blank" rel="noopener" style="color:#E16723";>Ghost</a> ended and yunyi-tang.ghost.io deactivated.</p>
+</blockquote>
+<blockquote>
+<p>2023-11-7 Migrated personal blog to Github Pages（<a href="https://github.com/yunyit/yunyit.github.io" target="_blank" rel="noopener" style="color:#E16723";>yunyit.github.io</a>）and disconnected the domain <a href="https://www.yunyitang.me/" target="_blank" rel="noopener" style="color:#E16723";>yunyitang.me</a> from yunyi-tang.ghost.io.</p>
+</blockquote>
+<blockquote>
+<p>2023-11-9 Rebuilt blog via <a href="https://github.com/gohugoio/hugo" target="_blank" rel="noopener" style="color:#E16723";>Hugo</a> and <a href="https://github.com/adityatelange/hugo-PaperMod" target="_blank" rel="noopener" style="color:#E16723";>PaperMod</a> with both <a href="https://www.yunyitang.me/en/" target="_blank" rel="noopener" style="color:#E16723";>English blogging</a> and <a href="https://www.yunyitang.me/zh/" target="_blank" rel="noopener" style="color:#E16723";>Chinese blogging</a>.</p>
+</blockquote>
+<blockquote>
+<p>2023-12-19 Started building the <a href="https://twikoo.js.org/en/intro.html" target="_blank" rel="noopener" style="color:#E16723";>twikoo</a> commenting system for the blog.</p>
+</blockquote>
+<blockquote>
+<p>2023-12-20 Built the <a href="https://twikoo.js.org/en/intro.html" target="_blank" rel="noopener" style="color:#E16723";>twikoo</a> commenting system via <a href="https://www.mongodb.com/cloud/atlas/register" target="_blank" rel="noopener" style="color:#E16723";>MongoDB</a> and <a href="https://vercel.com/signup" target="_blank" rel="noopener" style="color:#E16723";>Vercel</a>, and posted the first comment on <a href="https://www.yunyitang.me/" target="_blank" rel="noopener" style="color:#E16723";>yunyitang.me</a>.</p>
+</blockquote>
+<blockquote>
+<p>2024-01-02 Set an <a href="https://iconduck.com/emojis/39003/orange-heart" target="_blank" rel="noopener" style="color:#E16723";>open source emoji</a> as the website icon, and added the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans" target="_blank" rel="noopener" style="color:#E16723";>CC BY-NC-SA 4.0 DEED</a> in the footer.</p>
+</blockquote>
+<blockquote>
+<p>2024-01-05 Initiated the <a href="https://www.sulvblog.cn/posts/blog/hugo_tag_cloud/" target="_blank" rel="noopener" style="color:#E16723";>Tags</a> page and added an entry of it in the header.</p>
+</blockquote>
+<blockquote>
+<p>2024-01-06 Improved SEO with <a href="https://search.google.com/search-console" target="_blank" rel="noopener" style="color:#E16723";>Google Search Console</a> and <a href="https://www.bing.com/webmasters" target="_blank" rel="noopener" style="color:#E16723";>Bing Webmaster Tools</a>; ongoing SEO improvement with <a href="https://ziyuan.baidu.com" target="_blank" rel="noopener" style="color:#E16723";>Baidu</a>.</p>
+</blockquote>
+<blockquote>
+<p>2024-01-07 Secured <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https" target="_blank" rel="noopener" style="color:#E16723";>GitHub Pages site with HTTPS</a>.</p>
+</blockquote>
+<blockquote>
+<p>2024-01-10 Added <a href="https://umami.is" target="_blank" rel="noopener" style="color:#E16723";>umami</a> website analytics dashboard to footer.</p>
+</blockquote>
+<hr>
+<h3 id="pending-new-features">Pending new features</h3>
+<ol>
+<li>Douban/IMDB APIs;</li>
+<li>Toolbox index；</li>
+<li>Website traffics；</li>
+<li>Music APIs;</li>
+</ol>
+<hr>
+<h3 id="disclaimers">Disclaimers</h3>
+<p>The content presented on this blog site is for informational purposes only.  By using this site including information presented on this site, you agree that the author shall not be liable and/or held responsible/accountable for any damages resulting from the presentation, use, or misuse of the information contained on any site pages.</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

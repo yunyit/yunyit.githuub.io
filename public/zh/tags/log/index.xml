@@ -14,6 +14,34 @@
       <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://www.yunyitang.me/zh/blog/life/2023/</guid>
       <description>博客建设 2023 年底把博客从 Ghost 搬到了 Github Pages，动手照着教程 Hugo + PaperMod搭建技术博客 做了一个静态网页做博客，重心放在技术学习整理、以输出</description>
+      <content:encoded><![CDATA[<h1 id="博客建设">博客建设</h1>
+<p>2023 年底把博客从 Ghost 搬到了 <a href="https://pages.cloudflare.com/" target="_blank" rel="noopener" style="color:#E16723";>Github Pages</a>，动手照着教程 <a href="https://kyxie.github.io/zh/blog/tech/papermod/" target="_blank" rel="noopener" style="color:#E16723";>Hugo + PaperMod搭建技术博客</a> 做了一个静态网页做博客，重心放在技术学习整理、以输出促输入、费曼学习法。</p>
+<p>一开始照本宣科做中英一式两份的个人网站，后来随着扩展友链、多读多看，加之自己在英工作，逐渐调整了个站中英页面的各自侧重：英文页面有求职相关，博客更新不及中文页面多，主页保持 portfolio 的简洁；中文页面则更侧重博客输出，主页的页头页尾也更丰富一点。</p>
+<p>在扩展 <a href="https://www.yunyitang.me/zh/links/" target="_blank" rel="noopener" style="color:#E16723";>友链</a> 的过程中，向各位大佬们也学习了很多，感受到了独立博客的丰富，受益于大家分享的真诚，并且越来越能体会阮一峰老师的话：</p>
+<blockquote>
+<p>”对我来说，博客首先是一种知识管理工具，其次才是传播工具。我的技术文章，主要用来整理我还不懂的知识。我只写那些我还没有完全掌握的东西，那些我精通的东西，往往没有动力写。炫耀从来不是我的动机，好奇才是。“</p>
+</blockquote>
+<h1 id="工作变化和感受">工作变化和感受</h1>
+<p>今年最松一口气的变化，就是我的 <a href="https://research-information.bris.ac.uk/en/persons/yunyi-tang-2/studentTheses/" target="_blank" rel="noopener" style="color:#E16723";>硕士论文</a> 终于通过了！从一开始读博的跌跌撞撞，到第一年审核不过的焦虑难受，再到之后转为研究型硕士项目的守得云开见月明，很感谢导师、家人和朋友们的支持和陪伴。拿到学位也保证了后续的签证申请，留英工作的计划也清晰了许多。</p>
+<p>科研之余的实习也有了不少进展，在 <a href="https://www.180dc.org/branches/Bristol" target="_blank" rel="noopener" style="color:#E16723";>180DC</a> 的数据科学项目进入到项目的第二阶段，去年的领队忙于毕业、把这轮项目的领队交给了我。虽然不比队里各位 Robotics 的博士生们技术精湛，但基于项目前一轮和客户交流的经验，加一些细心，算是把此项目收尾了。</p>
+<p>最意外的收获是开始了在 <a href="https://www.zap-map.com/" target="_blank" rel="noopener" style="color:#E16723";>Zapmap</a> 的数据兼职。从一开始比较打杂，到现在虽然也打杂、但更多参与公司会议了解业务动向、多到办公室和大家交流、旁观学习，甚至还去 Christmas Party 狠玩了一把，也算是把一个一开始的小机会利用到自己力所能及的最大值。虽说初创公司要看融资来决定下一步的人事变化，能否在现在合同结束后留下了全职工作还两说，但在 <a href="https://www.zap-map.com/" target="_blank" rel="noopener" style="color:#E16723";>Zapmap</a> 经历的、学习了解到的都对从本科开始就没有工作经历、一路读书到现在的我多有助益。</p>
+<h1 id="技术成长">技术成长</h1>
+<p>在导师提醒我“不能从一个硕士项目中只想着用尽学尽自己想要的技术/工具”之后，我放下了把 <a href="https://research-information.bris.ac.uk/en/persons/yunyi-tang-2/studentTheses/" target="_blank" rel="noopener" style="color:#E16723";>硕士论文</a> 的数据分析做得花里胡哨的执念，只在完成本职（<a href="https://research-information.bris.ac.uk/en/persons/yunyi-tang-2/publications/" target="_blank" rel="noopener" style="color:#E16723";>科研</a>）之余，多接触、多自学、多尝试。但对于自己更倾向于数据分析、还是网站开发，一直没有很清晰的想法。</p>
+<p>有时候感觉像忙头苍蝇无方向，但有时又相信积少成多、前路会越来越明晰，也多亏能在 <a href="https://www.zap-map.com/" target="_blank" rel="noopener" style="color:#E16723";>Zapmap</a> 工作多感受体会，才不至于像考虑转硕那样焦躁茫然。而在秋天生活变故之后，我有意无意多着力用时于自己，加上少了担心毕业论文的压力，顺着技术博客做感觉还不错。</p>
+<h1 id="今年计划完成度">今年计划完成度</h1>
+<p>连续两年年底都过得不易，也一直没什么“年度计划”。姑且回头看的话，今年过得确实比去年年底的悲观好多了，感到幸运的远多于感到遗憾的，也算是完成自己的期待吧！</p>
+<h1 id="明年的全年计划">明年的全年计划</h1>
+<p>明年主要解决什么问题？有什么想做的？围绕生活、技术、工作：</p>
+<ul>
+<li>多出门徒步，开始尝试多日徒步；</li>
+<li>多和家人朋友通话联络；</li>
+<li>保持博客每月两篇以上的输出；</li>
+<li>增加基础技术知识的学习和输出；</li>
+<li>开始第一份全职工作；</li>
+</ul>
+<h1 id="相关阅读">相关阅读</h1>
+<p>各节标题参考了 <a href="https://imcbc.cn/" target="_blank" rel="noopener" style="color:#E16723";>冰冰大佬</a> 前年的 <a href="https://imcbc.cn/202212/2022-summary/" target="_blank" rel="noopener" style="color:#E16723";>2022年终总结</a>，更多大家的 2023 年终总结可翻阅 <a href="https://github.com/saveweb/review-2023" target="_blank" rel="noopener" style="color:#E16723";>此合集</a>。</p>
+]]></content:encoded>
     </item>
     <item>
       <title>2020 年终总结</title>
@@ -21,6 +49,30 @@
       <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://www.yunyitang.me/zh/blog/life/2020/</guid>
       <description>“我生活在妙不可言的等待中，等待随便哪种未来” “我生活在妙不可言的等待中，等待随便哪种未来“，这是纪德在《地粮》里的一句话，也是我收到单向历</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>“我生活在妙不可言的等待中，等待随便哪种未来”</p>
+</blockquote>
+<p>“我生活在妙不可言的等待中，等待随便哪种未来“，这是纪德在《地粮》里的一句话，也是我收到单向历的包装上的一句话。在这个充满变数的2020年，这句话突然显得有些适合，用来总结这个2020年。</p>
+<p>写2020年的年末回顾比2019年更难下笔，可能因为新冠疫情还环绕着我们，单纯个人的快乐和失落已经难以形容2020年了。从未感觉自己本科的社会人类学训练在眼前的思虑中如此真实，我们什么时候不是生活在这个社会之中呢？</p>
+<p>但若把眼光拉回身边，还是有很多可以细细掰扯的回忆。</p>
+<p>写2019年回顾的时候，我还很心虚、很着急、很没有着落，和现在的感觉不太一样。可能因为国内公历年末没有休假，而英国正好在圣诞连着元旦休冬假；也可能因为升学的复杂心情，混杂着一年到尾回头看的怅然，和现在还坐在一个新的旅程的起点，心情略有不同。</p>
+<p>就像我在12月开头回看一年前写的那样，“我无法回去安慰那时候的自己，抱住她描述会安心的明天。那时候最大的动力就是畅想博士生活，畅想我在英格兰一个西南的海港城市开始四年的研究生活，会有导师，会有一年做田野，会有机会做交叉项目，我会做一个好奇而活泼的疯子。但我无法回去安慰那时候的自己，我只能安慰现在的自己，by the end of this year, I will finally survive 2020, we all will.”</p>
+<p>幸好，我survive了，成为了幸存到2020年末的幸运儿。相较于许多没有度过漫长寒冬的鲜活生命，我只是幸运了。像朋友说的那样，我们可能还是进入了“后疫情时代”，生活不可逆地改变了，我们会继续拥抱生活的不确定性吗？我们有能力拥抱生活的不确定性吗？</p>
+<hr>
+<p>除了生命意义上的survive，回答自己在12月初的期待，生活上我也survive了这一学期、这一年。在紧张地申请与等待之后，我有惊无险地开始了博士第一年的第一个学期，并用一个小小symposium的名次给自己的第一学年画上逗号。</p>
+<p>在新的城市认识了新的朋友，在新的钢筋森林里找到了新的散心绿地，这些大概都回应了上半年焦虑的自己最美好的期待。所以，我很珍惜现在手里的时间。</p>
+<hr>
+<p>年初的自己，从济南到广州到香港，最后再回到广州，一路处理完了期末、雅思、递交申请、面试和继续网申。我几乎没有在相机和手机留下什么影像。</p>
+<p>但是，这些都因为疫情爆发，改变了节奏。也因为当时的心情太真实，也因为怕自己遗忘，我在惊魂未定的那阵子买了很多纸质杂志，因为“真正的新闻，是历史的底稿，这些印在纸上的文与图，是留给时间的物证“。</p>
+<hr>
+<p>在申请暂告一段落之后，一边挽救自己无法补充实地田野的毕业论文，我一边和朋友久违地在广州聚会。我们去了久未开张的影院，也在远走他乡之前饱尝鲜美的海鲜粤菜。</p>
+<hr>
+<p>毕业、告别、旅行、升学、搬家，一切的回忆，都收束在现在回想2020年的我手里。</p>
+<p>我曾畅想，“2020”这样数字规整的年份会怎样度过。而一开始的各种遐想，都不是年末看到的这样。</p>
+<p>但我还是个盲目乐观的人。或是说，我对未来悲观，以至于我可以坦然接受大多数好或不好的事情发生。所以我选了这句话，“我生活在妙不可言的等待中，等待随便哪种未来”，作为这篇草草写就的年末回顾的标题。</p>
+<p>是的，我还会在这里，等待随便哪种未来。</p>
+<p>预祝读到这里的你新年快乐；）</p>
+]]></content:encoded>
     </item>
     <item>
       <title>2019 年终总结</title>
@@ -28,6 +80,35 @@
       <pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
       <guid>https://www.yunyitang.me/zh/blog/life/2019/</guid>
       <description>在记忆干枯前描绘2019 当作课间休息，这个年终总结一点点地在键盘敲打出来。 每到写年终总结都是我最心虚的时候。一是因为一个学年都是秋起夏终，冬</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>在记忆干枯前描绘2019</p>
+</blockquote>
+<p>当作课间休息，这个年终总结一点点地在键盘敲打出来。</p>
+<p>每到写年终总结都是我最心虚的时候。一是因为一个学年都是秋起夏终，冬天的年末远远不是松口气的时候。二是今年适逢升学，茫然，也仅仅能遥想一年后的自己会在哪里，给自己打打气。不过还是有个小小的信念：整理好过去，会更有信心面对下一年，所以我写下了我对2019的回忆。</p>
+<p>回到2019年的一月，我甩掉几门期末，干掉一次雅思，拉着大行李箱就去了美国。威斯康辛的大雪让我半个学期都看不见绿色草木，让我连续停了三次周二的晚课，也让我体会了在冰面溜冰玩儿是什么感觉。现在回想起四个月的交换时间还是有点恍惚，就像一场有点夸张的梦。北京已经两三次雪了，济南还会再下一次雪吗？</p>
+<hr>
+<p>我是个总不甘寂寞的人，说好听点就是跳出舒适圈（平时也不舒适啊？），说不好听点就是三分钟热度。交换的学期满足了我的很多好奇和贪玩儿，也或多或少有实质性收获。然后我在夏天还去了背山面水的港中文，而目前又在紧张地准备研究生申请。</p>
+<hr>
+<p>尽管一年到头都一头沉在自己的忙兮兮里，但是我从来离不了我的朋友们。在b村对着窗外的鹅毛大雪，我和Valerie点了暖呼呼的茶叶蛋一起赶作业；在深夜无人的Java Joint，Vy和我聊到困了回去睡觉，还在临走前几晚一边说着自己的焦虑一边安慰对方；和Peggy在一起我有了勇气去解决让我不安的烦恼，还吃了很多很多顿早午晚饭；和Yu我去听了人生第一场OOR的live，在Milwaukee的冷风里排了6个小时的队；和Sihan和Jack他们周五不知道聊啥天，然后周六一起去吃早饭，临走还一起通宵一个个送走回国的朋友；在Sherry的帮助下，办了第一次小小的摄影展，还留下了一张powerhouse的照片在学校里，回想起来还像是梦一样的体验；很多一起上课的朋友们，背景各异，生活各异，在上课一起头疼犯困（？），还会在party偶遇（哈）；还有到现在都没见面过的铮玥小姐姐哈哈哈哈，苍天她在我行前帮忙解答了多少疑惑，还在一个发现不能多留一个学期失落的晚上跨着时差慢慢聊天。回想起这段时间，我总是停不住又臭又长地流水账，生怕放过任何一个稍有遗忘的瞬间，谢谢你们爱你们。</p>
+<p>同时真心地感谢我的父母，容许我这样折腾，养了一个过于活泼的女儿辛苦你们了，希望爸妈新的一年也身体健康。</p>
+<hr>
+<p>在跨着时差和一群朋友错峰聊天后，在大家终于陆续实习完回到济南后，一群朋友们终于聚餐了。不知道怎么形容，总之就是一群人，天天在聊天，偶尔吃个饭，差不多这样，真奇怪？</p>
+<hr>
+<p>下半年乏善可陈，只剩下了补课和升学，怎么和去年年末这么像哈哈哈？今年在一门课里有机会去田野，觉得挺幸福的，在田野里可以当工具人的那种幸福？大概在喜欢的方向上还有很远的路要走，预祝在考研/工作/升学路上的各位同行人新的一年里平安顺利。</p>
+<hr>
+<p>It was the best of times, it was the worst of times,
+it was the age of wisdom, it was the age of foolishness,
+it was the epoch of belief, it was the epoch of incredulity,
+it was the season of Light, it was the season of Darkness,
+it was the spring of hope, it was the winter of despair,
+we had everything before us, we had nothing before us,
+we were all going direct to Heaven, we were all going direct the other way.</p>
+<p>&ndash; in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</p>
+<p>《双城记》这段话放在每个年关都那么适合？</p>
+<p>每个人都在自己的苦乐中倒腾，社会也在肮脏和洁白中翻滚，冷感的和热情的都会被祝福和伤害。希望身边的和远方的人，新的一年能和自己及自己以外的好好相处，到明年的这个时候，还能哭出来和笑出来。</p>
+<p>让我们去“温柔地推翻这个世界”。</p>
+<p>预祝读到这里的你新年快乐：）</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>
