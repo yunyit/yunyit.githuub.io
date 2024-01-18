@@ -32,6 +32,11 @@ weight: null
 ## Google Domain 转到 Cloudflare
 正好谷歌域名服务准备集体转移到 Squarespace，便一并 [转移到 Cloudflare 域名](https://developers.cloudflare.com/registrar/get-started/transfer-domain-to-cloudflare/#set-up-a-domain-transfer)。
 
+## 重新链接 GitHub Page 到 Cloudflare
+Browser cache https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/troubleshooting-custom-domains-and-github-pages#browser-cache 
+
+If you've recently changed or removed your custom domain and can't access the new URL in your browser, you may need to clear your browser's cache to reach the new URL. For more information on clearing your cache, see your browser's documentation. 
+
 
 # 国内 CDN
 
