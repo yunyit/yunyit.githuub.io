@@ -90,8 +90,8 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 /* 字体调整 */
 body {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 1rem;
-    line-height: 1.5;
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
     margin: 0;
 }
 

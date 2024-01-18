@@ -2,6 +2,7 @@
 Tags:
 - CDN
 - Network
+- Cloudflare
 TocOpen: true
 author:
 - Yunyi
@@ -25,12 +26,14 @@ weight: null
 
 > 起因是解决互换友链中头像加载的问题。
 
+本站是 Github Pages（[yunyit.github.io](https://github.com/yunyit/yunyit.github.io)）绑定域名 [yunyitang.me](https://www.yunyitang.me/)，
+
 # 国外：Cloudflare
 
-无需置疑，地表最强的CDN提供商，提供免费CDN，免备案CDN和高防御的CDN，秒国内一线厂商毫无疑问。2020年7月17日，Cloudflare由于路由器发生错误，引起全球性互联网访问中断，中断持续了27分钟，整个网络上的流量下降了50%，造成包括Shopify、Politico、Discord和LOL（英雄联盟）等在内的网站及服务无法访问，可见覆盖范围和实力。
+无需置疑，地表最强的 CDN 提供商，提供免费 CDN，免备案 CDN 和高防御的 CDN，秒国内一线厂商毫无疑问。2020 年 7 月 17 日，[Cloudflare](https://www.cloudflare.com/en-gb/) 由于路由器发生错误，引起全球性互联网访问中断，中断持续了 27 分钟，整个网络上的流量下降了 50%，造成包括 Shopify、Politico、Discord 和 LOL（英雄联盟）等在内的网站及服务无法访问，可见覆盖范围和实力。
 
 ## Google Domain 转到 Cloudflare
-正好谷歌域名服务准备集体转移到 Squarespace，便一并 [转移到 Cloudflare 域名](https://developers.cloudflare.com/registrar/get-started/transfer-domain-to-cloudflare/#set-up-a-domain-transfer)。
+正好 [谷歌域名服务](https://domains.google) 准备集体转移到 Squarespace，所以我就把原来在谷歌注册的 [yunyitang.me](https://www.yunyitang.me/) 域名 [转到 Cloudflare 域名](https://developers.cloudflare.com/registrar/get-started/transfer-domain-to-cloudflare/#set-up-a-domain-transfer)。
 
 ## 重新链接 GitHub Page 到 Cloudflare
 Browser cache https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/troubleshooting-custom-domains-and-github-pages#browser-cache 
@@ -53,7 +56,7 @@ Cloudflare国外访问快，而且免费。国内CDN国内快，但国外可能�
 
 # 相关阅读
 
-- [Cloudflare](https://www.cloudflare.com/en-gb/)
+- [China content delivery with Azure CDN](https://learn.microsoft.com/en-us/azure/cdn/cdn-china-delivery)
 - [域名测试](https://ping.chinaz.com)
 - [查询 DNS](https://intodns.com)
 - [How to Transfer Domain to Cloudflare from Google Domain](https://medium.com/@life-is-short-so-enjoy-it/how-to-transfer-domain-to-cloudflare-from-google-domain-7f452ba02ca#id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjFmNDBmMGE4ZWYzZDg4MDk3OGRjODJmMjVjM2VjMzE3YzZhNWI3ODEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIyMTYyOTYwMzU4MzQtazFrNnFlMDYwczJ0cDJhMmphbTRsamRjbXMwMHN0dGcuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiIyMTYyOTYwMzU4MzQtazFrNnFlMDYwczJ0cDJhMmphbTRsamRjbXMwMHN0dGcuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTcxMzI5OTMwMzMyODU2NTEwMDYiLCJlbWFpbCI6IndpbmlmcmVkLnRhbmcuMDgyMEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmJmIjoxNzA1NTkzMDIxLCJuYW1lIjoiWXVueWkgVGFuZyIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NKcXpnUVBJam1XZ3hRQktpSjJtUUJmN1VBMVEwRXo5TTM3NlRUQlo2dmVpT0E9czk2LWMiLCJnaXZlbl9uYW1lIjoiWXVueWkiLCJmYW1pbHlfbmFtZSI6IlRhbmciLCJsb2NhbGUiOiJlbi1HQiIsImlhdCI6MTcwNTU5MzMyMSwiZXhwIjoxNzA1NTk2OTIxLCJqdGkiOiJmZTIwYjdlNzJkMGM2ZTc3NTQ1YjBiZWZhM2RlY2JiNWZjYmI0ZWIyIn0.EYH-hvq6sXUzpyVMb2dSg2yQ7ekzdmx6OX3HXLOHcrNr4MdNfdHvsT_YuEn3RoAdnIrZ8G8P3IHKSl6jufAib19fowTahelUHjVpjc2Sjgv4I7a_2o7Ng8vNraJx5arZujfgC0bG2QOJTHFySEdCu3_0C7RurqGC068n8B_CB_iOBGdlfUn_igzJDWf_xQfgSCoF8EEUhAXf1WTonmIPEvl7fM_8Ew6NCcHJ3grXU6wHkLYBfzlgqWjpaR11CVs8TQUOSUQoWHxihgOEysQ8hYuoBXizS4_M4x7vvtyEolO5xDHk54AO5Nbja3Xuxw7Rvl7nwwF3p9TE8eGfMvzrEw)

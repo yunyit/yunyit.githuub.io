@@ -1,6 +1,6 @@
 ---
 Tags:
-- CDN
+- Cache
 - Network
 TocOpen: true
 author:
@@ -19,7 +19,7 @@ lastmod: "2024-01-18"
 showToc: true
 showbreadcrumbs: true
 slug: ""
-title: CDN 加速
+title: Cache
 weight: null
 ---
 
