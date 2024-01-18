@@ -330,7 +330,7 @@ body {
     padding: 2px !important;
     vertical-align: middle; /* Set vertical alignment to middle */
 
-    line-height: 1 !important;
+    line-height: 0.7 !important;
     display: inline-block !important;
     margin-right: 10px !important;
     margin-left: 10px !important;
