@@ -25,3 +25,5 @@ weight: null
 
 > 上班和自己弄博客，debug 经常就是 cache 闹的鬼。
 
+# 相关阅读
+- [Alex Xu: A Crash Course in Caching - Part 1](https://blog.bytebytego.com/p/a-crash-course-in-caching-part-1)
