@@ -1,5 +1,5 @@
 .main {
-    position: relative;
+    position: relative; /*解决toc定位问题*/
     min-height: calc(100vh - var(--header-height) - var(--footer-height));
     max-width: calc(var(--main-width) + var(--gap) * 2);
     margin: auto;
@@ -11,7 +11,7 @@
 }
 
 .pagination {
-    display: flex;
+    display: flex; /*解决分页居中问题*/
 }
 
 .pagination a {
@@ -38,7 +38,7 @@
 }
 
 code {
-    direction: ltr;
+    direction: ltr; /*解决代码块中文显示问题*/
 }
 
 div.highlight,

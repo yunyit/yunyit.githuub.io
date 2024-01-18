@@ -1,0 +1,4 @@
+{{ $optBlock := dict "display" "block" }}
+{{ with .Inner }}{{ . | $.Page.RenderString $optBlock }}{{ end }}
+
+<!-- https://discourse.gohugo.io/t/how-would-you-pass-a-class-to-markdown/29015/3 -->
