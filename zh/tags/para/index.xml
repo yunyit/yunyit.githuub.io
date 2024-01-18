@@ -14,6 +14,79 @@
       <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://www.yunyitang.me/zh/blog/tech/obsedian/</guid>
       <description>启用日期：2024-01-09 应用场景：工作笔记 自定义：荷叶绿 HEYELV #1A6840 RGB(26, 104, 64)；字体 JetBrains Mono 常用功能属性 daily template interlink tags YAML 分类方法 标签：PARA + 工作内容</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>启用日期：2024-01-09</p>
+</blockquote>
+<blockquote>
+<p>应用场景：工作笔记</p>
+</blockquote>
+<blockquote>
+<p>自定义：<!-- raw HTML omitted -->荷叶绿<!-- raw HTML omitted --> HEYELV #1A6840 RGB(26, 104, 64)；字体 <a href="https://www.jetbrains.com/lp/mono/" target="_blank" rel="noopener" style="color:#E16723";>JetBrains Mono</a></p>
+</blockquote>
+<h1 id="常用功能属性">常用功能属性</h1>
+<ul>
+<li>daily template</li>
+<li>interlink</li>
+<li>tags</li>
+<li>YAML</li>
+</ul>
+<h1 id="分类方法">分类方法</h1>
+<p>标签：PARA + 工作内容</p>
+<ul>
+<li>1-projects</li>
+<li>2-areas</li>
+<li>3-resources</li>
+<li>4-archives</li>
+<li>zapmap</li>
+</ul>
+<blockquote>
+<p>同样的分类方法我也应用于系统便签本的归类。</p>
+</blockquote>
+<h1 id="安装插件">安装插件</h1>
+<table>
+<thead>
+<tr>
+<th>插件</th>
+<th>主要功能</th>
+<th>相关阅读</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="obsidian://show-plugin?id=dataview">Dataview</a></td>
+<td>数据库查询</td>
+<td><a href="https://pkmer.cn/Pkmer-Docs/10-obsidian/obsidian%e7%a4%be%e5%8c%ba%e6%8f%92%e4%bb%b6/dataview/dataview%e5%9f%ba%e6%9c%ac%e8%af%ad%e6%b3%95/31---dql-%e4%b8%8e-sql-%e7%9a%84%e5%bc%82%e5%90%8c/" target="_blank" rel="noopener" style="color:#E16723";>Dataview 中的 DQL 与 SQL 的区别</a></td>
+</tr>
+<tr>
+<td><a href="obsidian://show-plugin?id=nldates-obsidian">Natural Language Dates</a></td>
+<td>通过自然语言生成日期</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="obsidian://show-plugin?id=periodic-notes">Perodic Dates</a></td>
+<td>按日期单位汇总笔记</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="obsidian://show-plugin?id=smart-random-note">Smart Random Notes</a></td>
+<td>随机挑选一篇笔记阅读</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="obsidian://show-plugin?id=templater-obsidian">Templater</a></td>
+<td>模版指令</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="obsidian://show-plugin?id=various-complements">Various Complements</a></td>
+<td>自动补全</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h1 id="其他相关阅读">其他相关阅读</h1>
+<p><a href="https://stdrc.cc" target="_blank" rel="noopener" style="color:#E16723";>RC</a> 总结的 <a href="https://stdrc.cc/style-guides/chinese" target="_blank" rel="noopener" style="color:#E16723";>中文写作风格指南</a>。</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

@@ -14,6 +14,116 @@
       <pubDate>Sat, 13 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://www.yunyitang.me/zh/blog/tech/ymal/</guid>
       <description>认知始于 Markdown 文件，不知道终于哪儿。 定义 YAML Ain&amp;rsquo;t a Markup Language / Yet Another Markup Language 文件后缀：.yml 或 .yaml 注释：井号 或 哈希符号 # 结构：映射或列表，遵循层次结构，具体取决</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>认知始于 Markdown 文件，不知道终于哪儿。</p>
+</blockquote>
+<h1 id="定义">定义</h1>
+<blockquote>
+<p>YAML Ain&rsquo;t a Markup Language / Yet Another Markup Language</p>
+</blockquote>
+<p>文件后缀：<code>.yml</code> 或 <code>.yaml</code></p>
+<p>注释：井号 或 哈希符号 <code>#</code></p>
+<p>结构：映射或列表，遵循层次结构，具体取决于缩进以及定义键值的方式。</p>
+<p>语法：</p>
+<ul>
+<li>大小写敏感；</li>
+<li>使用缩进表示层级关系；</li>
+<li>缩进时不允许使用 <code>Tab</code> 键，只允许使用空格；</li>
+<li>缩进的空格数目不重要，只要相同层级的元素左侧对齐即可；</li>
+</ul>
+<h1 id="应用">应用</h1>
+<p>配置文件 configuration files -</p>
+<h2 id="yaml--json">YAML / JSON</h2>
+<p>相比 JSON，因为 YAML 有更好的可读性，对用户更友好，所以通常建议用 YAML 来编写配置文件，尽管它们在大多数情况下可以互换使用。</p>
+<h1 id="数据类型">数据类型</h1>
+<ul>
+<li>对象 mapping/hash/dictionary：键值对的集合；</li>
+<li>数组 sequence/list：一组按次序排列的值；数组和对象可以构成复合结构；</li>
+<li>纯量：最基本的，不可再分的值；</li>
+</ul>
+<h2 id="对象">对象</h2>
+<p>对象的一组键值对，使用冒号结构表示。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">animal</span><span class="p">:</span><span class="w"> </span><span class="l">pets</span><span class="w">
+</span></span></span></code></pre></div><p>转为 JavaScript 如下：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="line"><span class="cl"><span class="p">{</span> <span class="nx">animal</span><span class="o">:</span> <span class="s1">&#39;pets&#39;</span> <span class="p">}</span>
+</span></span></code></pre></div><p>Yaml 也允许另一种写法，将所有键值对写成一个行内对象。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">hash</span><span class="p">:</span><span class="w"> </span>{<span class="w"> </span><span class="nt">name: Steve, foo</span><span class="p">:</span><span class="w"> </span><span class="l">bar } </span><span class="w">
+</span></span></span></code></pre></div><p>转为 JavaScript 如下：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="line"><span class="cl"><span class="p">{</span> <span class="nx">hash</span><span class="o">:</span> <span class="p">{</span> <span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;Steve&#39;</span><span class="p">,</span> <span class="nx">foo</span><span class="o">:</span> <span class="s1">&#39;bar&#39;</span> <span class="p">}</span> <span class="p">}</span>
+</span></span></code></pre></div><h2 id="数组">数组</h2>
+<p>一组连词线开头的行，构成一个数组。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl">- <span class="l">Cat</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span>- <span class="l">Dog</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span>- <span class="l">Goldfish</span><span class="w">
+</span></span></span></code></pre></div><p>转为 JavaScript 如下：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="line"><span class="cl"><span class="p">[</span> <span class="s1">&#39;Cat&#39;</span><span class="p">,</span> <span class="s1">&#39;Dog&#39;</span><span class="p">,</span> <span class="s1">&#39;Goldfish&#39;</span> <span class="p">]</span>
+</span></span></code></pre></div><h2 id="纯量">纯量</h2>
+<p>纯量是最基本的、不可再分的值。</p>
+<p>以下数据类型都属于 JavaScript 的纯量：</p>
+<ul>
+<li>字符串</li>
+<li>布尔值</li>
+<li>整数</li>
+<li>浮点数</li>
+<li><code>null</code>：用 <code>~</code> 表示</li>
+<li>时间</li>
+<li>日期</li>
+</ul>
+<h1 id="复合结构">复合结构</h1>
+<p>对象和数组可以结合使用，形成复合结构。</p>
+<h2 id="示例">示例</h2>
+<p>选自 <a href="https://www.redhat.com/en/topics/automation/what-is-yaml" target="_blank" rel="noopener" style="color:#E16723";>Red Hat</a> 的学生信息例子：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="c">#Comment: Student record</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c">#Describes some characteristics and preferences</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nn">---</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Martin D&#39;vloper</span><span class="w"> </span><span class="c">#key-value</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">age</span><span class="p">:</span><span class="w"> </span><span class="m">26</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">hobbies</span><span class="p">:</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="l">painting</span><span class="w"> </span><span class="c">#first list item</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="l">playing_music</span><span class="w"> </span><span class="c">#second list item</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="l">cooking</span><span class="w"> </span><span class="c">#third list item</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">programming_languages</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">java</span><span class="p">:</span><span class="w"> </span><span class="l">Intermediate</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">python</span><span class="p">:</span><span class="w"> </span><span class="l">Advanced</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">javascript</span><span class="p">:</span><span class="w"> </span><span class="l">Beginner</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">favorite_food</span><span class="p">:</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">vegetables</span><span class="p">:</span><span class="w"> </span><span class="l">tomatoes </span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">fruits</span><span class="p">:</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">citrics</span><span class="p">:</span><span class="w"> </span><span class="l">oranges </span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">tropical</span><span class="p">:</span><span class="w"> </span><span class="l">bananas</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">nuts</span><span class="p">:</span><span class="w"> </span><span class="l">peanuts</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">sweets</span><span class="p">:</span><span class="w"> </span><span class="l">raisins</span><span class="w">
+</span></span></span></code></pre></div><p>使用 Python 的 PyYAML 库，可转化为：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="p">[</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;Martin D&#39;vloper&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;age&#34;</span><span class="p">:</span> <span class="mi">26</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;hobbies&#34;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&#34;painting&#34;</span><span class="p">,</span> <span class="s2">&#34;playing_music&#34;</span><span class="p">,</span> <span class="s2">&#34;cooking&#34;</span><span class="p">],</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;programming_languages&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="s2">&#34;java&#34;</span><span class="p">:</span> <span class="s2">&#34;Intermediate&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="s2">&#34;python&#34;</span><span class="p">:</span> <span class="s2">&#34;Advanced&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="s2">&#34;javascript&#34;</span><span class="p">:</span> <span class="s2">&#34;Beginner&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;favorite_food&#34;</span><span class="p">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">            <span class="p">{</span><span class="s2">&#34;vegetables&#34;</span><span class="p">:</span> <span class="s2">&#34;tomatoes&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">            <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="s2">&#34;fruits&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="s2">&#34;citrics&#34;</span><span class="p">:</span> <span class="s2">&#34;oranges&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                    <span class="s2">&#34;tropical&#34;</span><span class="p">:</span> <span class="s2">&#34;bananas&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                    <span class="s2">&#34;nuts&#34;</span><span class="p">:</span> <span class="s2">&#34;peanuts&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                    <span class="s2">&#34;sweets&#34;</span><span class="p">:</span> <span class="s2">&#34;raisins&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">],</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">]</span>
+</span></span></code></pre></div><h1 id="相关阅读">相关阅读</h1>
+<ul>
+<li><a href="https://hugo.bnblogs.cc" target="_blank" rel="noopener" style="color:#E16723";>Barney</a> 的 <a href="https://hugo.bnblogs.cc/yaml%e8%af%ad%e6%b3%95/" target="_blank" rel="noopener" style="color:#E16723";>yaml 语法</a> 整理；</li>
+<li><a href="https://www.ruanyifeng.com/blog/" target="_blank" rel="noopener" style="color:#E16723";>阮一峰</a> 的 <a href="https://www.ruanyifeng.com/blog/2016/07/yaml.html" target="_blank" rel="noopener" style="color:#E16723";>YAML 语言教程</a>；</li>
+<li><a href="https://yaml.org/spec/1.2.2/" target="_blank" rel="noopener" style="color:#E16723";>YAML 1.2 规格</a>；</li>
+</ul>
+]]></content:encoded>
     </item>
     <item>
       <title>JSON</title>
@@ -21,6 +131,82 @@
       <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://www.yunyitang.me/zh/blog/tech/json/</guid>
       <description>在实习公司的数据岗位还挺常用的。 定义 JavaScript Object Notation - { &amp;#34;key&amp;#34;: &amp;#34;value&amp;#34;, &amp;#34;key2&amp;#34;: &amp;#34;value2&amp;#34; } 网络传输中常使用的格式：以节省内存和传输所用的网络带宽 {&amp;#34;key&amp;#34;:&amp;#34;value&amp;#34;,&amp;#34;key2&amp;#34;:&amp;#34;value2&amp;#34;} 数据类型 文本/字符串 Strings { &amp;#34;key&amp;#34;: &amp;#34;value&amp;#34;</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>在实习公司的数据岗位还挺常用的。</p>
+</blockquote>
+<h1 id="定义">定义</h1>
+<p>JavaScript Object Notation -</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;key&#34;</span><span class="o">:</span> <span class="s2">&#34;value&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;key2&#34;</span><span class="o">:</span> <span class="s2">&#34;value2&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>网络传输中常使用的格式：以节省内存和传输所用的网络带宽</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="line"><span class="cl"><span class="p">{</span><span class="s2">&#34;key&#34;</span><span class="o">:</span><span class="s2">&#34;value&#34;</span><span class="p">,</span><span class="s2">&#34;key2&#34;</span><span class="o">:</span><span class="s2">&#34;value2&#34;</span><span class="p">}</span>
+</span></span></code></pre></div><h1 id="数据类型">数据类型</h1>
+<h2 id="文本字符串-strings">文本/字符串 Strings</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;key&#34;</span><span class="o">:</span> <span class="s2">&#34;value&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h2 id="数字-numbers">数字 Numbers</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;key&#34;</span><span class="o">:</span> <span class="mf">123.</span> <span class="mi">456</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><ul>
+<li>弱类型语言：没有长度限制</li>
+<li>强类型语言：根据取数类型</li>
+</ul>
+<h2 id="对象-objects">对象 Objects</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;key&#34;</span><span class="o">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;key2&#34;</span><span class="o">:</span> <span class="s2">&#34;value2&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;key3&#34;</span><span class="o">:</span> <span class="s2">&#34;value3&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h2 id="数组-arrays">数组 Arrays</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;key&#34;</span><span class="o">:</span> <span class="p">[</span><span class="mi">123</span><span class="p">,</span> <span class="mi">456</span><span class="p">,</span> <span class="mf">7.89</span><span class="p">];</span> <span class="c1">//数字
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="s2">&#34;key2&#34;</span><span class="o">:</span> <span class="p">[</span><span class="s2">&#34;今天&#34;</span><span class="p">,</span> <span class="s2">&#34;天气&#34;</span><span class="p">,</span> <span class="s2">&#34;不错&#34;</span><span class="p">];</span> <span class="c1">//字符串
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="s2">&#34;key3&#34;</span><span class="o">:</span>  <span class="p">[</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="s2">&#34;name&#34;</span><span class="o">:</span> <span class="s2">&#34;0&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="s2">&#34;age&#34;</span><span class="o">:</span> <span class="s2">&#34;1&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},{</span>
+</span></span><span class="line"><span class="cl">      <span class="s2">&#34;name&#34;</span><span class="o">:</span> <span class="s2">&#34;a&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="s2">&#34;age&#34;</span><span class="o">:</span> <span class="s2">&#34;2&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},{</span>
+</span></span><span class="line"><span class="cl">      <span class="s2">&#34;name&#34;</span><span class="o">:</span> <span class="s2">&#34;b&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="s2">&#34;age&#34;</span><span class="o">:</span> <span class="s2">&#34;3&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">]</span> <span class="c1">//对象
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">}</span> 
+</span></span></code></pre></div><h2 id="null">null</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;key&#34;</span><span class="o">:</span> <span class="kc">null</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h1 id="取值方式">取值方式</h1>
+<p>根据不同编程语言具体不同：
+相应 function 后加</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="line"><span class="cl"><span class="nx">key</span><span class="p">.</span><span class="nx">key3</span>
+</span></span></code></pre></div><p>或</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="line"><span class="cl"><span class="nx">key</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nx">name</span>
+</span></span></code></pre></div><h1 id="应用">应用</h1>
+<ol>
+<li>广泛应用于前后端的数据交换；</li>
+<li>配置文件的格式，如VS Code；</li>
+</ol>
+<h2 id="类似的其他数据交换格式">类似的其他数据交换格式</h2>
+<ul>
+<li>YMAL</li>
+<li>XML</li>
+<li>PROPERTIES</li>
+<li>&hellip;</li>
+</ul>
+<h2 id="json的优点">JSON的优点</h2>
+<ol>
+<li>语法简单，易读易写；</li>
+<li>简洁，易于计算机解析；</li>
+</ol>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

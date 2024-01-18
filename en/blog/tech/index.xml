@@ -27,6 +27,34 @@
 🌐 Browser: Safari, Google Chrome
 💬 Chat: Whatsapp, WeChat
 🔖 Bookmarks: (tbd)</description>
+      <content:encoded><![CDATA[<blockquote>
+<p><a href="https://defaults.rknight.me" target="_blank" rel="noopener" style="color:#E16723";>App Defaults</a> collected by <a href="https://rknight.me" target="_blank" rel="noopener" style="color:#E16723";>Robb</a></p>
+</blockquote>
+<p>📨 Mail Client: Outlook, GMails</p>
+<p>📮 Mail Server: Outlook, GMails</p>
+<p>📝 Notes: Apple notes, Obsidian</p>
+<p>✅ To-Do: Apple notes</p>
+<p>📷 iPhone Photo Shooting: iPhone camera, Dazz Cam</p>
+<p>🟦 Photo Management: Apple photos</p>
+<p>📆 Calendar: Apple calendar, Outlook calendar</p>
+<p>📁 Cloud File Storage: iCloud, OneDrive, Google Drive</p>
+<p>📖 RSS: (tbd)</p>
+<p>🙍🏻‍♂️ Contacts: Apple contacts</p>
+<p>🌐 Browser: Safari, Google Chrome</p>
+<p>💬 Chat: Whatsapp, WeChat</p>
+<p>🔖 Bookmarks: (tbd)</p>
+<p>📑 Read It Later: (tbd)</p>
+<p>📜 Word Processing: MS Word, Obsidian</p>
+<p>📈 Spreadsheets: MS Excel, Numbers</p>
+<p>📊 Presentations: MS PowerPoint</p>
+<p>🛒 Shopping Lists: Amazon</p>
+<p>🍴 Meal Planning: NO!</p>
+<p>💰 Budgeting and Personal Finance: Numbers</p>
+<p>📰 News: (a weird mix)</p>
+<p>🎵 Music: Spotify</p>
+<p>🎤 Podcasts: Spotify</p>
+<p>🔐 Password Management: ******</p>
+]]></content:encoded>
     </item>
     <item>
       <title>R Visualising</title>
@@ -35,6 +63,44 @@
       <guid>https://www.yunyitang.me/en/blog/tech/r-visualising/</guid>
       <description>Reviewing visualing data with R with this exmaple project。
 Import libraries library(readr) library(ggplot2) library(dplyr) Import data From csv to dataset Read datasets/confirmed_cases_worldwide.csv into confirmed_cases_worldwide Select/filter data # Filter for China, from Feb 15 china_after_feb15 &amp;lt;- confirmed_cases_china_vs_world %&amp;gt;% filter(is_china == &amp;#34;China&amp;#34;, date &amp;gt;= &amp;#34;2020-02-15&amp;#34;) Plot One line # Draw a line plot of cumulative cases vs. date # Label the y-axis ggplot(confirmed_cases_worldwide, aes(date, cum_cases)) + geom_line() + ylab(&amp;#34;Cumulative confirmed cases&amp;#34;) Multiple lines # Using confirmed_cases_top7_outside_china, draw a line plot of # cum_cases vs.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>Reviewing visualing data with R with this <a href="https://app.datacamp.com/workspace/w/980fb8cc-bfa9-4071-aea3-ca8b1e3a95a8/edit" target="_blank" rel="noopener" style="color:#E16723";>exmaple project</a>。</p>
+</blockquote>
+<h1 id="import-libraries">Import libraries</h1>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="nf">library</span><span class="p">(</span><span class="n">readr</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">library</span><span class="p">(</span><span class="n">ggplot2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">library</span><span class="p">(</span><span class="n">dplyr</span><span class="p">)</span>
+</span></span></code></pre></div><h1 id="import-data">Import data</h1>
+<h2 id="from-csv-to-dataset">From csv to dataset</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="n">Read</span> <span class="n">datasets</span><span class="o">/</span><span class="n">confirmed_cases_worldwide.csv</span> <span class="n">into</span> <span class="n">confirmed_cases_worldwide</span>
+</span></span></code></pre></div><h2 id="selectfilter-data">Select/filter data</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1"># Filter for China, from Feb 15</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">china_after_feb15</span> <span class="o">&lt;-</span> <span class="n">confirmed_cases_china_vs_world</span> <span class="o">%&gt;%</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">filter</span><span class="p">(</span><span class="n">is_china</span> <span class="o">==</span> <span class="s">&#34;China&#34;</span><span class="p">,</span> <span class="n">date</span> <span class="o">&gt;=</span> <span class="s">&#34;2020-02-15&#34;</span><span class="p">)</span>
+</span></span></code></pre></div><h1 id="plot">Plot</h1>
+<h2 id="one-line">One line</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1"># Draw a line plot of cumulative cases vs. date</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Label the y-axis</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">ggplot</span><span class="p">(</span><span class="n">confirmed_cases_worldwide</span><span class="p">,</span> <span class="nf">aes</span><span class="p">(</span><span class="n">date</span><span class="p">,</span> <span class="n">cum_cases</span><span class="p">))</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_line</span><span class="p">()</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">ylab</span><span class="p">(</span><span class="s">&#34;Cumulative confirmed cases&#34;</span><span class="p">)</span>
+</span></span></code></pre></div><h2 id="multiple-lines">Multiple lines</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1"># Using confirmed_cases_top7_outside_china, draw a line plot of</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># cum_cases vs. date, colored by country</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">ggplot</span><span class="p">(</span><span class="n">confirmed_cases_top7_outside_china</span><span class="p">,</span> <span class="nf">aes</span><span class="p">(</span><span class="n">date</span><span class="p">,</span> <span class="n">cum_cases</span><span class="p">,</span> <span class="n">color</span> <span class="o">=</span> <span class="n">country</span><span class="p">))</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_line</span><span class="p">()</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">ylab</span><span class="p">(</span><span class="s">&#34;Cumulative confirmed cases&#34;</span><span class="p">)</span>
+</span></span></code></pre></div><h2 id="scale">Scale</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1"># Modify the plot to use a logarithmic scale on the y-axis</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">plt_not_china_trend_lin</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">scale_y_log10</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">`geom_smooth</span><span class="p">()</span><span class="n">`</span> <span class="n">using</span> <span class="n">formula</span> <span class="s">&#39;y ~ x&#39;</span>
+</span></span></code></pre></div>]]></content:encoded>
     </item>
     <item>
       <title>Log</title>
@@ -48,6 +114,54 @@ Import libraries library(readr) library(ggplot2) library(dplyr) Import data From
 2023-11-9 Rebuilt blog via Hugo and PaperMod with both English blogging and Chinese blogging.
 2023-12-19 Started building the twikoo commenting system for the blog.
 2023-12-20 Built the twikoo commenting system via MongoDB and Vercel, and posted the first comment on yunyitang.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>2022-09-21 Started blogging via <a href="https://ghost.org/" target="_blank" rel="noopener" style="color:#E16723";>Ghost</a> on yunyi-tang.ghost.io.</p>
+</blockquote>
+<blockquote>
+<p>2022-09-26 Brought domain <a href="https://www.yunyitang.me/" target="_blank" rel="noopener" style="color:#E16723";>yunyitang.me</a> from <a href="https://domains.google.com/registrar" target="_blank" rel="noopener" style="color:#E16723";>Google Domain</a>, and link yunyi-tang.ghost.io to <a href="https://www.yunyitang.me/" target="_blank" rel="noopener" style="color:#E16723";>yunyitang.me</a>.</p>
+</blockquote>
+<blockquote>
+<p>2023-11-1 The subscription from <a href="https://ghost.org/" target="_blank" rel="noopener" style="color:#E16723";>Ghost</a> ended and yunyi-tang.ghost.io deactivated.</p>
+</blockquote>
+<blockquote>
+<p>2023-11-7 Migrated personal blog to Github Pages（<a href="https://github.com/yunyit/yunyit.github.io" target="_blank" rel="noopener" style="color:#E16723";>yunyit.github.io</a>）and disconnected the domain <a href="https://www.yunyitang.me/" target="_blank" rel="noopener" style="color:#E16723";>yunyitang.me</a> from yunyi-tang.ghost.io.</p>
+</blockquote>
+<blockquote>
+<p>2023-11-9 Rebuilt blog via <a href="https://github.com/gohugoio/hugo" target="_blank" rel="noopener" style="color:#E16723";>Hugo</a> and <a href="https://github.com/adityatelange/hugo-PaperMod" target="_blank" rel="noopener" style="color:#E16723";>PaperMod</a> with both <a href="https://www.yunyitang.me/en/" target="_blank" rel="noopener" style="color:#E16723";>English blogging</a> and <a href="https://www.yunyitang.me/zh/" target="_blank" rel="noopener" style="color:#E16723";>Chinese blogging</a>.</p>
+</blockquote>
+<blockquote>
+<p>2023-12-19 Started building the <a href="https://twikoo.js.org/en/intro.html" target="_blank" rel="noopener" style="color:#E16723";>twikoo</a> commenting system for the blog.</p>
+</blockquote>
+<blockquote>
+<p>2023-12-20 Built the <a href="https://twikoo.js.org/en/intro.html" target="_blank" rel="noopener" style="color:#E16723";>twikoo</a> commenting system via <a href="https://www.mongodb.com/cloud/atlas/register" target="_blank" rel="noopener" style="color:#E16723";>MongoDB</a> and <a href="https://vercel.com/signup" target="_blank" rel="noopener" style="color:#E16723";>Vercel</a>, and posted the first comment on <a href="https://www.yunyitang.me/" target="_blank" rel="noopener" style="color:#E16723";>yunyitang.me</a>.</p>
+</blockquote>
+<blockquote>
+<p>2024-01-02 Set an <a href="https://iconduck.com/emojis/39003/orange-heart" target="_blank" rel="noopener" style="color:#E16723";>open source emoji</a> as the website icon, and added the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans" target="_blank" rel="noopener" style="color:#E16723";>CC BY-NC-SA 4.0 DEED</a> in the footer.</p>
+</blockquote>
+<blockquote>
+<p>2024-01-05 Initiated the <a href="https://www.sulvblog.cn/posts/blog/hugo_tag_cloud/" target="_blank" rel="noopener" style="color:#E16723";>Tags</a> page and added an entry of it in the header.</p>
+</blockquote>
+<blockquote>
+<p>2024-01-06 Improved SEO with <a href="https://search.google.com/search-console" target="_blank" rel="noopener" style="color:#E16723";>Google Search Console</a> and <a href="https://www.bing.com/webmasters" target="_blank" rel="noopener" style="color:#E16723";>Bing Webmaster Tools</a>; ongoing SEO improvement with <a href="https://ziyuan.baidu.com" target="_blank" rel="noopener" style="color:#E16723";>Baidu</a>.</p>
+</blockquote>
+<blockquote>
+<p>2024-01-07 Secured <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https" target="_blank" rel="noopener" style="color:#E16723";>GitHub Pages site with HTTPS</a>.</p>
+</blockquote>
+<blockquote>
+<p>2024-01-10 Added <a href="https://umami.is" target="_blank" rel="noopener" style="color:#E16723";>umami</a> website analytics dashboard to footer.</p>
+</blockquote>
+<hr>
+<h3 id="pending-new-features">Pending new features</h3>
+<ol>
+<li>Douban/IMDB APIs;</li>
+<li>Toolbox index；</li>
+<li>Website traffics；</li>
+<li>Music APIs;</li>
+</ol>
+<hr>
+<h3 id="disclaimers">Disclaimers</h3>
+<p>The content presented on this blog site is for informational purposes only.  By using this site including information presented on this site, you agree that the author shall not be liable and/or held responsible/accountable for any damages resulting from the presentation, use, or misuse of the information contained on any site pages.</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>
