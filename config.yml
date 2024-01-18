@@ -162,26 +162,22 @@ languages:
               name: 建站
               url: /zh/log/
               weight: 20
-            - identifier: blog
-              name: 博客
-              url: /zh/blog/
-              weight: 30
-            - identifier: links
-              name: 友链
-              url: /zh/links/
-              weight: 40
             - identifier: tags
               name: 🕹️ 
               url: /zh/tags/
-              weight: 50
+              weight: 30
             - identifier: search
               name: 搜索
               url: /zh/search/
-              weight: 60
+              weight: 40
+            - identifier: links
+              name: 友链
+              url: /zh/links/
+              weight: 50
             - identifier: travellings
               name: 开往
               url: https://www.travellings.cn/go.html
-              weight: 70
+              weight: 60
         params:
             homeInfoParams:
               enabled: true
