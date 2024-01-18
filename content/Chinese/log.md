@@ -59,7 +59,7 @@ weight: null
 
 1. 豆瓣卡片；
 2. 工具栏；
-3. UptimeRobot API；
+3. 国内 CDN 及备案；
 
 ---
 
