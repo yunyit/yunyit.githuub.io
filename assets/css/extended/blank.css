@@ -12,7 +12,7 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 }
 
 /* toc */
-.toc {
+.toc { /* 目录 */
     margin: 0 2px 40px 2px;
     border: 1px solid var(--border);
     background: var(--entry);
@@ -20,7 +20,7 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
     padding: 0.4em;
 }
 
-.toc-container.wide {
+.toc-container.wide { /* 目录容器 */
     position: absolute;
     height: 100%;
     border-right: 1px solid var(--border);
@@ -29,7 +29,7 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
     width: var(--toc-width);
 }
 
-.wide .toc {
+.wide .toc { /* 目录 */
     position: sticky;
     top: var(--gap);
     border: unset;
@@ -72,18 +72,12 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
     overflow-y: auto;
 }
 
-.toc .inner::-webkit-scrollbar-thumb {  /*滚动条*/
-    background: var(--border);
-    border: 7px solid var(--theme);
-    border-radius: var(--radius);
-}
-
-.toc li ul {
+.toc li ul { /* 目录嵌套 */
     margin-inline-start: calc(var(--gap) * 0.5);
     list-style-type: none;
 }
 
-.toc li {
+.toc li { /* 目录项 */
     list-style: none;
     font-size: 0.95rem;
     padding-bottom: 5px;
@@ -378,10 +372,24 @@ body {
 .post-content code {
     margin: unset;
 }
-/* 代码块 - 最大高度 */
-/* .post-content pre code {
-    max-height: 40rem;
-} */
+
+/* 滚动条 */
+.post-content code::-webkit-scrollbar-thumb，
+body .inner::-webkit-scrollbar-thumb，
+.toc .inner::-webkit-scrollbar-thumb {
+    background: var(--theme) !important;
+    border: 5px solid var(--border) !important;
+    border-radius: var(--radius);
+}
+
+.post-content code::-webkit-scrollbar-corner {
+    background: var(--code-bg) !important;
+}
+
+body .inner::-webkit-scrollbar-track {
+    background: var(--theme) !important;
+}
+
 /* 图片居中 */
 .post-content img {
     margin: auto; 
@@ -455,3 +463,4 @@ thead th:empty {
     border: thin solid red !important;
     display: none;
 }
+
