@@ -317,13 +317,17 @@ body {
 } 
 */
 /* 友链 3.0 */
-.myfriend {
+.myfriend img{
     height: 40px;
     width: 40px;
     border-radius: 50% !important;
+}
+
+.myfriend {
+    border-radius: 50% !important;
     background-color: #fff;
 
-    padding: 2px;
+    padding: 2px !important;
     vertical-align: middle; /* Set vertical alignment to middle */
 
     line-height: 1 !important;
