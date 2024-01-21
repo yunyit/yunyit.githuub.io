@@ -19,7 +19,7 @@ lastmod: "2024-01-06"
 showToc: true
 showbreadcrumbs: true
 slug: ""
-title: R 可视化
+title: R 语言 ggplot2 和 dplyr 可视化分析
 weight: null
 ---
 

@@ -22,7 +22,7 @@ lastmod: "2024-01-13"
 showToc: true
 showbreadcrumbs: true
 slug: ""
-title: YAML
+title: YAML 数据结构和语法
 weight: null
 ---
 

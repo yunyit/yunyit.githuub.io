@@ -515,11 +515,11 @@
 </span></span></code></pre></div>]]></content:encoded>
     </item>
     <item>
-      <title>Obsidian 工作笔记</title>
+      <title>Obsidian 自定义工作笔记</title>
       <link>https://www.yunyitang.me/zh/blog/tech/obsedian/</link>
       <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://www.yunyitang.me/zh/blog/tech/obsedian/</guid>
-      <description>启用日期：2024-01-09 应用场景：工作笔记 自定义：荷叶绿 HEYELV #1A6840 RGB(26, 104, 64)；字体 JetBrains Mono 常用功能属性 daily template interlink tags YAML 分类方法 标签：PARA + 工作内容</description>
+      <description>启用日期：2024-01-09 应用场景：工作笔记 自定义：荷叶绿 HEYELV #1A6840 RGB(26, 104, 64)；字体 JetBrains Mono 常用功能属性 Templater Dataview tags YAML 分类方法 标签：PARA + 工作内容 1-projects</description>
       <content:encoded><![CDATA[<blockquote>
 <p>启用日期：2024-01-09</p>
 </blockquote>
@@ -531,8 +531,8 @@
 </blockquote>
 <h1 id="常用功能属性">常用功能属性</h1>
 <ul>
-<li>daily template</li>
-<li>interlink</li>
+<li>Templater</li>
+<li>Dataview</li>
 <li>tags</li>
 <li>YAML</li>
 </ul>
