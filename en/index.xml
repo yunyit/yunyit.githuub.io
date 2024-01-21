@@ -449,7 +449,19 @@ by Li Juan, Jack Hargreaves (Translator), and Yan Yan (Translator)
     <img loading="lazy" src="https://www.lvbibir.cn/img/avatar.gif"
          alt="lvbibir&#39;s Blog"/> 
 </figure>
- <a href="https://www.lvbibir.cn" target="_blank" rel="noopener" style="color:#E16723";>lvbibir&rsquo;s Blog</a> <code>life is a fucking movie</code></p>
+ <a href="https://www.lvbibir.cn" target="_blank" rel="noopener" style="color:#E16723";>lvbibir&rsquo;s Blog</a> <code>life is a fucking movie</code> <figure class="myfriend">
+    <img loading="lazy" src="https://nopdan.com/avatar.webp"
+         alt="nopdan&#39;s blog"/> 
+</figure>
+ <a href="https://nopdan.com/" target="_blank" rel="noopener" style="color:#E16723";>nopdan&rsquo;s blog</a> <code>但知行好事，莫要问前程</code> <figure class="myfriend">
+    <img loading="lazy" src="https://wrye.dev/assets/avatar.webp"
+         alt="Blog of Wr"/> 
+</figure>
+ <a href="https://wrye.dev/" target="_blank" rel="noopener" style="color:#E16723";>Blog of Wr</a> <code>Web dev, Linux, and other tech or casual stuff.</code> <figure class="myfriend">
+    <img loading="lazy" src="https://avatars.githubusercontent.com/u/5764917?v=4"
+         alt="Chawye Hsu"/> 
+</figure>
+</p>
 <hr>
 <p>Links format:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">figure src=&#34;https://www.yunyitang.me/img/Avatar.png&#34; 
