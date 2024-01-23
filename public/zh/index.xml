@@ -900,7 +900,7 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>JSON</title>
+      <title>JSON 基础</title>
       <link>https://www.yunyitang.me/zh/blog/tech/json/</link>
       <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://www.yunyitang.me/zh/blog/tech/json/</guid>
@@ -1292,9 +1292,9 @@
     </item>
     <item>
       <title>R 语言 ggplot2 和 dplyr 可视化分析</title>
-      <link>https://www.yunyitang.me/zh/blog/tech/r-visualising/</link>
+      <link>https://www.yunyitang.me/zh/blog/tech/r-ggplot2-dplyr/</link>
       <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.yunyitang.me/zh/blog/tech/r-visualising/</guid>
+      <guid>https://www.yunyitang.me/zh/blog/tech/r-ggplot2-dplyr/</guid>
       <description>因为实习兼职的公司用R，温习如下，示例取自此项目。 可视化libraries library(readr) library(ggplot2) library(dplyr) 导入数据 将csv导入dataset Read datasets/confirmed_cases_worldwide.csv into confirmed_cases_worldwide 选择部分数据 # Filter for</description>
       <content:encoded><![CDATA[<blockquote>
 <p>因为实习兼职的公司用R，温习如下，示例取自<a href="https://app.datacamp.com/workspace/w/980fb8cc-bfa9-4071-aea3-ca8b1e3a95a8/edit" target="_blank" rel="noopener" style="color:#E16723";>此项目</a>。</p>
@@ -1735,7 +1735,7 @@
 <p>2023-11-9 博客引擎迁移至 <a href="https://github.com/gohugoio/hugo" target="_blank" rel="noopener" style="color:#E16723";>Hugo</a> 的 <a href="https://github.com/adityatelange/hugo-PaperMod" target="_blank" rel="noopener" style="color:#E16723";>PaperMod</a> 主题，因工作所在地在英，同时开设 <a href="https://www.yunyitang.me/zh/" target="_blank" rel="noopener" style="color:#E16723";>中文</a> 与 <a href="https://www.yunyitang.me/en/" target="_blank" rel="noopener" style="color:#E16723";>英文</a> 页面。</p>
 </blockquote>
 <blockquote>
-<p>2023-12-20 基于 <a href="https://www.mongodb.com/cloud/atlas/register" target="_blank" rel="noopener" style="color:#E16723";>MongoDB</a> 和 <a href="https://vercel.com/signup" target="_blank" rel="noopener" style="color:#E16723";>Vercel</a> 部署 <a href="https://twikoo.js.org/en/intro.html" target="_blank" rel="noopener" style="color:#E16723";>twikoo</a> 评论系统，通过测试。</p>
+<p>2023-12-20 基于 <a href="https://www.mongodb.com/cloud/atlas/register" target="_blank" rel="noopener" style="color:#E16723";>MongoDB</a> 和 <a href="https://vercel.com/signup" target="_blank" rel="noopener" style="color:#E16723";>Vercel</a> 部署 <a href="https://twikoo.js.org/en/intro.html" target="_blank" rel="noopener" style="color:#E16723";>twikoo</a> 评论系统。</p>
 </blockquote>
 <blockquote>
 <p>2024-01-02 更新网站图标为 <a href="https://iconduck.com/emojis/39003/orange-heart" target="_blank" rel="noopener" style="color:#E16723";>开源emoji</a>，并添加 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans" target="_blank" rel="noopener" style="color:#E16723";>知识共享协议（CC BY-NC-SA 4.0 DEED）</a>脚注。</p>
@@ -1763,6 +1763,15 @@
 </blockquote>
 <blockquote>
 <p>2024-01-17 更新 <a href="https://www.yunyitang.me/zh/links/" target="_blank" rel="noopener" style="color:#E16723";>友链</a> 格式。</p>
+</blockquote>
+<blockquote>
+<p>2024-01-18 加入 <a href="https://icp.gov.moe/?keyword=20241998" target="_blank" rel="noopener" style="color:#E16723";>萌ICP备案</a>。</p>
+</blockquote>
+<blockquote>
+<p>2024-01-19 加入 <a href="https://chuanliu.org" target="_blank" rel="noopener" style="color:#E16723";>川流</a>。</p>
+</blockquote>
+<blockquote>
+<p>2024-01-21 加入 <a href="https://list.travellings.cn/" target="_blank" rel="noopener" style="color:#E16723";>开往</a>。</p>
 </blockquote>
 <hr>
 <h2 id="待实现功能">待实现功能</h2>

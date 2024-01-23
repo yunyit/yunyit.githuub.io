@@ -32,7 +32,7 @@ weight: null
 
 > 2023-11-9 博客引擎迁移至 [Hugo](https://github.com/gohugoio/hugo) 的 [PaperMod](https://github.com/adityatelange/hugo-PaperMod) 主题，因工作所在地在英，同时开设 [中文](https://www.yunyitang.me/zh/) 与 [英文](https://www.yunyitang.me/en/) 页面。
 
-> 2023-12-20 基于 [MongoDB](https://www.mongodb.com/cloud/atlas/register) 和 [Vercel](https://vercel.com/signup) 部署 [twikoo](https://twikoo.js.org/en/intro.html) 评论系统，通过测试。
+> 2023-12-20 基于 [MongoDB](https://www.mongodb.com/cloud/atlas/register) 和 [Vercel](https://vercel.com/signup) 部署 [twikoo](https://twikoo.js.org/en/intro.html) 评论系统。
 
 > 2024-01-02 更新网站图标为 [开源emoji](https://iconduck.com/emojis/39003/orange-heart)，并添加 [知识共享协议（CC BY-NC-SA 4.0 DEED）](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)脚注。
 
@@ -51,6 +51,12 @@ weight: null
 > 2024-01-16 配合 Hugo [更新](https://github.com/adityatelange/hugo-PaperMod/pull/1364) 改用 Hugo 内置的 [Chroma](https://xyproto.github.io/splash/docs/all.html) 调整代码高亮，选用 [trac](https://xyproto.github.io/splash/docs/trac.html) 并将主题中所有 `#bb8844` 配色更换为 [陶瓷红](https://color-term.com/color/taocihong-e16723/) `#E16723` 以配合本站的 [超链接配色](https://www.yunyitang.me/zh/blog/tech/hugo-papermod/#修改链接颜色)；评论系统改用 [gitcus](https://giscus.app)。
 
 > 2024-01-17 更新 [友链](https://www.yunyitang.me/zh/links/) 格式。
+
+> 2024-01-18 加入 [萌ICP备案](https://icp.gov.moe/?keyword=20241998)。
+
+> 2024-01-19 加入 [川流](https://chuanliu.org)。
+
+> 2024-01-21 加入 [开往](https://list.travellings.cn/)。
 
 ---
 
