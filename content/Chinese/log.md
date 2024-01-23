@@ -50,7 +50,7 @@ weight: null
 
 > 2024-01-16 配合 Hugo [更新](https://github.com/adityatelange/hugo-PaperMod/pull/1364) 改用 Hugo 内置的 [Chroma](https://xyproto.github.io/splash/docs/all.html) 调整代码高亮，选用 [trac](https://xyproto.github.io/splash/docs/trac.html) 并将主题中所有 `#bb8844` 配色更换为 [陶瓷红](https://color-term.com/color/taocihong-e16723/) `#E16723` 以配合本站的 [超链接配色](https://www.yunyitang.me/zh/blog/tech/hugo-papermod/#修改链接颜色)；评论系统改用 [gitcus](https://giscus.app)。
 
-> 2024-01-17 更新 [友链](https://www.yunyitang.me/zh/links/) 格式。
+> 2024-01-17 更新 [友链](https://www.yunyitang.me/zh/links/) 格式；博客首次被 [积薪](https://firewood.news) 收录。
 
 > 2024-01-18 加入 [萌ICP备案](https://icp.gov.moe/?keyword=20241998)。
 
