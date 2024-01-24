@@ -8,7 +8,7 @@
 <meta name="robots" content="index, follow">
 <title>Yunyi&#39;s Blog</title>
 
-<meta name="description" content="Yunyi 的技术博客">
+<meta name="description" content="Yunyi 的技术博客 Yunyi&#39;s Tech Blog">
 <meta name="author" content="Yunyi">
 <link rel="canonical" href="https://www.yunyitang.me/en/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.956d88e1845bc1c35fdd3a4b79dd92d106d804ef1c7ad259f76b6272e0026761.css" integrity="sha256-lW2I4YRbwcNf3TpLed2S0QbYBO8cetJZ92ticuACZ2E=" rel="preload stylesheet" as="style">
@@ -86,13 +86,13 @@
 
   gtag('config', 'G-0K2EFCEZGW');
 </script><meta property="og:title" content="Yunyi&#39;s Blog" />
-<meta property="og:description" content="Yunyi 的技术博客" />
+<meta property="og:description" content="Yunyi 的技术博客 Yunyi&#39;s Tech Blog" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.yunyitang.me/en/" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Yunyi&#39;s Blog"/>
-<meta name="twitter:description" content="Yunyi 的技术博客"/>
+<meta name="twitter:description" content="Yunyi 的技术博客 Yunyi&#39;s Tech Blog"/>
 
 <script type="application/ld+json">
 {
@@ -100,7 +100,7 @@
   "@type": "Organization",
   "name": "Yunyi's Blog",
   "url": "https://www.yunyitang.me/en/",
-  "description": "Yunyi 的技术博客",
+  "description": "Yunyi 的技术博客 Yunyi\u0026#39;s Tech Blog",
   "thumbnailUrl": "https://www.yunyitang.me/favicon/favicon.ico",
   "sameAs": [
       "https://github.com/yunyit", "https://www.linkedin.com/in/yunyitang820/", "https://www.instagram.com/yunyi_cam/", "https://www.goodreads.com/user/show/161105203-yunyi-tang", "mailto:yunyi.tang.820@gmail.com"
@@ -188,12 +188,18 @@
         </ul>
     </nav>
 </header>
-<main class="main"><div class="profile">
+<main class="main"> 
+<article class="first-entry home-info">
     <div class="profile_inner">
-        <img draggable="false" src="https://www.yunyitang.me/img/Avatar.png" alt="profile image" title=""
-            height="150" width="150" />
-        <a href="https://www.yunyitang.me/zh/"><h1 id="profile-header" style="padding-bottom: 10px;">Yunyi Tang</h1></a>
-        <span style="margin-bottom: 20px;">Little squirrel Hopping around</span><div class="social-icons" >
+    </div>
+    <header class="entry-header" style="margin-top: 20px; margin-bottom: 0;">
+        <a href="https://www.yunyitang.me/en/"><h1 id="home-info-header" >Yunyi&rsquo;s Blog</h1></a>
+    </header>
+    <div class="entry-content" style="padding-top: 0; padding-bottom: 0; font-size: 1rem;">
+        <a id="home-info-desc" href="https://www.yunyitang.me/zh/about/">const desc = &ldquo;Little squirrel Hopping around&rdquo;; <!-- raw HTML omitted --></a>
+    </div>
+    <footer class="entry-footer">
+        <div class="social-icons" >
     <a href="https://github.com/yunyit" target="_blank" rel="noopener noreferrer me"
         title="Github">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -238,26 +244,105 @@
     </a>
 </div>
 
-        <div class="buttons">
-            <a class="button" href="/en/project/" rel="noopener" title="Project">
-                <span class="button-inner">
-                    Project
-                </span>
-            </a>
-            <a class="button" href="/en/resume.pdf" rel="noopener" title="Resume">
-                <span class="button-inner">
-                    Resume
-                </span>
-            </a>
-            <a class="button" href="/en/blog/tech/log/" rel="noopener" title="Log">
-                <span class="button-inner">
-                    Log
-                </span>
-            </a>
-        </div>
-    </div>
-</div>
+    </footer>
+</article>
 
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">App Defaults
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>App Defaults collected by Robb
+📨 Mail Client: Outlook, GMails
+📮 Mail Server: Outlook, GMails
+📝 Notes: Apple notes, Obsidian
+✅ To-Do: Apple notes
+📷 iPhone Photo Shooting: iPhone camera, Dazz Cam
+🟦 Photo Management: Apple photos
+📆 Calendar: Apple calendar, Outlook calendar
+📁 Cloud File Storage: iCloud, OneDrive, Google Drive
+📖 RSS: (tbd)
+🙍🏻‍♂️ Contacts: Apple contacts
+🌐 Browser: Safari, Google Chrome
+💬 Chat: Whatsapp, WeChat
+🔖 Bookmarks: (tbd)...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-01-17 00:00:00 +0000 UTC'>2024-01-17</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Yunyi
+</footer>
+  <a class="entry-link" aria-label="post link to App Defaults" href="https://www.yunyitang.me/en/blog/tech/app-defaults/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">R Visualising with ggplot2 and dplyr
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Reviewing visualing data with R with this exmaple project。
+Import libraries library(readr) library(ggplot2) library(dplyr) Import data From csv to dataset Read datasets/confirmed_cases_worldwide.csv into confirmed_cases_worldwide Select/filter data # Filter for China, from Feb 15 china_after_feb15 &lt;- confirmed_cases_china_vs_world %&gt;% filter(is_china == &#34;China&#34;, date &gt;= &#34;2020-02-15&#34;) Plot One line # Draw a line plot of cumulative cases vs. date # Label the y-axis ggplot(confirmed_cases_worldwide, aes(date, cum_cases)) &#43; geom_line() &#43; ylab(&#34;Cumulative confirmed cases&#34;) Multiple lines # Using confirmed_cases_top7_outside_china, draw a line plot of # cum_cases vs....</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-01-05 00:00:00 +0000 UTC'>2024-01-05</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Yunyi
+</footer>
+  <a class="entry-link" aria-label="post link to R Visualising with ggplot2 and dplyr" href="https://www.yunyitang.me/en/blog/tech/r-visualising/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">December Watched
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Eat Drink Man Woman 饮食男女 / 飲食男女 Darkest Hour 至暗时刻 / 黑暗对峙(港) / 最黑暗的时刻(台) &lt;!DOCTYPE HTML&gt; The King’s Speech 国王的演讲 / 皇上无话儿(港) / 王者之声：宣战时刻(台) &lt;!DOCTYPE...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-12-18 15:54:25 +0000 UTC'>2023-12-18</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Yunyi
+</footer>
+  <a class="entry-link" aria-label="post link to December Watched" href="https://www.yunyitang.me/en/blog/life/dec-film/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">November Reads
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>YUNYI IS CURRENTLY READING
+The Body Keeps the Score Mind, Brain and Body in the Transformation of Trauma
+by Bessel van der Kolk
+Winter Pasture One Woman’s Journey with China’s Kazakh Herders
+by Li Juan, Jack Hargreaves (Translator), and Yan Yan (Translator)
+‘Encouraged by her neighbors, Li decides to join a family of Kazakh herders as they take their 30 boisterous camels, 500 sheep, and over 100 cattle and horses to pasture for the winter....</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-12-13 15:54:25 +0000 UTC'>2023-12-13</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Yunyi
+</footer>
+  <a class="entry-link" aria-label="post link to November Reads" href="https://www.yunyitang.me/en/blog/life/nov-book/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">November Watched
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>About Time 时空恋旅人 / 回到最爱的一天(港) / 真爱每一天(台) The Hunger Games: The Ballad of Songbirds &amp; Snakes 饥饿游戏：鸣鸟与蛇之歌 / 饥饿游戏：鸣鸟与蛇的歌谣 / 饥饿游戏前传：鸣鸟...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-11-30 00:00:00 +0000 UTC'>2023-11-30</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Yunyi
+</footer>
+  <a class="entry-link" aria-label="post link to November Watched" href="https://www.yunyitang.me/en/blog/life/nov-film/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Burnt Basque Cheesecake
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Translation source: 真网红流心巴斯克蛋糕，满满细节，大写好吃！【马壮实Maxkitchen】 Size: 6 inch round cake tin Ingredients Cream Cheese 350g Sugar 90g 2 Eggs &#43; 1 Egg Yolk Cream 150g Low Gluten Flour (Corn Flour works well too!) 10g Method #1 Cream...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-11-20 00:00:00 +0000 UTC'>2023-11-20</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Yunyi
+</footer>
+  <a class="entry-link" aria-label="post link to Burnt Basque Cheesecake" href="https://www.yunyitang.me/en/blog/life/cake/"></a>
+</article>
     </main>
     
 <footer class="footer">

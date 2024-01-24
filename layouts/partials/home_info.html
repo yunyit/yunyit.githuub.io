@@ -39,7 +39,7 @@
         <a href="https://www.yunyitang.me/en/"><h1 id="home-info-header" >{{ .Title | markdownify }}</h1></a>
     </header>
     <div class="entry-content" style="padding-top: 0; padding-bottom: 0; font-size: 1rem;">
-        <a id="home-info-desc" href="https://www.yunyitang.me/zh/about/">{{ .Content | markdownify }}</a>
+        {{ .Content | markdownify }}
     </div>
     <footer class="entry-footer">
         {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}

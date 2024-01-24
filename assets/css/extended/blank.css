@@ -353,8 +353,7 @@ body {
     transform: scale(1.02); /* W3C */
 }
 
-#home-info-header:hover,
-#home-info-desc:hover {
+#home-info-header:hover {
     transition: 0.15s;
     color: var(--secondary);
 }

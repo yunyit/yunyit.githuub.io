@@ -28,7 +28,7 @@ outputs:
 # 这里的参数会被代码以 .Site.Params 的形式读取
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Yunyi 的技术博客"
+  description: "Yunyi 的技术博客 Yunyi's Tech Blog"
   author: Yunyi
   defaultTheme: auto  # defaultTheme: light or  dark 
   disableThemeToggle: false
@@ -123,20 +123,23 @@ languages:
               url: /en/search/
               weight: 60
         params:
-            profileMode:
-              enabled: true
-              title: Yunyi Tang
-              subtitle: Little squirrel Hopping around 
-              imageUrl: "img/Avatar.png"
-              imageWidth: 150
-              imageHeight: 150
-              buttons:
-                - name: Project
-                  url: /en/project/
-                - name: Resume
-                  url: /en/resume.pdf
-                - name: Log
-                  url: /en/blog/tech/log/
+            homeInfoParams:
+              Title: "Yunyi's Blog"
+              Content: >
+                const desc = "Little squirrel Hopping around"; 
+
+                - Working: for my life
+
+                - Listening: mostly anisongs and jazzy music 🎵
+
+                - Playing: retro games, roguelike games and genshin 🎮
+
+                - Learning: photography and French/Portuguese sometimes 📖
+
+                - Contact: via SNS (listed below), or send an email to me 📫
+
+                - Fun fact: I wake up early to not miss my deadline for caffeine ☕️
+
             socialIcons:
                 - name: github
                   url: "https://github.com/yunyit"
@@ -183,7 +186,7 @@ languages:
               enabled: true
               Title: Yunyi's Blog
               Content: >
-                const desc = "Little squirrel Hopping around"; </br>
+                const desc = "Little squirrel Hopping around"; 
               imageUrl: "img/Avatar.png"
               imageWidth: 110
               imageHeight: 110   
