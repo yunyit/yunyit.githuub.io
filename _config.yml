@@ -11,7 +11,7 @@ language: zh-Hans
 timezone: Asia/Shanghai
 
 # URL
-url: https://yunyitang.me
+url: https://github.com/yunyit/yunyit.github.io
 root: /
 permalink: :name/
 permalink_defaults:
