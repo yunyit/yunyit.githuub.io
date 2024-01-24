@@ -41,6 +41,22 @@
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
+      <title>dplyr</title>
+      <link>https://www.yunyitang.me/en/tags/dplyr/</link>
+      <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/en/tags/dplyr/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>ggplot2</title>
+      <link>https://www.yunyitang.me/en/tags/ggplot2/</link>
+      <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.yunyitang.me/en/tags/ggplot2/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
       <title>R</title>
       <link>https://www.yunyitang.me/en/tags/r/</link>
       <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
@@ -69,62 +85,6 @@
       <link>https://www.yunyitang.me/en/tags/recipe/</link>
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
       <guid>https://www.yunyitang.me/en/tags/recipe/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>Bing</title>
-      <link>https://www.yunyitang.me/en/tags/bing/</link>
-      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.yunyitang.me/en/tags/bing/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>Hugo</title>
-      <link>https://www.yunyitang.me/en/tags/hugo/</link>
-      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.yunyitang.me/en/tags/hugo/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>Log</title>
-      <link>https://www.yunyitang.me/en/tags/log/</link>
-      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.yunyitang.me/en/tags/log/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>MongoDB</title>
-      <link>https://www.yunyitang.me/en/tags/mongodb/</link>
-      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.yunyitang.me/en/tags/mongodb/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>SEO</title>
-      <link>https://www.yunyitang.me/en/tags/seo/</link>
-      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.yunyitang.me/en/tags/seo/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>Twikoo</title>
-      <link>https://www.yunyitang.me/en/tags/twikoo/</link>
-      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.yunyitang.me/en/tags/twikoo/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>Vercel</title>
-      <link>https://www.yunyitang.me/en/tags/vercel/</link>
-      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.yunyitang.me/en/tags/vercel/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

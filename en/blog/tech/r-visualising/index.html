@@ -5,8 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>R Visualising | Yunyi&#39;s Blog</title>
-<meta name="keywords" content="R, Data">
+<title>R Visualising with ggplot2 and dplyr | Yunyi&#39;s Blog</title>
+<meta name="keywords" content="R, Data, dplyr, ggplot2">
 <meta name="description" content="Reviewing visualing data with R with this exmaple project。
 Import libraries library(readr) library(ggplot2) library(dplyr) Import data From csv to dataset Read datasets/confirmed_cases_worldwide.csv into confirmed_cases_worldwide Select/filter data # Filter for China, from Feb 15 china_after_feb15 &lt;- confirmed_cases_china_vs_world %&gt;% filter(is_china == &#34;China&#34;, date &gt;= &#34;2020-02-15&#34;) Plot One line # Draw a line plot of cumulative cases vs. date # Label the y-axis ggplot(confirmed_cases_worldwide, aes(date, cum_cases)) &#43; geom_line() &#43; ylab(&#34;Cumulative confirmed cases&#34;) Multiple lines # Using confirmed_cases_top7_outside_china, draw a line plot of # cum_cases vs.">
 <meta name="author" content="Yunyi">
@@ -82,7 +82,7 @@ Import libraries library(readr) library(ggplot2) library(dplyr) Import data From
   gtag('js', new Date());
 
   gtag('config', 'G-0K2EFCEZGW');
-</script><meta property="og:title" content="R Visualising" />
+</script><meta property="og:title" content="R Visualising with ggplot2 and dplyr" />
 <meta property="og:description" content="Reviewing visualing data with R with this exmaple project。
 Import libraries library(readr) library(ggplot2) library(dplyr) Import data From csv to dataset Read datasets/confirmed_cases_worldwide.csv into confirmed_cases_worldwide Select/filter data # Filter for China, from Feb 15 china_after_feb15 &lt;- confirmed_cases_china_vs_world %&gt;% filter(is_china == &#34;China&#34;, date &gt;= &#34;2020-02-15&#34;) Plot One line # Draw a line plot of cumulative cases vs. date # Label the y-axis ggplot(confirmed_cases_worldwide, aes(date, cum_cases)) &#43; geom_line() &#43; ylab(&#34;Cumulative confirmed cases&#34;) Multiple lines # Using confirmed_cases_top7_outside_china, draw a line plot of # cum_cases vs." />
 <meta property="og:type" content="article" />
@@ -91,7 +91,7 @@ Import libraries library(readr) library(ggplot2) library(dplyr) Import data From
 <meta property="article:modified_time" content="2024-01-06T00:00:00+00:00" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="R Visualising"/>
+<meta name="twitter:title" content="R Visualising with ggplot2 and dplyr"/>
 <meta name="twitter:description" content="Reviewing visualing data with R with this exmaple project。
 Import libraries library(readr) library(ggplot2) library(dplyr) Import data From csv to dataset Read datasets/confirmed_cases_worldwide.csv into confirmed_cases_worldwide Select/filter data # Filter for China, from Feb 15 china_after_feb15 &lt;- confirmed_cases_china_vs_world %&gt;% filter(is_china == &#34;China&#34;, date &gt;= &#34;2020-02-15&#34;) Plot One line # Draw a line plot of cumulative cases vs. date # Label the y-axis ggplot(confirmed_cases_worldwide, aes(date, cum_cases)) &#43; geom_line() &#43; ylab(&#34;Cumulative confirmed cases&#34;) Multiple lines # Using confirmed_cases_top7_outside_china, draw a line plot of # cum_cases vs."/>
 
@@ -116,7 +116,7 @@ Import libraries library(readr) library(ggplot2) library(dplyr) Import data From
     {
       "@type": "ListItem",
       "position":  3 ,
-      "name": "R Visualising",
+      "name": "R Visualising with ggplot2 and dplyr",
       "item": "https://www.yunyitang.me/en/blog/tech/r-visualising/"
     }
   ]
@@ -126,11 +126,11 @@ Import libraries library(readr) library(ggplot2) library(dplyr) Import data From
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "R Visualising",
-  "name": "R Visualising",
+  "headline": "R Visualising with ggplot2 and dplyr",
+  "name": "R Visualising with ggplot2 and dplyr",
   "description": "Reviewing visualing data with R with this exmaple project。\nImport libraries library(readr) library(ggplot2) library(dplyr) Import data From csv to dataset Read datasets/confirmed_cases_worldwide.csv into confirmed_cases_worldwide Select/filter data # Filter for China, from Feb 15 china_after_feb15 \u0026lt;- confirmed_cases_china_vs_world %\u0026gt;% filter(is_china == \u0026#34;China\u0026#34;, date \u0026gt;= \u0026#34;2020-02-15\u0026#34;) Plot One line # Draw a line plot of cumulative cases vs. date # Label the y-axis ggplot(confirmed_cases_worldwide, aes(date, cum_cases)) + geom_line() + ylab(\u0026#34;Cumulative confirmed cases\u0026#34;) Multiple lines # Using confirmed_cases_top7_outside_china, draw a line plot of # cum_cases vs.",
   "keywords": [
-    "R", "Data"
+    "R", "Data", "dplyr", "ggplot2"
   ],
   "articleBody": " Reviewing visualing data with R with this exmaple project。\nImport libraries library(readr) library(ggplot2) library(dplyr) Import data From csv to dataset Read datasets/confirmed_cases_worldwide.csv into confirmed_cases_worldwide Select/filter data # Filter for China, from Feb 15 china_after_feb15 \u003c- confirmed_cases_china_vs_world %\u003e% filter(is_china == \"China\", date \u003e= \"2020-02-15\") Plot One line # Draw a line plot of cumulative cases vs. date # Label the y-axis ggplot(confirmed_cases_worldwide, aes(date, cum_cases)) + geom_line() + ylab(\"Cumulative confirmed cases\") Multiple lines # Using confirmed_cases_top7_outside_china, draw a line plot of # cum_cases vs. date, colored by country ggplot(confirmed_cases_top7_outside_china, aes(date, cum_cases, color = country)) + geom_line() + ylab(\"Cumulative confirmed cases\") Scale # Modify the plot to use a logarithmic scale on the y-axis plt_not_china_trend_lin + scale_y_log10() `geom_smooth()` using formula 'y ~ x' ",
   "wordCount" : "120",
@@ -209,8 +209,8 @@ Import libraries library(readr) library(ggplot2) library(dplyr) Import data From
                 </a>
             </li>
             <li>
-                <a href="https://www.yunyitang.me/en/project/" title="Project">
-                    <span>Project</span>
+                <a href="https://www.yunyitang.me/en/log/" title="Log">
+                    <span>Log</span>
                 </a>
             </li>
             <li>
@@ -219,7 +219,7 @@ Import libraries library(readr) library(ggplot2) library(dplyr) Import data From
                 </a>
             </li>
             <li>
-                <a href="https://www.yunyitang.me/en/blog/" title="Blog">
+                <a href="https://www.yunyitang.me/en/archives/" title="Blog">
                     <span>Blog</span>
                 </a>
             </li>
@@ -242,7 +242,7 @@ Import libraries library(readr) library(ggplot2) library(dplyr) Import data From
   <header class="post-header">
     <div class="breadcrumbs"><a href="https://www.yunyitang.me/en/">Home</a>&nbsp;»&nbsp;<a href="https://www.yunyitang.me/en/blog/">Blogs</a>&nbsp;»&nbsp;<a href="https://www.yunyitang.me/en/blog/tech/">Tech 🔧</a></div>
     <h1 class="post-title">
-      R Visualising
+      R Visualising with ggplot2 and dplyr
     </h1>
     <div class="post-meta"><span title='2024-01-05 00:00:00 +0000 UTC'>2024-01-05</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Yunyi
 
@@ -388,6 +388,8 @@ Import libraries library(readr) library(ggplot2) library(dplyr) Import data From
     <ul class="post-tags">
       <li><a href="https://www.yunyitang.me/en/tags/r/">R</a></li>
       <li><a href="https://www.yunyitang.me/en/tags/data/">Data</a></li>
+      <li><a href="https://www.yunyitang.me/en/tags/dplyr/">dplyr</a></li>
+      <li><a href="https://www.yunyitang.me/en/tags/ggplot2/">ggplot2</a></li>
     </ul>
 <nav class="paginav">
   <a class="prev" href="https://www.yunyitang.me/en/blog/tech/app-defaults/">
