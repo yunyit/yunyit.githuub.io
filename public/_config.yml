@@ -1,0 +1,185 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: PRIN BLOG
+subtitle: 半吊子全栈开发者的日常
+description: 这里是 prin 的个人博客，基本上啥都写：开发心得分享，日常吐槽吹水，偶尔也会写点正经文字。
+author: prin
+language: zh-Hans
+timezone: Asia/Shanghai
+
+# URL
+url: https://yunyitang.me
+root: /
+permalink: :name/
+permalink_defaults:
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tag
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :year/:title.md
+default_layout: post
+titlecase: false
+external_link:
+  enable: true
+filename_case: 0
+render_drafts: false
+post_asset_folder: true
+relative_link: false
+future: true
+syntax_highlighter:
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+  技术: tech
+  日常: life
+  随笔: essay
+tag_map:
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
+archive_generator:
+  per_page: 40
+  yearly: true
+  monthly: true
+  daily: false
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: murasaki
+
+sitemap:
+  path: sitemap.xml
+
+feed:
+  type: atom # or rss2
+  path: atom.xml # or feed.xml
+  limit: 20
+
+stylus:
+  compress: true
+
+theme_config:
+  # https://twitter.com/imas_official/status/1287398983267049473
+  primary_color: "#6d28d9"
+  favicon: /images/favicon.ico
+  keywords: "prin, prinsss, printempw, blog, 博客, 独立博客"
+  canonical: true
+  expired_warning: true
+  menu_pages:
+    archives:
+      name: 归档
+      path: /archives/
+    friends:
+      name: 朋友们
+      path: /friends/
+    about:
+      name: 关于我
+      path: /about/
+  menu_links:
+    github:
+      name: GitHub
+      path: https://github.com/yunyit
+    rss:
+      name: RSS Feed
+      path: /atom.xml
+  toc: true
+  lazyload:
+    enable: true
+    loading_image: images/loading.jpg
+  giscus:
+    enable: true
+    repo: yunyit/yunyit.github.io
+    repo_id: R_kgDOKqkPYw
+    category: Comments
+    category_id: DIC_kwDOKqkPY84CceDi
+    mapping: url
+    strict: 1
+    reactions_enabled: 1
+    emit_metadata: 0
+    input_position: top
+    theme: preferred_color_scheme
+    lang: en
+    loading: lazy
+  umami:
+    enable: true
+    script_url: https://eu.umami.is/script.js
+    website_id: ff42c1d4-d7db-4925-af13-c30c26df5816
+
+# hexo-hide-posts
+hide_posts:
+  filter: hidden
+  noindex: false
+
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  # Legacy repo
+  repo: git@github.com:yunyit/yunyit.github.io.git
+  branch: master
+  name: yunyi
+  email: yunyi.tang.820@gmail.com
+
+# hexo-renderer-pandoc
+pandoc:
+  args:
+    - "-f"
+    - "markdown-implicit_figures"
+    - "-t"
+    - "html"
+    - "--mathjax"
+    # Otherwise openGraphHelper fails to extract image tags
+    - "--wrap"
+    - "none"
+    - "--no-highlight"
+
+# hexo-filter-mathjax
+mathjax:
+  tags: none # or 'ams' or 'all'
+  single_dollars: true # enable single dollar signs as in-line math delimiters
+  cjk_width: 0.9 # relative CJK char width
+  normal_width: 0.6 # relative normal (monospace) width
+  append_css: true # add CSS to pages rendered by MathJax
+  every_page: false # if true, every page will be rendered by MathJax regardless the `mathjax` setting in Front-matter
+  packages: # extra packages to load
+  extension_options:
+    # Don't process LaTeX commands outside of math mode
+    # processEnvironments: false
+    # you can put your extension options here
+    # see http://docs.mathjax.org/en/latest/options/input/tex.html#tex-extension-options for more detail
+
+tikzjax:
+  # Enable TikZ rendering for all posts and pages.
+  # Or you can enable it per post by adding `tikzjax: true` to the front-matter.
+  every_page: true
+  # Add CSS to pages which contain TikZ graphs.
+  append_css: true
+  # URL of the font CSS file.
+  font_css_url: 'https://cdn.jsdelivr.net/npm/node-tikzjax@latest/css/fonts.css'
+  # Additional options that will be passed to node-tikzjax.
+  # See: https://github.com/prinsss/node-tikzjax/#usage
+  # tikzjax_options:
+  #   showConsole: false
