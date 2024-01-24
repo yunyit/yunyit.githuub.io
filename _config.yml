@@ -4,11 +4,11 @@
 
 # Site
 title: PRIN BLOG
-subtitle: 半吊子全栈开发者的日常
-description: 这里是 prin 的个人博客，基本上啥都写：开发心得分享，日常吐槽吹水，偶尔也会写点正经文字。
-author: prin
+subtitle: Little squirrel Hopping around
+description: 这里是 Yunyi 的个人博客，基本上啥都写：开发心得分享，日常吐槽吹水，偶尔也会写点正经文字。
+author: Yunyi
 language: zh-Hans
-timezone: Asia/Shanghai
+timezone: UTC
 
 # URL
 url: https://github.com/yunyit/yunyit.github.io
@@ -83,20 +83,20 @@ stylus:
 
 theme_config:
   # https://twitter.com/imas_official/status/1287398983267049473
-  primary_color: "#6d28d9"
+  primary_color: "#E16723"
   favicon: /images/favicon.ico
-  keywords: "prin, prinsss, printempw, blog, 博客, 独立博客"
+  keywords: "Yunyi, tech, blog, 博客, 独立博客, 技术博客"
   canonical: true
   expired_warning: true
   menu_pages:
     archives:
-      name: 归档
+      name: 归档 archives
       path: /archives/
     friends:
-      name: 朋友们
+      name: 朋友们 friends
       path: /friends/
     about:
-      name: 关于我
+      name: 关于我 about
       path: /about/
   menu_links:
     github:
