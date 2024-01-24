@@ -102,17 +102,17 @@ languages:
               name: About
               url: /en/about/
               weight: 10
-            - identifier: project
-              name: Project
-              url: /en/project/
+            - identifier: log
+              name: Log
+              url: /en/log/
               weight: 20
             - identifier: resume
               name: Resume
               url: /en/resume.pdf
               weight: 30
-            - identifier: blog
+            - identifier: archives
               name: Blog
-              url: /en/blog/
+              url: /en/archives/
               weight: 40
             - identifier: tags
               name: 🕹️

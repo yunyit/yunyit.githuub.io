@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Hugo | Yunyi&#39;s Blog</title>
+<title>dplyr | Yunyi&#39;s Blog</title>
 <meta name="keywords" content="">
 <meta name="description" content="Yunyi 的技术博客">
 <meta name="author" content="Yunyi">
-<link rel="canonical" href="https://www.yunyitang.me/en/tags/hugo/">
+<link rel="canonical" href="https://www.yunyitang.me/en/tags/dplyr/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.956d88e1845bc1c35fdd3a4b79dd92d106d804ef1c7ad259f76b6272e0026761.css" integrity="sha256-lW2I4YRbwcNf3TpLed2S0QbYBO8cetJZ92ticuACZ2E=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://www.yunyitang.me/favicon/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://www.yunyitang.me/favicon/favicon-16x16.png">
@@ -18,9 +18,8 @@
 <link rel="mask-icon" href="https://www.yunyitang.me/favicon/favicon.ico">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://www.yunyitang.me/en/tags/hugo/index.xml">
-<link rel="alternate" hreflang="zh" href="https://www.yunyitang.me/zh/tags/hugo/">
-<link rel="alternate" hreflang="en" href="https://www.yunyitang.me/en/tags/hugo/">
+<link rel="alternate" type="application/rss+xml" href="https://www.yunyitang.me/en/tags/dplyr/index.xml">
+<link rel="alternate" hreflang="en" href="https://www.yunyitang.me/en/tags/dplyr/">
 <noscript>
     <style>
         #theme-toggle,
@@ -83,13 +82,13 @@
   gtag('js', new Date());
 
   gtag('config', 'G-0K2EFCEZGW');
-</script><meta property="og:title" content="Hugo" />
+</script><meta property="og:title" content="dplyr" />
 <meta property="og:description" content="Yunyi 的技术博客" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.yunyitang.me/en/tags/hugo/" />
+<meta property="og:url" content="https://www.yunyitang.me/en/tags/dplyr/" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Hugo"/>
+<meta name="twitter:title" content="dplyr"/>
 <meta name="twitter:description" content="Yunyi 的技术博客"/>
 
 </head>
@@ -146,8 +145,8 @@
                 </a>
             </li>
             <li>
-                <a href="https://www.yunyitang.me/en/project/" title="Project">
-                    <span>Project</span>
+                <a href="https://www.yunyitang.me/en/log/" title="Log">
+                    <span>Log</span>
                 </a>
             </li>
             <li>
@@ -156,7 +155,7 @@
                 </a>
             </li>
             <li>
-                <a href="https://www.yunyitang.me/en/blog/" title="Blog">
+                <a href="https://www.yunyitang.me/en/archives/" title="Blog">
                     <span>Blog</span>
                 </a>
             </li>
@@ -176,27 +175,22 @@
 <main class="main"> 
 <header class="page-header"><div class="breadcrumbs"><a href="https://www.yunyitang.me/en/">Home</a>&nbsp;»&nbsp;<a href="https://www.yunyitang.me/en/tags/">Tags</a></div>
   <h1>
-    Hugo
+    dplyr
   </h1>
 </header>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Log
+    <h2 class="entry-hint-parent">R Visualising with ggplot2 and dplyr
     </h2>
   </header>
   <div class="entry-content">
-    <p>2022-09-21 Started blogging via Ghost on yunyi-tang.ghost.io.
-2022-09-26 Brought domain yunyitang.me from Google Domain, and link yunyi-tang.ghost.io to yunyitang.me.
-2023-11-1 The subscription from Ghost ended and yunyi-tang.ghost.io deactivated.
-2023-11-7 Migrated personal blog to Github Pages（yunyit.github.io）and disconnected the domain yunyitang.me from yunyi-tang.ghost.io.
-2023-11-9 Rebuilt blog via Hugo and PaperMod with both English blogging and Chinese blogging.
-2023-12-19 Started building the twikoo commenting system for the blog.
-2023-12-20 Built the twikoo commenting system via MongoDB and Vercel, and posted the first comment on yunyitang....</p>
+    <p>Reviewing visualing data with R with this exmaple project。
+Import libraries library(readr) library(ggplot2) library(dplyr) Import data From csv to dataset Read datasets/confirmed_cases_worldwide.csv into confirmed_cases_worldwide Select/filter data # Filter for China, from Feb 15 china_after_feb15 &lt;- confirmed_cases_china_vs_world %&gt;% filter(is_china == &#34;China&#34;, date &gt;= &#34;2020-02-15&#34;) Plot One line # Draw a line plot of cumulative cases vs. date # Label the y-axis ggplot(confirmed_cases_worldwide, aes(date, cum_cases)) &#43; geom_line() &#43; ylab(&#34;Cumulative confirmed cases&#34;) Multiple lines # Using confirmed_cases_top7_outside_china, draw a line plot of # cum_cases vs....</p>
   </div>
-  <footer class="entry-footer"><span title='2022-09-21 00:00:00 +0000 UTC'>2022-09-21</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Yunyi
+  <footer class="entry-footer"><span title='2024-01-05 00:00:00 +0000 UTC'>2024-01-05</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Yunyi
 </footer>
-  <a class="entry-link" aria-label="post link to Log" href="https://www.yunyitang.me/en/blog/tech/log/"></a>
+  <a class="entry-link" aria-label="post link to R Visualising with ggplot2 and dplyr" href="https://www.yunyitang.me/en/blog/tech/r-visualising/"></a>
 </article>
     </main>
     

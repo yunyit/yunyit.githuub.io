@@ -9,7 +9,7 @@
     <lastBuildDate>Fri, 05 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.yunyitang.me/en/tags/r/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>R Visualising</title>
+      <title>R Visualising with ggplot2 and dplyr</title>
       <link>https://www.yunyitang.me/en/blog/tech/r-visualising/</link>
       <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://www.yunyitang.me/en/blog/tech/r-visualising/</guid>

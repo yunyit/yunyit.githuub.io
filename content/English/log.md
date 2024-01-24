@@ -16,15 +16,6 @@ lastmod: "2024-01-06"
 showToc: true
 showbreadcrumbs: true
 slug: ""
-tags:
-- Hugo
-- Twikoo
-- Log
-- MongoDB
-- Vercel
-- SEO
-- Google
-- Bing
 title: Log
 weight: null
 ---
@@ -51,7 +42,13 @@ weight: null
 
 > 2024-01-07 Secured [GitHub Pages site with HTTPS](https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https).
 
-> 2024-01-10 Added [umami](https://umami.is) website analytics dashboard to footer.
+> 2024-01-10 Enable [uptimerobot](https://uptimerobot.com/api/) to determine link accessibility; limit post to show 5 [tags](https://www.yunyitang.me/zh/tags/); added [umami](https://umami.is) website analytics dashboard to footer.
+
+> 2024-01-14 Chinese page changed to [Home-Info Mode](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#home-info-mode), increase the homepage display area of blog posts, and add site avatar based on [PaperMod template](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#home-info-mode) to add site avatar; comment system updated to [Disqus](https://disqus.com).
+
+> 2024-01-16 With Hugo's [update](https://github.com/adityatelange/hugo-PaperMod/pull/1364), applied Hugo's built-in [Chroma] scheme(https://xyproto.github.io/splash/docs/all.html) to adjust codes' highlighting; chose [trac](https://xyproto.github.io/splash/docs/trac.html) and replaced all `#bb8844` highlighting with [ceramic red](https://color-term.com/color/taocihong-e16723/) `#E16723` to match the [hyperlink colour scheme](https://www.yunyitang.me/zh/blog/tech/hugo-papermod/#修改链接颜色) of this site; comment system updated [gitcus](https://giscus.app).
+
+> 2024-01-17 Updated [Links](https://www.yunyitang.me/zh/links/) format.
 
 ---
 
@@ -60,8 +57,7 @@ weight: null
 
 1. Douban/IMDB APIs;
 2. Toolbox index；
-3. Website traffics；
-4. Music APIs;
+3. CDN in China;
 
 ---
 

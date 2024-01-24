@@ -2,6 +2,8 @@
 Tags:
 - R
 - Data
+- dplyr
+- ggplot2
 TocOpen: true
 author:
 - Yunyi
@@ -19,7 +21,7 @@ lastmod: "2024-01-06"
 showToc: true
 showbreadcrumbs: true
 slug: ""
-title: R Visualising
+title: R Visualising with ggplot2 and dplyr
 weight: null
 ---
 
