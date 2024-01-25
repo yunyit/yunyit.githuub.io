@@ -4,6 +4,7 @@
 
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
+# git push origin localBranchName:remoteBranchName
 
 # Site
 title: YUNYI BLOG
@@ -138,9 +139,11 @@ theme_config:
     website_id: ff42c1d4-d7db-4925-af13-c30c26df5816
 
 # hexo-hide-posts
+# https://github.com/prinsss/hexo-hide-posts
 hide_posts:
+  enable: true
   filter: hidden
-  noindex: false
+  noindex: true
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -148,7 +151,7 @@ deploy:
   type: git
   # Legacy repo
   repo: git@github.com:yunyit/yunyit.github.io.git
-  branch: master
+  branch: main
   name: yunyi
   email: yunyi.tang.820@gmail.com
 
