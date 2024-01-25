@@ -674,6 +674,11 @@ hexo-generator-tag@^2.0.0:
   dependencies:
     hexo-pagination "3.0.0"
 
+hexo-global-license@^0.5.5:
+  version "0.5.5"
+  resolved "https://registry.npmjs.org/hexo-global-license/-/hexo-global-license-0.5.5.tgz"
+  integrity sha512-5Qz1uhUw5izeZejJQCbKToam60d+FSL1M77F32sPUqXCZj339kKBTM6/dAN7wDNhy6RP2l1L+FxPVllil4bKuw==
+
 hexo-hide-posts@^0.4.0:
   version "0.4.0"
   resolved "https://registry.npmjs.org/hexo-hide-posts/-/hexo-hide-posts-0.4.0.tgz"

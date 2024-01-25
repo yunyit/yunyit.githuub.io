@@ -16,9 +16,19 @@ description: 这里是 Yunyi 的个人博客，基本上啥都写：开发心得
 author: Yunyi
 language: zh-Hans
 timezone: UTC
+# https://github.com/sbanwart/hexo-global-license
+licenseType: by-nc-sa
+licenseIconSize: normal
+# https://github.com/sergeyzwezdin/hexo-generator-redirect
+# front matter
+# layout: post
+# title: Page
+# redirect_from:
+# - /old-url1
+# - /old-url2
 
 # URL
-url: https://yunyit.github.io
+url: https://yunyitang.me
 root: /
 permalink: :name/
 permalink_defaults:

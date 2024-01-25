@@ -3,7 +3,7 @@ name: Hexo Deploy
 on:
   push:
     branches:
-      - main
+      - source
 
 env:
   POST_ASSET_IMAGE_CDN: false

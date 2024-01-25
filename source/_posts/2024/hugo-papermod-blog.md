@@ -1,5 +1,7 @@
 ---
 title: 'Hugo+PaperMod 博客搭建 Home-Info+Profile Mode'
+redirect_from:
+  - /zh/blog/tech/hugo-papermod/
 date: '2024-01-15 01:00:42'
 updated: '2024-01-25 01:00:42'
 categories: 技术
@@ -82,9 +84,9 @@ languages:
 ```
 
 ## 双语双模式 config.yml 设置
-一开始照本宣科做中英一式两份的个人网站，[后来随着](https://www.yunyitang.me/zh/blog/life/2023/) 扩展 [友链](https://www.yunyitang.me/zh/links/)、多读多看，加之自己在英工作，逐渐调整了个站中英页面的各自侧重。
+一开始照本宣科做中英一式两份的个人网站，[后来随着](https://www.yunyitang.me/2023-review/) 扩展 [友链](https://www.yunyitang.me/friends/)、多读多看，加之自己在英工作，逐渐调整了个站中英页面的各自侧重。
 
-[英文页面](https://www.yunyitang.me/en/) 有求职相关，主页保持 portfolio 的简洁， 选用了 [Profile Mode](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode)：
+[英文页面](https://www.yunyitang.me/about/) 有求职相关，主页保持 portfolio 的简洁， 选用了 [Profile Mode](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode)：
 ```yaml
 defaultContentLanguage: en # 默认语言
 defaultContentLanguageInSubdir: true # 默认语言是否放在子目录中
@@ -147,7 +149,7 @@ languages:
                   url: "mailto:yunyi.tang.820@gmail.com"
 ```
 
-[中文页面](https://www.yunyitang.me/zh/) 则更侧重博客输出，魔改了 [Home-Info Mode](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#home-info-mode)：
+[中文页面](https://www.yunyitang.me/about/) 则更侧重博客输出，魔改了 [Home-Info Mode](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#home-info-mode)：
 ```yaml
 defaultContentLanguage: en # 默认语言
 defaultContentLanguageInSubdir: true # 默认语言是否放在子目录中

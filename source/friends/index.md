@@ -14,7 +14,7 @@ updated: '2024-01-24 23:31:49'
 
 ## 交个朋友吧 👋🏼
 
-交换友链没啥特别需求，只是希望你的博客有足够多的原创、有意义的内容，并且建站已满半年。
+交换友链没啥特别需求，只是希望你的博客有足够多的**原创、有意义**的内容，并且**建站已满半年**。
 
 本站的友链格式和 **Yunyi** 的友链信息如下所示，欢迎通过 **评论区** 交换友链！
 ```markdown
@@ -23,8 +23,10 @@ updated: '2024-01-24 23:31:49'
 ```
 
 <details>
-<summary>如需 avatar</summary>
-`https://www.yunyitang.me/img/Avatar.png`
+<summary markdown="span">如需 avatar</summary>
+
+* [Yunyi's avatar](https://www.yunyitang.me/img/Avatar.png)
+
 </details>
 
 ## 友情链接
