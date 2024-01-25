@@ -3,6 +3,7 @@
 <head>
   <title>{% block title %}{% endblock %}</title>
   {% include '_partials/head-meta.swig' %}
+  {{ globalLicense(config) }}
 </head>
 <body>
 

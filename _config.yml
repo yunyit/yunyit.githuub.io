@@ -8,6 +8,7 @@
 # git push origin localBranchName:remoteBranchName
 # git@github.com:yunyit/yunyit-hexo-murasaki.git
 # git@github.com:yunyit/yunyit.github.io.git 
+# cd themes/murasaki/ -> git pull
 
 # Site
 title: YUNYI BLOG
@@ -41,10 +42,11 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render: 
+skip_render: # Paths that will be copied to public raw, without being rendered.
   - REAMDE.md
   - CNAME
   - LICENSE.md
+  - resume.pdf
 
 # Writing
 new_post_name: :year/:title.md
@@ -119,7 +121,13 @@ theme_config:
     about:
       name: 关于我 about
       path: /about/
+    projects:
+      name: 项目 projects
+      path: /projects/
   menu_links:
+    resume:
+      name: Resume
+      path: https://yunyitang.me/resume.pdf
     github:
       name: GitHub
       path: https://github.com/yunyit
