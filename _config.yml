@@ -4,7 +4,10 @@
 
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
+
 # git push origin localBranchName:remoteBranchName
+# git@github.com:yunyit/yunyit-hexo-murasaki.git
+# git@github.com:yunyit/yunyit.github.io.git 
 
 # Site
 title: YUNYI BLOG
@@ -28,7 +31,10 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render: REAMDE.md
+skip_render: 
+  - REAMDE.md
+  - CNAME
+  - LICENSE.md
 
 # Writing
 new_post_name: :year/:title.md
