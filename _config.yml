@@ -105,6 +105,12 @@ theme_config:
     rss:
       name: RSS Feed
       path: /atom.xml
+    travellings:
+      name: 开往
+      path: https://www.travellings.cn/go.html
+    moe:
+      name: 跃迁
+      path: https://travel.moe/go.html
   toc: true
   lazyload:
     enable: true
