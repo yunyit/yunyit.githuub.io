@@ -1,6 +1,6 @@
 ---
 title: '你好 👋🏼'
-date: '2024-01-24 23:29:43'
+date: '2023-11-07 23:29:43'
 updated: '2024-01-24 23:29:43'
 ---
 
@@ -40,7 +40,8 @@ class Me:
 
 本博客名为「YUNYI BLOG」，建立于 2022 年 9 月 21 日。当前博客托管于 GitHub Pages，基于静态博客生成器 [Hexo](https://hexo.io/) 构建，主题是 [PRIN](https://prin.pw) 写的 [Murasaki](https://github.com/prinsss/hexo-theme-murasaki/)。
 
-博客经历过几次大的变迁（按时间查找即可找到当初我写的记录博文）：
+<details>
+<summary>博客经历过几次大的变迁（按时间查找即可找到当初我写的记录博文）：</summary>
 
 > 2022-09-21 基于 [Ghost](https://ghost.org/) 的 `yunyi-tang.ghost.io` 启用。
 
@@ -79,6 +80,8 @@ class Me:
 > 2024-01-21 加入 [开往](https://list.travellings.cn/)。
 
 > 2024-01-25 改用 [Hexo](https://hexo.io/)，启用新主题 [Murasaki](https://github.com/prinsss/hexo-theme-murasaki/)。
+
+</details>
 
 ## 注意事项
 本站所有技术内容均为个人观点，不保证正确。随着时间变化部分技术内容也可能会失效，请读者自行甄别。

@@ -1,6 +1,6 @@
 ---
 title: '友情链接'
-date: '2024-01-24 23:31:49'
+date: '2023-11-07 23:31:49'
 updated: '2024-01-24 23:31:49'
 ---
 
@@ -16,11 +16,16 @@ updated: '2024-01-24 23:31:49'
 
 交换友链没啥特别需求，只是希望你的博客有足够多的原创、有意义的内容，并且建站已满半年。
 
-本站的友链格式和 Yunyi 的友链信息如下所示，欢迎通过 评论区 交换友链！
+本站的友链格式和 **Yunyi** 的友链信息如下所示，欢迎通过 **评论区** 交换友链！
 ```markdown
 * [Yunyi's Blog](https://www.yunyitang.me/zh/) 
   - Little squirrel Hopping around
 ```
+
+<details>
+<summary>如需 avatar</summary>
+`https://www.yunyitang.me/img/Avatar.png`
+</details>
 
 ## 友情链接
 

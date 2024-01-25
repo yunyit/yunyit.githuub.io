@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: PRIN BLOG
+title: YUNYI BLOG
 subtitle: Little squirrel Hopping around
 description: 这里是 Yunyi 的个人博客，基本上啥都写：开发心得分享，日常吐槽吹水，偶尔也会写点正经文字。
 author: Yunyi
@@ -11,7 +11,7 @@ language: zh-Hans
 timezone: UTC
 
 # URL
-url: https://github.com/yunyit/yunyit.github.io
+url: https://yunyit.github.io
 root: /
 permalink: :name/
 permalink_defaults:
