@@ -1,5 +1,10 @@
 ---
 title: '你好 👋🏼'
+redirect_from:
+    - /zh/about/
+    - /en/about/
+    - /zh/log/
+    - /en/log/
 date: '2023-11-07 23:29:43'
 updated: '2024-01-24 23:29:43'
 ---

@@ -8,7 +8,7 @@ categories: 技术
 tags:
   - PaperMod
   - Hugo
-  - 建站
+  - 博客
 ---
 
 > 从入门到踩坑到从坑里爬起来！

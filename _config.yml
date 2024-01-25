@@ -104,6 +104,7 @@ stylus:
 theme_config:
   # https://twitter.com/imas_official/status/1287398983267049473
   primary_color: "#E16723"
+  primary_color_dark: "#E16723"
   favicon: /images/favicon.ico
   keywords: "Yunyi, tech, blog, 博客, 独立博客, 技术博客"
   canonical: true
