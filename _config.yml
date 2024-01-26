@@ -47,6 +47,9 @@ skip_render: # Paths that will be copied to public raw, without being rendered.
   - CNAME
   - LICENSE.md
   - resume.pdf
+  - .prettierrc
+  - /scripts/*
+  - /scaffolds/*
 
 # Writing
 new_post_name: :year/:title.md
@@ -78,7 +81,7 @@ time_format: HH:mm:ss
 
 # Pagination
 ## Set per_page to 0 to disable pagination
-per_page: 10
+per_page: 8
 pagination_dir: page
 
 archive_generator:

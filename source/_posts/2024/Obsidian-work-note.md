@@ -9,8 +9,6 @@ tags:
   - Data
   - Markdown
   - Obsidian
-  - Templater
-  - Dataview
 ---
 
 > 启用日期：2024-01-09 
