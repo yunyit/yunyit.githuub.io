@@ -1,0 +1,1652 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <title>YUNYI BLOG - Little squirrel Hopping around</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="HandheldFriendly" content="True" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<meta name="generator" content="Hexo" />
+<link rel="icon" href="/images/favicon.ico" />
+  <link rel="canonical" href="https://yunyitang.me/"/>
+  <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="YUNYI BLOG">
+  <meta name="keywords" content="Yunyi, tech, blog, 博客, 独立博客, 技术博客" />
+
+<meta name="description" content="这里是 Yunyi 的个人博客，基本上啥都写：开发心得分享，日常吐槽吹水，偶尔也会写点正经文字。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="YUNYI BLOG">
+<meta property="og:url" content="https://yunyitang.me/index.html">
+<meta property="og:site_name" content="YUNYI BLOG">
+<meta property="og:description" content="这里是 Yunyi 的个人博客，基本上啥都写：开发心得分享，日常吐槽吹水，偶尔也会写点正经文字。">
+<meta property="og:locale">
+<meta property="article:author" content="Yunyi">
+<meta name="twitter:card" content="summary">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/han-css@3.3.0/dist/han.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono|Roboto+Slab:400,600|Noto+Serif+SC:600&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@10.6.0/styles/atom-one-dark.min.css" media="screen and (prefers-color-scheme: dark)">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@10.6.0/styles/atom-one-light.min.css" media="screen and (prefers-color-scheme: light)">
+<link rel="stylesheet" href="/css/main.css">
+
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="site-name">
+      <a class="logo" href="/">YUNYI BLOG</a>
+      <span class="description">Little squirrel Hopping around</span>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <div class="row">
+      <section class="content col-md-8 col-12">
+        
+  
+    <article class="post">
+      <h2 class="post-title">
+        <a href="/Obsidian-work-note/">Obsidian 自定义工作笔记</a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-meta-item post-meta-date">
+  <time datetime="2024-01-25T21:10:57Z">2024-01-25</time>
+</span>
+
+<span class="post-meta-item post-meta-categories">
+  <span class="post-meta-item-indicator">Category:</span>
+  
+    <a class="category-link" href="/categories/tech/">技术</a>
+  
+</span>
+
+<span class="post-meta-item post-meta-tags">
+  
+    <a class="tag--link" href="/tag/Data/" rel="tag">Data</a> <a class="tag--link" href="/tag/Dataview/" rel="tag">Dataview</a> <a class="tag--link" href="/tag/Markdown/" rel="tag">Markdown</a> <a class="tag--link" href="/tag/Obsidian/" rel="tag">Obsidian</a> <a class="tag--link" href="/tag/Templater/" rel="tag">Templater</a>
+  
+</span>
+
+
+<span class="post-meta-item post-meta-views">
+  <span class="pv-counter">loading</span> views
+</span>
+
+
+      </div>
+      <div class="post-content">
+        
+          <blockquote>
+<p>启用日期：2024-01-09 </p>
+</blockquote>
+<blockquote>
+<p>应用场景：工作笔记</p>
+</blockquote>
+<blockquote>
+<p>自定义：<a target="_blank" rel="noopener" href="https://color-term.com/color/heyelv-1a6840/" style="color: #1A6840 !important;">荷叶绿</a> HEYELV #1A6840 RGB(26, 104, 64)；字体 <a target="_blank" rel="noopener" href="https://www.jetbrains.com/lp/mono/">JetBrains Mono</a></p>
+</blockquote>
+<h1 id="常用功能属性"><a href="#常用功能属性" class="headerlink" title="常用功能属性"><a href="#常用功能属性"><a href="#常用功能属性" class="headerlink" title="常用功能属性" class="headerlink" title="常用功能属性"></a></a>常用功能属性</h1><ul>
+<li>Templater</li>
+<li>Dataview</li>
+<li>tags</li>
+<li>YAML</li>
+</ul>
+<h1 id="分类方法"><a href="#分类方法" class="headerlink" title="分类方法"><a href="#分类方法"><a href="#分类方法" class="headerlink" title="分类方法" class="headerlink" title="分类方法"></a></a>分类方法</h1><p>标签：PARA + 工作内容 </p>
+<ul>
+<li>1-projects</li>
+<li>2-areas</li>
+<li>3-resources</li>
+<li>4-archives</li>
+<li>zapmap</li>
+</ul>
+<blockquote>
+<p>同样的分类方法我也应用于系统便签本的归类。</p>
+</blockquote>
+<h1 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"><a href="#安装插件"><a href="#安装插件" class="headerlink" title="安装插件" class="headerlink" title="安装插件"></a></a>安装插件</h1><table>
+<thead>
+<tr>
+<th>插件</th>
+<th>主要功能</th>
+<th>相关阅读</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="obsidian://show-plugin?id=dataview">Dataview</a></td>
+<td>数据库查询</td>
+<td><a target="_blank" rel="noopener" href="https://pkmer.cn/Pkmer-Docs/10-obsidian/obsidian%E7%A4%BE%E5%8C%BA%E6%8F%92%E4%BB%B6/dataview/dataview%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/31---dql-%E4%B8%8E-sql-%E7%9A%84%E5%BC%82%E5%90%8C/">Dataview 中的 DQL 与 SQL 的区别</a></td>
+</tr>
+<tr>
+<td><a href="obsidian://show-plugin?id=nldates-obsidian">Natural Language Dates</a></td>
+<td>通过自然语言生成日期</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="obsidian://show-plugin?id=periodic-notes">Perodic Dates</a></td>
+<td>按日期单位汇总笔记</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="obsidian://show-plugin?id=smart-random-note">Smart Random Notes</a></td>
+<td>随机挑选一篇笔记阅读</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="obsidian://show-plugin?id=templater-obsidian">Templater</a></td>
+<td>模版指令</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="obsidian://show-plugin?id=various-complements">Various Complements</a></td>
+<td>自动补全</td>
+<td></td>
+</tr>
+</tbody></table>
+<h1 id="其他相关阅读"><a href="#其他相关阅读" class="headerlink" title="其他相关阅读"><a href="#其他相关阅读"><a href="#其他相关阅读" class="headerlink" title="其他相关阅读" class="headerlink" title="其他相关阅读"></a></a>其他相关阅读</h1><p><a target="_blank" rel="noopener" href="https://stdrc.cc/">RC</a> 总结的 <a target="_blank" rel="noopener" href="https://stdrc.cc/style-guides/chinese">中文写作风格指南</a>。</p>
+
+        
+      </div>
+    </article>
+  
+    <article class="post">
+      <h2 class="post-title">
+        <a href="/app-defaults/">App Defaults</a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-meta-item post-meta-date">
+  <time datetime="2024-01-17T21:06:41Z">2024-01-17</time>
+</span>
+
+<span class="post-meta-item post-meta-categories">
+  <span class="post-meta-item-indicator">Category:</span>
+  
+    <a class="category-link" href="/categories/tech/">技术</a>
+  
+</span>
+
+<span class="post-meta-item post-meta-tags">
+  
+    <a class="tag--link" href="/tag/AppDefaults/" rel="tag">AppDefaults</a> <a class="tag--link" href="/tag/Tools/" rel="tag">Tools</a>
+  
+</span>
+
+
+<span class="post-meta-item post-meta-views">
+  <span class="pv-counter">loading</span> views
+</span>
+
+
+      </div>
+      <div class="post-content">
+        
+          <blockquote>
+<p><a target="_blank" rel="noopener" href="https://defaults.rknight.me/">App Defaults</a> collected by <a target="_blank" rel="noopener" href="https://rknight.me/">Robb</a></p>
+</blockquote>
+<blockquote>
+<p>信息来源：<a target="_blank" rel="noopener" href="https://anotherdayu.com/2023/5452/">Another Dayu：My App Defaults 2023</a></p>
+</blockquote>
+<h1 id="App-Defaults"><a href="#App-Defaults" class="headerlink" title="App Defaults"><a href="#App-Defaults"><a href="#App-Defaults" class="headerlink" title="App Defaults" class="headerlink" title="App Defaults"></a></a>App Defaults</h1><p>📨 Mail Client: Outlook, GMails</p>
+<p>📮 Mail Server: Outlook, GMails</p>
+<p>📝 Notes: Apple notes</p>
+<p>✅ To-Do: Apple notes</p>
+<p>📷 iPhone Photo Shooting: iPhone camera, Dazz Cam</p>
+<p>🟦 Photo Management: Apple photos</p>
+<p>📆 Calendar: Apple calendar, Outlook calendar</p>
+<p>📁 Cloud File Storage: iCloud, OneDrive, Google Drive</p>
+<p>📖 RSS: (tbd)</p>
+<p>🙍🏻‍♂️ Contacts: Apple contacts</p>
+<p>🌐 Browser: Safari, Google Chrome</p>
+<p>💬 Chat: Whatsapp, WeChat</p>
+<p>🔖 Bookmarks: (tbd)</p>
+<p>📑 Read It Later: (tbd)</p>
+<p>📜 Word Processing: MS Word, Obsidian</p>
+<p>📈 Spreadsheets: MS Excel, Numbers</p>
+<p>📊 Presentations: MS PowerPoint</p>
+<p>🛒 Shopping Lists: Amazon</p>
+<p>🍴 Meal Planning: NO!</p>
+<p>💰 Budgeting and Personal Finance: Numbers</p>
+<p>📰 News: (a weird mix)</p>
+<p>🎵 Music: Spotify</p>
+<p>🎤 Podcasts: Spotify</p>
+<p>🔐 Password Management: ******</p>
+<hr>
+<p>在日常工作中，合适的工具能帮助我们快速完成工作，起到事半功倍的效果。</p>
+<p>下面是我常用的一些软件，个人用起来比较得心应手，推荐给大家。按照软件用途主要分为三大类：</p>
+<ul>
+<li>办公&#x2F;写作软件，</li>
+<li>开发软件</li>
+<li>和系统软件。</li>
+</ul>
+<p>由于日常工作的关系，相关软件仅限于Mac平台，其他系统平台如Windows可能不一定有对应的版本。</p>
+<details>
+<summary>具体软件清单如下表所示：</summary>
+
+<h1 id="办公-写作软件"><a href="#办公-写作软件" class="headerlink" title="办公&#x2F;写作软件"><a href="#办公-写作软件"><a href="#办公-写作软件" class="headerlink" title="办公&#x2F;写作软件" class="headerlink" title="办公&#x2F;写作软件"></a></a>办公&#x2F;写作软件</h1><table>
+<thead>
+<tr>
+<th>序号</th>
+<th>名称</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>Safari</td>
+<td>浏览器</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Google Chrome</td>
+<td>浏览器</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Microsoft Office</td>
+<td>Word, Excel, PowerPoint, Outlook</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Acrobat Reader</td>
+<td>PDF阅读器</td>
+</tr>
+<tr>
+<td>5</td>
+<td>hugo</td>
+<td>开源静态站点生成器</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Bandizip</td>
+<td>解压缩工具</td>
+</tr>
+</tbody></table>
+<h1 id="开发软件"><a href="#开发软件" class="headerlink" title="开发软件"><a href="#开发软件"><a href="#开发软件" class="headerlink" title="开发软件" class="headerlink" title="开发软件"></a></a>开发软件</h1><table>
+<thead>
+<tr>
+<th>序号</th>
+<th>名称</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>Node.js</td>
+<td>尽量用LTS版本</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Python</td>
+<td>尽量用LTS版本</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Git</td>
+<td>代码管理</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Visual Studio Code</td>
+<td>业界良心</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Fig</td>
+<td>代码补全</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Docker</td>
+<td>容器化</td>
+</tr>
+</tbody></table>
+<h1 id="系统软件"><a href="#系统软件" class="headerlink" title="系统软件"><a href="#系统软件"><a href="#系统软件" class="headerlink" title="系统软件" class="headerlink" title="系统软件"></a></a>系统软件</h1><table>
+<thead>
+<tr>
+<th>序号</th>
+<th>名称</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>RunCat</td>
+<td>状态栏插件</td>
+</tr>
+</tbody></table>
+</details>
+
+
+        
+      </div>
+    </article>
+  
+    <article class="post">
+      <h2 class="post-title">
+        <a href="/hugo-papermod-blog/">Hugo+PaperMod 博客搭建 Home-Info+Profile Mode</a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-meta-item post-meta-date">
+  <time datetime="2024-01-15T01:00:42Z">2024-01-15</time>
+</span>
+
+<span class="post-meta-item post-meta-categories">
+  <span class="post-meta-item-indicator">Category:</span>
+  
+    <a class="category-link" href="/categories/tech/">技术</a>
+  
+</span>
+
+<span class="post-meta-item post-meta-tags">
+  
+    <a class="tag--link" href="/tag/Hugo/" rel="tag">Hugo</a> <a class="tag--link" href="/tag/PaperMod/" rel="tag">PaperMod</a> <a class="tag--link" href="/tag/%E5%8D%9A%E5%AE%A2/" rel="tag">博客</a>
+  
+</span>
+
+
+<span class="post-meta-item post-meta-views">
+  <span class="pv-counter">loading</span> views
+</span>
+
+
+      </div>
+      <div class="post-content">
+        
+          <blockquote>
+<p>从入门到踩坑到从坑里爬起来！</p>
+</blockquote>
+<h1 id="安装"><a href="#安装" class="headerlink" title="安装"><a href="#安装"><a href="#安装" class="headerlink" title="安装" class="headerlink" title="安装"></a></a>安装</h1><ol>
+<li>安装 <code>Hugo</code>：安装 <code>Hugo</code> 需要利用一个包管理工具。对于 MacOS 系统 <code>Hugo</code> 可以直接用 <code>Homebrew</code> 来安装，打开终端输入</li>
+</ol>
+<pre><code class="shell">brew install hugo
+</code></pre>
+<ol start="2">
+<li>安装 <code>PaperMod</code>：根据 <code>PaperMod</code> 的 <a target="_blank" rel="noopener" href="https://github.com/adityatelange/hugo-PaperMod/wiki/Installation0">官方文档</a> 配置。</li>
+</ol>
+<h1 id="文件夹管理"><a href="#文件夹管理" class="headerlink" title="文件夹管理"><a href="#文件夹管理"><a href="#文件夹管理" class="headerlink" title="文件夹管理" class="headerlink" title="文件夹管理"></a></a>文件夹管理</h1><ul>
+<li><code>archetypes</code>：不用管</li>
+<li><code>asset</code>：<a href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E9%A1%B5%E9%9D%A2%E5%B8%83%E5%B1%80-htmlcss">自定义的 CSS 和 JavaScript</a></li>
+<li><code>content</code>：用于放博客内容</li>
+<li><code>data</code>：不用管</li>
+<li><code>layouts</code>：<a href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E9%A1%B5%E9%9D%A2%E5%B8%83%E5%B1%80-htmlcss">自定义的 HTML</a></li>
+<li><code>public</code>：项目导出文件 - 用于静态网页部署</li>
+<li><code>static</code>：存放图片</li>
+<li><code>themes</code>：主题 - <a target="_blank" rel="noopener" href="https://github.com/adityatelange/hugo-PaperMod/">PaperMod</a></li>
+</ul>
+<p>进入 <code>themes/PaperMod</code> 则是 <code>PaperMod</code> 的相关代码，比较主要的目录有：</p>
+<ul>
+<li><code>assets</code>：<code>PaperMod</code> 的 CSS 和 JavaScript 代码</li>
+<li><code>layouts</code>：<code>PaperMod</code> 的 HTML</li>
+</ul>
+<h2 id="自定义博文目录"><a href="#自定义博文目录" class="headerlink" title="自定义博文目录"><a href="#自定义博文目录"><a href="#自定义博文目录" class="headerlink" title="自定义博文目录" class="headerlink" title="自定义博文目录"></a></a>自定义博文目录</h2><p><code>content</code> 里每个文件夹内都可以添加一个 <code>_index.md</code> 文件，该文件里面可以加 Front Matter 自定义（多语言）标题，如：</p>
+<pre><code class="yaml">---
+hidemeta: true
+title: 博客
+---
+</code></pre>
+<p>初始项目文件夹结构如下：</p>
+<pre><code>.
+├── config.yml
+├── content/
+│   ├── archives.md  
+│   ├── search.md 
+│   └── posts/
+├── static/
+│   ├── img/
+│   └── ...
+└── themes
+    └── PaperMod
+</code></pre>
+<h1 id="Config-yml"><a href="#Config-yml" class="headerlink" title="Config.yml"><a href="#Config-yml"><a href="#Config-yml" class="headerlink" title="Config.yml" class="headerlink" title="Config.yml"></a></a>Config.yml</h1><ul>
+<li><a target="_blank" rel="noopener" href="https://www.sulvblog.cn/posts/blog/build_hugo/">Sulv’s Blog ：hugo博客搭建 | PaperMod主题</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/adityatelange/hugo-PaperMod/wiki/Features#intro">PaperMod 官方文档</a></li>
+</ul>
+<h2 id="多语言-config-yml-设置"><a href="#多语言-config-yml-设置" class="headerlink" title="多语言 config.yml 设置"><a href="#多语言-config-yml-设置"><a href="#多语言-config-yml-设置" class="headerlink" title="多语言 config.yml 设置" class="headerlink" title="多语言 config.yml 设置"></a></a>多语言 config.yml 设置</h2><p>如果我们想要使用多语言（中英为例），就需要在 <code>content</code> 文件夹下准备两个文件夹，例如 <code>Chinese</code> 和 <code>English</code> ，一个放中文，另一个放英文。</p>
+<p>在 <code>config.yml</code> 中需要做以下修改：</p>
+<pre><code class="yaml">defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+
+languages:
+    en:
+        languageName: &quot;English&quot;
+        contentDir: content/English
+    zh:
+        languageName: &quot;中文&quot;
+        contentDir: content/Chinese
+</code></pre>
+<h2 id="双语双模式-config-yml-设置"><a href="#双语双模式-config-yml-设置" class="headerlink" title="双语双模式 config.yml 设置"><a href="#双语双模式-config-yml-设置"><a href="#双语双模式-config-yml-设置" class="headerlink" title="双语双模式 config.yml 设置" class="headerlink" title="双语双模式 config.yml 设置"></a></a>双语双模式 config.yml 设置</h2><p>一开始照本宣科做中英一式两份的个人网站，<a target="_blank" rel="noopener" href="https://www.yunyitang.me/2023-review/">后来随着</a> 扩展 <a target="_blank" rel="noopener" href="https://www.yunyitang.me/friends/">友链</a>、多读多看，加之自己在英工作，逐渐调整了个站中英页面的各自侧重。</p>
+<p><a target="_blank" rel="noopener" href="https://www.yunyitang.me/about/">英文页面</a> 有求职相关，主页保持 portfolio 的简洁， 选用了 <a target="_blank" rel="noopener" href="https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode">Profile Mode</a>：</p>
+<pre><code class="yaml">defaultContentLanguage: en # 默认语言
+defaultContentLanguageInSubdir: true # 默认语言是否放在子目录中
+languages:
+    en:
+        languageName: English
+        languageCode: en
+        contentDir: content/English
+        menu:
+          main:
+            - identifier: about
+              name: About
+              url: /en/about/
+              weight: 10
+            - identifier: project
+              name: Project
+              url: /en/project/
+              weight: 20
+            - identifier: resume
+              name: Resume
+              url: /en/resume.pdf
+              weight: 30
+            - identifier: blog
+              name: Blog
+              url: /en/blog/
+              weight: 40
+            - identifier: tags
+              name: 🕹️
+              url: /en/tags/
+              weight: 50
+            - identifier: search
+              name: Search
+              url: /en/search/
+              weight: 60
+        params:
+            profileMode:
+              enabled: true
+              title: Yunyi Tang
+              subtitle: Little squirrel Hopping around 
+              imageUrl: &quot;img/Avatar.png&quot;
+              imageWidth: 150
+              imageHeight: 150
+              buttons:
+                - name: Project
+                  url: /en/project/
+                - name: Resume
+                  url: /en/resume.pdf
+                - name: Log
+                  url: /en/blog/tech/log/
+            socialIcons:
+                - name: github
+                  url: &quot;https://github.com/yunyit&quot;
+                - name: linkedin
+                  url: &quot;https://www.linkedin.com/in/yunyitang820/&quot;
+                - name: instagram
+                  url: &quot;https://www.instagram.com/yunyi_cam/&quot;
+                - name: goodreads
+                  url: &quot;https://www.goodreads.com/user/show/161105203-yunyi-tang&quot;
+                - name: email
+                  url: &quot;mailto:yunyi.tang.820@gmail.com&quot;
+</code></pre>
+<p><a target="_blank" rel="noopener" href="https://www.yunyitang.me/about/">中文页面</a> 则更侧重博客输出，魔改了 <a target="_blank" rel="noopener" href="https://github.com/adityatelange/hugo-PaperMod/wiki/Features#home-info-mode">Home-Info Mode</a>：</p>
+<pre><code class="yaml">defaultContentLanguage: en # 默认语言
+defaultContentLanguageInSubdir: true # 默认语言是否放在子目录中
+languages:
+    en: # 参照上节
+    zh:
+        languageName: 中文
+        languageCode: zh
+        contentDir: content/Chinese
+        menu:
+          main:
+            - identifier: about
+              name: 关于
+              url: /zh/about/
+              weight: 10
+            - identifier: log
+              name: 建站
+              url: /zh/log/
+              weight: 20
+            - identifier: blog
+              name: 博客
+              url: /zh/blog/
+              weight: 30
+            - identifier: links
+              name: 友链
+              url: /zh/links/
+              weight: 40
+            - identifier: tags
+              name: 🕹️ 
+              url: /zh/tags/
+              weight: 50
+            - identifier: search
+              name: 搜索
+              url: /zh/search/
+              weight: 60
+            - identifier: travellings
+              name: 开往
+              url: https://www.travellings.cn/go.html
+              weight: 70
+        params:
+            homeInfoParams:
+              enabled: true
+              Title: Yunyi&#39;s Blog
+              Content: const desc = &quot;Little squirrel Hopping around&quot;;
+              imageUrl: &quot;img/Avatar.png&quot;
+              imageWidth: 110
+              imageHeight: 110   
+            socialIcons:
+            - name: github
+              url: &quot;https://github.com/yunyit&quot;
+            - name: instagram
+              url: &quot;https://www.instagram.com/yunyi_cam/&quot;
+            - name: goodreads
+              url: &quot;https://www.goodreads.com/user/show/161105203-yunyi-tang&quot;
+            - name: email
+              url: &quot;mailto:yunyi.tang.820@gmail.com&quot;  
+</code></pre>
+<h1 id="创建文章"><a href="#创建文章" class="headerlink" title="创建文章"><a href="#创建文章"><a href="#创建文章" class="headerlink" title="创建文章" class="headerlink" title="创建文章"></a></a>创建文章</h1><ol>
+<li>在终端输入 <code>hugo new 文章名称.md</code>，在 <code>content</code> 文件夹下创建 markdown 文件；</li>
+<li>但我懒，直接在对应 <code>content</code> 文件夹下新建 <code>文章名称.md</code>；</li>
+</ol>
+<h2 id="自定义文章-Front-Matter"><a href="#自定义文章-Front-Matter" class="headerlink" title="自定义文章 Front Matter"><a href="#自定义文章-Front-Matter"><a href="#自定义文章-Front-Matter" class="headerlink" title="自定义文章 Front Matter" class="headerlink" title="自定义文章 Front Matter"></a></a>自定义文章 Front Matter</h2><p>文章头部信息可以修改这篇文章的属性，建议按照 <a target="_blank" rel="noopener" href="https://www.sulvblog.cn/posts/blog/build_hugo/">Sulv’s Blog ：hugo博客搭建 | PaperMod主题</a> 进行配置。</p>
+<p>我的 Front Matter 如下，在 <a target="_blank" rel="noopener" href="https://github.com/adityatelange/hugo-PaperMod/">PaperMod</a> 默认基础上稍加修改，供参考:</p>
+<pre><code class="yaml">---
+Tags: # 标签数量丰俭由人
+- PaperMod
+- Hugo
+- 建站 
+TocOpen: true
+author:
+- Yunyi
+comments: true
+cover:
+  alt: &quot;&quot;
+  caption: &quot;&quot;
+  image: &quot;&quot;
+  relative: false
+date: &quot;2024-01-15&quot;
+description: &quot;&quot; # 为页头简介，省略
+disableShare: true
+draft: false # 未发布时为 true
+hidemeta: false
+lastmod: &quot;2024-01-15&quot;
+showToc: true
+showbreadcrumbs: true
+slug: &quot;&quot;
+title: Hugo + PaperMod 自定义 Homeinfo 中英博客搭建
+weight: null # 若置顶则为对应数字
+---
+</code></pre>
+<h1 id="本地预览"><a href="#本地预览" class="headerlink" title="本地预览"><a href="#本地预览"><a href="#本地预览" class="headerlink" title="本地预览" class="headerlink" title="本地预览"></a></a>本地预览</h1><ol>
+<li>在终端输入 <code>hugo server -D</code> 启动。</li>
+<li>启动服务器后，打开浏览器，本地预览网址为 <code>localhost:1313</code>。</li>
+</ol>
+<h1 id="网站部署"><a href="#网站部署" class="headerlink" title="网站部署"><a href="#网站部署"><a href="#网站部署" class="headerlink" title="网站部署" class="headerlink" title="网站部署"></a></a>网站部署</h1><p><a target="_blank" rel="noopener" href="https://pages.github.com/">Github Pages</a> 发布静态博客 -</p>
+<p>优点：</p>
+<ul>
+<li>仅需一个 GitHub 账号和简单配置即可将静态博客发布到 GitHub Pages；</li>
+<li>没有维护的时间成本, 可以将精力更多的放到博客内容本身上去；</li>
+<li>无需备案；</li>
+<li>无需 SSL 证书；</li>
+</ul>
+<p>缺点：</p>
+<ul>
+<li>访问速度较慢</li>
+<li>访问速度较慢</li>
+<li>访问速度较慢</li>
+</ul>
+<h1 id="自定义页面布局-HTML-CSS"><a href="#自定义页面布局-HTML-CSS" class="headerlink" title="自定义页面布局 HTML&#x2F;CSS"><a href="#自定义页面布局-HTML-CSS"><a href="#自定义页面布局-HTML-CSS" class="headerlink" title="自定义页面布局 HTML&#x2F;CSS" class="headerlink" title="自定义页面布局 HTML&#x2F;CSS"></a></a>自定义页面布局 HTML&#x2F;CSS</h1><p>参考 <a target="_blank" rel="noopener" href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-faq/#override-theme-template">PaperMod官方文档</a>：</p>
+<p>通过 <code>Hugo</code> 的查找顺序，您可以覆盖主题的任何部分。比如，自定义 <code>footer</code>，只需复制列表模板即可：</p>
+<pre><code>your-site/themes/papermod/layouts/partials/footer.html
+</code></pre>
+<p>然后粘贴到自己的 <code>layout</code> 文件夹下：</p>
+<pre><code>your-site/layouts/partials/footer.html
+</code></pre>
+<p>然后就可以对 <code>footer</code> 进行任何修改了。 <code>Hugo</code> 创建网站时，将使用 <code>your-site/layouts/partials/</code> 里的 <code>footer.html</code>，而不是 <code>your-site/themes/papermod/layouts/partials/</code> 里的 <code>footer.html</code>。</p>
+<blockquote>
+<p><code>git pull</code> 更新 <code>your-site/themes/papermod/</code> 之后，记得也更新对应的自定义 html css，眼瞎 debug 体会！</p>
+</blockquote>
+<h2 id="Home-Info-主页添加头像"><a href="#Home-Info-主页添加头像" class="headerlink" title="Home-Info 主页添加头像"><a href="#Home-Info-主页添加头像"><a href="#Home-Info-主页添加头像" class="headerlink" title="Home-Info 主页添加头像" class="headerlink" title="Home-Info 主页添加头像"></a></a>Home-Info 主页添加头像</h2><p>修改在 <code>layouts/partials/home_info.html</code>：</p>
+<pre><code class="html">&#123;&#123;- with site.Params.homeInfoParams &#125;&#125;
+&lt;article class=&quot;first-entry home-info&quot;&gt;
+    &#123;&#123;- with site.Params.homeInfoParams &#125;&#125;
+    &lt;div class=&quot;profile_inner&quot;&gt;
+        &#123;&#123;- if .imageUrl -&#125;&#125;
+        &#123;&#123;- $img := "" &#125;&#125;
+        &#123;&#123;- if not (urls.Parse .imageUrl).IsAbs &#125;&#125;
+        &#123;&#123;- $img = resources.Get .imageUrl &#125;&#125;
+        &#123;&#123;- end &#125;&#125;
+        &#123;&#123;- if $img &#125;&#125;
+        &#123;&#123;- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -&#125;&#125;
+        &#123;&#123;- if hugo.IsExtended -&#125;&#125;
+        &#123;&#123;- $processableFormats = $processableFormats | append "webp" -&#125;&#125;
+        &#123;&#123;- end -&#125;&#125;
+        &#123;&#123;- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) &#125;&#125;
+        &#123;&#123;- if and (in $processableFormats $img.MediaType.SubType) (eq $prod true)&#125;&#125;
+        &#123;&#123;- if (not (and (not .imageHeight) (not .imageWidth))) &#125;&#125;
+        &#123;&#123;- $img = $img.Resize (printf "%dx%d" .imageWidth .imageHeight) &#125;&#125;
+        &#123;&#123;- else if .imageHeight &#125;&#125;
+        &#123;&#123;- $img = $img.Resize (printf "x%d" .imageHeight) &#125;&#125;
+        &#123;&#123; else if .imageWidth &#125;&#125;
+        &#123;&#123;- $img = $img.Resize (printf "%dx" .imageWidth) &#125;&#125;
+        &#123;&#123; else &#125;&#125;
+        &#123;&#123;- $img = $img.Resize "50x50" &#125;&#125;
+        &#123;&#123;- end &#125;&#125;
+        &#123;&#123;- end &#125;&#125;
+        &lt;a href=&quot;https://www.yunyitang.me/img/Avatar.png&quot; &gt;&lt;img id=&quot;home-info-avatar&quot; draggable=&quot;false&quot; src=&quot;&#123;&#123; $img.Permalink &#125;&#125;&quot; alt=&quot;&#123;&#123; .imageTitle | default "profile image" &#125;&#125;&quot; title=&quot;&#123;&#123; .imageTitle &#125;&#125;&quot;
+        height=&quot;&#123;&#123; .imageHeight | default 50 &#125;&#125;&quot; width=&quot;&#123;&#123; .imageWidth | default 100 &#125;&#125;&quot; style=&quot;border-radius: 50%!important; 
+        background-color: #fff; padding: 2px;&quot; /&gt;&lt;/a&gt;
+        &#123;&#123;- else &#125;&#125;
+        &lt;a href=&quot;https://www.yunyitang.me/img/Avatar.png&quot; &gt;&lt;img id=&quot;home-info-avatar&quot; draggable=&quot;false&quot; src=&quot;&#123;&#123; .imageUrl | absURL &#125;&#125;&quot; alt=&quot;&#123;&#123; .imageTitle | default "profile image" &#125;&#125;&quot; title=&quot;&#123;&#123; .imageTitle &#125;&#125;&quot;
+        height=&quot;&#123;&#123; .imageHeight | default 50 &#125;&#125;&quot; width=&quot;&#123;&#123; .imageWidth | default 100 &#125;&#125;&quot; style=&quot;border-radius: 50%!important; 
+        background-color: #fff; padding: 2px;&quot; /&gt;&lt;/a&gt;
+        &#123;&#123;- end &#125;&#125;
+        &#123;&#123;- end &#125;&#125;
+    &lt;/div&gt;
+    &#123;&#123;- end &#125;&#125;
+    &lt;!-- original codes --&gt;
+&lt;/article&gt;
+&#123;&#123;- end -&#125;&#125;
+</code></pre>
+<h1 id="自定义-hover"><a href="#自定义-hover" class="headerlink" title="自定义 hover"><a href="#自定义-hover"><a href="#自定义-hover" class="headerlink" title="自定义 hover" class="headerlink" title="自定义 hover"></a></a>自定义 hover</h1><p>主要在 <code>assets/css/common/header.css</code> 中修改：</p>
+<h2 id="Home-主页键-hover"><a href="#Home-主页键-hover" class="headerlink" title="Home 主页键 hover"><a href="#Home-主页键-hover"><a href="#Home-主页键-hover" class="headerlink" title="Home 主页键 hover" class="headerlink" title="Home 主页键 hover"></a></a>Home 主页键 hover</h2><p>为页面左上角的 <code>Home</code> 添加 hover：</p>
+<pre><code class="css">.logo a:hover &#123;
+    transition: 0.15s;
+    color: grey;
+&#125;
+</code></pre>
+<h2 id="社交媒体-hover"><a href="#社交媒体-hover" class="headerlink" title="社交媒体 hover"><a href="#社交媒体-hover"><a href="#社交媒体-hover" class="headerlink" title="社交媒体 hover" class="headerlink" title="社交媒体 hover"></a></a>社交媒体 hover</h2><p>以下为本人所标注的 5 个社交媒体标识的自定义颜色，选了各软件的主题色：</p>
+<pre><code class="css">svg:hover &#123;
+    transition: 0.15s;
+&#125;
+
+.social-icons a[href*=&quot;github&quot;]:hover svg &#123;
+    color: #333 !important;
+&#125;
+
+.social-icons a[href*=&quot;linkedin&quot;]:hover svg &#123;
+    color: #0A66C2 !important;
+&#125;
+
+.social-icons a[href*=&quot;instagram&quot;]:hover svg &#123;
+    color: #d62976 !important;
+&#125;
+
+.social-icons a[href*=&quot;goodreads&quot;]:hover svg &#123;
+    color: #75420e !important;
+&#125;
+
+.social-icons a[href^=&quot;mailto&quot;]:hover svg &#123;
+    color: #f2a60c !important;
+&#125;
+</code></pre>
+<h2 id="黑夜模式和白天模式的-hover"><a href="#黑夜模式和白天模式的-hover" class="headerlink" title="黑夜模式和白天模式的 hover"><a href="#黑夜模式和白天模式的-hover"><a href="#黑夜模式和白天模式的-hover" class="headerlink" title="黑夜模式和白天模式的 hover" class="headerlink" title="黑夜模式和白天模式的 hover"></a></a>黑夜模式和白天模式的 hover</h2><pre><code class="css">#moon:hover &#123;
+    transition: 0.15s;
+    color: #1772b4;
+&#125;
+
+#sun:hover &#123;
+    transition: 0.15s;
+    color: #f4a83a;
+&#125;
+</code></pre>
+<h2 id="主页-menu-中链接-hover"><a href="#主页-menu-中链接-hover" class="headerlink" title="主页 menu 中链接 hover"><a href="#主页-menu-中链接-hover"><a href="#主页-menu-中链接-hover" class="headerlink" title="主页 menu 中链接 hover" class="headerlink" title="主页 menu 中链接 hover"></a></a>主页 menu 中链接 hover</h2><pre><code class="css">#menu a:hover &#123;
+    transition: 0.15s;
+    color: grey;
+&#125;
+</code></pre>
+<h2 id="Profile-mode-按钮-hover"><a href="#Profile-mode-按钮-hover" class="headerlink" title="Profile mode 按钮 hover"><a href="#Profile-mode-按钮-hover"><a href="#Profile-mode-按钮-hover" class="headerlink" title="Profile mode 按钮 hover" class="headerlink" title="Profile mode 按钮 hover"></a></a>Profile mode 按钮 hover</h2><p>在 <code>/assets/css/common/profile-mode.css</code> 中修改：</p>
+<pre><code class="css">.button:hover &#123;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    /* box-shadow: 0 0 0 1px grey; */
+    transform: scale(1.1) translateZ(0) translate3d(0, 0, 0) rotate(0.01deg);
+&#125;
+</code></pre>
+<h1 id="目录栏目放侧边"><a href="#目录栏目放侧边" class="headerlink" title="目录栏目放侧边"><a href="#目录栏目放侧边"><a href="#目录栏目放侧边" class="headerlink" title="目录栏目放侧边" class="headerlink" title="目录栏目放侧边"></a></a>目录栏目放侧边</h1><p><a target="_blank" rel="noopener" href="https://www.sulvblog.cn/posts/blog/hugo_toc_side/">Sulv’s Blog：Hugo博客目录放在侧边 | PaperMod主题</a></p>
+<h1 id="修改字体"><a href="#修改字体" class="headerlink" title="修改字体"></a>修改字体</h1><h2 id="修改全局字体"><a href="#修改全局字体" class="headerlink" title="修改全局字体"><a href="#修改字体"><a href="#修改字体" class="headerlink" title="修改字体"></a>修改字体</h1><h2 id="修改全局字体"><a href="#修改全局字体" class="headerlink" title="修改全局字体" class="headerlink" title="修改全局字体"></a></a>修改全局字体</h1><p>在 <a target="_blank" rel="noopener" href="https://fonts.google.com/">Google Fonts</a> 中查询开源字体，我目前的文章字体为 <a target="_blank" rel="noopener" href="https://www.jetbrains.com/lp/mono/">JetBrains Mono</a>。Google Fonts 会生成 HTML 和 css ，将 HTML 插入到 <code>layouts/partials/extend_head.html</code> 中，将 CSS 插入到 <code>assets/css/extended/blank.css</code>：</p>
+<pre><code class="css">body &#123;
+    font-family: &#39;JetBrains Mono&#39;, monospace;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+&#125;
+</code></pre>
+<h2 id="修改代码字体"><a href="#修改代码字体" class="headerlink" title="修改代码字体"><a href="#修改代码字体"><a href="#修改代码字体" class="headerlink" title="修改代码字体" class="headerlink" title="修改代码字体"></a></a>修改代码字体</h2><p>与全局字体类似，区别为 CSS 代码插入 <code>assets/css/extended/blank.css</code> 的位置不同：</p>
+<pre><code class="css">.post-content pre, code &#123;
+    font-family: &#39;JetBrains Mono&#39;, monospace;
+    font-size: 13;
+    line-height: 1.2;
+    max-height: 40rem;
+&#125;
+</code></pre>
+<h1 id="代码外观自定义"><a href="#代码外观自定义" class="headerlink" title="代码外观自定义"></a>代码外观自定义</h1><h2 id="代码高亮"><a href="#代码高亮" class="headerlink" title="代码高亮"><a href="#代码外观自定义"><a href="#代码外观自定义" class="headerlink" title="代码外观自定义"></a>代码外观自定义</h1><h2 id="代码高亮"><a href="#代码高亮" class="headerlink" title="代码高亮" class="headerlink" title="代码高亮"></a></a>代码高亮</h1><p>最近一次 <a target="_blank" rel="noopener" href="https://github.com/adityatelange/hugo-PaperMod/pull/1364">更新</a>，改用 <code>Hugo</code> 内置的 <a target="_blank" rel="noopener" href="https://xyproto.github.io/splash/docs/all.html">Chroma</a>，CSS 文件位置更改为 <code>assets/css/includes/chroma-styles.css</code>。对应配置文件 <code>config.yml</code> 内容为：</p>
+<pre><code class="yaml">markup:
+  markup.highlight:
+    noclasses: false
+</code></pre>
+<p>配合本站的橙色系，我选择了 <a target="_blank" rel="noopener" href="https://xyproto.github.io/splash/docs/trac.html">trac</a>，并用 <code>Hugo</code> 安装：</p>
+<pre><code class="shell">hugo gen chromastyles --style=trac &gt; assets/css/includes/chroma-styles.css
+</code></pre>
+<p>其中，所有 <code>#bb8844</code> 配色更换为 <a target="_blank" rel="noopener" href="https://color-term.com/color/taocihong-e16723/">陶瓷红</a> <code>#E16723</code>，配合本站的 <a href="#%E4%BF%AE%E6%94%B9%E9%93%BE%E6%8E%A5%E9%A2%9C%E8%89%B2">超链接配色</a>。<code>assets/css/includes/chroma-mod.css</code> 文件保持原设定，记得在 <code>git pull</code> 之后更新对应的 <a href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E9%A1%B5%E9%9D%A2%E5%B8%83%E5%B1%80-htmlcss">CSS 自定义</a>文件夹就好。</p>
+<p>目前在 <code>assets/css/extended/blank.css</code> 的配置为：</p>
+<pre><code class="css">.post-content pre code , 
+.post-content .highlight:not(table) ,
+.post-content .highlight table
+ &#123;
+    background: unset !important;
+    background-color: var(--code-bg) !important; /* 兼容日夜显示模式 */
+    color: var(--secondary) !important; /* 兼容日夜显示模式 */
+&#125;
+</code></pre>
+<p>此更新的进度具体看这个 <a target="_blank" rel="noopener" href="https://github.com/adityatelange/hugo-PaperMod/issues/1386">issue</a>。</p>
+<h2 id="代码边框圆角"><a href="#代码边框圆角" class="headerlink" title="代码边框圆角"><a href="#代码边框圆角"><a href="#代码边框圆角" class="headerlink" title="代码边框圆角" class="headerlink" title="代码边框圆角"></a></a>代码边框圆角</h2><p>在 <code>/assets/css/common/post-single.css</code> 中修改：</p>
+<pre><code class="css">.post-content .highlight pre &#123;
+    background-color: var(--theme) !important;
+    margin: 0;
+&#125;
+</code></pre>
+<h1 id="修改链接颜色"><a href="#修改链接颜色" class="headerlink" title="修改链接颜色"><a href="#修改链接颜色"><a href="#修改链接颜色" class="headerlink" title="修改链接颜色" class="headerlink" title="修改链接颜色"></a></a>修改链接颜色</h1><p>参考 <a target="_blank" rel="noopener" href="https://www.lvbibir.cn/posts/blog/hello-hugo/#%E4%BF%AE%E6%94%B9%E9%93%BE%E6%8E%A5%E9%A2%9C%E8%89%B2">lvbibir’s Blog：Hello, hugo!</a> ，我选择了 <a target="_blank" rel="noopener" href="https://color-term.com/color/taocihong-e16723/">陶瓷红</a> <code>#E16723</code> rgb(225, 103, 35)。</p>
+<pre><code class="html">&lt;a href=&quot;&#123;&#123; .Destination | safeURL &#125;&#125;&quot;&#123;&#123; with .Title&#125;&#125; title=&quot;&#123;&#123; . &#125;&#125;&quot;&#123;&#123; end &#125;&#125;&#123;&#123; if strings.HasPrefix .Destination "http" &#125;&#125; target=&quot;_blank&quot; rel=&quot;noopener&quot; style=&quot;color:#E16723&quot;;&#123;&#123; end &#125;&#125;&gt;&#123;&#123; .Text | safeHTML &#125;&#125;&lt;/a&gt;
+</code></pre>
+<h1 id="添加评论"><a href="#添加评论" class="headerlink" title="添加评论"><a href="#添加评论"><a href="#添加评论" class="headerlink" title="添加评论" class="headerlink" title="添加评论"></a></a>添加评论</h1><p>一开始基于 <a target="_blank" rel="noopener" href="https://www.mongodb.com/cloud/atlas/register">MongoDB</a> 和 <a target="_blank" rel="noopener" href="https://vercel.com/signup">Vercel</a> 部署 <a target="_blank" rel="noopener" href="https://twikoo.js.org/en/intro.html">twikoo</a> 评论系统，后来更换为 <a target="_blank" rel="noopener" href="https://disqus.com/">Disqus</a> 没调好，还是 <a target="_blank" rel="noopener" href="https://giscus.app/">gitcus</a> 吧！</p>
+<p>为适应日夜主题调整，在（chatgpt 帮助下）在 <code>layouts/partials/comments.html</code> 设置如下：</p>
+<pre><code class="html">&lt;script&gt;
+    function createGiscusScript(data) &#123;
+        const giscusScript = document.createElement(&quot;script&quot;);
+
+        // 动态设置脚本属性
+        Object.entries(data).forEach(([key, value]) =&gt; giscusScript.setAttribute(key, value));
+
+        // 将脚本标签添加到 &lt;article&gt; 中
+        document.querySelector(&#39;article&#39;).appendChild(giscusScript);
+
+        // 切换主题时更新 giscus 主题
+        const toggle = document.querySelector(&#39;label[for=&quot;switch_default&quot;]&#39;);
+        if (toggle) &#123;
+            toggle.addEventListener(&#39;click&#39;, function () &#123;
+                // 根据 body 类动态设置 giscus 主题
+                const theme = document.body.classList.contains(&#39;dark&#39;) ? &#39;transparent_dark&#39; : &#39;light&#39;;
+                giscusScript.setAttribute(&#39;data-theme&#39;, theme);
+
+                // 给 giscus iframe发送消息，更新主题
+                sendMessage(&#123; setConfig: &#123; theme &#125; &#125;);
+            &#125;);
+        &#125;
+    &#125;
+
+    function sendMessage(message) &#123;
+        const iframe = document.querySelector(&#39;iframe.giscus-frame&#39;);
+        if (iframe) &#123;
+            iframe.contentWindow.postMessage(&#123; giscus: message &#125;, &#39;https://giscus.app&#39;);
+        &#125;
+    &#125;
+
+    document.addEventListener(&#39;DOMContentLoaded&#39;, function () &#123;
+        // 定义 Giscus 数据属性
+        const giscusAttributes = &#123;
+            &quot;src&quot;: &quot;https://giscus.app/client.js&quot;,
+            &quot;data-repo&quot;: &quot;yunyit/yunyit.github.io&quot;,
+            &quot;data-repo-id&quot;: &quot;R_kgDOKqkPYw&quot;,
+            &quot;data-category&quot;: &quot;Comments&quot;,
+            &quot;data-category-id&quot;: &quot;DIC_kwDOKqkPY84CceDi&quot;,
+            &quot;data-mapping&quot;: &quot;url&quot;,
+            &quot;data-strict&quot;: &quot;0&quot;,
+            &quot;data-reactions-enabled&quot;: &quot;1&quot;,
+            &quot;data-emit-metadata&quot;: &quot;0&quot;,
+            &quot;data-input-position&quot;: &quot;top&quot;,
+            &quot;data-lang&quot;: &quot;en&quot;,
+            &quot;crossorigin&quot;: &quot;anonymous&quot;,
+            &quot;async&quot;: &quot;&quot;,
+        &#125;;
+
+        // 根据 body 类设置初始 giscus 主题
+        giscusAttributes[&quot;data-theme&quot;] = document.body.classList.contains(&#39;dark&#39;) ? &#39;transparent_dark&#39; : &#39;light&#39;;
+
+        // 调用函数，使用属性创建 giscus 脚本
+        createGiscusScript(giscusAttributes);
+
+        // body 类变化时动态更新 giscus 主题
+        const bodyObserver = new MutationObserver(() =&gt; &#123;
+            const theme = document.body.classList.contains(&#39;dark&#39;) ? &#39;transparent_dark&#39; : &#39;light&#39;;
+            sendMessage(&#123; setConfig: &#123; theme &#125; &#125;);
+        &#125;);
+
+        bodyObserver.observe(document.body, &#123; attributes: true, attributeFilter: [&#39;class&#39;] &#125;);
+    &#125;);
+&lt;/script&gt;
+</code></pre>
+<p>在 <code>assets/css/extended/blank.css</code> 调整文末导航栏和评论区的距离：</p>
+<pre><code class="css">.paginav &#123;
+    margin-bottom: 45px;
+&#125;
+</code></pre>
+<h1 id="Shortcodes-扩展功能-插件"><a href="#Shortcodes-扩展功能-插件" class="headerlink" title="Shortcodes 扩展功能&#x2F;插件"><a href="#Shortcodes-扩展功能-插件"><a href="#Shortcodes-扩展功能-插件" class="headerlink" title="Shortcodes 扩展功能&#x2F;插件" class="headerlink" title="Shortcodes 扩展功能&#x2F;插件"></a></a>Shortcodes 扩展功能&#x2F;插件</h1><ul>
+<li><a target="_blank" rel="noopener" href="https://www.sulvblog.cn/posts/blog/shortcodes/">bilibili、YouTube、豆瓣阅读和电影卡片</a></li>
+<li><a target="_blank" rel="noopener" href="https://gist.github.com/j-un/e7d0b3118556479392bd2269f7059242">Spotify</a></li>
+</ul>
+<h1 id="Tags-标签云"><a href="#Tags-标签云" class="headerlink" title="Tags 标签云"><a href="#Tags-标签云"><a href="#Tags-标签云" class="headerlink" title="Tags 标签云" class="headerlink" title="Tags 标签云"></a></a>Tags 标签云</h1><p><a target="_blank" rel="noopener" href="https://www.sulvblog.cn/posts/blog/hugo_tag_cloud/">Sulv’s Blog：Hugo博客添加标签云</a></p>
+<h1 id="添加友链"><a href="#添加友链" class="headerlink" title="添加友链"><a href="#添加友链"><a href="#添加友链" class="headerlink" title="添加友链" class="headerlink" title="添加友链"></a></a>添加友链</h1><p><a target="_blank" rel="noopener" href="https://www.sulvblog.cn/posts/blog/hugo_link/">Sulv’s Blog：Hugo博客添加友链</a></p>
+<h1 id="流量统计"><a href="#流量统计" class="headerlink" title="流量统计"><a href="#流量统计"><a href="#流量统计" class="headerlink" title="流量统计" class="headerlink" title="流量统计"></a></a>流量统计</h1><p>我使用了 <a target="_blank" rel="noopener" href="https://analytics.eu.umami.is/share/mNvu6TLrju52UZ97/Yunyi's%20Blog">umami</a> 流量统计，并添加在页脚 <code>footer</code> 。</p>
+<p>在 <code>layouts/partials/footer.html</code> 中修改：</p>
+<pre><code class="html">&#123;&#123;- if not (.Param "hideFooter") &#125;&#125;
+&lt;footer class=&quot;footer&quot;&gt;
+    &lt;!-- other codes --&gt;
+    &lt;span&gt;
+        &lt;a href=&quot;https://analytics.eu.umami.is/share/mNvu6TLrju52UZ97/Yunyi&#39;s%20Blog&quot; 
+        rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Analytics&lt;/a&gt;
+    &lt;/span&gt;
+&lt;/footer&gt;
+&#123;&#123;- end &#125;&#125;
+</code></pre>
+<h1 id="知识共享协议"><a href="#知识共享协议" class="headerlink" title="知识共享协议"><a href="#知识共享协议"><a href="#知识共享协议" class="headerlink" title="知识共享协议" class="headerlink" title="知识共享协议"></a></a>知识共享协议</h1><p>从 <a target="_blank" rel="noopener" href="https://chooser-beta.creativecommons.org/">官方指南</a> 选自适合自己的知识共享协议，并在 <code>layouts/partials/footer.html</code> 自定义 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans">CC BY-NC-SA 4.0</a> 页脚：</p>
+<pre><code class="html">&#123;&#123;- if not (.Param "hideFooter") &#125;&#125;
+&lt;footer class=&quot;footer&quot;&gt;
+    &lt;!-- other codes --&gt;
+    &lt;span xmlns:cc=&quot;http://creativecommons.org/ns#&quot; xmlns:dct=&quot;http://purl.org/dc/terms/&quot;&gt; 
+        Licensed under &lt;a href=&quot;http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1&quot; target=&quot;_blank&quot; 
+        rel=&quot;license noopener noreferrer&quot; style=&quot;display:inline-block;&quot;&gt;CC BY-NC-SA 4.0 &gt;&lt;/a&gt;&lt;/span&gt;
+    &lt;span&gt;
+        &lt;a href=&quot;https://analytics.eu.umami.is/share/mNvu6TLrju52UZ97/Yunyi&#39;s%20Blog&quot; 
+        rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Analytics&lt;/a&gt;
+    &lt;/span&gt;
+&lt;/footer&gt;
+&#123;&#123;- end &#125;&#125;
+</code></pre>
+
+        
+      </div>
+    </article>
+  
+    <article class="post">
+      <h2 class="post-title">
+        <a href="/yaml-grammar-data-structure/">YAML 数据结构和语法</a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-meta-item post-meta-date">
+  <time datetime="2024-01-13T23:54:26Z">2024-01-13</time>
+</span>
+
+<span class="post-meta-item post-meta-categories">
+  <span class="post-meta-item-indicator">Category:</span>
+  
+    <a class="category-link" href="/categories/tech/">技术</a>
+  
+</span>
+
+<span class="post-meta-item post-meta-tags">
+  
+    <a class="tag--link" href="/tag/Data/" rel="tag">Data</a> <a class="tag--link" href="/tag/config/" rel="tag">config</a>
+  
+</span>
+
+
+<span class="post-meta-item post-meta-views">
+  <span class="pv-counter">loading</span> views
+</span>
+
+
+      </div>
+      <div class="post-content">
+        
+          <blockquote>
+<p>认知始于 Markdown 文件，不知道终于哪儿。</p>
+</blockquote>
+<h1 id="定义"><a href="#定义" class="headerlink" title="定义"><a href="#定义"><a href="#定义" class="headerlink" title="定义" class="headerlink" title="定义"></a></a>定义</h1><blockquote>
+<p>YAML Ain’t a Markup Language &#x2F; Yet Another Markup Language</p>
+</blockquote>
+<p>文件后缀：<code>.yml</code> 或 <code>.yaml</code></p>
+<p>注释：井号 或 哈希符号 <code>#</code></p>
+<p>结构：映射或列表，遵循层次结构，具体取决于缩进以及定义键值的方式。</p>
+<p>语法：</p>
+<ul>
+<li>大小写敏感；</li>
+<li>使用缩进表示层级关系；</li>
+<li>缩进时不允许使用 <code>Tab</code> 键，只允许使用空格；</li>
+<li>缩进的空格数目不重要，只要相同层级的元素左侧对齐即可；</li>
+</ul>
+<h1 id="应用"><a href="#应用" class="headerlink" title="应用"><a href="#应用"><a href="#应用" class="headerlink" title="应用" class="headerlink" title="应用"></a></a>应用</h1><p>配置文件 configuration files -</p>
+<h2 id="YAML-JSON"><a href="#YAML-JSON" class="headerlink" title="YAML &#x2F; JSON"><a href="#YAML-JSON"><a href="#YAML-JSON" class="headerlink" title="YAML &#x2F; JSON" class="headerlink" title="YAML &#x2F; JSON"></a></a>YAML &#x2F; JSON</h2><p>相比 JSON，因为 YAML 有更好的可读性，对用户更友好，所以通常建议用 YAML 来编写配置文件，尽管它们在大多数情况下可以互换使用。</p>
+<h1 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"><a href="#数据类型"><a href="#数据类型" class="headerlink" title="数据类型" class="headerlink" title="数据类型"></a></a>数据类型</h1><ul>
+<li>对象 mapping&#x2F;hash&#x2F;dictionary：键值对的集合；</li>
+<li>数组 sequence&#x2F;list：一组按次序排列的值；数组和对象可以构成复合结构；</li>
+<li>纯量：最基本的，不可再分的值；</li>
+</ul>
+<h2 id="对象"><a href="#对象" class="headerlink" title="对象"><a href="#对象"><a href="#对象" class="headerlink" title="对象" class="headerlink" title="对象"></a></a>对象</h2><p>对象的一组键值对，使用冒号结构表示。</p>
+<pre><code class="yaml">animal: pets
+</code></pre>
+<p>转为 JavaScript 如下：</p>
+<pre><code class="JavaScript">&#123; animal: &#39;pets&#39; &#125;
+</code></pre>
+<p>Yaml 也允许另一种写法，将所有键值对写成一个行内对象。</p>
+<pre><code class="yaml">hash: &#123; name: Steve, foo: bar &#125; 
+</code></pre>
+<p>转为 JavaScript 如下：</p>
+<pre><code class="JavaScript">&#123; hash: &#123; name: &#39;Steve&#39;, foo: &#39;bar&#39; &#125; &#125;
+</code></pre>
+<h2 id="数组"><a href="#数组" class="headerlink" title="数组"><a href="#数组"><a href="#数组" class="headerlink" title="数组" class="headerlink" title="数组"></a></a>数组</h2><p>一组连词线开头的行，构成一个数组。</p>
+<pre><code class="yaml">- Cat
+- Dog
+- Goldfish
+</code></pre>
+<p>转为 JavaScript 如下：</p>
+<pre><code class="JavaScript">[ &#39;Cat&#39;, &#39;Dog&#39;, &#39;Goldfish&#39; ]
+</code></pre>
+<h2 id="纯量"><a href="#纯量" class="headerlink" title="纯量"><a href="#纯量"><a href="#纯量" class="headerlink" title="纯量" class="headerlink" title="纯量"></a></a>纯量</h2><p>纯量是最基本的、不可再分的值。</p>
+<p>以下数据类型都属于 JavaScript 的纯量：</p>
+<ul>
+<li>字符串</li>
+<li>布尔值</li>
+<li>整数</li>
+<li>浮点数</li>
+<li><code>null</code>：用 <code>~</code> 表示</li>
+<li>时间</li>
+<li>日期</li>
+</ul>
+<h1 id="复合结构"><a href="#复合结构" class="headerlink" title="复合结构"><a href="#复合结构"><a href="#复合结构" class="headerlink" title="复合结构" class="headerlink" title="复合结构"></a></a>复合结构</h1><p>对象和数组可以结合使用，形成复合结构。</p>
+<h2 id="示例"><a href="#示例" class="headerlink" title="示例"><a href="#示例"><a href="#示例" class="headerlink" title="示例" class="headerlink" title="示例"></a></a>示例</h2><p>选自 <a target="_blank" rel="noopener" href="https://www.redhat.com/en/topics/automation/what-is-yaml">Red Hat</a> 的学生信息例子：</p>
+<pre><code class="yaml">#Comment: Student record
+#Describes some characteristics and preferences
+---
+name: Martin D&#39;vloper #key-value
+age: 26
+hobbies: 
+  - painting #first list item
+  - playing_music #second list item
+  - cooking #third list item
+programming_languages:
+  java: Intermediate
+  python: Advanced
+  javascript: Beginner
+favorite_food: 
+  - vegetables: tomatoes 
+  - fruits: 
+      citrics: oranges 
+      tropical: bananas
+      nuts: peanuts
+      sweets: raisins
+</code></pre>
+<p>使用 Python 的 PyYAML 库，可转化为：</p>
+<pre><code class="python">[
+    &#123;
+        &quot;name&quot;: &quot;Martin D&#39;vloper&quot;,
+        &quot;age&quot;: 26,
+        &quot;hobbies&quot;: [&quot;painting&quot;, &quot;playing_music&quot;, &quot;cooking&quot;],
+        &quot;programming_languages&quot;: &#123;
+            &quot;java&quot;: &quot;Intermediate&quot;,
+            &quot;python&quot;: &quot;Advanced&quot;,
+            &quot;javascript&quot;: &quot;Beginner&quot;,
+        &#125;,
+        &quot;favorite_food&quot;: [
+            &#123;&quot;vegetables&quot;: &quot;tomatoes&quot;&#125;,
+            &#123;
+                &quot;fruits&quot;: &#123;
+                    &quot;citrics&quot;: &quot;oranges&quot;,
+                    &quot;tropical&quot;: &quot;bananas&quot;,
+                    &quot;nuts&quot;: &quot;peanuts&quot;,
+                    &quot;sweets&quot;: &quot;raisins&quot;,
+                &#125;
+            &#125;,
+        ],
+    &#125;
+]
+</code></pre>
+<h1 id="相关阅读"><a href="#相关阅读" class="headerlink" title="相关阅读"><a href="#相关阅读"><a href="#相关阅读" class="headerlink" title="相关阅读" class="headerlink" title="相关阅读"></a></a>相关阅读</h1><ul>
+<li><a target="_blank" rel="noopener" href="https://hugo.bnblogs.cc/">Barney</a> 的 <a target="_blank" rel="noopener" href="https://hugo.bnblogs.cc/yaml%E8%AF%AD%E6%B3%95/">yaml 语法</a> 整理；</li>
+<li><a target="_blank" rel="noopener" href="https://www.ruanyifeng.com/blog/">阮一峰</a> 的 <a target="_blank" rel="noopener" href="https://www.ruanyifeng.com/blog/2016/07/yaml.html">YAML 语言教程</a>；</li>
+<li><a target="_blank" rel="noopener" href="https://yaml.org/spec/1.2.2/">YAML 1.2 规格</a>；</li>
+</ul>
+
+        
+      </div>
+    </article>
+  
+    <article class="post">
+      <h2 class="post-title">
+        <a href="/2023-review/">2023 年终总结</a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-meta-item post-meta-date">
+  <time datetime="2024-01-11T21:25:30Z">2024-01-11</time>
+</span>
+
+<span class="post-meta-item post-meta-categories">
+  <span class="post-meta-item-indicator">Category:</span>
+  
+    <a class="category-link" href="/categories/life/">日常</a>
+  
+</span>
+
+<span class="post-meta-item post-meta-tags">
+  
+    <a class="tag--link" href="/tag/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/" rel="tag">年终总结</a>
+  
+</span>
+
+
+<span class="post-meta-item post-meta-views">
+  <span class="pv-counter">loading</span> views
+</span>
+
+
+      </div>
+      <div class="post-content">
+        
+          <h1 id="博客建设"><a href="#博客建设" class="headerlink" title="博客建设"><a href="#博客建设"><a href="#博客建设" class="headerlink" title="博客建设" class="headerlink" title="博客建设"></a></a>博客建设</h1><p>2023 年底把博客从 Ghost 搬到了 <a target="_blank" rel="noopener" href="https://pages.cloudflare.com/">Github Pages</a>，动手照着教程 <a target="_blank" rel="noopener" href="https://kyxie.github.io/zh/blog/tech/papermod/">Hugo + PaperMod搭建技术博客</a> 做了一个静态网页做博客，重心放在技术学习整理、以输出促输入、费曼学习法。</p>
+<p>一开始照本宣科做中英一式两份的个人网站，后来随着扩展友链、多读多看，加之自己在英工作，逐渐调整了个站中英页面的各自侧重：英文页面有求职相关，博客更新不及中文页面多，主页保持 portfolio 的简洁；中文页面则更侧重博客输出，主页的页头页尾也更丰富一点。</p>
+<p>在扩展 <a target="_blank" rel="noopener" href="https://www.yunyitang.me/zh/links/">友链</a> 的过程中，向各位大佬们也学习了很多，感受到了独立博客的丰富，受益于大家分享的真诚，并且越来越能体会阮一峰老师的话：</p>
+<blockquote>
+<p>“对我来说，博客首先是一种知识管理工具，其次才是传播工具。我的技术文章，主要用来整理我还不懂的知识。我只写那些我还没有完全掌握的东西，那些我精通的东西，往往没有动力写。炫耀从来不是我的动机，好奇才是。”</p>
+</blockquote>
+<h1 id="工作变化和感受"><a href="#工作变化和感受" class="headerlink" title="工作变化和感受"><a href="#工作变化和感受"><a href="#工作变化和感受" class="headerlink" title="工作变化和感受" class="headerlink" title="工作变化和感受"></a></a>工作变化和感受</h1><p>今年最松一口气的变化，就是我的 <a target="_blank" rel="noopener" href="https://research-information.bris.ac.uk/en/persons/yunyi-tang-2/studentTheses/">硕士论文</a> 终于通过了！从一开始读博的跌跌撞撞，到第一年审核不过的焦虑难受，再到之后转为研究型硕士项目的守得云开见月明，很感谢导师、家人和朋友们的支持和陪伴。拿到学位也保证了后续的签证申请，留英工作的计划也清晰了许多。</p>
+<p>科研之余的实习也有了不少进展，在 <a target="_blank" rel="noopener" href="https://www.180dc.org/branches/Bristol">180DC</a> 的数据科学项目进入到项目的第二阶段，去年的领队忙于毕业、把这轮项目的领队交给了我。虽然不比队里各位 Robotics 的博士生们技术精湛，但基于项目前一轮和客户交流的经验，加一些细心，算是把此项目收尾了。</p>
+<p>最意外的收获是开始了在 <a target="_blank" rel="noopener" href="https://www.zap-map.com/">Zapmap</a> 的数据兼职。从一开始比较打杂，到现在虽然也打杂、但更多参与公司会议了解业务动向、多到办公室和大家交流、旁观学习，甚至还去 Christmas Party 狠玩了一把，也算是把一个一开始的小机会利用到自己力所能及的最大值。虽说初创公司要看融资来决定下一步的人事变化，能否在现在合同结束后留下了全职工作还两说，但在 <a target="_blank" rel="noopener" href="https://www.zap-map.com/">Zapmap</a> 经历的、学习了解到的都对从本科开始就没有工作经历、一路读书到现在的我多有助益。</p>
+<h1 id="技术成长"><a href="#技术成长" class="headerlink" title="技术成长"><a href="#技术成长"><a href="#技术成长" class="headerlink" title="技术成长" class="headerlink" title="技术成长"></a></a>技术成长</h1><p>在导师提醒我“不能从一个硕士项目中只想着用尽学尽自己想要的技术&#x2F;工具”之后，我放下了把 <a target="_blank" rel="noopener" href="https://research-information.bris.ac.uk/en/persons/yunyi-tang-2/studentTheses/">硕士论文</a> 的数据分析做得花里胡哨的执念，只在完成本职（<a target="_blank" rel="noopener" href="https://research-information.bris.ac.uk/en/persons/yunyi-tang-2/publications/">科研</a>）之余，多接触、多自学、多尝试。但对于自己更倾向于数据分析、还是网站开发，一直没有很清晰的想法。</p>
+<p>有时候感觉像忙头苍蝇无方向，但有时又相信积少成多、前路会越来越明晰，也多亏能在 <a target="_blank" rel="noopener" href="https://www.zap-map.com/">Zapmap</a> 工作多感受体会，才不至于像考虑转硕那样焦躁茫然。而在秋天生活变故之后，我有意无意多着力用时于自己，加上少了担心毕业论文的压力，顺着技术博客做感觉还不错。</p>
+<h1 id="今年计划完成度"><a href="#今年计划完成度" class="headerlink" title="今年计划完成度"><a href="#今年计划完成度"><a href="#今年计划完成度" class="headerlink" title="今年计划完成度" class="headerlink" title="今年计划完成度"></a></a>今年计划完成度</h1><p>连续两年年底都过得不易，也一直没什么“年度计划”。姑且回头看的话，今年过得确实比去年年底的悲观好多了，感到幸运的远多于感到遗憾的，也算是完成自己的期待吧！</p>
+<h1 id="明年的全年计划"><a href="#明年的全年计划" class="headerlink" title="明年的全年计划"><a href="#明年的全年计划"><a href="#明年的全年计划" class="headerlink" title="明年的全年计划" class="headerlink" title="明年的全年计划"></a></a>明年的全年计划</h1><p>明年主要解决什么问题？有什么想做的？围绕生活、技术、工作：</p>
+<ul>
+<li>多出门徒步，开始尝试多日徒步；</li>
+<li>多和家人朋友通话联络；</li>
+<li>保持博客每月两篇以上的输出；</li>
+<li>增加基础技术知识的学习和输出；</li>
+<li>开始第一份全职工作；</li>
+</ul>
+<h1 id="相关阅读"><a href="#相关阅读" class="headerlink" title="相关阅读"><a href="#相关阅读"><a href="#相关阅读" class="headerlink" title="相关阅读" class="headerlink" title="相关阅读"></a></a>相关阅读</h1><p>各节标题参考了 <a target="_blank" rel="noopener" href="https://imcbc.cn/">冰冰大佬</a> 前年的 <a target="_blank" rel="noopener" href="https://imcbc.cn/202212/2022-summary/">2022年终总结</a>，更多大家的 2023 年终总结可翻阅 <a target="_blank" rel="noopener" href="https://github.com/saveweb/review-2023">此合集</a>。</p>
+
+        
+      </div>
+    </article>
+  
+    <article class="post">
+      <h2 class="post-title">
+        <a href="/regular-expression-basics/">正则表达式基础知识点</a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-meta-item post-meta-date">
+  <time datetime="2024-01-06T21:13:08Z">2024-01-06</time>
+</span>
+
+<span class="post-meta-item post-meta-categories">
+  <span class="post-meta-item-indicator">Category:</span>
+  
+    <a class="category-link" href="/categories/tech/">技术</a>
+  
+</span>
+
+<span class="post-meta-item post-meta-tags">
+  
+    <a class="tag--link" href="/tag/Data/" rel="tag">Data</a>
+  
+</span>
+
+
+<span class="post-meta-item post-meta-views">
+  <span class="pv-counter">loading</span> views
+</span>
+
+
+      </div>
+      <div class="post-content">
+        
+          <blockquote>
+<p>认知始于 Excel，不知道终于哪儿。</p>
+</blockquote>
+<h1 id="介绍与应用"><a href="#介绍与应用" class="headerlink" title="介绍与应用"><a href="#介绍与应用"><a href="#介绍与应用" class="headerlink" title="介绍与应用" class="headerlink" title="介绍与应用"></a></a>介绍与应用</h1><p>属性：用于匹配和操作文本的工具</p>
+<p>设计思想：用一种描述性的语言来给字符串定义一个规则，凡是符合规则的字符串，为“匹配”，反之，不“匹配”。</p>
+<p>应用场景：</p>
+<ul>
+<li>文本查找</li>
+<li>文本替换</li>
+<li>文本格式校验</li>
+<li>…</li>
+</ul>
+<p>应用环境：大多数编程语言的标准库包含正则表达式的支持</p>
+<ul>
+<li>Python</li>
+<li>SQL</li>
+<li>Javascript</li>
+<li>Word, Excel…</li>
+</ul>
+<h1 id="语法"><a href="#语法" class="headerlink" title="语法"><a href="#语法"><a href="#语法" class="headerlink" title="语法" class="headerlink" title="语法"></a></a>语法</h1><p>主要语法如下：</p>
+<h2 id="普通字符"><a href="#普通字符" class="headerlink" title="普通字符"><a href="#普通字符"><a href="#普通字符" class="headerlink" title="普通字符" class="headerlink" title="普通字符"></a></a>普通字符</h2><p>明确的关键字：在正则表达式中直接写即可 </p>
+<ul>
+<li>文字字符：英文字母、中文、数字</li>
+<li>符号：@ % _ 等等</li>
+</ul>
+<h3 id="特殊字符"><a href="#特殊字符" class="headerlink" title="特殊字符"><a href="#特殊字符"><a href="#特殊字符" class="headerlink" title="特殊字符" class="headerlink" title="特殊字符"></a></a>特殊字符</h3><p>一些有特殊含义的字符若要匹配，必须首先使字符”转义”，即将反斜杠字符 &#96;`&#96; 放在它们前面。</p>
+<table>
+<thead>
+<tr>
+<th>特殊字符</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>$</code></td>
+<td>匹配输入字符串的结尾位置</td>
+</tr>
+<tr>
+<td><code>()</code></td>
+<td>标记一个子表达式的开始和结束位置</td>
+</tr>
+<tr>
+<td><code>*</code></td>
+<td>匹配前面的子表达式零次或多次</td>
+</tr>
+<tr>
+<td><code>+</code></td>
+<td>匹配前面的子表达式一次或多次</td>
+</tr>
+<tr>
+<td><code>[</code></td>
+<td>标记一个中括号表达式的开始</td>
+</tr>
+<tr>
+<td><code>?</code></td>
+<td>匹配前面的子表达式零次或一次，或指明一个非贪婪限定符。</td>
+</tr>
+<tr>
+<td><code>\</code></td>
+<td>将下一个字符标记为或特殊字符、或原义字符、或向后引用、或八进制转义符</td>
+</tr>
+<tr>
+<td><code>^</code></td>
+<td>匹配输入字符串的开始位置，除非在方括号表达式中使用，当该符号在方括号表达式中使用时，表示不接受该方括号表达式中的字符集合。</td>
+</tr>
+<tr>
+<td><code>&#123;</code></td>
+<td>标记限定符表达式的开始</td>
+</tr>
+<tr>
+<td><code>|</code></td>
+<td>指明两项之间的一个选择</td>
+</tr>
+</tbody></table>
+<h3 id="非打印字符"><a href="#非打印字符" class="headerlink" title="非打印字符"><a href="#非打印字符"><a href="#非打印字符" class="headerlink" title="非打印字符" class="headerlink" title="非打印字符"></a></a>非打印字符</h3><table>
+<thead>
+<tr>
+<th>字符</th>
+<th>描述</th>
+<th>等效</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>\cx</code></td>
+<td>匹配由x指明的控制字符</td>
+<td></td>
+</tr>
+<tr>
+<td><code>\f</code></td>
+<td>匹配一个换页符</td>
+<td><code>\x0c</code> 和 <code>\cL</code></td>
+</tr>
+<tr>
+<td><code>\n</code></td>
+<td>匹配一个换行符</td>
+<td><code>\x0a</code> 和 <code>\cJ</code></td>
+</tr>
+<tr>
+<td><code>\r</code></td>
+<td>匹配一个回车符</td>
+<td><code>\x0d</code> 和 <code>\cM</code></td>
+</tr>
+<tr>
+<td><code>\s</code></td>
+<td>匹配任何空白字符，包括空格、制表符、换页符等等。</td>
+<td><code>\f</code> <code>\n</code> <code>\r</code> <code>\t</code> <code>\v</code></td>
+</tr>
+<tr>
+<td><code>\S</code></td>
+<td>匹配任何非空白字符</td>
+<td><code>^</code> <code>\f</code> <code>\n</code> <code>\r</code> <code>\t</code> <code>\v</code></td>
+</tr>
+<tr>
+<td><code>\t</code></td>
+<td>匹配一个制表符</td>
+<td><code>\x09</code> 和 <code>\cI</code></td>
+</tr>
+<tr>
+<td><code>\v</code></td>
+<td>匹配一个垂直制表符</td>
+<td><code>\x0b</code> 和 <code>\cK</code></td>
+</tr>
+</tbody></table>
+<p>不需要记住，可用时查。</p>
+<h2 id="字符集合"><a href="#字符集合" class="headerlink" title="字符集合"><a href="#字符集合"><a href="#字符集合" class="headerlink" title="字符集合" class="headerlink" title="字符集合"></a></a>字符集合</h2><p>单个关键字的值范围，包含在一对 <code>[]</code> 中间。</p>
+<p>应用：</p>
+<ul>
+<li>明确某个字符的范围的模糊匹配<ul>
+<li>如果差异不仅仅在一个字符上，则不适合采用字符集合 -&gt; 应采用<a href="#%E5%AD%90%E8%A1%A8%E8%BE%BE%E5%BC%8F">子表达式</a></li>
+</ul>
+</li>
+<li>可以简化的连续值范围：使用 <code>-</code> 符号</li>
+<li>字符集合为排除在外的值：使 <code>^</code> 符号</li>
+</ul>
+<h2 id="限定符、定位符"><a href="#限定符、定位符" class="headerlink" title="限定符、定位符"><a href="#限定符、定位符"><a href="#限定符、定位符" class="headerlink" title="限定符、定位符" class="headerlink" title="限定符、定位符"></a></a>限定符、定位符</h2><p>如下：</p>
+<h3 id="限定符"><a href="#限定符" class="headerlink" title="限定符"><a href="#限定符"><a href="#限定符" class="headerlink" title="限定符" class="headerlink" title="限定符"></a></a>限定符</h3><p>给前一个字符追加限定范围</p>
+<table>
+<thead>
+<tr>
+<th>常用限定符</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>*</code></td>
+<td>前面的字符&#x2F;子表达式出现0次或多次</td>
+</tr>
+<tr>
+<td><code>+</code></td>
+<td>前面的字符&#x2F;子表达式出现1次或多次</td>
+</tr>
+<tr>
+<td><code>#</code></td>
+<td>前面的字符&#x2F;子表达式出现0次或1次</td>
+</tr>
+<tr>
+<td><code>&#123;&#125;</code></td>
+<td>前面的字符&#x2F;子表达式出现具体{}次</td>
+</tr>
+</tbody></table>
+<p>注意：前面为模糊匹配范围时，会出现“贪婪匹配”的问题 – 默认情况下，正则表达式会匹配尽量多的字符 – 可通过添加 <code>?</code> 实现<a target="_blank" rel="noopener" href="https://www.liaoxuefeng.com/wiki/1252599548343744/1306046731649057">非贪婪匹配</a>。</p>
+<h3 id="定位符"><a href="#定位符" class="headerlink" title="定位符"><a href="#定位符"><a href="#定位符" class="headerlink" title="定位符" class="headerlink" title="定位符"></a></a>定位符</h3><p>标记匹配位置的元字符 - 只有4个：</p>
+<table>
+<thead>
+<tr>
+<th>定位符</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>^</code></td>
+<td>字符串开始的位置</td>
+</tr>
+<tr>
+<td><code>$</code></td>
+<td>字符串结尾的位置</td>
+</tr>
+<tr>
+<td><code>\b</code></td>
+<td>单词边界 - 字符与空格间的位置</td>
+</tr>
+<tr>
+<td><code>\B</code></td>
+<td>非单词边界</td>
+</tr>
+</tbody></table>
+<h2 id="子表达式"><a href="#子表达式" class="headerlink" title="子表达式"><a href="#子表达式"><a href="#子表达式" class="headerlink" title="子表达式" class="headerlink" title="子表达式"></a></a>子表达式</h2><p>内嵌的子正则表达式，包含在一对 <code>()</code> 中，可以看作是一个整体。</p>
+<ul>
+<li>与正则表达式语法相同；</li>
+<li>允许子表达式内嵌套子表达式；</li>
+<li>用 <code>|</code> 分割多个子表达式&#x2F;多种情况；</li>
+<li>可以标记子匹配项，如 <code>([a-z])\1([a-z])\2</code> 匹配 <code>aabb ... cczz</code>；</li>
+<li>子表达式的匹配结果会单独存储，如希望不存储，可以添加 <code>?:</code>（在日常表达中不太常用）；</li>
+<li>可作为预查匹配项&#x2F;自定义的<a href="#%E5%AE%9A%E4%BD%8D%E7%AC%A6">定位符</a>；</li>
+</ul>
+<h2 id="省略符、修饰符"><a href="#省略符、修饰符" class="headerlink" title="省略符、修饰符"><a href="#省略符、修饰符"><a href="#省略符、修饰符" class="headerlink" title="省略符、修饰符" class="headerlink" title="省略符、修饰符"></a></a>省略符、修饰符</h2><p>如下：</p>
+<h3 id="省略符"><a href="#省略符" class="headerlink" title="省略符"><a href="#省略符"><a href="#省略符" class="headerlink" title="省略符" class="headerlink" title="省略符"></a></a>省略符</h3><p>为了简化正则表达式的元字符，以 <code>\</code> 开头。</p>
+<table>
+<thead>
+<tr>
+<th>字符</th>
+<th>描述</th>
+<th>等效</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>.</code></td>
+<td>匹配除换行符（<code>\n</code>、<code>\r</code>）之外的任何单个字符</td>
+<td><code>[^\n\r]</code></td>
+</tr>
+<tr>
+<td><code>\d</code></td>
+<td>匹配一个数字字符</td>
+<td><code>[0-9]</code></td>
+</tr>
+<tr>
+<td><code>\D</code></td>
+<td>匹配一个非数字字符</td>
+<td><code>[^0-9]</code></td>
+</tr>
+<tr>
+<td><code>\s</code></td>
+<td>匹配所有空白符，包括空格、制表符、换页符等。</td>
+<td><code>[\f\n\r\t\v]</code></td>
+</tr>
+<tr>
+<td><code>\S</code></td>
+<td>匹配所有非空白符</td>
+<td><code>[^\f\n\r\t\v]</code></td>
+</tr>
+<tr>
+<td><code>\w</code></td>
+<td>匹配一个字母、数字、下划线字符</td>
+<td><code>[A-Za-z0-9_]</code></td>
+</tr>
+<tr>
+<td><code>\W</code></td>
+<td>匹配一个非字母、数字、下划线字符</td>
+<td><code>[^A-Za-z0-9_]</code></td>
+</tr>
+</tbody></table>
+<p>每个省略符都有替代方案，所以不必强求记忆。</p>
+<h3 id="修饰符"><a href="#修饰符" class="headerlink" title="修饰符"><a href="#修饰符"><a href="#修饰符" class="headerlink" title="修饰符" class="headerlink" title="修饰符"></a></a>修饰符</h3><p>严格意义上不是正则表达式的一部分，是指定匹配策略的，可叠加使用。</p>
+<table>
+<thead>
+<tr>
+<th>常规修饰符</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>i</code></td>
+<td>ignore - 不区分大小写</td>
+</tr>
+<tr>
+<td><code>g</code></td>
+<td>global - 全局匹配</td>
+</tr>
+<tr>
+<td><code>m</code></td>
+<td>multi-line - 多行匹配</td>
+</tr>
+<tr>
+<td><code>s</code></td>
+<td>默认情况下的圆点 <code>.</code> 是匹配除换行符 <code>\n</code> 之外的任何字符，加上 <code>s</code> 修饰符之后, <code>.</code> 中包含换行符 <code>\n</code>。</td>
+</tr>
+</tbody></table>
+<p>某些正则表达式的代码库可能存在特别的修饰符。</p>
+<p>有些软件虽支持正则表达式搜索，但不一定开放修饰符的设置。</p>
+<h1 id="记不住语法的解决方案"><a href="#记不住语法的解决方案" class="headerlink" title="记不住语法的解决方案"><a href="#记不住语法的解决方案"><a href="#记不住语法的解决方案" class="headerlink" title="记不住语法的解决方案" class="headerlink" title="记不住语法的解决方案"></a></a>记不住语法的解决方案</h1><p>正则表达式元字符手册：<a target="_blank" rel="noopener" href="https://www.r2coding.com/#/README?id=%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F">Road To Coding：正则表达式</a></p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.r2coding.com/#/README?id=%E5%9F%BA%E7%A1%80%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8">基础正则表达式速查表</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.r2coding.com/#/README?id=%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8F%AF%E8%A7%86%E5%8C%96%E5%B7%A5%E5%85%B7">正则表达式可视化工具</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.r2coding.com/#/README?id=%E5%B8%B8%E7%94%A8%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%A4%BA%E4%BE%8B">常用正则表达式示例</a></li>
+</ul>
+<p>在线测试正则表达式：<a target="_blank" rel="noopener" href="https://regex101.com/">Regular expression tester</a></p>
+
+        
+      </div>
+    </article>
+  
+    <article class="post">
+      <h2 class="post-title">
+        <a href="/r-ggplot2-dplyr/">R 语言 ggplot2 和 dplyr 可视化分析</a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-meta-item post-meta-date">
+  <time datetime="2024-01-05T23:55:56Z">2024-01-05</time>
+</span>
+
+<span class="post-meta-item post-meta-categories">
+  <span class="post-meta-item-indicator">Category:</span>
+  
+    <a class="category-link" href="/categories/tech/">技术</a>
+  
+</span>
+
+<span class="post-meta-item post-meta-tags">
+  
+    <a class="tag--link" href="/tag/Data/" rel="tag">Data</a> <a class="tag--link" href="/tag/R/" rel="tag">R</a>
+  
+</span>
+
+
+<span class="post-meta-item post-meta-views">
+  <span class="pv-counter">loading</span> views
+</span>
+
+
+      </div>
+      <div class="post-content">
+        
+          <blockquote>
+<p>因为实习兼职的公司用R，温习如下，示例取自<a target="_blank" rel="noopener" href="https://app.datacamp.com/workspace/w/980fb8cc-bfa9-4071-aea3-ca8b1e3a95a8/edit">此项目</a>。</p>
+</blockquote>
+<h1 id="可视化libraries"><a href="#可视化libraries" class="headerlink" title="可视化libraries"><a href="#可视化libraries"><a href="#可视化libraries" class="headerlink" title="可视化libraries" class="headerlink" title="可视化libraries"></a></a>可视化libraries</h1><pre><code class="R">library(readr)
+library(ggplot2)
+library(dplyr)
+</code></pre>
+<h1 id="导入数据"><a href="#导入数据" class="headerlink" title="导入数据"></a>导入数据</h1><h2 id="将csv导入dataset"><a href="#将csv导入dataset" class="headerlink" title="将csv导入dataset"><a href="#导入数据"><a href="#导入数据" class="headerlink" title="导入数据"></a>导入数据</h1><h2 id="将csv导入dataset"><a href="#将csv导入dataset" class="headerlink" title="将csv导入dataset" class="headerlink" title="将csv导入dataset"></a></a>将csv导入dataset</h1><pre><code class="R">Read datasets/confirmed_cases_worldwide.csv into confirmed_cases_worldwide
+</code></pre>
+<h2 id="选择部分数据"><a href="#选择部分数据" class="headerlink" title="选择部分数据"><a href="#选择部分数据"><a href="#选择部分数据" class="headerlink" title="选择部分数据" class="headerlink" title="选择部分数据"></a></a>选择部分数据</h2><pre><code class="R"># Filter for China, from Feb 15
+
+china_after_feb15 &lt;- confirmed_cases_china_vs_world %&gt;%
+  filter(is_china == &quot;China&quot;, date &gt;= &quot;2020-02-15&quot;)
+</code></pre>
+<h1 id="画图"><a href="#画图" class="headerlink" title="画图"></a>画图</h1><h2 id="单组数据"><a href="#单组数据" class="headerlink" title="单组数据"><a href="#画图"><a href="#画图" class="headerlink" title="画图"></a>画图</h1><h2 id="单组数据"><a href="#单组数据" class="headerlink" title="单组数据" class="headerlink" title="单组数据"></a></a>单组数据</h1><pre><code class="R"># Draw a line plot of cumulative cases vs. date
+# Label the y-axis
+
+ggplot(confirmed_cases_worldwide, aes(date, cum_cases)) +
+  geom_line() +
+  ylab(&quot;Cumulative confirmed cases&quot;)
+</code></pre>
+<h2 id="多组数据"><a href="#多组数据" class="headerlink" title="多组数据"><a href="#多组数据"><a href="#多组数据" class="headerlink" title="多组数据" class="headerlink" title="多组数据"></a></a>多组数据</h2><pre><code class="R"># Using confirmed_cases_top7_outside_china, draw a line plot of
+# cum_cases vs. date, colored by country
+
+ggplot(confirmed_cases_top7_outside_china, aes(date, cum_cases, color = country)) +
+  geom_line() +
+  ylab(&quot;Cumulative confirmed cases&quot;)
+</code></pre>
+<h2 id="趋势曲线"><a href="#趋势曲线" class="headerlink" title="趋势曲线"><a href="#趋势曲线"><a href="#趋势曲线" class="headerlink" title="趋势曲线" class="headerlink" title="趋势曲线"></a></a>趋势曲线</h2><pre><code class="R"># Modify the plot to use a logarithmic scale on the y-axis
+
+plt_not_china_trend_lin +
+  scale_y_log10()
+
+`geom_smooth()` using formula &#39;y ~ x&#39;
+</code></pre>
+<hr>
+<p>R语言练习：<a target="_blank" rel="noopener" href="https://swirlstats.com/faq.html">https://swirlstats.com/faq.html</a></p>
+
+        
+      </div>
+    </article>
+  
+    <article class="post">
+      <h2 class="post-title">
+        <a href="/2020-review/">我生活在妙不可言的等待中，等待随便哪种未来。</a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-meta-item post-meta-date">
+  <time datetime="2020-12-31T23:19:02Z">2020-12-31</time>
+</span>
+
+<span class="post-meta-item post-meta-categories">
+  <span class="post-meta-item-indicator">Category:</span>
+  
+    <a class="category-link" href="/categories/essay/">随笔</a>
+  
+</span>
+
+<span class="post-meta-item post-meta-tags">
+  
+    <a class="tag--link" href="/tag/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/" rel="tag">年终总结</a>
+  
+</span>
+
+
+<span class="post-meta-item post-meta-views">
+  <span class="pv-counter">loading</span> views
+</span>
+
+
+      </div>
+      <div class="post-content">
+        
+          <p>“我生活在妙不可言的等待中，等待随便哪种未来“，这是纪德在《地粮》里的一句话，也是我收到单向历的包装上的一句话。在这个充满变数的2020年，这句话突然显得有些适合，用来总结这个2020年。</p>
+<p>写 2020 年的年末回顾比 2019 年更难下笔，可能因为新冠疫情还环绕着我们，单纯个人的快乐和失落已经难以形容2020年了。从未感觉自己本科的社会人类学训练在眼前的思虑中如此真实，我们什么时候不是生活在这个社会之中呢？</p>
+<p>但若把眼光拉回身边，还是有很多可以细细掰扯的回忆。</p>
+<p>写2019年回顾的时候，我还很心虚、很着急、很没有着落，和现在的感觉不太一样。可能因为国内公历年末没有休假，而英国正好在圣诞连着元旦休冬假；也可能因为升学的复杂心情，混杂着一年到尾回头看的怅然，和现在还坐在一个新的旅程的起点，心情略有不同。</p>
+<p>就像我在12月开头回看一年前写的那样，“我无法回去安慰那时候的自己，抱住她描述会安心的明天。那时候最大的动力就是畅想博士生活，畅想我在英格兰一个西南的海港城市开始四年的研究生活，会有导师，会有一年做田野，会有机会做交叉项目，我会做一个好奇而活泼的疯子。但我无法回去安慰那时候的自己，我只能安慰现在的自己，by the end of this year, I will finally survive 2020, we all will.”</p>
+<p>幸好，我 survive 了，成为了幸存到 2020 年末的幸运儿。相较于许多没有度过漫长寒冬的鲜活生命，我只是幸运了。像朋友说的那样，我们可能还是进入了“后疫情时代”，生活不可逆地改变了，我们会继续拥抱生活的不确定性吗？我们有能力拥抱生活的不确定性吗？</p>
+<hr>
+<p>除了生命意义上的 survive，回答自己在 12 月初的期待，生活上我也 survive 了这一学期、这一年。在紧张地申请与等待之后，我有惊无险地开始了博士第一年的第一个学期，并用一个小小 symposium 的名次给自己的第一学年画上逗号。</p>
+<p>在新的城市认识了新的朋友，在新的钢筋森林里找到了新的散心绿地，这些大概都回应了上半年焦虑的自己最美好的期待。所以，我很珍惜现在手里的时间。</p>
+<hr>
+<p>年初的自己，从济南到广州到香港，最后再回到广州，一路处理完了期末、雅思、递交申请、面试和继续网申。我几乎没有在相机和手机留下什么影像。</p>
+<p>但是，这些都因为疫情爆发，改变了节奏。也因为当时的心情太真实，也因为怕自己遗忘，我在惊魂未定的那阵子买了很多纸质杂志，因为“真正的新闻，是历史的底稿，这些印在纸上的文与图，是留给时间的物证“。</p>
+<hr>
+<p>在申请暂告一段落之后，一边挽救自己无法补充实地田野的毕业论文，我一边和朋友久违地在广州聚会。我们去了久未开张的影院，也在远走他乡之前饱尝鲜美的海鲜粤菜。</p>
+<hr>
+<p>毕业、告别、旅行、升学、搬家，一切的回忆，都收束在现在回想2020年的我手里。</p>
+<p>我曾畅想，“2020”这样数字规整的年份会怎样度过。而一开始的各种遐想，都不是年末看到的这样。</p>
+<p>但我还是个盲目乐观的人。或是说，我对未来悲观，以至于我可以坦然接受大多数好或不好的事情发生。所以我选了这句话，“我生活在妙不可言的等待中，等待随便哪种未来”，作为这篇草草写就的年末回顾的标题。</p>
+<p>是的，我还会在这里，等待随便哪种未来。</p>
+<p>预祝读到这里的你新年快乐；）</p>
+
+        
+      </div>
+    </article>
+  
+
+  <nav class="pagination">
+  <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">Next</a>
+</nav>
+
+
+      </section>
+      <aside class="sidebar col-md-3 offset-md-1 col-12">
+        
+        
+<section class="widget" id="widget-recent-posts">
+  <h3 class="widget-title">最新文章</h3>
+  <ul class="menu">
+    
+    
+    
+    
+      <li class="menu-item">
+        <a href="/Obsidian-work-note/">Obsidian 自定义工作笔记</a>
+      </li>
+    
+      <li class="menu-item">
+        <a href="/app-defaults/">App Defaults</a>
+      </li>
+    
+      <li class="menu-item">
+        <a href="/hugo-papermod-blog/">Hugo+PaperMod 博客搭建 Home-Info+Profile Mode</a>
+      </li>
+    
+      <li class="menu-item">
+        <a href="/yaml-grammar-data-structure/">YAML 数据结构和语法</a>
+      </li>
+    
+      <li class="menu-item">
+        <a href="/2023-review/">2023 年终总结</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+<section class="widget" id="widget-categories">
+  <h3 class="widget-title">分类</h3>
+  
+  
+    <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/tech/">技术</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/life/">日常</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/essay/">随笔</a></li></ul>
+  
+</section>
+
+
+
+<section class="widget" id="widget-pages">
+  <h3 class="widget-title">页面</h3>
+  <ul class="menu">
+    
+      
+      <li class="menu-item menu-item-archives">
+        <a href="/archives/" title="">归档 archives</a>
+      </li>
+    
+      
+      <li class="menu-item menu-item-about">
+        <a href="/about/" title="">关于我 about</a>
+      </li>
+    
+      
+      <li class="menu-item menu-item-friends">
+        <a href="/friends/" title="">朋友们 friends</a>
+      </li>
+    
+      
+      <li class="menu-item menu-item-projects">
+        <a href="/projects/" title="">项目 projects</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+<section class="widget" id="widget-links">
+  <h3 class="widget-title">链接</h3>
+  <ul class="menu">
+    
+      
+      <li class="menu-item menu-item-github">
+        <a href="https://github.com/yunyit" title="" target="_blank">GitHub</a>
+      </li>
+    
+      
+      <li class="menu-item menu-item-rss">
+        <a href="/atom.xml" title="" target="_blank">RSS Feed</a>
+      </li>
+    
+      
+      <li class="menu-item menu-item-resume">
+        <a href="https://yunyitang.me/resume.pdf" title="" target="_blank">Resume</a>
+      </li>
+    
+      
+      <li class="menu-item menu-item-travellings">
+        <a href="https://www.travellings.cn/go.html" title="" target="_blank">开往</a>
+      </li>
+    
+      
+      <li class="menu-item menu-item-moe">
+        <a href="https://travel.moe/go.html" title="" target="_blank">跃迁</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+<section class="widget" id="widget-tagcloud">
+  <h3 class="widget-title">标签云</h3>
+  <a href="/tag/AppDefaults/" style="font-size: 10px;">AppDefaults</a> <a href="/tag/Data/" style="font-size: 20px;">Data</a> <a href="/tag/Dataview/" style="font-size: 10px;">Dataview</a> <a href="/tag/Google/" style="font-size: 10px;">Google</a> <a href="/tag/Hugo/" style="font-size: 10px;">Hugo</a> <a href="/tag/Markdown/" style="font-size: 10px;">Markdown</a> <a href="/tag/Obsidian/" style="font-size: 10px;">Obsidian</a> <a href="/tag/PaperMod/" style="font-size: 10px;">PaperMod</a> <a href="/tag/R/" style="font-size: 10px;">R</a> <a href="/tag/Templater/" style="font-size: 10px;">Templater</a> <a href="/tag/Tools/" style="font-size: 10px;">Tools</a> <a href="/tag/config/" style="font-size: 10px;">config</a> <a href="/tag/%E5%8D%9A%E5%AE%A2/" style="font-size: 10px;">博客</a> <a href="/tag/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/" style="font-size: 15px;">年终总结</a>
+</section>
+
+
+      </aside>
+    </div>
+  </div>
+</main>
+
+<footer>
+  
+  <div class="container">
+    <p>
+      &copy; 2024 <a href="https://yunyitang.me">YUNYI BLOG</a>. Proudly published with
+      <a href="https://hexo.io/" target="_blank">Hexo</a> & <a href="https://github.com/printempw/hexo-theme-murasaki/" target="_blank">Murasaki</a>.
+    </p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/han-css@3.3.0/dist/han.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@10.6.0/highlight.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.3.1/dist/lazyload.min.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+  Han(document.querySelector('section.content')).setRoutine([
+    'initCond', 'renderElem', 'renderJiya', 'correctBasicBD', 'substCombLigaWithPUA'
+    // 'renderHanging', 'renderHWS'
+  ]).render();
+  new LazyLoad({
+    elements_selector: '.post-content img',
+    callback_loaded: function (el) {
+      el.parentNode.nodeName.toLowerCase() === 'a' || mediumZoom(el, { margin: 24 });
+    }
+  });
+</script>
+  <script async src="https://eu.umami.is/script.js"
+    data-website-id="ff42c1d4-d7db-4925-af13-c30c26df5816">
+  </script>
+
+</body>
+</html>

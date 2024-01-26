@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <title>YAML 数据结构和语法 - YUNYI BLOG</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="HandheldFriendly" content="True" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<meta name="generator" content="Hexo" />
+<link rel="icon" href="/images/favicon.ico" />
+  <link rel="canonical" href="https://yunyitang.me/yaml-grammar-data-structure/"/>
+  <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="YUNYI BLOG">
+  <meta name="keywords" content="Data,config," />
+
+<meta name="description" content="认知始于 Markdown 文件，不知道终于哪儿。  定义 YAML Ain’t a Markup Language &#x2F; Yet Another Markup Language  文件后缀：.yml 或 .yaml 注释：井号 或 哈希符号 # 结构：映射或列表，遵循层次结构，具体取决于缩进以及定义键值的方式。 语法：  大小写敏感； 使用缩进表示层级关系； 缩进时不允许使用 Tab">
+<meta property="og:type" content="article">
+<meta property="og:title" content="YAML 数据结构和语法">
+<meta property="og:url" content="https://yunyitang.me/yaml-grammar-data-structure/index.html">
+<meta property="og:site_name" content="YUNYI BLOG">
+<meta property="og:description" content="认知始于 Markdown 文件，不知道终于哪儿。  定义 YAML Ain’t a Markup Language &#x2F; Yet Another Markup Language  文件后缀：.yml 或 .yaml 注释：井号 或 哈希符号 # 结构：映射或列表，遵循层次结构，具体取决于缩进以及定义键值的方式。 语法：  大小写敏感； 使用缩进表示层级关系； 缩进时不允许使用 Tab">
+<meta property="og:locale">
+<meta property="article:published_time" content="2024-01-13T23:54:26.000Z">
+<meta property="article:modified_time" content="2024-01-25T23:54:26.000Z">
+<meta property="article:author" content="Yunyi">
+<meta property="article:tag" content="Data">
+<meta property="article:tag" content="config">
+<meta name="twitter:card" content="summary">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/han-css@3.3.0/dist/han.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono|Roboto+Slab:400,600|Noto+Serif+SC:600&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@10.6.0/styles/atom-one-dark.min.css" media="screen and (prefers-color-scheme: dark)">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@10.6.0/styles/atom-one-light.min.css" media="screen and (prefers-color-scheme: light)">
+<link rel="stylesheet" href="/css/main.css">
+
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="site-name">
+      <a class="logo" href="/">YUNYI BLOG</a>
+      <span class="description">Little squirrel Hopping around</span>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <div class="row">
+      <section class="content col-md-8 col-12">
+        
+  <article>
+    <h1 class="post-title">
+      <a href="/yaml-grammar-data-structure/">YAML 数据结构和语法</a>
+    </h1>
+    <div class="post-meta">
+      <span class="post-meta-item post-meta-date">
+  <time datetime="2024-01-13T23:54:26+00:00">2024-01-13</time>
+</span>
+
+<span class="post-meta-item post-meta-categories">
+  <span class="post-meta-item-indicator">Category:</span>
+  
+    <a class="category-link" href="/categories/tech/">技术</a>
+  
+</span>
+
+<span class="post-meta-item post-meta-tags">
+  
+    <a class="tag--link" href="/tag/Data/" rel="tag">Data</a> <a class="tag--link" href="/tag/config/" rel="tag">config</a>
+  
+</span>
+
+
+<span class="post-meta-item post-meta-views">
+  <span class="pv-counter">loading</span> views
+</span>
+
+
+    </div>
+
+    
+      <script src="https://cdn.jsdelivr.net/npm/dayjs@1.10.4/dayjs.min.js"></script>
+<script>
+  var post_updated = dayjs("2024-01-25T23:54:26.000Z");
+  var days_diff_now = dayjs().diff(post_updated, 'days');
+
+  if (days_diff_now > 365) {
+    document.write(
+      '<div class="post-warning">'+
+        '本文最后修订于 '+days_diff_now+' 天前（'+post_updated.format('YYYY-MM-DD')+'），'+
+        '其中的信息可能已经有所发展或者不再适用于现阶段。'+
+      '</div>'
+    );
+  }
+</script>
+
+    
+
+    
+      <div class="post-toc"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AE%9A%E4%B9%89"><span class="toc-text">定义</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%BA%94%E7%94%A8"><span class="toc-text">应用</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#YAML-JSON"><span class="toc-text">YAML &#x2F; JSON</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B"><span class="toc-text">数据类型</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AF%B9%E8%B1%A1"><span class="toc-text">对象</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E7%BB%84"><span class="toc-text">数组</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BA%AF%E9%87%8F"><span class="toc-text">纯量</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%A4%8D%E5%90%88%E7%BB%93%E6%9E%84"><span class="toc-text">复合结构</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%A4%BA%E4%BE%8B"><span class="toc-text">示例</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%9B%B8%E5%85%B3%E9%98%85%E8%AF%BB"><span class="toc-text">相关阅读</span></a></li></ol></div>
+    
+
+    <div class="post-content"><blockquote>
+<p>认知始于 Markdown 文件，不知道终于哪儿。</p>
+</blockquote>
+<h1 id="定义"><a href="#定义" class="headerlink" title="定义"><a href="#定义"><a href="#定义" class="headerlink" title="定义" class="headerlink" title="定义"></a></a>定义</h1><blockquote>
+<p>YAML Ain’t a Markup Language &#x2F; Yet Another Markup Language</p>
+</blockquote>
+<p>文件后缀：<code>.yml</code> 或 <code>.yaml</code></p>
+<p>注释：井号 或 哈希符号 <code>#</code></p>
+<p>结构：映射或列表，遵循层次结构，具体取决于缩进以及定义键值的方式。</p>
+<p>语法：</p>
+<ul>
+<li>大小写敏感；</li>
+<li>使用缩进表示层级关系；</li>
+<li>缩进时不允许使用 <code>Tab</code> 键，只允许使用空格；</li>
+<li>缩进的空格数目不重要，只要相同层级的元素左侧对齐即可；</li>
+</ul>
+<h1 id="应用"><a href="#应用" class="headerlink" title="应用"><a href="#应用"><a href="#应用" class="headerlink" title="应用" class="headerlink" title="应用"></a></a>应用</h1><p>配置文件 configuration files -</p>
+<h2 id="YAML-JSON"><a href="#YAML-JSON" class="headerlink" title="YAML &#x2F; JSON"><a href="#YAML-JSON"><a href="#YAML-JSON" class="headerlink" title="YAML &#x2F; JSON" class="headerlink" title="YAML &#x2F; JSON"></a></a>YAML &#x2F; JSON</h2><p>相比 JSON，因为 YAML 有更好的可读性，对用户更友好，所以通常建议用 YAML 来编写配置文件，尽管它们在大多数情况下可以互换使用。</p>
+<h1 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"><a href="#数据类型"><a href="#数据类型" class="headerlink" title="数据类型" class="headerlink" title="数据类型"></a></a>数据类型</h1><ul>
+<li>对象 mapping&#x2F;hash&#x2F;dictionary：键值对的集合；</li>
+<li>数组 sequence&#x2F;list：一组按次序排列的值；数组和对象可以构成复合结构；</li>
+<li>纯量：最基本的，不可再分的值；</li>
+</ul>
+<h2 id="对象"><a href="#对象" class="headerlink" title="对象"><a href="#对象"><a href="#对象" class="headerlink" title="对象" class="headerlink" title="对象"></a></a>对象</h2><p>对象的一组键值对，使用冒号结构表示。</p>
+<pre><code class="yaml">animal: pets
+</code></pre>
+<p>转为 JavaScript 如下：</p>
+<pre><code class="JavaScript">&#123; animal: &#39;pets&#39; &#125;
+</code></pre>
+<p>Yaml 也允许另一种写法，将所有键值对写成一个行内对象。</p>
+<pre><code class="yaml">hash: &#123; name: Steve, foo: bar &#125; 
+</code></pre>
+<p>转为 JavaScript 如下：</p>
+<pre><code class="JavaScript">&#123; hash: &#123; name: &#39;Steve&#39;, foo: &#39;bar&#39; &#125; &#125;
+</code></pre>
+<h2 id="数组"><a href="#数组" class="headerlink" title="数组"><a href="#数组"><a href="#数组" class="headerlink" title="数组" class="headerlink" title="数组"></a></a>数组</h2><p>一组连词线开头的行，构成一个数组。</p>
+<pre><code class="yaml">- Cat
+- Dog
+- Goldfish
+</code></pre>
+<p>转为 JavaScript 如下：</p>
+<pre><code class="JavaScript">[ &#39;Cat&#39;, &#39;Dog&#39;, &#39;Goldfish&#39; ]
+</code></pre>
+<h2 id="纯量"><a href="#纯量" class="headerlink" title="纯量"><a href="#纯量"><a href="#纯量" class="headerlink" title="纯量" class="headerlink" title="纯量"></a></a>纯量</h2><p>纯量是最基本的、不可再分的值。</p>
+<p>以下数据类型都属于 JavaScript 的纯量：</p>
+<ul>
+<li>字符串</li>
+<li>布尔值</li>
+<li>整数</li>
+<li>浮点数</li>
+<li><code>null</code>：用 <code>~</code> 表示</li>
+<li>时间</li>
+<li>日期</li>
+</ul>
+<h1 id="复合结构"><a href="#复合结构" class="headerlink" title="复合结构"><a href="#复合结构"><a href="#复合结构" class="headerlink" title="复合结构" class="headerlink" title="复合结构"></a></a>复合结构</h1><p>对象和数组可以结合使用，形成复合结构。</p>
+<h2 id="示例"><a href="#示例" class="headerlink" title="示例"><a href="#示例"><a href="#示例" class="headerlink" title="示例" class="headerlink" title="示例"></a></a>示例</h2><p>选自 <a target="_blank" rel="noopener" href="https://www.redhat.com/en/topics/automation/what-is-yaml">Red Hat</a> 的学生信息例子：</p>
+<pre><code class="yaml">#Comment: Student record
+#Describes some characteristics and preferences
+---
+name: Martin D&#39;vloper #key-value
+age: 26
+hobbies: 
+  - painting #first list item
+  - playing_music #second list item
+  - cooking #third list item
+programming_languages:
+  java: Intermediate
+  python: Advanced
+  javascript: Beginner
+favorite_food: 
+  - vegetables: tomatoes 
+  - fruits: 
+      citrics: oranges 
+      tropical: bananas
+      nuts: peanuts
+      sweets: raisins
+</code></pre>
+<p>使用 Python 的 PyYAML 库，可转化为：</p>
+<pre><code class="python">[
+    &#123;
+        &quot;name&quot;: &quot;Martin D&#39;vloper&quot;,
+        &quot;age&quot;: 26,
+        &quot;hobbies&quot;: [&quot;painting&quot;, &quot;playing_music&quot;, &quot;cooking&quot;],
+        &quot;programming_languages&quot;: &#123;
+            &quot;java&quot;: &quot;Intermediate&quot;,
+            &quot;python&quot;: &quot;Advanced&quot;,
+            &quot;javascript&quot;: &quot;Beginner&quot;,
+        &#125;,
+        &quot;favorite_food&quot;: [
+            &#123;&quot;vegetables&quot;: &quot;tomatoes&quot;&#125;,
+            &#123;
+                &quot;fruits&quot;: &#123;
+                    &quot;citrics&quot;: &quot;oranges&quot;,
+                    &quot;tropical&quot;: &quot;bananas&quot;,
+                    &quot;nuts&quot;: &quot;peanuts&quot;,
+                    &quot;sweets&quot;: &quot;raisins&quot;,
+                &#125;
+            &#125;,
+        ],
+    &#125;
+]
+</code></pre>
+<h1 id="相关阅读"><a href="#相关阅读" class="headerlink" title="相关阅读"><a href="#相关阅读"><a href="#相关阅读" class="headerlink" title="相关阅读" class="headerlink" title="相关阅读"></a></a>相关阅读</h1><ul>
+<li><a target="_blank" rel="noopener" href="https://hugo.bnblogs.cc/">Barney</a> 的 <a target="_blank" rel="noopener" href="https://hugo.bnblogs.cc/yaml%E8%AF%AD%E6%B3%95/">yaml 语法</a> 整理；</li>
+<li><a target="_blank" rel="noopener" href="https://www.ruanyifeng.com/blog/">阮一峰</a> 的 <a target="_blank" rel="noopener" href="https://www.ruanyifeng.com/blog/2016/07/yaml.html">YAML 语言教程</a>；</li>
+<li><a target="_blank" rel="noopener" href="https://yaml.org/spec/1.2.2/">YAML 1.2 规格</a>；</li>
+</ul>
+</div>
+    <div class="post-copyright"><p>除另有声明外，本博客文章均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by/4.0/">知识共享(Creative Commons) 署名 4.0 国际许可协议</a> 进行许可。转载请注明原作者与文章出处。</p></div>
+  </article>
+
+  
+    <nav class="post-nav">
+      
+      <div class="post-nav-item post-nav-prev">上一篇：
+        <a href="/hugo-papermod-blog/">Hugo+PaperMod 博客搭建 Home-Info+Profile Mode</a>
+      </div>
+      
+      
+      <div class="post-nav-item post-nav-next">下一篇：
+        <a href="/2023-review/">2023 年终总结</a>
+      </div>
+      
+    </nav>
+  
+
+  
+    
+
+
+<script src="https://giscus.app/client.js"
+  data-repo="yunyit/yunyit.github.io"
+  data-repo-id="R_kgDOKqkPYw"
+  data-category="Comments"
+  data-category-id="DIC_kwDOKqkPY84CceDi"
+  data-mapping="url"
+  data-strict="1"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="top"
+  data-theme="preferred_color_scheme"
+  data-lang="en"
+  data-loading="lazy"
+  crossorigin="anonymous"
+  async>
+</script>
+
+
+  
+
+      </section>
+      <aside class="sidebar col-md-3 offset-md-1 col-12">
+        
+  
+  <section class="widget widget-toc">
+    <h3 class="widget-title">文章目录</h3>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AE%9A%E4%B9%89"><span class="toc-text">定义</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%BA%94%E7%94%A8"><span class="toc-text">应用</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#YAML-JSON"><span class="toc-text">YAML &#x2F; JSON</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B"><span class="toc-text">数据类型</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AF%B9%E8%B1%A1"><span class="toc-text">对象</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E7%BB%84"><span class="toc-text">数组</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BA%AF%E9%87%8F"><span class="toc-text">纯量</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%A4%8D%E5%90%88%E7%BB%93%E6%9E%84"><span class="toc-text">复合结构</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%A4%BA%E4%BE%8B"><span class="toc-text">示例</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%9B%B8%E5%85%B3%E9%98%85%E8%AF%BB"><span class="toc-text">相关阅读</span></a></li></ol>
+  </section>
+  
+
+        
+
+
+<section class="widget" id="widget-categories">
+  <h3 class="widget-title">分类</h3>
+  
+  
+    <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/tech/">技术</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/life/">日常</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/essay/">随笔</a></li></ul>
+  
+</section>
+
+
+
+<section class="widget" id="widget-pages">
+  <h3 class="widget-title">页面</h3>
+  <ul class="menu">
+    
+      
+      <li class="menu-item menu-item-archives">
+        <a href="/archives/" title="">归档 archives</a>
+      </li>
+    
+      
+      <li class="menu-item menu-item-about">
+        <a href="/about/" title="">关于我 about</a>
+      </li>
+    
+      
+      <li class="menu-item menu-item-friends">
+        <a href="/friends/" title="">朋友们 friends</a>
+      </li>
+    
+      
+      <li class="menu-item menu-item-projects">
+        <a href="/projects/" title="">项目 projects</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+<section class="widget" id="widget-links">
+  <h3 class="widget-title">链接</h3>
+  <ul class="menu">
+    
+      
+      <li class="menu-item menu-item-github">
+        <a href="https://github.com/yunyit" title="" target="_blank">GitHub</a>
+      </li>
+    
+      
+      <li class="menu-item menu-item-rss">
+        <a href="/atom.xml" title="" target="_blank">RSS Feed</a>
+      </li>
+    
+      
+      <li class="menu-item menu-item-resume">
+        <a href="https://yunyitang.me/resume.pdf" title="" target="_blank">Resume</a>
+      </li>
+    
+      
+      <li class="menu-item menu-item-travellings">
+        <a href="https://www.travellings.cn/go.html" title="" target="_blank">开往</a>
+      </li>
+    
+      
+      <li class="menu-item menu-item-moe">
+        <a href="https://travel.moe/go.html" title="" target="_blank">跃迁</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+      </aside>
+    </div>
+  </div>
+</main>
+
+<footer>
+  
+  <div class="container">
+    <p>
+      &copy; 2024 <a href="https://yunyitang.me">YUNYI BLOG</a>. Proudly published with
+      <a href="https://hexo.io/" target="_blank">Hexo</a> & <a href="https://github.com/printempw/hexo-theme-murasaki/" target="_blank">Murasaki</a>.
+    </p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/han-css@3.3.0/dist/han.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@10.6.0/highlight.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.3.1/dist/lazyload.min.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+  Han(document.querySelector('section.content')).setRoutine([
+    'initCond', 'renderElem', 'renderJiya', 'correctBasicBD', 'substCombLigaWithPUA'
+    // 'renderHanging', 'renderHWS'
+  ]).render();
+  new LazyLoad({
+    elements_selector: '.post-content img',
+    callback_loaded: function (el) {
+      el.parentNode.nodeName.toLowerCase() === 'a' || mediumZoom(el, { margin: 24 });
+    }
+  });
+</script>
+  <script async src="https://eu.umami.is/script.js"
+    data-website-id="ff42c1d4-d7db-4925-af13-c30c26df5816">
+  </script>
+
+</body>
+</html>
