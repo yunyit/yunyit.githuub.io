@@ -5,8 +5,7 @@
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
-# git push origin localBranchName:remoteBranchName
-# git@github.com:yunyit/yunyit-hexo-murasaki.git
+# git push origin main:draft
 # git@github.com:yunyit/yunyit.github.io.git 
 # cd themes/murasaki/ -> git pull
 
