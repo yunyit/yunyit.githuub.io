@@ -34,8 +34,6 @@ class Me:
 
 ## 联系方式
 
-我比较注重网络上的个人隐私，属于那种闲着没事会搜索自己 ID 的人。
-
 你可以通过这些方式找到我：
 
 - 电邮 `yunyi.tang.820@gmail.com` 
@@ -46,7 +44,7 @@ class Me:
 本博客名为「YUNYI BLOG」，建立于 2022 年 9 月 21 日。当前博客托管于 GitHub Pages，基于静态博客生成器 [Hexo](https://hexo.io/) 构建，主题是 [PRIN](https://prin.pw) 写的 [Murasaki](https://github.com/prinsss/hexo-theme-murasaki/)。
 
 <details>
-<summary>博客经历过几次大的变迁（按时间查找即可找到当初我写的记录博文）：</summary>
+<summary>博客经历过几次大的变迁：</summary>
 
 > 2022-09-21 基于 [Ghost](https://ghost.org/) 的 `yunyi-tang.ghost.io` 启用。
 
