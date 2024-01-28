@@ -19,6 +19,7 @@ library(dplyr)
 ```
 
 # 导入数据
+
 ## 将csv导入dataset
 
 ```R
@@ -37,6 +38,7 @@ china_after_feb15 <- confirmed_cases_china_vs_world %>%
 # 画图
 
 ## 单组数据
+
 ```R
 # Draw a line plot of cumulative cases vs. date
 # Label the y-axis

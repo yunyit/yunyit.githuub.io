@@ -26,7 +26,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 20.6.1
 
       - name: Cache pnpm modules
         uses: actions/cache@v3
@@ -40,7 +40,7 @@ jobs:
       - name: Set up pnpm and install dependencies
         uses: pnpm/action-setup@v2
         with:
-          version: 8.10.2
+          version: 8.15.0
           run_install: |
             args: [--prefer-offline, --frozen-lockfile]
 

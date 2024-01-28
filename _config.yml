@@ -6,7 +6,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # git push origin main:draft
-# git@github.com:yunyit/yunyit.github.io.git 
+# workflow: https://res.cloudinary.com/practicaldev/image/fetch/s--M_fHUEqA--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/128hsgntnsu9bww0y8sz.png
+# git@github.com:yunyit/yunyit.github.io.git
 # cd themes/murasaki/ -> git pull
 
 # Site
@@ -107,10 +108,10 @@ stylus:
 
 theme_config:
   # https://twitter.com/imas_official/status/1287398983267049473
-  primary_color: "#E16723"
-  primary_color_dark: "#FC7930" # https://color-term.com/traditional-color-of-china/11/index.html
+  primary_color: '#E16723'
+  primary_color_dark: '#FC7930' # https://color-term.com/traditional-color-of-china/11/index.html
   favicon: /images/favicon.ico
-  keywords: "Yunyi, tech, blog, 博客, 独立博客, 技术博客"
+  keywords: 'Yunyi, tech, blog, 博客, 独立博客, 技术博客'
   canonical: true
   expired_warning: true
   menu_pages:
@@ -121,10 +122,10 @@ theme_config:
       name: Archives
       path: /archives/
     about:
-      name: 关于我 
+      name: 关于我
       path: /about/
     friends:
-      name: 朋友们 
+      name: 朋友们
       path: /friends/
   menu_links:
     resume:
@@ -185,15 +186,15 @@ deploy:
 # hexo-renderer-pandoc
 pandoc:
   args:
-    - "-f"
-    - "markdown-implicit_figures"
-    - "-t"
-    - "html"
-    - "--mathjax"
+    - '-f'
+    - 'markdown-implicit_figures'
+    - '-t'
+    - 'html'
+    - '--mathjax'
     # Otherwise openGraphHelper fails to extract image tags
-    - "--wrap"
-    - "none"
-    - "--no-highlight"
+    - '--wrap'
+    - 'none'
+    - '--no-highlight'
 
 # hexo-filter-mathjax
 mathjax:

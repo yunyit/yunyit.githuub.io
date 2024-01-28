@@ -14,7 +14,7 @@ hexo.extend.filter.register('after_post_render', (data) => {
     (match, level, id, content) => {
       const title = stripHTML(content);
       return `<h${level} id="${id}"><a href="#${id}" class="headerlink" title="${title}"></a>${content}</h${level}>`;
-    }
+    },
   );
 
   return data;
