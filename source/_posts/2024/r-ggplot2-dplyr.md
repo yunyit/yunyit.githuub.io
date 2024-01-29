@@ -10,7 +10,7 @@ tags:
 
 > 因为实习兼职的公司用R，温习如下，示例取自[此项目](https://app.datacamp.com/workspace/w/980fb8cc-bfa9-4071-aea3-ca8b1e3a95a8/edit)。
 
-## 可视化libraries
+## 可视化 libraries
 
 ```R
 library(readr)

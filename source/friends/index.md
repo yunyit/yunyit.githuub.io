@@ -29,7 +29,8 @@ updated: '2024-01-24 23:31:49'
 <details>
 <summary markdown="span">如需 avatar</summary>
 
-- [Yunyi's avatar](https://www.yunyitang.me/img/Avatar.png)
+- [Yunyi's avatar](https://www.yunyitang.me/img/avatar.png)
+- [Yunyi's favicon](https://www.yunyitang.me/img/favicon.png)
 
 </details>
 

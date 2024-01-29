@@ -103,7 +103,7 @@ theme_config:
   # https://twitter.com/imas_official/status/1287398983267049473
   primary_color: '#E16723'
   primary_color_dark: '#FC7930' # https://color-term.com/traditional-color-of-china/11/index.html
-  favicon: /images/favicon.ico
+  favicon: /images/favicon.png
   keywords: 'Yunyi, tech, blog, 博客, 独立博客, 技术博客'
   canonical: true
   expired_warning: true
@@ -112,7 +112,7 @@ theme_config:
       name: Academic
       path: /academic/
     archives:
-      name: Archives
+      name: 归档
       path: /archives/
     about:
       name: 关于我
@@ -123,7 +123,7 @@ theme_config:
   menu_links:
     resume:
       name: Resume
-      path: https://yunyitang.me/resume.pdf
+      path: /resume.pdf # https://notlsd.github.io/2017/05/06/blog-2-0-update/
     github:
       name: GitHub
       path: https://github.com/yunyit
@@ -158,6 +158,10 @@ theme_config:
     enable: true
     script_url: https://eu.umami.is/script.js
     website_id: ff42c1d4-d7db-4925-af13-c30c26df5816
+
+# roll back to page top
+autoprefixer:
+  enable: true
 
 # hexo-hide-posts
 # https://github.com/prinsss/hexo-hide-posts

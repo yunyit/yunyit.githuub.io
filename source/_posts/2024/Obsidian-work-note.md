@@ -17,14 +17,14 @@ tags:
 
 > 自定义：<a href="https://color-term.com/color/heyelv-1a6840/" style="color: #1A6840 !important;">荷叶绿</a> HEYELV #1A6840 RGB(26, 104, 64)；字体 [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 
-# 常用功能属性
+## 常用功能属性
 
 - Templater
 - Dataview
 - tags
 - YAML
 
-# 分类方法
+## 分类方法
 
 标签：PARA + 工作内容
 
@@ -38,7 +38,7 @@ tags:
 
 > 同样的分类方法我也应用于系统便签本的归类。
 
-# 安装插件
+## 安装插件
 
 | 插件                                                                 | 主要功能             | 相关阅读                                                                                                                                      |
 | -------------------------------------------------------------------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -49,6 +49,6 @@ tags:
 | [Templater](obsidian://show-plugin?id=templater-obsidian)            | 模版指令             |
 | [Various Complements](obsidian://show-plugin?id=various-complements) | 自动补全             |
 
-# 其他相关阅读
+## 其他相关阅读
 
 [RC](https://stdrc.cc) 总结的 [中文写作风格指南](https://stdrc.cc/style-guides/chinese)。
