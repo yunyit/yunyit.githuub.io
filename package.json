@@ -71,7 +71,7 @@
     "hexo-renderer-marked": "^6.2.0",
     "hexo-renderer-nunjucks": "^2.0.0",
     "hexo-renderer-stylus": "^3.0.1",
-    "hexo-renderer-swig": "^2.0.0",
+    "hexo-renderer-swig": "^1.1.0",
     "hexo-server": "^3.0.0",
     "hexo-theme-landscape": "^1.0.0",
     "hexo-util": "^3.2.0",
@@ -99,7 +99,7 @@
     "node-tikzjax": "^1.0.3",
     "nopt": "^7.2.0",
     "nth-check": "^2.1.1",
-    "optimist": "^0.6.1",
+    "optimist": "^0.5.2",
     "pump": "^3.0.0",
     "punycode": "^2.3.1",
     "queue-tick": "^1.0.1",
@@ -139,5 +139,17 @@
   },
   "devDependencies": {
     "prettier": "3.2.4"
+  },
+  "pnpm": {
+    "overrides": {
+      "moment-timezone@>=0.1.0 <0.5.35": ">=0.5.35",
+      "prismjs@>=1.14.0 <1.27.0": ">=1.27.0",
+      "uglify-js@<2.6.0": ">=2.6.0",
+      "nunjucks@<3.2.4": ">=3.2.4",
+      "moment@>=2.18.0 <2.29.4": ">=2.29.4",
+      "moment@<2.29.2": ">=2.29.2",
+      "minimist@<0.2.1": ">=0.2.1",
+      "minimist@<0.2.4": ">=0.2.4"
+    }
   }
 }

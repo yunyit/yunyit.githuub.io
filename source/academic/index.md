@@ -1,5 +1,5 @@
 ---
-title: Academic projects
+title: 'Academic projects'
 date: '2024-01-28 12:07:55'
 updated: '2024-01-28 12:07:55'
 ---

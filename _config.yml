@@ -43,13 +43,6 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render: # Paths that will be copied to public raw, without being rendered.
-  - REAMDE.md
-  - CNAME
-  - LICENSE.md
-  - resume.pdf
-  - .prettierrc
-  - /scripts/*
-  - /scaffolds/*
 
 # Writing
 new_post_name: :year/:title.md
