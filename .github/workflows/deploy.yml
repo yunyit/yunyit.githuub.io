@@ -51,7 +51,7 @@ jobs:
         run: npx hexo generate
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3 # https://github.blog/changelog/2023-09-22-github-actions-transitioning-from-node-16-to-node-20/
+        uses: actions/upload-pages-artifact@v3 
         with:
           path: ./public
 
