@@ -27,6 +27,8 @@ tags:
 
 📷 iPhone Photo Shooting: iPhone camera, Dazz Cam
 
+<!-- more -->
+
 🟦 Photo Management: Apple photos
 
 📆 Calendar: Apple calendar, Outlook calendar

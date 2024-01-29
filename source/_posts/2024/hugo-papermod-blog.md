@@ -28,6 +28,8 @@ brew install hugo
 - `archetypes`：不用管
 - `asset`：[自定义的 CSS 和 JavaScript](#自定义页面布局-htmlcss)
 - `content`：用于放博客内容
+<!-- more -->
+
 - `data`：不用管
 - `layouts`：[自定义的 HTML](#自定义页面布局-htmlcss)
 - `public`：项目导出文件 - 用于静态网页部署

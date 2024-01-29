@@ -10,7 +10,7 @@ tags:
 
 > 因为实习兼职的公司用R，温习如下，示例取自[此项目](https://app.datacamp.com/workspace/w/980fb8cc-bfa9-4071-aea3-ca8b1e3a95a8/edit)。
 
-# 可视化libraries
+## 可视化libraries
 
 ```R
 library(readr)
@@ -18,15 +18,16 @@ library(ggplot2)
 library(dplyr)
 ```
 
-# 导入数据
+## 导入数据
 
-## 将csv导入dataset
+**将csv导入dataset**
+<!-- more -->
 
 ```R
 Read datasets/confirmed_cases_worldwide.csv into confirmed_cases_worldwide
 ```
 
-## 选择部分数据
+**选择部分数据**
 
 ```R
 # Filter for China, from Feb 15
@@ -35,9 +36,9 @@ china_after_feb15 <- confirmed_cases_china_vs_world %>%
   filter(is_china == "China", date >= "2020-02-15")
 ```
 
-# 画图
+## 画图
 
-## 单组数据
+**单组数据**
 
 ```R
 # Draw a line plot of cumulative cases vs. date
@@ -48,7 +49,7 @@ ggplot(confirmed_cases_worldwide, aes(date, cum_cases)) +
   ylab("Cumulative confirmed cases")
 ```
 
-## 多组数据
+**多组数据**
 
 ```R
 # Using confirmed_cases_top7_outside_china, draw a line plot of
@@ -59,7 +60,7 @@ ggplot(confirmed_cases_top7_outside_china, aes(date, cum_cases, color = country)
   ylab("Cumulative confirmed cases")
 ```
 
-## 趋势曲线
+**趋势曲线**
 
 ```R
 # Modify the plot to use a logarithmic scale on the y-axis

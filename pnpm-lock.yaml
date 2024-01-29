@@ -228,6 +228,9 @@ dependencies:
   json-joy:
     specifier: ^11.28.0
     version: 11.28.0(quill-delta@5.1.0)(rxjs@7.8.1)(tslib@2.6.2)
+  lazyload:
+    specifier: 2.0.0-rc.2
+    version: 2.0.0-rc.2
   lodash.clonedeep:
     specifier: ^4.5.0
     version: 4.5.0
@@ -348,6 +351,9 @@ dependencies:
   uglify-to-browserify:
     specifier: ^2.1.0
     version: 2.1.0
+  url-encode-decode:
+    specifier: ^1.0.0
+    version: 1.0.0
   w3c-xmlserializer:
     specifier: ^5.0.0
     version: 5.0.0
@@ -1913,6 +1919,10 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
+  /lazyload@2.0.0-rc.2:
+    resolution: {integrity: sha512-v3OKwYrKHX09eAyeAmkpvVCF5qWZo8rxERT9AVOUFaRwlTIuCyMYVBfHYSra1uyBdKDEHnUkvpZTLgNWI9Y7lA==}
+    dev: false
+
   /lodash.clonedeep@4.5.0:
     resolution: {integrity: sha512-H5ZhCF25riFd9uB5UCkVKo61m3S/xZk1x4wA6yp/L3RFP6Z/eHH1ymQcGLo7J3GMPfm0V/7m1tryHuGVxpqEBQ==}
     dev: false
@@ -2775,6 +2785,10 @@ packages:
   /unpipe@1.0.0:
     resolution: {integrity: sha512-pjy2bYhSsufwWlKwPc+l3cN7+wuJlK6uz0YdJEOlQDbl6jo/YlPi4mb8agUkVC8BF7V8NuzeyPNqRksA3hztKQ==}
     engines: {node: '>= 0.8'}
+    dev: false
+
+  /url-encode-decode@1.0.0:
+    resolution: {integrity: sha512-0KsUsGXMJyUhRqPvKWnv1Q3UtWhmv09+J9WpTGMBnShD1E5/YESyBeLVQja3AP7kua/mNzJ8h5P8t4YIzD0Fbg==}
     dev: false
 
   /url-parse@1.5.10:
