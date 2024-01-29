@@ -199,8 +199,8 @@ dependencies:
     specifier: ^3.0.1
     version: 3.0.1
   hexo-renderer-swig:
-    specifier: ^1.1.0
-    version: 1.1.0
+    specifier: ^2.0.0
+    version: 2.0.0
   hexo-server:
     specifier: ^3.0.0
     version: 3.0.0
@@ -1502,12 +1502,13 @@ packages:
       - supports-color
     dev: false
 
-  /hexo-renderer-swig@1.1.0:
-    resolution: {integrity: sha512-od2bmpKT7YcRh7UBxC4tF3sIAabD/1nLJzH0NW4Mk4dnTfTXZ4x5XSBGmP4A/X/ShyH2oGezbAvMbqrS8sNg1Q==}
+  /hexo-renderer-swig@2.0.0:
+    resolution: {integrity: sha512-aF1Smz/RW+mAYuMQZ6d+pH9Y8ve8ShAoU0TaGajhWV11/H6cXHiKDgeLPjDDQfNK0jPybrVzTGnciVjkLjAKvA==}
+    engines: {node: '>=8.6.0'}
     deprecated: hexo-renderer-swig has been deprecated. Please use other template engines. (e.g. nunjucks https://github.com/hexojs/hexo-renderer-nunjucks)
     dependencies:
-      swig: 1.4.2
       swig-extras: 0.0.1
+      swig-templates: 2.0.3
     dev: false
 
   /hexo-server@3.0.0:
