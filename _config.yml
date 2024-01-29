@@ -9,6 +9,7 @@
 # workflow: https://res.cloudinary.com/practicaldev/image/fetch/s--M_fHUEqA--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/128hsgntnsu9bww0y8sz.png
 # git@github.com:yunyit/yunyit.github.io.git
 # cd themes/murasaki/ -> git pull
+# gitmoji -c commit with emoji gitmoji.io
 
 # Site
 title: YUNYI BLOG

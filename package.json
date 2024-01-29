@@ -8,6 +8,10 @@
     "deploy": "hexo deploy",
     "server": "hexo server"
   },
+  "engines": {
+    "node": ">=10",
+    "pnpm": ">=3"
+  },
   "hexo": {
     "version": "7.1.1"
   },
