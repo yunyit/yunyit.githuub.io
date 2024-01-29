@@ -286,8 +286,8 @@ dependencies:
     specifier: ^2.1.1
     version: 2.1.1
   optimist:
-    specifier: ^0.5.2
-    version: 0.5.2
+    specifier: ^0.6.1
+    version: 0.6.1
   pump:
     specifier: ^3.0.0
     version: 3.0.0
@@ -2405,12 +2405,6 @@ packages:
       define-lazy-prop: 2.0.0
       is-docker: 2.2.1
       is-wsl: 2.2.0
-    dev: false
-
-  /optimist@0.5.2:
-    resolution: {integrity: sha512-r9M8ZpnM9SXV5Wii7TCqienfcaY3tAiJe9Jchof87icbmbruKgK0xKXngmrnowTDnEawmmI1Qbha59JEoBkBGA==}
-    dependencies:
-      wordwrap: 0.0.3
     dev: false
 
   /optimist@0.6.1:
