@@ -108,7 +108,7 @@ theme_config:
   # https://twitter.com/imas_official/status/1287398983267049473
   primary_color: '#41B349' # 玉髓绿
   primary_color_dark: '#41B349' # https://color-term.com/traditional-color-of-china/7/index.html
-  favicon: /images/favicon.png # https://emojipedia.org/microsoft/windows-10-anniversary-update/teacup-without-handle
+  favicon: "/favicon/favicon.ico" # https://www.tatlead.com/2021/06/21/How-to-add-favicon-on-Hexo-Aomori/
   keywords: 'Yunyi, tech, blog, 博客, 独立博客, 技术博客'
   canonical: true
   expired_warning: true

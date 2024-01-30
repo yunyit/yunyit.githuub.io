@@ -29,6 +29,14 @@
   <meta name="google-site-verification" content="{{ theme.google_site_verification}}" />
 {%- endif %}
 
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
 <link rel="stylesheet" href="{{ theme.vendors.hancss }}">
 <link rel="stylesheet" href="{{ theme.google_font }}/css?family=Fira+Mono|Roboto+Slab:400,600|Noto+Serif+SC:600&display=swap">
 <link rel="stylesheet" href="{{ theme.vendors.highlightjs_style_dark }}" media="screen and (prefers-color-scheme: dark)">
