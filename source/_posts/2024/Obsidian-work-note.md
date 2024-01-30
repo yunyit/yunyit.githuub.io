@@ -1,6 +1,6 @@
 ---
 title: 'Obsidian 自定义工作笔记'
-redirect_from:
+alias:
   - /zh/blog/tech/obsedian/
 date: '2024-01-25 21:10:57'
 updated: '2024-01-25 21:10:57'

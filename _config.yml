@@ -35,6 +35,9 @@ url: https://yunyitang.me
 root: /
 permalink: :name/
 permalink_defaults:
+alias:
+  /en/: /
+  /zh/: /
 
 # Directory
 source_dir: source

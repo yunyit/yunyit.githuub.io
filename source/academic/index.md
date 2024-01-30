@@ -2,6 +2,9 @@
 title: 'Academic projects'
 date: '2024-01-28 12:07:55'
 updated: '2024-01-28 12:07:55'
+alias:
+- /zh/projects/
+- /en/projects/
 ---
 
 > https://research-information.bris.ac.uk/en/persons/yunyi-tang-2

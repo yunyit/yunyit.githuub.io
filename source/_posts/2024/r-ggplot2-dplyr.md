@@ -2,6 +2,8 @@
 title: 'R 语言 ggplot2 和 dplyr 可视化分析'
 date: '2024-01-05 23:55:56'
 updated: '2024-01-25 23:55:56'
+alias:
+- /zh/blog/tech/r-ggplot2-dplyr/
 categories: 技术
 tags:
   - Data

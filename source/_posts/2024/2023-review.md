@@ -1,7 +1,7 @@
 ---
 title: '2023 年终总结'
-redirect_from:
-  - /zh/blog/life/2023/
+alias:
+- /zh/blog/life/2023/
 date: '2024-01-11 21:25:30'
 updated: '2024-01-25 21:25:30'
 categories: 日常

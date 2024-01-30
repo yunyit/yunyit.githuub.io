@@ -1,6 +1,6 @@
 ---
 title: '正则表达式基础知识点'
-redirect_from:
+alias:
   - /zh/blog/tech/regular-expression/
 date: '2024-01-06 21:13:08'
 updated: '2024-01-25 21:13:08'

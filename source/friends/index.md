@@ -1,8 +1,8 @@
 ---
 title: '友情链接'
-redirect_from:
-  - /zh/links/
-  - /en/links/
+alias:
+- /zh/links/
+- /en/links/
 date: '2023-11-07 23:31:49'
 updated: '2024-01-24 23:31:49'
 ---

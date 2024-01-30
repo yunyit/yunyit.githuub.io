@@ -2,6 +2,8 @@
 title: 'YAML 数据结构和语法'
 date: '2024-01-13 23:54:26'
 updated: '2024-01-25 23:54:26'
+alias:
+- /zh/blog/tech/ymal/
 categories: 技术
 tags:
   - Data

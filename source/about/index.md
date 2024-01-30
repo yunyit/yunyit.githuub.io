@@ -1,10 +1,11 @@
 ---
 title: '你好 👋🏼'
-redirect_from:
-  - /zh/about/
-  - /en/about/
-  - /zh/log/
-  - /en/log/
+alias:
+- /zh/about/
+- /en/about/
+- /zh/log/
+- /en/log/
+- /en/blog/tech/log/
 date: '2023-11-07 23:29:43'
 updated: '2024-01-29 23:29:43'
 ---

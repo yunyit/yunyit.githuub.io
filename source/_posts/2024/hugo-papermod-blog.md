@@ -1,6 +1,6 @@
 ---
 title: 'Hugo+PaperMod 双语博客搭建 Home-Info+Profile Mode'
-redirect_from:
+alias:
   - /zh/blog/tech/hugo-papermod/
 date: '2024-01-15 01:00:42'
 updated: '2024-01-25 01:00:42'

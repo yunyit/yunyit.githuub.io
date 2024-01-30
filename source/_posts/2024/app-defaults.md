@@ -1,8 +1,8 @@
 ---
 title: 'App Defaults'
-redirect_from:
-  - /en/blog/tech/app-defaults/
-  - /zh/blog/tech/app-defaults/
+alias:
+- /en/blog/tech/app-defaults/
+- /zh/blog/tech/app-defaults/
 date: '2024-01-17 21:06:41'
 updated: '2024-01-25 21:06:41'
 categories: 技术
