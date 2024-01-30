@@ -14,7 +14,7 @@
 
 # Site
 title: YUNYI BLOG
-subtitle: Little squirrel Hopping around
+subtitle: 得闲饮茶~~~
 description: 这里是 Yunyi 的个人博客，基本上啥都写：开发心得分享，日常吐槽吹水，偶尔也会写点正经文字。
 author: Yunyi
 language: zh-Hans
@@ -106,9 +106,9 @@ stylus:
 
 theme_config:
   # https://twitter.com/imas_official/status/1287398983267049473
-  primary_color: '#FC7930'
-  primary_color_dark: '#FC7930' # https://color-term.com/traditional-color-of-china/11/index.html
-  favicon: /images/favicon.png
+  primary_color: '#41B349' # 玉髓绿
+  primary_color_dark: '#41B349' # https://color-term.com/traditional-color-of-china/7/index.html
+  favicon: /images/favicon.png # https://emojipedia.org/microsoft/windows-10-anniversary-update/teacup-without-handle
   keywords: 'Yunyi, tech, blog, 博客, 独立博客, 技术博客'
   canonical: true
   expired_warning: true

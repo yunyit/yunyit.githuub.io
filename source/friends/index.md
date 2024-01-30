@@ -46,92 +46,79 @@ _以下站点按照添加的时间顺序排列：_
 </style>
 
 - [PRIN BLOG](https://printempw.github.io)
-
   - 半吊子全栈开发者的日常
   - `本博客所用主题的开发者！`
 
 - [Barney’s Blog](https://hugo.bnblogs.cc/)
-
   - All the truth is simple
 
 - [Amos's Blog](https://amoshk.top/)
-
   - 无限进步.✍️
 
 - [Bing's Blog](https://imcbc.cn/)
   - 自由 分享 合作
-- [L1nSn0w's Blog](https://blog.linsnow.cn)
 
+- [L1nSn0w's Blog](https://blog.linsnow.cn)
   - 无限进步.✍️
 
 - [Cynosura](https://cynosura.one)
-
   - Trying to light up the dark.
 
 - [Empty SEKAI](https://prpr.rip)
   - 一只游荡在无人 SEKAI 的小白葱
-- [Aiar's Site](https://aiar.site)
 
+- [Aiar's Site](https://aiar.site)
   - 愿余生所有的珍惜，都不用失去来懂得。
 
 - [思宁HERE](https://www.snhere.com)
-
   - 设计与生活
 
 - [新世界的大门](https://blog.xinshijiededa.men)
-
   - 悟已往之不諫，知來者之可追
 
 - [lvbibir's Blog](https://www.lvbibir.cn)
   - life is a fucking movie
-- [nopdan's blog](https://nopdan.com/)
 
+- [nopdan's blog](https://nopdan.com/)
   - 但知行好事，莫要问前程
 
 - [Blog of Wr](https://wrye.dev/)
+
   - Web dev, Linux, and other tech or casual stuff.
 - [Chawye Hsu](https://chawyehsu.com)
-
   - Personal Website of Chawye Hsu
 
 - [Say My Name](https://kyxie.github.io/zh/)
-
   - Kunyang Xie
 
 - [米米的博客](https://zhangshuqiao.org)
-
   - 米米的博客！！
 
 - [绒绒洛](https://qwq.dog)
-
   - 俯いたまま大人になって
 
 - [芝士部落格](https://blog.youmuwhisper.space)
   - 有思想，也有忧伤和理想
+
 - [野生糖喵](https://candinya.com/)
   - 好伙伴们在哪里~
-- [Project RC](https://stdrc.cc)
 
+- [Project RC](https://stdrc.cc)
   - Richard Chien
 
 - [Dejavu's Blog](https://blog.dejavu.moe/)
-
   - Not for success, just for growing.
 
 - [椒盐豆豉](https://blog.douchi.space/#gsc.tab=0)
-
   - 喜欢就买 不行就分 多喝热水 重启电脑
 
 - [Wsine's Blog](https://blog.wsine.top)
-
   - Welcome to my blog! Here are something about life and productivity. Hope you enjoy~
 
 - [雅余](https://yayu.net/)
-
   - 茶余饭后，闲情雅致
 
 - [静かな森](https://innei.in/)
-
   - 致虚极，守静笃。
 
 - [Homology](https://www.giuem.com)
