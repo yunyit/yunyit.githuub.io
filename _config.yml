@@ -10,6 +10,7 @@
 # git@github.com:yunyit/yunyit.github.io.git
 # cd themes/murasaki/ -> git pull
 # gitmoji -c commit with emoji gitmoji.io
+# git pull origin draft
 
 # Site
 title: YUNYI BLOG

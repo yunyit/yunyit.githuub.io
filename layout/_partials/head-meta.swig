@@ -34,4 +34,3 @@
 <link rel="stylesheet" href="{{ theme.vendors.highlightjs_style_dark }}" media="screen and (prefers-color-scheme: dark)">
 <link rel="stylesheet" href="{{ theme.vendors.highlightjs_style }}" media="screen and (prefers-color-scheme: light)">
 <link rel="stylesheet" href="{{ url_for('css/main.css') }}">
-<script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI/tfVuZ2bL9g6y8KUd2/hfT/JnA4l+ii2z2/3O4=" crossorigin="anonymous"></script>
