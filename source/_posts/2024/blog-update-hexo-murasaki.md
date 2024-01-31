@@ -8,7 +8,9 @@ tags:
   - Hexo
 ---
 
-本来只是想更新一下博客的主题，简化一点，但随着 [Murasaki](https://github.com/prinsss/hexo-theme-murasaki) 的主题色调整，自己最爱的橙色一直没有选到合适的 primary_color 和 primary_color_dark。
+本来只是想更新一下博客的主题，简化一点，但随着 [Murasaki](https://github.com/prinsss/hexo-theme-murasaki) 的主题色调整，自己最爱的橙色一直没有选到合适的 primary_color 和 primary_color_dark，干脆重新开始定主题色。
+
+<!-- more -->
 
 一开始选择 <a href="https://color-term.com/color/taocihong-e16723/" style="color: #E16723 !important;">陶瓷红</a> `#E16723` 作为 primary_color，<a href="https://color-term.com/color/boluohong-fc7930/" style="color: #FC7930 !important;">菠萝红</a> `#FC7930` 作为 primary_color_dark，但 <a href="https://color-term.com/color/taocihong-e16723/" style="color: #E16723 !important;">陶瓷红</a> `#E16723` 在现在主题的背景色下有点太沉闷了，所以一鼓作气换成了 <a href="https://color-term.com/color/yusuilv-41b349/" style="color: #41B349 !important;">玉髓绿</a> `#1A6840`。
 
