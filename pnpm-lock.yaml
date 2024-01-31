@@ -276,6 +276,9 @@ dependencies:
   mkdirp-classic:
     specifier: ^0.5.3
     version: 0.5.3
+  moment:
+    specifier: ^2.30.1
+    version: 2.30.1
   node:
     specifier: ^21.6.1
     version: 21.6.1

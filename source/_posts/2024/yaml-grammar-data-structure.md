@@ -1,7 +1,7 @@
 ---
 title: 'YAML 数据结构和语法'
 date: '2024-01-13 23:54:26'
-updated: '2024-01-25 23:54:26'
+updated: '2024-01-31 13:54:26'
 alias:
 - /zh/blog/tech/ymal/
 categories: 技术
@@ -12,7 +12,7 @@ tags:
 
 > 认知始于 Markdown 文件，不知道终于哪儿。
 
-# 定义
+## 定义
 
 > YAML Ain't a Markup Language / Yet Another Markup Language
 
@@ -31,21 +31,21 @@ tags:
 - 缩进时不允许使用 `Tab` 键，只允许使用空格；
 - 缩进的空格数目不重要，只要相同层级的元素左侧对齐即可；
 
-# 应用
+## 应用
 
 配置文件 configuration files -
 
-## YAML / JSON
+### YAML / JSON
 
 相比 JSON，因为 YAML 有更好的可读性，对用户更友好，所以通常建议用 YAML 来编写配置文件，尽管它们在大多数情况下可以互换使用。
 
-# 数据类型
+## 数据类型
 
 - 对象 mapping/hash/dictionary：键值对的集合；
 - 数组 sequence/list：一组按次序排列的值；数组和对象可以构成复合结构；
 - 纯量：最基本的，不可再分的值；
 
-## 对象
+### 对象
 
 对象的一组键值对，使用冒号结构表示。
 
@@ -71,7 +71,7 @@ hash: { name: Steve, foo: bar }
 { hash: { name: 'Steve', foo: 'bar' } }
 ```
 
-## 数组
+### 数组
 
 一组连词线开头的行，构成一个数组。
 
@@ -87,7 +87,7 @@ hash: { name: Steve, foo: bar }
 [ 'Cat', 'Dog', 'Goldfish' ]
 ```
 
-## 纯量
+### 纯量
 
 纯量是最基本的、不可再分的值。
 
@@ -101,11 +101,11 @@ hash: { name: Steve, foo: bar }
 - 时间
 - 日期
 
-# 复合结构
+## 复合结构
 
 对象和数组可以结合使用，形成复合结构。
 
-## 示例
+### 示例
 
 选自 [Red Hat](https://www.redhat.com/en/topics/automation/what-is-yaml) 的学生信息例子：
 
@@ -160,7 +160,7 @@ favorite_food:
 ]
 ```
 
-# 相关阅读
+## 相关阅读
 
 - [Barney](https://hugo.bnblogs.cc) 的 [yaml 语法](https://hugo.bnblogs.cc/yaml语法/) 整理；
 - [阮一峰](https://www.ruanyifeng.com/blog/) 的 [YAML 语言教程](https://www.ruanyifeng.com/blog/2016/07/yaml.html)；

@@ -61,6 +61,7 @@ post_asset_folder: true
 relative_link: false
 future: true
 syntax_highlighter:
+updated_option: 'mtime'
 
 # Category & Tag
 default_category: uncategorized

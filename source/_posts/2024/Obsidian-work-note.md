@@ -11,18 +11,15 @@ tags:
   - Obsidian
 ---
 
-> 启用日期：2024-01-09
-
-> 应用场景：工作笔记
-
+> 启用日期：2024-01-09 </br>
+> 应用场景：工作笔记 </br>
 > 自定义：<a href="https://color-term.com/color/heyelv-1a6840/" style="color: #1A6840 !important;">荷叶绿</a> HEYELV #1A6840 RGB(26, 104, 64)；字体 [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 
 ## 常用功能属性
 
 - Templater
-- Dataview
+- Metadata 
 - tags
-- YAML
 
 ## 分类方法
 
@@ -40,14 +37,14 @@ tags:
 
 ## 安装插件
 
-| 插件                                                                 | 主要功能             | 相关阅读                                                                                                                                      |
-| -------------------------------------------------------------------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Dataview](obsidian://show-plugin?id=dataview)                       | 数据库查询           | [Dataview 中的 DQL 与 SQL 的区别](https://pkmer.cn/Pkmer-Docs/10-obsidian/obsidian社区插件/dataview/dataview基本语法/31---dql-与-sql-的异同/) |
+| 插件 | 主要功能 | 相关阅读 |
+| --- | --- | --- |
+| [Dataview](obsidian://show-plugin?id=dataview) | 数据库查询 | [Dataview 中的 DQL 与 SQL 的区别](https://pkmer.cn/Pkmer-Docs/10-obsidian/obsidian社区插件/dataview/dataview基本语法/31---dql-与-sql-的异同/) |
+| [Metadata Menu](obsidian://show-plugin?id=metadata-menu) | 访问和管理笔记的元数据 |
 | [Natural Language Dates](obsidian://show-plugin?id=nldates-obsidian) | 通过自然语言生成日期 |
-| [Perodic Dates](obsidian://show-plugin?id=periodic-notes)            | 按日期单位汇总笔记   |
 | [Smart Random Notes](obsidian://show-plugin?id=smart-random-note)    | 随机挑选一篇笔记阅读 |
-| [Templater](obsidian://show-plugin?id=templater-obsidian)            | 模版指令             |
-| [Various Complements](obsidian://show-plugin?id=various-complements) | 自动补全             |
+| [Templater](obsidian://show-plugin?id=templater-obsidian) | 模版指令 |
+| [Various Complements](obsidian://show-plugin?id=various-complements) | 自动补全 |
 
 ## 其他相关阅读
 
