@@ -42,7 +42,7 @@ class Me:
 
 ## 关于博客
 
-本博客名为「YUNYI BLOG」，建立于 2022 年 9 月 21 日。当前博客托管于 GitHub Pages，基于静态博客生成器 [Hexo](https://hexo.io/) 构建，主题是 [PRIN](https://prin.pw) 写的 [Murasaki](https://github.com/prinsss/hexo-theme-murasaki/)。
+本博客名为「YUNYI BLOG」，建立于 2022 年 9 月 21 日。当前博客托管于 GitHub Pages，基于静态博客生成器 [Hexo](https://hexo.io/) 构建，主题是 [PRIN](https://prin.pw) 写的 [Murasaki](https://github.com/prinsss/hexo-theme-murasaki/)，主色调为 <a href="https://color-term.com/color/yusuilv-41b349/" style="color: #41B349 !important;">玉髓绿</a> #1A6840。
 
 <details>
 <summary>博客经历过几次大的变迁：</summary>
