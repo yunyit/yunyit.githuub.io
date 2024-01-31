@@ -8,6 +8,6 @@ themes/
 .deploy*/
 _drafts
 package-lock.json
-yarn.lock
+*.lock
 hexo-deploy-key
 hexo-deploy-key.pub
