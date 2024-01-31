@@ -17,7 +17,7 @@ overrides:
 dependencies:
   '@adobe/css-tools':
     specifier: github:adobe/css-tools
-    version: github.com/adobe/css-tools/a54a5d42061dde6cdf3b868d9c9691d6a7ae69d0
+    version: github.com/adobe/css-tools/35bce83777fa800f8195147d26df781a35446a4c
   '@tootallnate/once':
     specifier: github:tootallnate/once
     version: github.com/tootallnate/once/2bc2e134b7728a6b37c6838a3b5d5c290e60a539
@@ -4486,8 +4486,8 @@ packages:
       window-size: 0.1.0
     dev: false
 
-  github.com/adobe/css-tools/a54a5d42061dde6cdf3b868d9c9691d6a7ae69d0:
-    resolution: {tarball: https://codeload.github.com/adobe/css-tools/tar.gz/a54a5d42061dde6cdf3b868d9c9691d6a7ae69d0}
+  github.com/adobe/css-tools/35bce83777fa800f8195147d26df781a35446a4c:
+    resolution: {tarball: https://codeload.github.com/adobe/css-tools/tar.gz/35bce83777fa800f8195147d26df781a35446a4c}
     name: '@adobe/css-tools'
     version: 4.3.3
     dev: false
