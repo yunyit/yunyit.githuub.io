@@ -45,6 +45,6 @@
 
 <script
   defer
-  src="/stats/script.js"
+  src="https://blog-umami.vercel.app/script.js"
   data-website-id="723064e0-45ba-457e-ab38-d2c8760da0cb"
 ></script>

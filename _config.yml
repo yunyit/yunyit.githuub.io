@@ -162,7 +162,7 @@ theme_config:
     loading: lazy
   umami:
     enable: true # https://umami.is/docs/collect-data 
-    script_url: /stats/script.js
+    script_url: https://blog-umami.vercel.app/script.js
     website_id: 723064e0-45ba-457e-ab38-d2c8760da0cb # vercel deploy
 
 # roll back to page top
