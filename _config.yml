@@ -139,9 +139,12 @@ theme_config:
     travellings:
       name: 开往
       path: https://www.travellings.cn/go.html
-    moe:
-      name: 跃迁
-      path: https://travel.moe/go.html
+    umami:
+      name: 流量统计
+      path: https://analytics.yunyitang.me/share/oPpCYqfis0lXkLeu/YUNYI%20BLOG
+#    moe:
+#      name: 跃迁
+#      path: https://travel.moe/go.html
   toc: true
   lazyload:
     enable: true
@@ -162,7 +165,7 @@ theme_config:
     loading: lazy
   umami:
     enable: true # https://umami.is/docs/collect-data 
-    script_url: https://blog-umami.vercel.app/script.js
+    script_url: https://analytics.yunyitang.me/script.js
     website_id: 723064e0-45ba-457e-ab38-d2c8760da0cb # vercel deploy
 
 # roll back to page top
