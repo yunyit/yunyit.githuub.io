@@ -139,12 +139,9 @@ theme_config:
     travellings:
       name: 开往
       path: https://www.travellings.cn/go.html
-    umami:
-      name: 流量统计
-      path: http://localhost:3000/share/1ZybVglKb8XlqWl6/YUNYI%20BLOG
-#    moe:
-#      name: 跃迁
-#      path: https://travel.moe/go.html
+    moe:
+      name: 跃迁
+      path: https://travel.moe/go.html
   toc: true
   lazyload:
     enable: true
@@ -167,6 +164,7 @@ theme_config:
     enable: true # https://umami.is/docs/collect-data 
     script_url: http://localhost:3000/script.js
     website_id: bc07f5e4-f5b1-4a40-9f39-8fc51250368e
+    host_url: http://localhost:3000
 
 # roll back to page top
 autoprefixer:
