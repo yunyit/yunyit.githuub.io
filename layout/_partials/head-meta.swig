@@ -42,3 +42,5 @@
 <link rel="stylesheet" href="{{ theme.vendors.highlightjs_style_dark }}" media="screen and (prefers-color-scheme: dark)">
 <link rel="stylesheet" href="{{ theme.vendors.highlightjs_style }}" media="screen and (prefers-color-scheme: light)">
 <link rel="stylesheet" href="{{ url_for('css/main.css') }}">
+
+<script src="path/to/umami.js" defer></script>

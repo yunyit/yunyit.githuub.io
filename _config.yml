@@ -163,7 +163,7 @@ theme_config:
   umami:
     enable: true # https://umami.is/docs/collect-data 
     script_url: http://localhost:3000/script.js
-    website_id: bc07f5e4-f5b1-4a40-9f39-8fc51250368e
+    website_id: 10eda0c5-4850-416e-a585-f7ce84abdb30 # docker deploy
     host_url: http://localhost:3000
 
 # roll back to page top
