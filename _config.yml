@@ -139,9 +139,12 @@ theme_config:
     travellings:
       name: 开往
       path: https://www.travellings.cn/go.html
-    moe:
-      name: 跃迁
-      path: https://travel.moe/go.html
+    umami:
+      name: 流量统计
+      path: http://localhost:3000/share/iolwIVx92BMKd25F/YUNYI%20BLOG
+#    moe:
+#      name: 跃迁
+#      path: https://travel.moe/go.html
   toc: true
   lazyload:
     enable: true
