@@ -161,9 +161,9 @@ theme_config:
     lang: en
     loading: lazy
   umami:
-    enable: true
-    script_url: https://eu.umami.is/script.js
-    website_id: ff42c1d4-d7db-4925-af13-c30c26df5816
+    enable: true # https://umami.is/docs/collect-data 
+    script_url: http://localhost:3000/script.js
+    website_id: bc07f5e4-f5b1-4a40-9f39-8fc51250368e
 
 # roll back to page top
 autoprefixer:
