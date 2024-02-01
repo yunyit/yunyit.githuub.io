@@ -43,4 +43,8 @@
 <link rel="stylesheet" href="{{ theme.vendors.highlightjs_style }}" media="screen and (prefers-color-scheme: light)">
 <link rel="stylesheet" href="{{ url_for('css/main.css') }}">
 
-<script src="path/to/umami.js" defer></script>
+<script
+  defer
+  src="/stats/script.js"
+  data-website-id="10eda0c5-4850-416e-a585-f7ce84abdb30"
+></script>

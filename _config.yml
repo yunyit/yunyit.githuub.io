@@ -162,9 +162,9 @@ theme_config:
     loading: lazy
   umami:
     enable: true # https://umami.is/docs/collect-data 
-    script_url: http://localhost:3000/script.js
+    script_url: http://www.yunyitang.me/umami.js
     website_id: 10eda0c5-4850-416e-a585-f7ce84abdb30 # docker deploy
-    host_url: http://localhost:3000
+    host_url: http://host.yunyitang.me 
 
 # roll back to page top
 autoprefixer:
