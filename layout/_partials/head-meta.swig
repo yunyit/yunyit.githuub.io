@@ -46,5 +46,5 @@
 <script
   defer
   src="/stats/script.js"
-  data-website-id="10eda0c5-4850-416e-a585-f7ce84abdb30"
+  data-website-id="723064e0-45ba-457e-ab38-d2c8760da0cb"
 ></script>
