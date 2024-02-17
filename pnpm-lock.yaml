@@ -334,8 +334,8 @@ dependencies:
     specifier: ^1.0.2
     version: 1.0.2
   speech-rule-engine:
-    specifier: 4.1.0-beta.7
-    version: 4.1.0-beta.7
+    specifier: 4.1.0-beta.8
+    version: 4.1.0-beta.8
   streamx:
     specifier: ^2.16.0
     version: 2.16.0
@@ -1133,9 +1133,9 @@ packages:
     resolution: {integrity: sha512-LTQ/SGc+s0Xc0Fu5WaKnR0YiygZkm9eKFvyS+fRsU7/ZWFF8ykFM6Pc9aCVf1+xasOOZpO3BAVgVrKvsqKHV7w==}
     dev: false
 
-  /commander@10.0.0:
-    resolution: {integrity: sha512-zS5PnTI22FIRM6ylNW8G4Ap0IEOyk62fhLSD0+uHRT9McRCLGpkVNvao4bjimpK/GShynyQkFFxHhwMcETmduA==}
-    engines: {node: '>=14'}
+  /commander@11.1.0:
+    resolution: {integrity: sha512-yPVavfyCcRhmorC7rWlkHn15b4wDVgVmBA7kV4QVBsF7kv/9TKJAbAXVTxvTnwP8HHKjRCJDClKbciiYS7p0DQ==}
+    engines: {node: '>=16'}
     dev: false
 
   /commander@12.0.0:
@@ -4477,12 +4477,12 @@ packages:
       xmldom-sre: 0.1.31
     dev: false
 
-  /speech-rule-engine@4.1.0-beta.7:
-    resolution: {integrity: sha512-e9QntjrfSKDa/w0baCXsoPQRPD9uY0r7q86Jr8ud/5zElzdG0Beiz4mc38kFb/E53c4RuYyZKSKyug8e5cVrpQ==}
+  /speech-rule-engine@4.1.0-beta.8:
+    resolution: {integrity: sha512-XG/BnvfH3alVKS1pOpu1JkGyTlqFZGNmTFE3e47gQrCyL3oM2vT0XhNjBNrV3yEr4kjcV8vKRN/7h0nh3BO1jA==}
     hasBin: true
     dependencies:
       '@xmldom/xmldom': 0.9.0-beta.8
-      commander: 10.0.0
+      commander: 11.1.0
       wicked-good-xpath: 1.3.0
     dev: false
 
