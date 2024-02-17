@@ -82,9 +82,12 @@ _以下站点按照添加的时间顺序排列：_
 - [nopdan's blog](https://nopdan.com/)
   - 但知行好事，莫要问前程
 
-- [Blog of Wr](https://wrye.dev/)
+- [纸鹿摸鱼处](https://blog.zhilu.cyou)
+  - 纸鹿至麓不知路，支炉制露不止漉
 
+- [Blog of Wr](https://wrye.dev/)
   - Web dev, Linux, and other tech or casual stuff.
+
 - [Chawye Hsu](https://chawyehsu.com)
   - Personal Website of Chawye Hsu
 
