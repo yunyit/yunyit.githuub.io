@@ -69,6 +69,13 @@ tags:
 
 反正自己有域名，编了个 `analytics.yunyitang.me` 给自己的 umami 登陆主页，这样对应的 [分享链接](https://analytics.yunyitang.me/share/FfIxx6mpOlXSB7Ri/YUNYI%20BLOG) 也漂亮一点。
 
+有自己的数据库，还可以在 `https://vercel.com/yunyis-projects/blog-umami/stores/postgres/store_QiP3pLirURs7N1Po/data` 里
+```sql
+delete from website_event
+where Referrer_domain = 'localhost'
+```
+太香啦！
+
 踩坑：每次都加载得很慢，哭了，希望在 `https://vercel.com/yunyis-projects/blog-umami/settings/functions` 里把 `Function Region` 改成“伦敦”能有所好转！
 
 ## Hexo _config.yml
@@ -85,6 +92,6 @@ umami:
 
 ## 写在后面
 
-趁着给博客装修，趁机摸了一把 Docker、MySQL、Vercel，折腾好了圆满收工。
+趁着给博客装修，趁机摸了一把 Docker、MySQL、PostgreSQL、Vercel CLI，折腾好了圆满收工。
 
 之后可能继续折腾 [为 Hexo 博客添加页面访问计数器](https://prinsss.github.io/add-page-view-counter-for-hexo/) 以及 [使用 Google Analytics API 实现博客阅读量统计](https://prin.pw/google-analytics-api-page-views-counter/#踩坑serverless-部署的可行性)，这次装修的新鲜劲应该够我喜欢几个月了吧。
