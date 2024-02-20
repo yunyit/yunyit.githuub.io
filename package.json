@@ -74,7 +74,7 @@
     "hexo-generator-sitemap": "^3.0.1",
     "hexo-generator-tag": "^2.0.0",
     "hexo-global-license": "^0.5.5",
-    "hexo-hide-posts": "^0.4.0",
+    "hexo-hide-posts": "^0.4.2",
     "hexo-reference": "^1.0.4",
     "hexo-renderer-ejs": "^2.0.0",
     "hexo-renderer-marked": "^6.2.0",
