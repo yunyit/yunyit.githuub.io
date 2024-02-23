@@ -262,8 +262,8 @@ dependencies:
     specifier: ^3.2.2
     version: 3.2.2
   mdn-data:
-    specifier: ^2.4.0
-    version: 2.4.0
+    specifier: ^2.4.1
+    version: 2.4.1
   memfs:
     specifier: ^4.7.1
     version: 4.7.1(quill-delta@5.1.0)(rxjs@7.8.1)(tslib@2.6.2)
@@ -3392,8 +3392,8 @@ packages:
     resolution: {integrity: sha512-GaqWWShW4kv/G9IEucWScBx9G1/vsFZZJUO+tD26M8J8z3Kw5RDQjaoZe03YAClgeS/SWPOcb4nkFBTEi5DUEA==}
     dev: false
 
-  /mdn-data@2.4.0:
-    resolution: {integrity: sha512-AB4NUFtlTkd4rhr73ocuerhDkpe71kr0VpFLwoYuALjYo8XBrGcBJFgqHADjPHj7Ux50bg+SyLEt6mcodrafzw==}
+  /mdn-data@2.4.1:
+    resolution: {integrity: sha512-nlGcmQ6STGZ3vwgs5VoDI/5cFPXtL4cZvjZl0o6ehDh98QnPyIjZgBiRjZ4N0mg3ABNFaXr3fEcwSWmbhUAGFA==}
     dev: false
 
   /mdurl@1.0.1:
