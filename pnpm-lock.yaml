@@ -241,8 +241,8 @@ dependencies:
     specifier: ^24.0.0
     version: 24.0.0
   json-joy:
-    specifier: ^11.28.0
-    version: 11.28.0(quill-delta@5.1.0)(rxjs@7.8.1)(tslib@2.6.2)
+    specifier: ^11.31.0
+    version: 11.31.0(quill-delta@5.1.0)(rxjs@7.8.1)(tslib@2.6.2)
   lazyload:
     specifier: 2.0.0-rc.2
     version: 2.0.0-rc.2
@@ -3115,14 +3115,19 @@ packages:
     resolution: {integrity: sha512-4bV5BfR2mqfQTJm+V5tPPdf+ZpuhiIvTuAB5g8kcrXOZpTT/QwwVRWBywX1ozr6lEuPdbHxwaJlm9G6mI2sfSQ==}
     dev: false
 
-  /json-joy@11.28.0(quill-delta@5.1.0)(rxjs@7.8.1)(tslib@2.6.2):
-    resolution: {integrity: sha512-WTq2tYD2r+0rUFId4gtUjwejV20pArh4q2WRJKxJdwLlPFHyW94HwwB2vUr5lUJTVkehhhWEVLwOUI0MSacNIw==}
+  /json-joy@11.31.0(quill-delta@5.1.0)(rxjs@7.8.1)(tslib@2.6.2):
+    resolution: {integrity: sha512-PFt3eUY9KSlvlA8mgaqtexU1GeiBkZWySbMIW0H6MJj3loklKUgF2KHUnhFmP6nhCsikRaar4cFu932MWG57tA==}
     engines: {node: '>=10.0'}
     hasBin: true
     peerDependencies:
       quill-delta: ^5
       rxjs: '7'
       tslib: '2'
+    peerDependenciesMeta:
+      quill-delta:
+        optional: true
+      rxjs:
+        optional: true
     dependencies:
       arg: 5.0.2
       hyperdyperid: 1.2.0
@@ -3406,7 +3411,7 @@ packages:
     peerDependencies:
       tslib: '2'
     dependencies:
-      json-joy: 11.28.0(quill-delta@5.1.0)(rxjs@7.8.1)(tslib@2.6.2)
+      json-joy: 11.31.0(quill-delta@5.1.0)(rxjs@7.8.1)(tslib@2.6.2)
       thingies: 1.16.0(tslib@2.6.2)
       tslib: 2.6.2
     transitivePeerDependencies:
