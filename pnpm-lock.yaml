@@ -286,8 +286,8 @@ dependencies:
     specifier: ^2.18.1
     version: 2.18.1
   node:
-    specifier: ^21.6.2
-    version: 21.6.2
+    specifier: ^21.7.0
+    version: 21.7.0
   node-localstorage:
     specifier: ^3.0.5
     version: 3.0.5
@@ -3664,8 +3664,8 @@ packages:
       - utf-8-validate
     dev: false
 
-  /node@21.6.2:
-    resolution: {integrity: sha512-QdY/IILdqFN4yLJxG4u9njJ37FqBB7QLIkX6YuhOEx77HwgXXzEJOwhxHtEZevAbVt/sy7JIwIZJMgpijyGGxQ==}
+  /node@21.7.0:
+    resolution: {integrity: sha512-US/zylqBR4D2cl8PRe30DzgzMhkcCtl4pb1E7GZbwRm444/TQBPxDOTzxGztlqLBgZVnWfl2U7g908XgUah+3A==}
     engines: {npm: '>=5.0.0'}
     hasBin: true
     requiresBuild: true
