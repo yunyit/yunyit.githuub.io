@@ -73,8 +73,8 @@ dependencies:
     specifier: ^1.0.0
     version: 1.0.0
   brace-expansion:
-    specifier: ^3.0.0
-    version: 3.0.0
+    specifier: ^4.0.0
+    version: 4.0.0
   braces:
     specifier: ^3.0.2
     version: 3.0.2
@@ -913,8 +913,8 @@ packages:
       balanced-match: 1.0.2
     dev: false
 
-  /brace-expansion@3.0.0:
-    resolution: {integrity: sha512-P+6OwxY7i0tsp0Xdei2CjvVOQke51REB4c2d2wCckcMn6NBElNqLuzr6PsxFCdJ3i/cpGEkZ/Nng5I7ZkLo0CA==}
+  /brace-expansion@4.0.0:
+    resolution: {integrity: sha512-l/mOwLWs7BQIgOKrL46dIAbyCKvPV7YJPDspkuc88rHsZRlg3hptUGdU7Trv0VFP4d3xnSGBQrKu5ZvGB7UeIw==}
     engines: {node: '>= 18'}
     dependencies:
       balanced-match: 3.0.1
