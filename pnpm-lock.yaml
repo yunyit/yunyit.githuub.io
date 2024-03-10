@@ -164,7 +164,7 @@ dependencies:
     version: 0.9.0
   hexo-filter-tikzjax:
     specifier: ^1.0.2
-    version: 1.0.2(quill-delta@5.1.0)(rxjs@7.8.1)(tslib@2.6.2)
+    version: 1.0.2
   hexo-generator-alias:
     specifier: ^1.0.0
     version: 1.0.0
@@ -265,8 +265,8 @@ dependencies:
     specifier: ^2.4.2
     version: 2.4.2
   memfs:
-    specifier: ^4.7.1
-    version: 4.7.1(quill-delta@5.1.0)(rxjs@7.8.1)(tslib@2.6.2)
+    specifier: ^4.7.7
+    version: 4.7.7
   mhchemparser:
     specifier: ^4.2.1
     version: 4.2.1
@@ -293,7 +293,7 @@ dependencies:
     version: 3.0.5
   node-tikzjax:
     specifier: ^1.0.3
-    version: 1.0.3(quill-delta@5.1.0)(rxjs@7.8.1)(tslib@2.6.2)
+    version: 1.0.3
   nopt:
     specifier: ^7.2.0
     version: 7.2.0
@@ -2250,18 +2250,15 @@ packages:
       mathjax-full: 3.2.2
     dev: false
 
-  /hexo-filter-tikzjax@1.0.2(quill-delta@5.1.0)(rxjs@7.8.1)(tslib@2.6.2):
+  /hexo-filter-tikzjax@1.0.2:
     resolution: {integrity: sha512-+es9aUaOQiZ3igNgaJ1VGWY0FicZXU1YTaT7NjdQwwvxE6q9GmUVu+F3AB8bMNm6621YemRFJ3Cu0DInd/7/jw==}
     dependencies:
       node-localstorage: 3.0.5
-      node-tikzjax: 1.0.3(quill-delta@5.1.0)(rxjs@7.8.1)(tslib@2.6.2)
+      node-tikzjax: 1.0.3
     transitivePeerDependencies:
       - bufferutil
       - canvas
-      - quill-delta
-      - rxjs
       - supports-color
-      - tslib
       - utf-8-validate
     dev: false
 
@@ -3405,18 +3402,11 @@ packages:
     resolution: {integrity: sha512-/sKlQJCBYVY9Ers9hqzKou4H6V5UWc/M59TH2dvkt+84itfnq7uFOMLpOiOS4ujvHP4etln18fmIxA5R5fll0g==}
     dev: false
 
-  /memfs@4.7.1(quill-delta@5.1.0)(rxjs@7.8.1)(tslib@2.6.2):
-    resolution: {integrity: sha512-29/L94MxlTPkJOCvLwWG4OIAfBPoB921eOLU4wr6RR4yQ40y/et8mroRE5t4rIQrLtmOACtLhZvGVKJgPGPDxQ==}
+  /memfs@4.7.7:
+    resolution: {integrity: sha512-x9qc6k88J/VVwnfTkJV8pRRswJ2156Rc4w5rciRqKceFDZ0y1MqsNL9pkg5sE0GOcDzZYbonreALhaHzg1siFw==}
     engines: {node: '>= 4.0.0'}
-    peerDependencies:
-      tslib: '2'
     dependencies:
-      json-joy: 11.34.0(quill-delta@5.1.0)(rxjs@7.8.1)(tslib@2.6.2)
-      thingies: 1.16.0(tslib@2.6.2)
       tslib: 2.6.2
-    transitivePeerDependencies:
-      - quill-delta
-      - rxjs
     dev: false
 
   /meow@12.1.1:
@@ -3651,21 +3641,18 @@ packages:
     resolution: {integrity: sha512-y10wOWt8yZpqXmOgRo77WaHEmhYQYGNA6y421PKsKYWEK8aW+cqAphborZDhqfyKrbZEN92CN1X2KbafY2s7Yw==}
     dev: false
 
-  /node-tikzjax@1.0.3(quill-delta@5.1.0)(rxjs@7.8.1)(tslib@2.6.2):
+  /node-tikzjax@1.0.3:
     resolution: {integrity: sha512-AfJpj8NPlefBth5bl8n/V82zOMJe+Y63M8uymZiq7g/Gnl9HIcid/65h4PolZA//6siq7iFhTW3OFB75vG4hYA==}
     dependencies:
       '@prinsss/dvi2html': 0.0.1
       jsdom: 23.2.0
-      memfs: 4.7.1(quill-delta@5.1.0)(rxjs@7.8.1)(tslib@2.6.2)
+      memfs: 4.7.7
       svgo: 3.2.0
       tar-fs: 3.0.5
     transitivePeerDependencies:
       - bufferutil
       - canvas
-      - quill-delta
-      - rxjs
       - supports-color
-      - tslib
       - utf-8-validate
     dev: false
 
