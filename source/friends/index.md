@@ -106,6 +106,18 @@ _以下站点按照添加的时间顺序排列：_
 - [野生糖喵](https://candinya.com/)
   - 好伙伴们在哪里~
 
+- [lozhu's blog](https://lozhu.happy365.day/)
+  - 一切皆是因为好玩～
+
+- [樽前小筑](https://yefoenix.ws/)
+  - 酒类写作及博主的一些折腾
+
+- [sangmingming](https://isming.me)
+  - 一个码农的个人的技术和日常记录
+
+- [Allen](https://jiangmiemie.com/blog/archive/)
+  - 真实的记录自己，比获得他人的认同感更重要
+
 - [Project RC](https://stdrc.cc)
   - Richard Chien
 
