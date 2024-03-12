@@ -208,8 +208,8 @@ dependencies:
     specifier: ^3.0.1
     version: 3.0.1
   hexo-renderer-swig:
-    specifier: ^1.1.0
-    version: 1.1.0
+    specifier: ^2.0.0
+    version: 2.0.0
   hexo-server:
     specifier: ^3.0.0
     version: 3.0.0
@@ -241,8 +241,8 @@ dependencies:
     specifier: ^24.0.0
     version: 24.0.0
   json-joy:
-    specifier: ^11.36.0
-    version: 11.36.0(quill-delta@5.1.0)(rxjs@7.8.1)(tslib@2.6.2)
+    specifier: ^11.37.0
+    version: 11.37.0(quill-delta@5.1.0)(rxjs@7.8.1)(tslib@2.6.2)
   lazyload:
     specifier: 2.0.0-rc.2
     version: 2.0.0-rc.2
@@ -301,8 +301,8 @@ dependencies:
     specifier: ^2.1.1
     version: 2.1.1
   optimist:
-    specifier: ^0.5.2
-    version: 0.5.2
+    specifier: ^0.6.1
+    version: 0.6.1
   pump:
     specifier: ^3.0.0
     version: 3.0.0
@@ -361,8 +361,8 @@ dependencies:
     specifier: ^3.1.7
     version: 3.1.7
   thingies:
-    specifier: ^1.17.0
-    version: 1.17.0(tslib@2.6.2)
+    specifier: ^1.18.0
+    version: 1.18.0(tslib@2.6.2)
   tr46:
     specifier: ^5.0.0
     version: 5.0.0
@@ -761,7 +761,7 @@ packages:
     hasBin: true
     dependencies:
       browserslist: 4.23.0
-      caniuse-lite: 1.0.30001596
+      caniuse-lite: 1.0.30001597
       normalize-range: 0.1.2
       num2fraction: 1.2.2
       picocolors: 0.2.1
@@ -936,8 +936,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001596
-      electron-to-chromium: 1.4.699
+      caniuse-lite: 1.0.30001597
+      electron-to-chromium: 1.4.701
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
     dev: false
@@ -1026,8 +1026,8 @@ packages:
     engines: {node: '>=14.16'}
     dev: false
 
-  /caniuse-lite@1.0.30001596:
-    resolution: {integrity: sha512-zpkZ+kEr6We7w63ORkoJ2pOfBwBkY/bJrG/UZ90qNb45Isblu8wzDgevEOrRL1r9dWayHjYiiyCMEXPn4DweGQ==}
+  /caniuse-lite@1.0.30001597:
+    resolution: {integrity: sha512-7LjJvmQU6Sj7bL0j5b5WY/3n7utXUJvAe1lxhsHDbLmwX9mdL86Yjtr+5SRCyf8qME4M7pU2hswj0FpyBVCv9w==}
     dev: false
 
   /caseless@0.12.0:
@@ -1706,8 +1706,8 @@ packages:
       jake: 10.8.7
     dev: false
 
-  /electron-to-chromium@1.4.699:
-    resolution: {integrity: sha512-I7q3BbQi6e4tJJN5CRcyvxhK0iJb34TV8eJQcgh+fR2fQ8miMgZcEInckCo1U9exDHbfz7DLDnFn8oqH/VcRKw==}
+  /electron-to-chromium@1.4.701:
+    resolution: {integrity: sha512-K3WPQ36bUOtXg/1+69bFlFOvdSm0/0bGqmsfPDLRXLanoKXdA+pIWuf/VbA9b+2CwBFuONgl4NEz4OEm+OJOKA==}
     dev: false
 
   /emoji-regex@10.3.0:
@@ -2451,12 +2451,13 @@ packages:
       - supports-color
     dev: false
 
-  /hexo-renderer-swig@1.1.0:
-    resolution: {integrity: sha512-od2bmpKT7YcRh7UBxC4tF3sIAabD/1nLJzH0NW4Mk4dnTfTXZ4x5XSBGmP4A/X/ShyH2oGezbAvMbqrS8sNg1Q==}
+  /hexo-renderer-swig@2.0.0:
+    resolution: {integrity: sha512-aF1Smz/RW+mAYuMQZ6d+pH9Y8ve8ShAoU0TaGajhWV11/H6cXHiKDgeLPjDDQfNK0jPybrVzTGnciVjkLjAKvA==}
+    engines: {node: '>=8.6.0'}
     deprecated: hexo-renderer-swig has been deprecated. Please use other template engines. (e.g. nunjucks https://github.com/hexojs/hexo-renderer-nunjucks)
     dependencies:
-      swig: 1.4.2
       swig-extras: 0.0.1
+      swig-templates: 2.0.3
     dev: false
 
   /hexo-server@3.0.0:
@@ -3143,8 +3144,8 @@ packages:
     resolution: {integrity: sha512-4bV5BfR2mqfQTJm+V5tPPdf+ZpuhiIvTuAB5g8kcrXOZpTT/QwwVRWBywX1ozr6lEuPdbHxwaJlm9G6mI2sfSQ==}
     dev: false
 
-  /json-joy@11.36.0(quill-delta@5.1.0)(rxjs@7.8.1)(tslib@2.6.2):
-    resolution: {integrity: sha512-1OrzHWqa46SjKtxnR0E5owprZyOt3hJfO8W1cnOXzL8h5KJ0lTI8MG3K3wmRiAMDatPFHsoFHpyhwVsWtl2ZKA==}
+  /json-joy@11.37.0(quill-delta@5.1.0)(rxjs@7.8.1)(tslib@2.6.2):
+    resolution: {integrity: sha512-HVEx4r/ulEmp8+nRLeNpzQqIyPMPFsqSO71bgey5f4qgQmxLPwnzawi3f95yiUNVBFJu9xHe6wPRPWt0nyEkiQ==}
     engines: {node: '>=10.0'}
     hasBin: true
     peerDependencies:
@@ -3162,7 +3163,7 @@ packages:
       multibase: 4.0.6
       quill-delta: 5.1.0
       rxjs: 7.8.1
-      thingies: 1.17.0(tslib@2.6.2)
+      thingies: 1.18.0(tslib@2.6.2)
       tslib: 2.6.2
     dev: false
 
@@ -3833,12 +3834,6 @@ packages:
       define-lazy-prop: 2.0.0
       is-docker: 2.2.1
       is-wsl: 2.2.0
-    dev: false
-
-  /optimist@0.5.2:
-    resolution: {integrity: sha512-r9M8ZpnM9SXV5Wii7TCqienfcaY3tAiJe9Jchof87icbmbruKgK0xKXngmrnowTDnEawmmI1Qbha59JEoBkBGA==}
-    dependencies:
-      wordwrap: 0.0.3
     dev: false
 
   /optimist@0.6.1:
@@ -4813,8 +4808,8 @@ packages:
     resolution: {integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==}
     dev: false
 
-  /thingies@1.17.0(tslib@2.6.2):
-    resolution: {integrity: sha512-cpwd9eT9b7vcWDlJrIsfS+kBrcHEMST6DG08pOJoDkl/ToSwKYkW5x8RfBp5+k+iz1bT/dqEpoZOewg8I2lycw==}
+  /thingies@1.18.0(tslib@2.6.2):
+    resolution: {integrity: sha512-WiB26BQP0MF47Bbvbq0P19KpyfrvdTK07L8xnltobpZ/aJPmu52CBGhYjLsnFgjyawmusJ0gVkTplnnoz2hBkQ==}
     engines: {node: '>=10.18'}
     peerDependencies:
       tslib: ^2

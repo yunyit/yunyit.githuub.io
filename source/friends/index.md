@@ -106,6 +106,9 @@ _以下站点按照添加的时间顺序排列：_
 - [野生糖喵](https://candinya.com/)
   - 好伙伴们在哪里~
 
+- [sangmingming](https://isming.me)
+  - 一个码农的个人的技术和日常记录
+
 - [Project RC](https://stdrc.cc)
   - Richard Chien
 
