@@ -121,7 +121,7 @@
     "rxjs": "^7.8.1",
     "signal-exit": "^4.1.0",
     "source-map": "^0.7.4",
-    "source-map-js": "^1.0.2",
+    "source-map-js": "^1.1.0",
     "speech-rule-engine": "4.1.0-beta.8",
     "streamx": "^2.16.1",
     "stylus": "^0.63.0",
