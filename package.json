@@ -60,7 +60,7 @@
     "esm": "^3.2.25",
     "fast-diff": "^1.3.0",
     "fast-fifo": "^1.3.2",
-    "gitmoji-cli": "^9.1.0",
+    "gitmoji-cli": "^9.2.0",
     "hexo": "^7.1.1",
     "hexo-autoprefixer": "^2.0.0",
     "hexo-deployer-git": "^4.0.0",
