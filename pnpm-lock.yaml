@@ -265,8 +265,8 @@ dependencies:
     specifier: ^2.4.2
     version: 2.4.2
   memfs:
-    specifier: ^4.7.7
-    version: 4.7.7
+    specifier: ^4.8.1
+    version: 4.8.1
   mhchemparser:
     specifier: ^4.2.1
     version: 4.2.1
@@ -3437,8 +3437,8 @@ packages:
     resolution: {integrity: sha512-/sKlQJCBYVY9Ers9hqzKou4H6V5UWc/M59TH2dvkt+84itfnq7uFOMLpOiOS4ujvHP4etln18fmIxA5R5fll0g==}
     dev: false
 
-  /memfs@4.7.7:
-    resolution: {integrity: sha512-x9qc6k88J/VVwnfTkJV8pRRswJ2156Rc4w5rciRqKceFDZ0y1MqsNL9pkg5sE0GOcDzZYbonreALhaHzg1siFw==}
+  /memfs@4.8.1:
+    resolution: {integrity: sha512-7q/AdPzf2WpwPlPL4v1kE2KsJsHl7EF4+hAeVzlyanr2+YnR21NVn9mDqo+7DEaKDRsQy8nvxPlKH4WqMtiO0w==}
     engines: {node: '>= 4.0.0'}
     dependencies:
       tslib: 2.6.2
@@ -3689,7 +3689,7 @@ packages:
     dependencies:
       '@prinsss/dvi2html': 0.0.1
       jsdom: 23.2.0
-      memfs: 4.7.7
+      memfs: 4.8.1
       svgo: 3.2.0
       tar-fs: 3.0.5
     transitivePeerDependencies:
