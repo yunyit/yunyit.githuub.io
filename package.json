@@ -83,7 +83,7 @@
     "hexo-renderer-swig": "^2.0.0",
     "hexo-server": "^3.0.0",
     "hexo-theme-landscape": "^1.0.0",
-    "hexo-util": "^3.2.0",
+    "hexo-util": "^3.3.0",
     "html-encoding-sniffer": "^4.0.0",
     "http-proxy-agent": "^7.0.2",
     "https-proxy-agent": "^7.0.4",
