@@ -241,8 +241,8 @@ dependencies:
     specifier: ^24.0.0
     version: 24.0.0
   json-joy:
-    specifier: ^11.38.0
-    version: 11.38.0(quill-delta@5.1.0)(rxjs@7.8.1)(tslib@2.6.2)
+    specifier: ^12.0.0
+    version: 12.0.0(quill-delta@5.1.0)(rxjs@7.8.1)(tslib@2.6.2)
   lazyload:
     specifier: 2.0.0-rc.2
     version: 2.0.0-rc.2
@@ -3144,8 +3144,8 @@ packages:
     resolution: {integrity: sha512-4bV5BfR2mqfQTJm+V5tPPdf+ZpuhiIvTuAB5g8kcrXOZpTT/QwwVRWBywX1ozr6lEuPdbHxwaJlm9G6mI2sfSQ==}
     dev: false
 
-  /json-joy@11.38.0(quill-delta@5.1.0)(rxjs@7.8.1)(tslib@2.6.2):
-    resolution: {integrity: sha512-Zf+CU8sQUif7PPOLdn7+z4W8zeHd7YPuD7lqVTfYX5wBemrGvdnS1o8Wm26qm8mtzyEL7TlM/evj8QeSDt3lmQ==}
+  /json-joy@12.0.0(quill-delta@5.1.0)(rxjs@7.8.1)(tslib@2.6.2):
+    resolution: {integrity: sha512-Lmw6A+y3xM8GyFOB6ratS/mZjtFj9MkAS5dpkas+TerhlM5tH3vsEveuG2YrNpBTZbnWqMDmeYVykfSyCRzNIA==}
     engines: {node: '>=10.0'}
     hasBin: true
     peerDependencies:
@@ -3163,7 +3163,7 @@ packages:
       multibase: 4.0.6
       quill-delta: 5.1.0
       rxjs: 7.8.1
-      thingies: 1.18.0(tslib@2.6.2)
+      thingies: 1.20.0(tslib@2.6.2)
       tslib: 2.6.2
     dev: false
 
@@ -4810,6 +4810,15 @@ packages:
 
   /thingies@1.18.0(tslib@2.6.2):
     resolution: {integrity: sha512-WiB26BQP0MF47Bbvbq0P19KpyfrvdTK07L8xnltobpZ/aJPmu52CBGhYjLsnFgjyawmusJ0gVkTplnnoz2hBkQ==}
+    engines: {node: '>=10.18'}
+    peerDependencies:
+      tslib: ^2
+    dependencies:
+      tslib: 2.6.2
+    dev: false
+
+  /thingies@1.20.0(tslib@2.6.2):
+    resolution: {integrity: sha512-WvXY4CjHp/Uim2Ri0daqu6jkNTHJTk1H8NvuMQiOL0mgtdkqoSH5fkENy2M6XnvsLOp5iwyPcbmokoBjVb4lnQ==}
     engines: {node: '>=10.18'}
     peerDependencies:
       tslib: ^2
