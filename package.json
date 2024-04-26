@@ -129,7 +129,7 @@
     "swig": "^1.4.2",
     "swig-extras": "^0.0.1",
     "swig-templates": "^2.0.3",
-    "tar-fs": "^3.0.5",
+    "tar-fs": "^3.0.6",
     "tar-stream": "^3.1.7",
     "thingies": "^1.18.0",
     "tr46": "^5.0.0",
