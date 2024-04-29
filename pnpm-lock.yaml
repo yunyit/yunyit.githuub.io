@@ -265,8 +265,8 @@ dependencies:
     specifier: ^2.4.2
     version: 2.4.2
   memfs:
-    specifier: ^4.7.7
-    version: 4.7.7
+    specifier: ^4.9.1
+    version: 4.9.1
   mhchemparser:
     specifier: ^4.2.1
     version: 4.2.1
@@ -435,6 +435,38 @@ packages:
       bidi-js: 1.0.3
       css-tree: 2.3.1
       is-potential-custom-element-name: 1.0.1
+    dev: false
+
+  /@jsonjoy.com/base64@1.1.1(tslib@2.6.2):
+    resolution: {integrity: sha512-LnFjVChaGY8cZVMwAIMjvA1XwQjZ/zIXHyh28IyJkyNkzof4Dkm1+KN9UIm3lHhREH4vs7XwZ0NpkZKnwOtEfg==}
+    engines: {node: '>=10.0'}
+    peerDependencies:
+      tslib: '2'
+    dependencies:
+      tslib: 2.6.2
+    dev: false
+
+  /@jsonjoy.com/json-pack@1.0.2(tslib@2.6.2):
+    resolution: {integrity: sha512-4KMApTgb1Hvjz9Ue7unziJ1xNy3k6d2erp0hz1iXryXsf6LEM3KwN6YrfbqT0vqkUO8Tu+CSnvMia9cWX6YGVw==}
+    engines: {node: '>=10.0'}
+    peerDependencies:
+      tslib: '2'
+    dependencies:
+      '@jsonjoy.com/base64': 1.1.1(tslib@2.6.2)
+      '@jsonjoy.com/util': 1.1.0(tslib@2.6.2)
+      hyperdyperid: 1.2.0
+      thingies: 1.21.0(tslib@2.6.2)
+      tslib: 2.6.2
+    dev: false
+
+  /@jsonjoy.com/util@1.1.0(tslib@2.6.2):
+    resolution: {integrity: sha512-Yz+xITJ3Y/w0DBISwPkBETP5/cITHXscjgQNZIkfrVz1V7/ahJY8vw+T+LZy/KtXgKuUWqu4GALAQ3bhGt9J8A==}
+    engines: {node: '>=10.0'}
+    peerDependencies:
+      tslib: '2'
+    dependencies:
+      hyperdyperid: 1.2.0
+      tslib: 2.6.2
     dev: false
 
   /@ljharb/through@2.3.13:
@@ -3437,10 +3469,13 @@ packages:
     resolution: {integrity: sha512-/sKlQJCBYVY9Ers9hqzKou4H6V5UWc/M59TH2dvkt+84itfnq7uFOMLpOiOS4ujvHP4etln18fmIxA5R5fll0g==}
     dev: false
 
-  /memfs@4.7.7:
-    resolution: {integrity: sha512-x9qc6k88J/VVwnfTkJV8pRRswJ2156Rc4w5rciRqKceFDZ0y1MqsNL9pkg5sE0GOcDzZYbonreALhaHzg1siFw==}
+  /memfs@4.9.1:
+    resolution: {integrity: sha512-36cVYFMaa9HNEYyvkyKCwker8DBmOdjWLrfekE/cHEKJ806fCfKNVhOJNvoyV/CrGSZDtfQPbhn0Zid0gbH0Hw==}
     engines: {node: '>= 4.0.0'}
     dependencies:
+      '@jsonjoy.com/json-pack': 1.0.2(tslib@2.6.2)
+      '@jsonjoy.com/util': 1.1.0(tslib@2.6.2)
+      sonic-forest: 1.0.0(tslib@2.6.2)
       tslib: 2.6.2
     dev: false
 
@@ -3689,7 +3724,7 @@ packages:
     dependencies:
       '@prinsss/dvi2html': 0.0.1
       jsdom: 23.2.0
-      memfs: 4.7.7
+      memfs: 4.9.1
       svgo: 3.2.0
       tar-fs: 3.0.5
     transitivePeerDependencies:
@@ -4485,6 +4520,15 @@ packages:
       smart-buffer: 4.2.0
     dev: false
 
+  /sonic-forest@1.0.0(tslib@2.6.2):
+    resolution: {integrity: sha512-yFO2N4uTUFtgKLw03WWFpN1iEwZySweMsa18XN3Kt0yYrlmVHunC2ZgM+437zDoKISAJHcH3Cg18U7d6tuSgSQ==}
+    engines: {node: '>=10.0'}
+    peerDependencies:
+      tslib: '2'
+    dependencies:
+      tslib: 2.6.2
+    dev: false
+
   /source-map-js@1.0.2:
     resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}
     engines: {node: '>=0.10.0'}
@@ -4810,6 +4854,15 @@ packages:
 
   /thingies@1.18.0(tslib@2.6.2):
     resolution: {integrity: sha512-WiB26BQP0MF47Bbvbq0P19KpyfrvdTK07L8xnltobpZ/aJPmu52CBGhYjLsnFgjyawmusJ0gVkTplnnoz2hBkQ==}
+    engines: {node: '>=10.18'}
+    peerDependencies:
+      tslib: ^2
+    dependencies:
+      tslib: 2.6.2
+    dev: false
+
+  /thingies@1.21.0(tslib@2.6.2):
+    resolution: {integrity: sha512-hsqsJsFMsV+aD4s3CWKk85ep/3I9XzYV/IXaSouJMYIoDlgyi11cBhsqYe9/geRfB0YIikBQg6raRaM+nIMP9g==}
     engines: {node: '>=10.18'}
     peerDependencies:
       tslib: ^2
