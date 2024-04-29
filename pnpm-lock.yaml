@@ -361,8 +361,8 @@ dependencies:
     specifier: ^3.1.7
     version: 3.1.7
   thingies:
-    specifier: ^1.18.0
-    version: 1.18.0(tslib@2.6.2)
+    specifier: ^2.1.0
+    version: 2.1.0(tslib@2.6.2)
   tr46:
     specifier: ^5.0.0
     version: 5.0.0
@@ -4810,6 +4810,15 @@ packages:
 
   /thingies@1.18.0(tslib@2.6.2):
     resolution: {integrity: sha512-WiB26BQP0MF47Bbvbq0P19KpyfrvdTK07L8xnltobpZ/aJPmu52CBGhYjLsnFgjyawmusJ0gVkTplnnoz2hBkQ==}
+    engines: {node: '>=10.18'}
+    peerDependencies:
+      tslib: ^2
+    dependencies:
+      tslib: 2.6.2
+    dev: false
+
+  /thingies@2.1.0(tslib@2.6.2):
+    resolution: {integrity: sha512-SASxQdAtapX03qTa1V/kt9UGhQLUoP54luRasJxZoleeAL+PSQsBlIAGNxj1FoayglyCGUhxByFgSn7dh2JFog==}
     engines: {node: '>=10.18'}
     peerDependencies:
       tslib: ^2
