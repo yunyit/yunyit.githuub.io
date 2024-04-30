@@ -64,8 +64,8 @@ dependencies:
     specifier: ^1.0.3
     version: 1.0.3
   binary-extensions:
-    specifier: ^2.2.0
-    version: 2.2.0
+    specifier: ^3.0.0
+    version: 3.0.0
   bluebird:
     specifier: ^3.7.2
     version: 3.7.2
@@ -862,6 +862,11 @@ packages:
   /binary-extensions@2.2.0:
     resolution: {integrity: sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==}
     engines: {node: '>=8'}
+    dev: false
+
+  /binary-extensions@3.0.0:
+    resolution: {integrity: sha512-X0RfwMgXPEesg6PCXzytQZt9Unh9gtc4SfeTNJvKifUL//Oegcc/Yf31z6hThNZ8dnD3Ir3wkHVN0eWrTvP5ww==}
+    engines: {node: '>=18.20'}
     dev: false
 
   /bl@4.1.0:

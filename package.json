@@ -32,7 +32,7 @@
     "base64-js": "^1.5.1",
     "basic-auth": "^2.0.1",
     "bidi-js": "^1.0.3",
-    "binary-extensions": "^2.2.0",
+    "binary-extensions": "^3.0.0",
     "bluebird": "^3.7.2",
     "boolbase": "^1.0.0",
     "brace-expansion": "^4.0.0",
