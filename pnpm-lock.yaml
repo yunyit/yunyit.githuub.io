@@ -334,8 +334,8 @@ dependencies:
     specifier: ^1.2.0
     version: 1.2.0
   speech-rule-engine:
-    specifier: 4.1.0-beta.8
-    version: 4.1.0-beta.8
+    specifier: 4.1.0-beta.10
+    version: 4.1.0-beta.10
   streamx:
     specifier: ^2.18.0
     version: 2.18.0
@@ -4561,8 +4561,8 @@ packages:
       xmldom-sre: 0.1.31
     dev: false
 
-  /speech-rule-engine@4.1.0-beta.8:
-    resolution: {integrity: sha512-XG/BnvfH3alVKS1pOpu1JkGyTlqFZGNmTFE3e47gQrCyL3oM2vT0XhNjBNrV3yEr4kjcV8vKRN/7h0nh3BO1jA==}
+  /speech-rule-engine@4.1.0-beta.10:
+    resolution: {integrity: sha512-SPqPF4YPdqvg0+VvQKpOi68SFFMCyvGI3zNfWPJx0faxh/eHjH3ATbRu4GjoWWnHGWKY8uSqXjz/1UnFVI6NmQ==}
     hasBin: true
     dependencies:
       '@xmldom/xmldom': 0.9.0-beta.8
