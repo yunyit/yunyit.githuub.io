@@ -4629,6 +4629,15 @@ packages:
     dependencies:
       tslib: 2.7.0
 
+  /thingies@2.1.0(tslib@2.6.2):
+    resolution: {integrity: sha512-SASxQdAtapX03qTa1V/kt9UGhQLUoP54luRasJxZoleeAL+PSQsBlIAGNxj1FoayglyCGUhxByFgSn7dh2JFog==}
+    engines: {node: '>=10.18'}
+    peerDependencies:
+      tslib: ^2
+    dependencies:
+      tslib: 2.6.2
+    dev: false
+
   /through2@4.0.2:
     resolution: {integrity: sha512-iOqSav00cVxEEICeD7TjLB1sueEL+81Wpzp2bY17uZjZN0pWZPuo4suZ/61VujxmqSGFfgOcNuTZ85QJwNZQpw==}
     dependencies:
