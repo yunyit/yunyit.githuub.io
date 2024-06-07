@@ -241,8 +241,8 @@ dependencies:
     specifier: ^24.1.0
     version: 24.1.0
   json-joy:
-    specifier: ^16.5.0
-    version: 16.5.0(rxjs@7.8.1)(tslib@2.6.2)
+    specifier: ^16.6.0
+    version: 16.6.0(rxjs@7.8.1)(tslib@2.6.2)
   lazyload:
     specifier: 2.0.0-rc.2
     version: 2.0.0-rc.2
@@ -3171,8 +3171,8 @@ packages:
     resolution: {integrity: sha512-4bV5BfR2mqfQTJm+V5tPPdf+ZpuhiIvTuAB5g8kcrXOZpTT/QwwVRWBywX1ozr6lEuPdbHxwaJlm9G6mI2sfSQ==}
     dev: false
 
-  /json-joy@16.5.0(rxjs@7.8.1)(tslib@2.6.2):
-    resolution: {integrity: sha512-hVA8h+KKDw8slELI53/llXWEUVuu2kpeFNhf7+QswD+HiM4Y7wewcTusi/OIn/cGg87Q38dRlTNpWwjNf/LQTg==}
+  /json-joy@16.6.0(rxjs@7.8.1)(tslib@2.6.2):
+    resolution: {integrity: sha512-0j2CoKfSe7QabACwG4nA8zuvJe0NQt0GwjX0vRw2rL1OKMJv1jgDattGKnWfs+gn83tphPK7ZB617EPNiN8EjQ==}
     engines: {node: '>=10.0'}
     hasBin: true
     peerDependencies:
