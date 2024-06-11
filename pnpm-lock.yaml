@@ -420,8 +420,8 @@ dependencies:
 
 devDependencies:
   prettier:
-    specifier: 3.2.5
-    version: 3.2.5
+    specifier: 3.3.2
+    version: 3.3.2
 
 packages:
 
@@ -4007,8 +4007,8 @@ packages:
       source-map: 0.6.1
     dev: false
 
-  /prettier@3.2.5:
-    resolution: {integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==}
+  /prettier@3.3.2:
+    resolution: {integrity: sha512-rAVeHYMcv8ATV5d508CFdn+8/pHPpXeIid1DdrPwXnaAdH7cqjVbpJaT5eq4yRAFU/lsbwYwSF/n5iNrdJHPQA==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
