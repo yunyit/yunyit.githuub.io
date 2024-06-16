@@ -17,7 +17,7 @@ overrides:
 dependencies:
   '@adobe/css-tools':
     specifier: github:adobe/css-tools
-    version: github.com/adobe/css-tools/7f831b84cb3a5b586e45bf820df5de8ed042eaaf
+    version: github.com/adobe/css-tools/1ae4a5c86c3a4f35bc54271803dc36dc2da6bffc
   '@tootallnate/once':
     specifier: github:tootallnate/once
     version: github.com/tootallnate/once/2bc2e134b7728a6b37c6838a3b5d5c290e60a539
@@ -4629,13 +4629,13 @@ packages:
     dependencies:
       tslib: 2.7.0
 
-  /thingies@2.1.0(tslib@2.6.2):
+  /thingies@2.1.0(tslib@2.6.3):
     resolution: {integrity: sha512-SASxQdAtapX03qTa1V/kt9UGhQLUoP54luRasJxZoleeAL+PSQsBlIAGNxj1FoayglyCGUhxByFgSn7dh2JFog==}
     engines: {node: '>=10.18'}
     peerDependencies:
       tslib: ^2
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.6.3
     dev: false
 
   /through2@4.0.2:
