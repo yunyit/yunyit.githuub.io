@@ -8,6 +8,11 @@ tags:
   - 开发软件
 ---
 
+<!--
+reference:
+https://www.chrisatmachine.com/posts/01-macos-developer-setup
+-->
+
 前几周开始了新工作，主要负责数据库，本磨美美地换了一个磨，配置各种乱七八糟的就是第一周主线任务。
 
 以下是数据女工的 Mac 配置，主要分为：
