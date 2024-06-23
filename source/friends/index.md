@@ -115,6 +115,9 @@ _以下站点按照添加的时间顺序排列：_
 - [sangmingming](https://isming.me)
   - 一个码农的个人的技术和日常记录
 
+- [Allen](https://jiangmiemie.com/blog/archive/)
+  - 真实的记录自己，比获得他人的认同感更重要
+
 - [Project RC](https://stdrc.cc)
   - Richard Chien
 
