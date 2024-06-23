@@ -3191,9 +3191,7 @@ packages:
       arg: 5.0.2
       hyperdyperid: 1.2.0
       rxjs: 7.8.1
-      sonic-forest: 1.0.3(tslib@2.6.3)
-      thingies: 2.1.0(tslib@2.6.3)
-      tree-dump: 1.0.1(tslib@2.6.3)
+      thingies: 1.21.0(tslib@2.6.3)
       tslib: 2.6.3
     dev: false
 
