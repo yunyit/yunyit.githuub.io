@@ -17,7 +17,7 @@ overrides:
 dependencies:
   '@adobe/css-tools':
     specifier: github:adobe/css-tools
-    version: github.com/adobe/css-tools/1ae4a5c86c3a4f35bc54271803dc36dc2da6bffc
+    version: github.com/adobe/css-tools/9304b0895ff20323f327793ad4e2fb80d1911d0d
   '@tootallnate/once':
     specifier: github:tootallnate/once
     version: github.com/tootallnate/once/2bc2e134b7728a6b37c6838a3b5d5c290e60a539
