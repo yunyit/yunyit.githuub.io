@@ -20,7 +20,7 @@ importers:
     dependencies:
       '@adobe/css-tools':
         specifier: github:adobe/css-tools
-        version: git+https://git@github.com:adobe/css-tools.git#105e06f3c5147989e6d8a962fa7716eb3fb4c2c2
+        version: git+https://git@github.com:adobe/css-tools.git#142895d79e1a4f384c5c031ada4e8d7a5304b89b
       '@tootallnate/once':
         specifier: github:tootallnate/once
         version: git+https://git@github.com:tootallnate/once.git#2bc2e134b7728a6b37c6838a3b5d5c290e60a539
@@ -151,8 +151,8 @@ importers:
         specifier: ^1.3.2
         version: 1.3.2
       gitmoji-cli:
-        specifier: ^9.3.0
-        version: 9.3.0
+        specifier: ^9.4.0
+        version: 9.4.0
       hexo:
         specifier: ^7.2.0
         version: 7.2.0(chokidar@3.6.0)
@@ -430,8 +430,8 @@ packages:
   '@adobe/css-tools@4.3.3':
     resolution: {integrity: sha512-rE0Pygv0sEZ4vBWHlAgJLGDU7Pm8xoO6p3wsEceb7GYAjScrOHpEo8KK/eVkAcnSM+slAEtXjA2JpdjLp4fJQQ==}
 
-  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#105e06f3c5147989e6d8a962fa7716eb3fb4c2c2':
-    resolution: {commit: 105e06f3c5147989e6d8a962fa7716eb3fb4c2c2, repo: git@github.com:adobe/css-tools.git, type: git}
+  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#142895d79e1a4f384c5c031ada4e8d7a5304b89b':
+    resolution: {commit: 142895d79e1a4f384c5c031ada4e8d7a5304b89b, repo: git@github.com:adobe/css-tools.git, type: git}
     version: 4.4.0
 
   '@asamuzakjp/dom-selector@2.0.2':
@@ -1391,8 +1391,8 @@ packages:
   getpass@0.1.7:
     resolution: {integrity: sha512-0fzj9JxOLfJ+XGLhR8ze3unN0KZCgZwiSSDz168VERjK8Wl8kVSdcu2kspd4s4wtAa1y/qrVRiAA0WclVsu0ng==}
 
-  gitmoji-cli@9.3.0:
-    resolution: {integrity: sha512-2xcKjlH2rVRwx17RrX0mwOqQRqIrFHKv+0JFKat74r3y6TRrdMoSwH3yzz+ho23fc0kPryAbt3JE5op3v/fYrA==}
+  gitmoji-cli@9.4.0:
+    resolution: {integrity: sha512-yqiYRSN0PEI8v9EJXn/euL+9keVpcvlCo87yc+M1m3zhP666oQ5/Ee0SdrexqAVmF5b/ZLsIaAntxB85Dt6H7g==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -3174,7 +3174,7 @@ snapshots:
 
   '@adobe/css-tools@4.3.3': {}
 
-  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#105e06f3c5147989e6d8a962fa7716eb3fb4c2c2': {}
+  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#142895d79e1a4f384c5c031ada4e8d7a5304b89b': {}
 
   '@asamuzakjp/dom-selector@2.0.2':
     dependencies:
@@ -4141,7 +4141,7 @@ snapshots:
       assert-plus: 1.0.0
     optional: true
 
-  gitmoji-cli@9.3.0:
+  gitmoji-cli@9.4.0:
     dependencies:
       chalk: 5.3.0
       conf: 12.0.0
