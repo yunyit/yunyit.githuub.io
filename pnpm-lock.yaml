@@ -20,7 +20,7 @@ importers:
     dependencies:
       '@adobe/css-tools':
         specifier: github:adobe/css-tools
-        version: git+https://git@github.com:adobe/css-tools.git#105e06f3c5147989e6d8a962fa7716eb3fb4c2c2
+        version: git+https://git@github.com:adobe/css-tools.git#142895d79e1a4f384c5c031ada4e8d7a5304b89b
       '@tootallnate/once':
         specifier: github:tootallnate/once
         version: git+https://git@github.com:tootallnate/once.git#2bc2e134b7728a6b37c6838a3b5d5c290e60a539
@@ -364,8 +364,8 @@ importers:
         specifier: ^3.1.7
         version: 3.1.7
       thingies:
-        specifier: ^2.1.0
-        version: 2.1.0(tslib@2.6.3)
+        specifier: ^2.1.1
+        version: 2.1.1(tslib@2.6.3)
       tr46:
         specifier: ^5.0.0
         version: 5.0.0
@@ -430,8 +430,8 @@ packages:
   '@adobe/css-tools@4.3.3':
     resolution: {integrity: sha512-rE0Pygv0sEZ4vBWHlAgJLGDU7Pm8xoO6p3wsEceb7GYAjScrOHpEo8KK/eVkAcnSM+slAEtXjA2JpdjLp4fJQQ==}
 
-  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#105e06f3c5147989e6d8a962fa7716eb3fb4c2c2':
-    resolution: {commit: 105e06f3c5147989e6d8a962fa7716eb3fb4c2c2, repo: git@github.com:adobe/css-tools.git, type: git}
+  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#142895d79e1a4f384c5c031ada4e8d7a5304b89b':
+    resolution: {commit: 142895d79e1a4f384c5c031ada4e8d7a5304b89b, repo: git@github.com:adobe/css-tools.git, type: git}
     version: 4.4.0
 
   '@asamuzakjp/dom-selector@2.0.2':
@@ -2811,8 +2811,8 @@ packages:
     peerDependencies:
       tslib: ^2
 
-  thingies@2.1.0:
-    resolution: {integrity: sha512-SASxQdAtapX03qTa1V/kt9UGhQLUoP54luRasJxZoleeAL+PSQsBlIAGNxj1FoayglyCGUhxByFgSn7dh2JFog==}
+  thingies@2.1.1:
+    resolution: {integrity: sha512-0ad16gExX2JBMPXmBQfKOUz7R1KNWAtiY6hjesug4WdV3uV/Qmm/NAu49uQvzV/f3XkMztjq+ncyMoYLPoppVQ==}
     engines: {node: '>=10.18'}
     peerDependencies:
       tslib: ^2
@@ -3174,7 +3174,7 @@ snapshots:
 
   '@adobe/css-tools@4.3.3': {}
 
-  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#105e06f3c5147989e6d8a962fa7716eb3fb4c2c2': {}
+  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#142895d79e1a4f384c5c031ada4e8d7a5304b89b': {}
 
   '@asamuzakjp/dom-selector@2.0.2':
     dependencies:
@@ -4824,7 +4824,7 @@ snapshots:
       arg: 5.0.2
       hyperdyperid: 1.2.0
       sonic-forest: 1.0.3(tslib@2.6.3)
-      thingies: 2.1.0(tslib@2.6.3)
+      thingies: 2.1.1(tslib@2.6.3)
       tree-dump: 1.0.1(tslib@2.6.3)
       tslib: 2.6.3
     optionalDependencies:
@@ -5800,7 +5800,7 @@ snapshots:
     dependencies:
       tslib: 2.6.3
 
-  thingies@2.1.0(tslib@2.6.3):
+  thingies@2.1.1(tslib@2.6.3):
     dependencies:
       tslib: 2.6.3
 
