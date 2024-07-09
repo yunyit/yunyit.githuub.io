@@ -86,7 +86,7 @@
     "hexo-util": "^3.3.0",
     "html-encoding-sniffer": "^4.0.0",
     "http-proxy-agent": "^7.0.2",
-    "https-proxy-agent": "^7.0.4",
+    "https-proxy-agent": "^7.0.5",
     "hyperdyperid": "^1.2.0",
     "ieee754": "^1.2.1",
     "imurmurhash": "^0.1.4",
