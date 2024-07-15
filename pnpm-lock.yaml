@@ -20,7 +20,7 @@ importers:
     dependencies:
       '@adobe/css-tools':
         specifier: github:adobe/css-tools
-        version: git+https://git@github.com:adobe/css-tools.git#105e06f3c5147989e6d8a962fa7716eb3fb4c2c2
+        version: git+https://git@github.com:adobe/css-tools.git#1854adebb8584981180c30b8c32e3812f5e5b6ad
       '@tootallnate/once':
         specifier: github:tootallnate/once
         version: git+https://git@github.com:tootallnate/once.git#2bc2e134b7728a6b37c6838a3b5d5c290e60a539
@@ -422,16 +422,16 @@ importers:
         version: 1.22.22
     devDependencies:
       prettier:
-        specifier: 3.3.2
-        version: 3.3.2
+        specifier: 3.3.3
+        version: 3.3.3
 
 packages:
 
   '@adobe/css-tools@4.3.3':
     resolution: {integrity: sha512-rE0Pygv0sEZ4vBWHlAgJLGDU7Pm8xoO6p3wsEceb7GYAjScrOHpEo8KK/eVkAcnSM+slAEtXjA2JpdjLp4fJQQ==}
 
-  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#105e06f3c5147989e6d8a962fa7716eb3fb4c2c2':
-    resolution: {commit: 105e06f3c5147989e6d8a962fa7716eb3fb4c2c2, repo: git@github.com:adobe/css-tools.git, type: git}
+  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#1854adebb8584981180c30b8c32e3812f5e5b6ad':
+    resolution: {commit: 1854adebb8584981180c30b8c32e3812f5e5b6ad, repo: git@github.com:adobe/css-tools.git, type: git}
     version: 4.4.0
 
   '@asamuzakjp/dom-selector@2.0.2':
@@ -2363,8 +2363,8 @@ packages:
     resolution: {integrity: sha512-yioayjNbHn6z1/Bywyb2Y4s3yvDAeXGOyxqD+LnVOinq6Mdmd++SW2wUNVzavyyHxd6+DxzWGIuosg6P1Rj8uA==}
     engines: {node: '>=6.0.0'}
 
-  prettier@3.3.2:
-    resolution: {integrity: sha512-rAVeHYMcv8ATV5d508CFdn+8/pHPpXeIid1DdrPwXnaAdH7cqjVbpJaT5eq4yRAFU/lsbwYwSF/n5iNrdJHPQA==}
+  prettier@3.3.3:
+    resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -3174,7 +3174,7 @@ snapshots:
 
   '@adobe/css-tools@4.3.3': {}
 
-  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#105e06f3c5147989e6d8a962fa7716eb3fb4c2c2': {}
+  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#1854adebb8584981180c30b8c32e3812f5e5b6ad': {}
 
   '@asamuzakjp/dom-selector@2.0.2':
     dependencies:
@@ -5293,7 +5293,7 @@ snapshots:
       picocolors: 0.2.1
       source-map: 0.6.1
 
-  prettier@3.3.2: {}
+  prettier@3.3.3: {}
 
   pretty-hrtime@1.0.3: {}
 
