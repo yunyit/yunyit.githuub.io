@@ -20,7 +20,7 @@ importers:
     dependencies:
       '@adobe/css-tools':
         specifier: github:adobe/css-tools
-        version: git+https://git@github.com:adobe/css-tools.git#105e06f3c5147989e6d8a962fa7716eb3fb4c2c2
+        version: git+https://git@github.com:adobe/css-tools.git#5fe532bd428295afaad0eb60bdfe394e351d2203
       '@tootallnate/once':
         specifier: github:tootallnate/once
         version: git+https://git@github.com:tootallnate/once.git#2bc2e134b7728a6b37c6838a3b5d5c290e60a539
@@ -370,8 +370,8 @@ importers:
         specifier: ^5.0.0
         version: 5.0.0
       uglify-js:
-        specifier: ^3.18.0
-        version: 3.18.0
+        specifier: ^3.19.0
+        version: 3.19.0
       uglify-to-browserify:
         specifier: ^2.1.0
         version: 2.1.0
@@ -430,8 +430,8 @@ packages:
   '@adobe/css-tools@4.3.3':
     resolution: {integrity: sha512-rE0Pygv0sEZ4vBWHlAgJLGDU7Pm8xoO6p3wsEceb7GYAjScrOHpEo8KK/eVkAcnSM+slAEtXjA2JpdjLp4fJQQ==}
 
-  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#105e06f3c5147989e6d8a962fa7716eb3fb4c2c2':
-    resolution: {commit: 105e06f3c5147989e6d8a962fa7716eb3fb4c2c2, repo: git@github.com:adobe/css-tools.git, type: git}
+  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#5fe532bd428295afaad0eb60bdfe394e351d2203':
+    resolution: {commit: 5fe532bd428295afaad0eb60bdfe394e351d2203, repo: git@github.com:adobe/css-tools.git, type: git}
     version: 4.4.0
 
   '@asamuzakjp/dom-selector@2.0.2':
@@ -2906,8 +2906,8 @@ packages:
     engines: {node: '>=0.8.0'}
     hasBin: true
 
-  uglify-js@3.18.0:
-    resolution: {integrity: sha512-SyVVbcNBCk0dzr9XL/R/ySrmYf0s372K6/hFklzgcp2lBFyXtw4I7BOdDjlLhE1aVqaI/SHWXWmYdlZxuyF38A==}
+  uglify-js@3.19.0:
+    resolution: {integrity: sha512-wNKHUY2hYYkf6oSFfhwwiHo4WCHzHmzcXsqXYTN9ja3iApYIFbb2U6ics9hBcYLHcYGQoAlwnZlTrf3oF+BL/Q==}
     engines: {node: '>=0.8.0'}
     hasBin: true
 
@@ -3174,7 +3174,7 @@ snapshots:
 
   '@adobe/css-tools@4.3.3': {}
 
-  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#105e06f3c5147989e6d8a962fa7716eb3fb4c2c2': {}
+  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#5fe532bd428295afaad0eb60bdfe394e351d2203': {}
 
   '@asamuzakjp/dom-selector@2.0.2':
     dependencies:
@@ -5758,7 +5758,7 @@ snapshots:
   swig@1.4.2:
     dependencies:
       optimist: 0.6.1
-      uglify-js: 3.18.0
+      uglify-js: 3.19.0
 
   symbol-tree@3.2.4: {}
 
@@ -5887,7 +5887,7 @@ snapshots:
       uglify-to-browserify: 1.0.2
       yargs: 3.10.0
 
-  uglify-js@3.18.0: {}
+  uglify-js@3.19.0: {}
 
   uglify-to-browserify@1.0.2: {}
 
