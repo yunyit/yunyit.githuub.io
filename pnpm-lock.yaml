@@ -20,7 +20,7 @@ importers:
     dependencies:
       '@adobe/css-tools':
         specifier: github:adobe/css-tools
-        version: git+https://git@github.com:adobe/css-tools.git#105e06f3c5147989e6d8a962fa7716eb3fb4c2c2
+        version: git+https://git@github.com:adobe/css-tools.git#97a2351d662000988374e4bcef66c7cd067e76ed
       '@tootallnate/once':
         specifier: github:tootallnate/once
         version: git+https://git@github.com:tootallnate/once.git#2bc2e134b7728a6b37c6838a3b5d5c290e60a539
@@ -268,8 +268,8 @@ importers:
         specifier: ^2.8.0
         version: 2.8.0
       memfs:
-        specifier: ^4.9.3
-        version: 4.9.3
+        specifier: ^4.9.4
+        version: 4.9.4
       mhchemparser:
         specifier: ^4.2.1
         version: 4.2.1
@@ -430,8 +430,8 @@ packages:
   '@adobe/css-tools@4.3.3':
     resolution: {integrity: sha512-rE0Pygv0sEZ4vBWHlAgJLGDU7Pm8xoO6p3wsEceb7GYAjScrOHpEo8KK/eVkAcnSM+slAEtXjA2JpdjLp4fJQQ==}
 
-  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#105e06f3c5147989e6d8a962fa7716eb3fb4c2c2':
-    resolution: {commit: 105e06f3c5147989e6d8a962fa7716eb3fb4c2c2, repo: git@github.com:adobe/css-tools.git, type: git}
+  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#97a2351d662000988374e4bcef66c7cd067e76ed':
+    resolution: {commit: 97a2351d662000988374e4bcef66c7cd067e76ed, repo: git@github.com:adobe/css-tools.git, type: git}
     version: 4.4.0
 
   '@asamuzakjp/dom-selector@2.0.2':
@@ -2044,8 +2044,8 @@ packages:
   mdurl@1.0.1:
     resolution: {integrity: sha512-/sKlQJCBYVY9Ers9hqzKou4H6V5UWc/M59TH2dvkt+84itfnq7uFOMLpOiOS4ujvHP4etln18fmIxA5R5fll0g==}
 
-  memfs@4.9.3:
-    resolution: {integrity: sha512-bsYSSnirtYTWi1+OPMFb0M048evMKyUYe0EbtuGQgq6BVQM1g1W8/KIUJCCvjgI/El0j6Q4WsmMiBwLUBSw8LA==}
+  memfs@4.9.4:
+    resolution: {integrity: sha512-Xlj8b2rU11nM6+KU6wC7cuWcHQhVINWCUgdPS4Ar9nPxLaOya3RghqK7ALyDW2QtGebYAYs6uEdEVnwPVT942A==}
     engines: {node: '>= 4.0.0'}
 
   meow@13.2.0:
@@ -3174,7 +3174,7 @@ snapshots:
 
   '@adobe/css-tools@4.3.3': {}
 
-  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#105e06f3c5147989e6d8a962fa7716eb3fb4c2c2': {}
+  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#97a2351d662000988374e4bcef66c7cd067e76ed': {}
 
   '@asamuzakjp/dom-selector@2.0.2':
     dependencies:
@@ -4982,7 +4982,7 @@ snapshots:
 
   mdurl@1.0.1: {}
 
-  memfs@4.9.3:
+  memfs@4.9.4:
     dependencies:
       '@jsonjoy.com/json-pack': 1.0.4(tslib@2.6.3)
       '@jsonjoy.com/util': 1.2.0(tslib@2.6.3)
@@ -5117,7 +5117,7 @@ snapshots:
     dependencies:
       '@prinsss/dvi2html': 0.0.1
       jsdom: 23.2.0
-      memfs: 4.9.3
+      memfs: 4.9.4
       svgo: 3.3.2
       tar-fs: 3.0.6
     transitivePeerDependencies:
