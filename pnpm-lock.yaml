@@ -20,7 +20,7 @@ importers:
     dependencies:
       '@adobe/css-tools':
         specifier: github:adobe/css-tools
-        version: git+https://git@github.com:adobe/css-tools.git#105e06f3c5147989e6d8a962fa7716eb3fb4c2c2
+        version: git+https://git@github.com:adobe/css-tools.git#91986a02499beae3ee85b43ef9e9f2bca5a005b4
       '@tootallnate/once':
         specifier: github:tootallnate/once
         version: git+https://git@github.com:tootallnate/once.git#2bc2e134b7728a6b37c6838a3b5d5c290e60a539
@@ -244,8 +244,8 @@ importers:
         specifier: ^24.1.0
         version: 24.1.0
       json-joy:
-        specifier: ^16.11.0
-        version: 16.11.0(rxjs@7.8.1)(tslib@2.6.3)
+        specifier: ^16.19.0
+        version: 16.19.0(rxjs@7.8.1)(tslib@2.6.3)
       lazyload:
         specifier: 2.0.0-rc.2
         version: 2.0.0-rc.2
@@ -430,8 +430,8 @@ packages:
   '@adobe/css-tools@4.3.3':
     resolution: {integrity: sha512-rE0Pygv0sEZ4vBWHlAgJLGDU7Pm8xoO6p3wsEceb7GYAjScrOHpEo8KK/eVkAcnSM+slAEtXjA2JpdjLp4fJQQ==}
 
-  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#105e06f3c5147989e6d8a962fa7716eb3fb4c2c2':
-    resolution: {commit: 105e06f3c5147989e6d8a962fa7716eb3fb4c2c2, repo: git@github.com:adobe/css-tools.git, type: git}
+  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#91986a02499beae3ee85b43ef9e9f2bca5a005b4':
+    resolution: {commit: 91986a02499beae3ee85b43ef9e9f2bca5a005b4, repo: git@github.com:adobe/css-tools.git, type: git}
     version: 4.4.0
 
   '@asamuzakjp/dom-selector@2.0.2':
@@ -1885,8 +1885,8 @@ packages:
   json-buffer@3.0.1:
     resolution: {integrity: sha512-4bV5BfR2mqfQTJm+V5tPPdf+ZpuhiIvTuAB5g8kcrXOZpTT/QwwVRWBywX1ozr6lEuPdbHxwaJlm9G6mI2sfSQ==}
 
-  json-joy@16.11.0:
-    resolution: {integrity: sha512-hfKQcxvDniRN66lp5sBs+u1vQGOSqTqyM6fLHaR+Tjr56hQBA33+RkeCoj8njFKNYuKuvYJLlflOJy18p63r5g==}
+  json-joy@16.19.0:
+    resolution: {integrity: sha512-9WSuOWMd3E5hMYfdUXXs6b4gmzoQMVsd1L/zaoH5NYn1tNA9r42B61Vwb+Jw86nUEB4QrJ/HrvrmKuqMd9iLmA==}
     engines: {node: '>=10.0'}
     hasBin: true
     peerDependencies:
@@ -3174,7 +3174,7 @@ snapshots:
 
   '@adobe/css-tools@4.3.3': {}
 
-  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#105e06f3c5147989e6d8a962fa7716eb3fb4c2c2': {}
+  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#91986a02499beae3ee85b43ef9e9f2bca5a005b4': {}
 
   '@asamuzakjp/dom-selector@2.0.2':
     dependencies:
@@ -4816,7 +4816,7 @@ snapshots:
 
   json-buffer@3.0.1: {}
 
-  json-joy@16.11.0(rxjs@7.8.1)(tslib@2.6.3):
+  json-joy@16.19.0(rxjs@7.8.1)(tslib@2.6.3):
     dependencies:
       '@jsonjoy.com/base64': 1.1.2(tslib@2.6.3)
       '@jsonjoy.com/json-pack': 1.0.4(tslib@2.6.3)
