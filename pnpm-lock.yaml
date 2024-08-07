@@ -20,7 +20,7 @@ importers:
     dependencies:
       '@adobe/css-tools':
         specifier: github:adobe/css-tools
-        version: git+https://git@github.com:adobe/css-tools.git#105e06f3c5147989e6d8a962fa7716eb3fb4c2c2
+        version: git+https://git@github.com:adobe/css-tools.git#b197e016ccfb9e14497f8917e64b506fc05517f9
       '@tootallnate/once':
         specifier: github:tootallnate/once
         version: git+https://git@github.com:tootallnate/once.git#2bc2e134b7728a6b37c6838a3b5d5c290e60a539
@@ -289,8 +289,8 @@ importers:
         specifier: ^2.18.1
         version: 2.18.1
       node:
-        specifier: ^22.4.0
-        version: 22.4.0
+        specifier: ^22.6.0
+        version: 22.6.0
       node-localstorage:
         specifier: ^3.0.5
         version: 3.0.5
@@ -430,8 +430,8 @@ packages:
   '@adobe/css-tools@4.3.3':
     resolution: {integrity: sha512-rE0Pygv0sEZ4vBWHlAgJLGDU7Pm8xoO6p3wsEceb7GYAjScrOHpEo8KK/eVkAcnSM+slAEtXjA2JpdjLp4fJQQ==}
 
-  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#105e06f3c5147989e6d8a962fa7716eb3fb4c2c2':
-    resolution: {commit: 105e06f3c5147989e6d8a962fa7716eb3fb4c2c2, repo: git@github.com:adobe/css-tools.git, type: git}
+  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#b197e016ccfb9e14497f8917e64b506fc05517f9':
+    resolution: {commit: b197e016ccfb9e14497f8917e64b506fc05517f9, repo: git@github.com:adobe/css-tools.git, type: git}
     version: 4.4.0
 
   '@asamuzakjp/dom-selector@2.0.2':
@@ -2200,8 +2200,8 @@ packages:
   node-tikzjax@1.0.3:
     resolution: {integrity: sha512-AfJpj8NPlefBth5bl8n/V82zOMJe+Y63M8uymZiq7g/Gnl9HIcid/65h4PolZA//6siq7iFhTW3OFB75vG4hYA==}
 
-  node@22.4.0:
-    resolution: {integrity: sha512-r9N4u+W/ETET1/jR2tr9m11Te2/ucNhiGbkntCESTwQ7cF3d9P5bw8SwIqgQBzj99Ky4cYUwx3ukhQgQBhlyEg==}
+  node@22.6.0:
+    resolution: {integrity: sha512-/qmPRSJ2OXW1a3egK9XVD6LEKx31bRdH0ZMHZ6IV1z5KIO+ij6qMcCl1Dt0qrIPk5ZIinhnTzAXk9qY/u5Mt3w==}
     engines: {npm: '>=5.0.0'}
     hasBin: true
 
@@ -3174,7 +3174,7 @@ snapshots:
 
   '@adobe/css-tools@4.3.3': {}
 
-  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#105e06f3c5147989e6d8a962fa7716eb3fb4c2c2': {}
+  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#b197e016ccfb9e14497f8917e64b506fc05517f9': {}
 
   '@asamuzakjp/dom-selector@2.0.2':
     dependencies:
@@ -5126,7 +5126,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  node@22.4.0:
+  node@22.6.0:
     dependencies:
       node-bin-setup: 1.1.3
 
