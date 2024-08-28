@@ -364,8 +364,8 @@ importers:
         specifier: ^3.1.7
         version: 3.1.7
       thingies:
-        specifier: ^2.1.0
-        version: 2.1.0(tslib@2.6.3)
+        specifier: ^2.4.0
+        version: 2.4.0(tslib@2.6.3)
       tr46:
         specifier: ^5.0.0
         version: 5.0.0
@@ -2818,8 +2818,8 @@ packages:
     peerDependencies:
       tslib: ^2
 
-  thingies@2.1.0:
-    resolution: {integrity: sha512-SASxQdAtapX03qTa1V/kt9UGhQLUoP54luRasJxZoleeAL+PSQsBlIAGNxj1FoayglyCGUhxByFgSn7dh2JFog==}
+  thingies@2.4.0:
+    resolution: {integrity: sha512-Hzz6sX6asv1+JSc2pwQ/MGHRwYzms62lT3mADJfNCl9duAW09C1EyNw6jZUeTk1q6imSsCL3dr0Ee4ohR1iF4Q==}
     engines: {node: '>=10.18'}
     peerDependencies:
       tslib: ^2
@@ -4850,7 +4850,7 @@ snapshots:
       arg: 5.0.2
       hyperdyperid: 1.2.0
       sonic-forest: 1.0.3(tslib@2.6.3)
-      thingies: 2.1.0(tslib@2.6.3)
+      thingies: 2.4.0(tslib@2.6.3)
       tree-dump: 1.0.1(tslib@2.6.3)
       tslib: 2.6.3
     optionalDependencies:
@@ -5828,7 +5828,7 @@ snapshots:
     dependencies:
       tslib: 2.6.3
 
-  thingies@2.1.0(tslib@2.6.3):
+  thingies@2.4.0(tslib@2.6.3):
     dependencies:
       tslib: 2.6.3
 
