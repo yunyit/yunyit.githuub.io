@@ -133,7 +133,7 @@
     "tar-stream": "^3.1.7",
     "thingies": "^2.4.0",
     "tr46": "^5.0.0",
-    "uglify-js": "^3.18.0",
+    "uglify-js": "^3.19.2",
     "uglify-to-browserify": "^2.1.0",
     "url-encode-decode": "^1.0.0",
     "w3c-xmlserializer": "^5.0.0",
