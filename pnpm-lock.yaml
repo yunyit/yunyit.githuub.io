@@ -20,10 +20,10 @@ importers:
     dependencies:
       '@adobe/css-tools':
         specifier: github:adobe/css-tools
-        version: https://codeload.github.com/adobe/css-tools/tar.gz/65a26e300389452f4e283cb59f0dadacc0ea4ef1
+        version: git+https://git@github.com:adobe/css-tools.git#65a26e300389452f4e283cb59f0dadacc0ea4ef1
       '@tootallnate/once':
         specifier: github:tootallnate/once
-        version: https://codeload.github.com/tootallnate/once/tar.gz/2bc2e134b7728a6b37c6838a3b5d5c290e60a539
+        version: git+https://git@github.com:tootallnate/once.git#2bc2e134b7728a6b37c6838a3b5d5c290e60a539
       a-sync-waterfall:
         specifier: ^1.0.1
         version: 1.0.1
@@ -430,8 +430,8 @@ packages:
   '@adobe/css-tools@4.3.3':
     resolution: {integrity: sha512-rE0Pygv0sEZ4vBWHlAgJLGDU7Pm8xoO6p3wsEceb7GYAjScrOHpEo8KK/eVkAcnSM+slAEtXjA2JpdjLp4fJQQ==}
 
-  '@adobe/css-tools@https://codeload.github.com/adobe/css-tools/tar.gz/65a26e300389452f4e283cb59f0dadacc0ea4ef1':
-    resolution: {tarball: https://codeload.github.com/adobe/css-tools/tar.gz/65a26e300389452f4e283cb59f0dadacc0ea4ef1}
+  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#65a26e300389452f4e283cb59f0dadacc0ea4ef1':
+    resolution: {commit: 65a26e300389452f4e283cb59f0dadacc0ea4ef1, repo: git@github.com:adobe/css-tools.git, type: git}
     version: 4.4.0
 
   '@asamuzakjp/dom-selector@2.0.2':
@@ -482,8 +482,8 @@ packages:
     resolution: {integrity: sha512-XCuKFP5PS55gnMVu3dty8KPatLqUoy/ZYzDzAGCQ8JNFCkLXzmI7vNHCR+XpbZaMWQK/vQubr7PkYq8g470J/A==}
     engines: {node: '>= 10'}
 
-  '@tootallnate/once@https://codeload.github.com/tootallnate/once/tar.gz/2bc2e134b7728a6b37c6838a3b5d5c290e60a539':
-    resolution: {tarball: https://codeload.github.com/tootallnate/once/tar.gz/2bc2e134b7728a6b37c6838a3b5d5c290e60a539}
+  '@tootallnate/once@git+https://git@github.com:tootallnate/once.git#2bc2e134b7728a6b37c6838a3b5d5c290e60a539':
+    resolution: {commit: 2bc2e134b7728a6b37c6838a3b5d5c290e60a539, repo: git@github.com:tootallnate/once.git, type: git}
     version: 3.0.0
     engines: {node: '>= 10'}
 
@@ -3070,7 +3070,7 @@ snapshots:
 
   '@adobe/css-tools@4.3.3': {}
 
-  '@adobe/css-tools@https://codeload.github.com/adobe/css-tools/tar.gz/65a26e300389452f4e283cb59f0dadacc0ea4ef1': {}
+  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#65a26e300389452f4e283cb59f0dadacc0ea4ef1': {}
 
   '@asamuzakjp/dom-selector@2.0.2':
     dependencies:
@@ -3118,7 +3118,7 @@ snapshots:
 
   '@tootallnate/once@2.0.0': {}
 
-  '@tootallnate/once@https://codeload.github.com/tootallnate/once/tar.gz/2bc2e134b7728a6b37c6838a3b5d5c290e60a539': {}
+  '@tootallnate/once@git+https://git@github.com:tootallnate/once.git#2bc2e134b7728a6b37c6838a3b5d5c290e60a539': {}
 
   '@tootallnate/quickjs-emscripten@0.23.0': {}
 
