@@ -20,7 +20,7 @@ importers:
     dependencies:
       '@adobe/css-tools':
         specifier: github:adobe/css-tools
-        version: git+https://git@github.com:adobe/css-tools.git#65a26e300389452f4e283cb59f0dadacc0ea4ef1
+        version: git+https://git@github.com:adobe/css-tools.git#676628df405bc0e7583d6b53da963a9a7a9b6c14
       '@tootallnate/once':
         specifier: github:tootallnate/once
         version: git+https://git@github.com:tootallnate/once.git#2bc2e134b7728a6b37c6838a3b5d5c290e60a539
@@ -307,8 +307,8 @@ importers:
         specifier: ^0.6.1
         version: 0.6.1
       pump:
-        specifier: ^3.0.0
-        version: 3.0.0
+        specifier: ^3.0.2
+        version: 3.0.2
       punycode:
         specifier: ^2.3.1
         version: 2.3.1
@@ -430,8 +430,8 @@ packages:
   '@adobe/css-tools@4.3.3':
     resolution: {integrity: sha512-rE0Pygv0sEZ4vBWHlAgJLGDU7Pm8xoO6p3wsEceb7GYAjScrOHpEo8KK/eVkAcnSM+slAEtXjA2JpdjLp4fJQQ==}
 
-  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#65a26e300389452f4e283cb59f0dadacc0ea4ef1':
-    resolution: {commit: 65a26e300389452f4e283cb59f0dadacc0ea4ef1, repo: git@github.com:adobe/css-tools.git, type: git}
+  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#676628df405bc0e7583d6b53da963a9a7a9b6c14':
+    resolution: {commit: 676628df405bc0e7583d6b53da963a9a7a9b6c14, repo: git@github.com:adobe/css-tools.git, type: git}
     version: 4.4.0
 
   '@asamuzakjp/dom-selector@2.0.2':
@@ -2333,8 +2333,8 @@ packages:
   psl@1.9.0:
     resolution: {integrity: sha512-E/ZsdU4HLs/68gYzgGTkMicWTLPdAftJLfJFlLUAAKZGkStNU72sZjT66SnMDVOfOWY/YAoiD7Jxa9iHvngcag==}
 
-  pump@3.0.0:
-    resolution: {integrity: sha512-LwZy+p3SFs1Pytd/jYct4wpv49HiYCqd9Rlc5ZVdk0V+8Yzv6jR5Blk3TRmPL1ft69TxP0IMZGJ+WPFU2BFhww==}
+  pump@3.0.2:
+    resolution: {integrity: sha512-tUPXtzlGM8FE3P0ZL6DVs/3P58k9nk8/jZeQCurTJylQA8qFYzHFfhBJkuqyE0FifOsQ0uKWekiZ5g8wtr28cw==}
 
   punycode@1.4.1:
     resolution: {integrity: sha512-jmYNElW7yvO7TV33CjSmvSiE2yco3bV2czu/OzDKdMNVZQWfxCblURLhf+47syQRBntjfLdd/H0egrzIG+oaFQ==}
@@ -3070,7 +3070,7 @@ snapshots:
 
   '@adobe/css-tools@4.3.3': {}
 
-  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#65a26e300389452f4e283cb59f0dadacc0ea4ef1': {}
+  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#676628df405bc0e7583d6b53da963a9a7a9b6c14': {}
 
   '@asamuzakjp/dom-selector@2.0.2':
     dependencies:
@@ -5159,7 +5159,7 @@ snapshots:
 
   psl@1.9.0: {}
 
-  pump@3.0.0:
+  pump@3.0.2:
     dependencies:
       end-of-stream: 1.4.4
       once: 1.4.0
@@ -5575,7 +5575,7 @@ snapshots:
 
   tar-fs@3.0.6:
     dependencies:
-      pump: 3.0.0
+      pump: 3.0.2
       tar-stream: 3.1.7
     optionalDependencies:
       bare-fs: 2.3.2
