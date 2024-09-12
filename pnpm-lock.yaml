@@ -20,7 +20,7 @@ importers:
     dependencies:
       '@adobe/css-tools':
         specifier: github:adobe/css-tools
-        version: git+https://git@github.com:adobe/css-tools.git#65a26e300389452f4e283cb59f0dadacc0ea4ef1
+        version: git+https://git@github.com:adobe/css-tools.git#676628df405bc0e7583d6b53da963a9a7a9b6c14
       '@tootallnate/once':
         specifier: github:tootallnate/once
         version: git+https://git@github.com:tootallnate/once.git#2bc2e134b7728a6b37c6838a3b5d5c290e60a539
@@ -121,8 +121,8 @@ importers:
         specifier: ^5.1.0
         version: 5.1.0
       css-tree:
-        specifier: ^2.3.1
-        version: 2.3.1
+        specifier: ^3.0.0
+        version: 3.0.0
       css-what:
         specifier: ^6.1.0
         version: 6.1.0
@@ -430,8 +430,8 @@ packages:
   '@adobe/css-tools@4.3.3':
     resolution: {integrity: sha512-rE0Pygv0sEZ4vBWHlAgJLGDU7Pm8xoO6p3wsEceb7GYAjScrOHpEo8KK/eVkAcnSM+slAEtXjA2JpdjLp4fJQQ==}
 
-  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#65a26e300389452f4e283cb59f0dadacc0ea4ef1':
-    resolution: {commit: 65a26e300389452f4e283cb59f0dadacc0ea4ef1, repo: git@github.com:adobe/css-tools.git, type: git}
+  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#676628df405bc0e7583d6b53da963a9a7a9b6c14':
+    resolution: {commit: 676628df405bc0e7583d6b53da963a9a7a9b6c14, repo: git@github.com:adobe/css-tools.git, type: git}
     version: 4.4.0
 
   '@asamuzakjp/dom-selector@2.0.2':
@@ -940,6 +940,10 @@ packages:
 
   css-tree@2.3.1:
     resolution: {integrity: sha512-6Fv1DV/TYw//QF5IzQdqsNDjx/wc8TrMBZsqjL9eW01tWb7R7k/mq+/VXfJCl7SoD5emsJop9cOByJZfs8hYIw==}
+    engines: {node: ^10 || ^12.20.0 || ^14.13.0 || >=15.0.0}
+
+  css-tree@3.0.0:
+    resolution: {integrity: sha512-o88DVQ6GzsABn1+6+zo2ct801dBO5OASVyxbbvA2W20ue2puSh/VOuqUj90eUeMSX/xqGqBmOKiRQN7tJOuBXw==}
     engines: {node: ^10 || ^12.20.0 || ^14.13.0 || >=15.0.0}
 
   css-what@6.1.0:
@@ -1973,6 +1977,9 @@ packages:
 
   mdn-data@2.0.30:
     resolution: {integrity: sha512-GaqWWShW4kv/G9IEucWScBx9G1/vsFZZJUO+tD26M8J8z3Kw5RDQjaoZe03YAClgeS/SWPOcb4nkFBTEi5DUEA==}
+
+  mdn-data@2.10.0:
+    resolution: {integrity: sha512-qq7C3EtK3yJXMwz1zAab65pjl+UhohqMOctTgcqjLOWABqmwj+me02LSsCuEUxnst9X1lCBpoE0WArGKgdGDzw==}
 
   mdn-data@2.9.0:
     resolution: {integrity: sha512-mRKpwcgT19Mp/+kU3BAA8onXlmRCs+2pdLAcAQMVYw4yWzDZPmVLYfoDYkdR0y4jvNYRDJp0uIGJggwYk6WMRQ==}
@@ -3070,7 +3077,7 @@ snapshots:
 
   '@adobe/css-tools@4.3.3': {}
 
-  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#65a26e300389452f4e283cb59f0dadacc0ea4ef1': {}
+  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#676628df405bc0e7583d6b53da963a9a7a9b6c14': {}
 
   '@asamuzakjp/dom-selector@2.0.2':
     dependencies:
@@ -3602,6 +3609,11 @@ snapshots:
   css-tree@2.3.1:
     dependencies:
       mdn-data: 2.0.30
+      source-map-js: 1.2.0
+
+  css-tree@3.0.0:
+    dependencies:
+      mdn-data: 2.10.0
       source-map-js: 1.2.0
 
   css-what@6.1.0: {}
@@ -4806,6 +4818,8 @@ snapshots:
   mdn-data@2.0.28: {}
 
   mdn-data@2.0.30: {}
+
+  mdn-data@2.10.0: {}
 
   mdn-data@2.9.0: {}
 
