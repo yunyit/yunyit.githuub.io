@@ -422,7 +422,7 @@ dependencies:
     dependencies:
       '@adobe/css-tools':
         specifier: github:adobe/css-tools
-        version: git+https://git@github.com:adobe/css-tools.git#65a26e300389452f4e283cb59f0dadacc0ea4ef1
+        version: git+https://git@github.com:adobe/css-tools.git#7b16585796222f026718712cfac968a71b265949
       '@tootallnate/once':
         specifier: github:tootallnate/once
         version: git+https://git@github.com:tootallnate/once.git#2bc2e134b7728a6b37c6838a3b5d5c290e60a539
@@ -646,8 +646,8 @@ dependencies:
         specifier: ^25.0.0
         version: 25.0.0
       json-joy:
-        specifier: ^16.23.1
-        version: 16.23.1(@jsonjoy.com/base64@1.1.2(tslib@2.7.0))(@jsonjoy.com/json-pack@1.1.0(tslib@2.7.0))(@jsonjoy.com/util@1.3.0(tslib@2.7.0))(rxjs@7.8.1)(tslib@2.7.0)
+        specifier: ^17.2.0
+        version: 17.2.0(rxjs@7.8.1)(tslib@2.7.0)
       lazyload:
         specifier: 2.0.0-rc.2
         version: 2.0.0-rc.2
@@ -833,8 +833,8 @@ packages:
     resolution: {integrity: sha512-rE0Pygv0sEZ4vBWHlAgJLGDU7Pm8xoO6p3wsEceb7GYAjScrOHpEo8KK/eVkAcnSM+slAEtXjA2JpdjLp4fJQQ==}
     dev: false
 
-  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#65a26e300389452f4e283cb59f0dadacc0ea4ef1':
-    resolution: {commit: 65a26e300389452f4e283cb59f0dadacc0ea4ef1, repo: git@github.com:adobe/css-tools.git, type: git}
+  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#7b16585796222f026718712cfac968a71b265949':
+    resolution: {commit: 7b16585796222f026718712cfac968a71b265949, repo: git@github.com:adobe/css-tools.git, type: git}
     version: 4.4.0
 
   '@asamuzakjp/dom-selector@2.0.2':
@@ -1981,6 +1981,7 @@ packages:
 
   hexo-global-license@0.5.5:
     resolution: {integrity: sha512-5Qz1uhUw5izeZejJQCbKToam60d+FSL1M77F32sPUqXCZj339kKBTM6/dAN7wDNhy6RP2l1L+FxPVllil4bKuw==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   hexo-hide-posts@0.4.3:
     resolution: {integrity: sha512-5VLzaX6ntJ0uJy56X5tgbII6oucBoUS5gCzm37ozXibMT8lBmRgbuzzayKNuBL+oQpyAa+vEsLyxlSunyaRs7g==}
@@ -2331,14 +2332,11 @@ packages:
       canvas:
         optional: true
 
-  json-joy@16.23.1:
-    resolution: {integrity: sha512-81xDwbj8WzVkzfIuHyYDprmdRYVoVAaVuweGsTULsj2rxpfbEglL8f619mwWxQuGNozPiDdjWzJavASbFT69NQ==}
+  json-joy@17.2.0:
+    resolution: {integrity: sha512-ak33Y0WBolV/m2Wukc1xa1KKusPemI2k5mqZsKk0+7QXjV77khCZvVWK48xzH2OVui0vGShZRjF3vP1dAWXfiA==}
     engines: {node: '>=10.0'}
     hasBin: true
     peerDependencies:
-      '@jsonjoy.com/base64': ^1.1.2
-      '@jsonjoy.com/json-pack': ^1.0.4
-      '@jsonjoy.com/util': ^1.3.0
       rxjs: '7'
       tslib: '2'
     peerDependenciesMeta:
@@ -3580,7 +3578,7 @@ snapshots:
 
   '@adobe/css-tools@4.3.3': {}
 
-  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#65a26e300389452f4e283cb59f0dadacc0ea4ef1': {}
+  '@adobe/css-tools@git+https://git@github.com:adobe/css-tools.git#7b16585796222f026718712cfac968a71b265949': {}
 
   '@asamuzakjp/dom-selector@2.0.2':
     dependencies:
@@ -3594,15 +3592,40 @@ snapshots:
     dependencies:
       tslib: 2.7.0
 
+  '@jsonjoy.com/json-expression@1.0.0(tslib@2.7.0)':
+    dependencies:
+      '@jsonjoy.com/json-pointer': 1.0.0(tslib@2.7.0)
+      '@jsonjoy.com/util': 1.5.0(tslib@2.7.0)
+      tslib: 2.7.0
+
   '@jsonjoy.com/json-pack@1.1.0(tslib@2.7.0)':
     dependencies:
       '@jsonjoy.com/base64': 1.1.2(tslib@2.7.0)
-      '@jsonjoy.com/util': 1.3.0(tslib@2.7.0)
+      '@jsonjoy.com/util': 1.5.0(tslib@2.7.0)
       hyperdyperid: 1.2.0
       thingies: 1.21.0(tslib@2.7.0)
       tslib: 2.7.0
 
+  '@jsonjoy.com/json-pointer@1.0.0(tslib@2.7.0)':
+    dependencies:
+      '@jsonjoy.com/util': 1.5.0(tslib@2.7.0)
+      tslib: 2.7.0
+
+  '@jsonjoy.com/json-type@1.1.0(rxjs@7.8.1)(tslib@2.7.0)':
+    dependencies:
+      '@jsonjoy.com/json-expression': 1.0.0(tslib@2.7.0)
+      '@jsonjoy.com/json-pack': 1.1.0(tslib@2.7.0)
+      '@jsonjoy.com/util': 1.5.0(tslib@2.7.0)
+      rxjs: 7.8.1
+      sonic-forest: 1.0.3(tslib@2.7.0)
+      tree-dump: 1.0.2(tslib@2.7.0)
+      tslib: 2.7.0
+
   '@jsonjoy.com/util@1.3.0(tslib@2.7.0)':
+    dependencies:
+      tslib: 2.7.0
+
+  '@jsonjoy.com/util@1.5.0(tslib@2.7.0)':
     dependencies:
       tslib: 2.7.0
 
