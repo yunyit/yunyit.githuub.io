@@ -90,7 +90,7 @@
     "hyperdyperid": "^1.2.0",
     "ieee754": "^1.2.1",
     "imurmurhash": "^0.1.4",
-    "jsdom": "^25.0.0",
+    "jsdom": "^25.0.1",
     "json-joy": "^17.2.0",
     "lazyload": "2.0.0-rc.2",
     "lodash.clonedeep": "^4.5.0",
