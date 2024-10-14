@@ -244,8 +244,8 @@ importers:
         specifier: ^25.0.0
         version: 25.0.0
       json-joy:
-        specifier: ^17.2.0
-        version: 17.2.0(rxjs@7.8.1)(tslib@2.7.0)
+        specifier: ^17.3.0
+        version: 17.3.0(rxjs@7.8.1)(tslib@2.7.0)
       lazyload:
         specifier: 2.0.0-rc.2
         version: 2.0.0-rc.2
@@ -1847,8 +1847,8 @@ packages:
       canvas:
         optional: true
 
-  json-joy@17.2.0:
-    resolution: {integrity: sha512-ak33Y0WBolV/m2Wukc1xa1KKusPemI2k5mqZsKk0+7QXjV77khCZvVWK48xzH2OVui0vGShZRjF3vP1dAWXfiA==}
+  json-joy@17.3.0:
+    resolution: {integrity: sha512-sIIPYqF7wai2x3nXGJUZLL+8BojaQtGvjJQV+f1hWIJGK084w2xPae8w9MPb1YEGL5qOQPvljP2tv+VCa/m0Xw==}
     engines: {node: '>=10.0'}
     hasBin: true
     peerDependencies:
@@ -4697,7 +4697,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  json-joy@17.2.0(rxjs@7.8.1)(tslib@2.7.0):
+  json-joy@17.3.0(rxjs@7.8.1)(tslib@2.7.0):
     dependencies:
       '@jsonjoy.com/base64': 1.1.2(tslib@2.7.0)
       '@jsonjoy.com/json-expression': 1.0.0(tslib@2.7.0)
