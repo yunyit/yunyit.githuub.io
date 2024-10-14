@@ -151,8 +151,8 @@ importers:
         specifier: ^1.3.2
         version: 1.3.2
       gitmoji-cli:
-        specifier: ^9.4.0
-        version: 9.4.0
+        specifier: ^9.5.0
+        version: 9.5.0
       hexo:
         specifier: ^7.3.0
         version: 7.3.0(chokidar@3.6.0)
@@ -484,10 +484,6 @@ packages:
     peerDependencies:
       tslib: '2'
 
-  '@ljharb/through@2.3.13':
-    resolution: {integrity: sha512-/gKJun8NNiWGZJkGzI/Ragc53cOdcLNdzjLaIa+GEjguQs0ulsurx8WN0jijdK9yPqDvziX995sMRLyLt1uZMQ==}
-    engines: {node: '>= 0.4'}
-
   '@pnpm/config.env-replace@1.1.0':
     resolution: {integrity: sha512-htyl8TWnKL7K/ESFa1oW2UB5lVDxuF5DpM7tBi6Hu2LNL3mWkIzNLG6N4zoCUP1lCKNxWy/3iu8mS8MvToGd6w==}
     engines: {node: '>=12.22.0'}
@@ -561,8 +557,8 @@ packages:
     resolution: {integrity: sha512-H0TSyFNDMomMNJQBn8wFV5YC/2eJ+VXECwOadZJT554xP6cODZHPX3H9QMQECxvrgiSOP1pHjy1sMWQVYJOUOA==}
     engines: {node: '>= 14'}
 
-  ajv-formats@2.1.1:
-    resolution: {integrity: sha512-Wx0Kx52hxE7C18hkMEggYlEifqWZtYaRgouJor+WMdPnQyEK13vgEWyVNup7SoeeoLMsr4kf5h6dOW11I15MUA==}
+  ajv-formats@3.0.1:
+    resolution: {integrity: sha512-8iUql50EUR+uUcdRQ3HDqa6EVyo3docL8g5WJ3FNcWmu62IbkGUue/pEyLBW8VGKKucTPgqeks4fIU1DA4yowQ==}
     peerDependencies:
       ajv: ^8.0.0
     peerDependenciesMeta:
@@ -919,8 +915,8 @@ packages:
   concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
-  conf@12.0.0:
-    resolution: {integrity: sha512-fIWyWUXrJ45cHCIQX+Ck1hrZDIf/9DR0P0Zewn3uNht28hbt5OfGUq8rRWsxi96pZWPyBEd0eY9ama01JTaknA==}
+  conf@13.0.1:
+    resolution: {integrity: sha512-l9Uwc9eOnz39oADzGO2cSBDi7siv8lwO+31ocQ2nOJijnDiW3pxqm9VV10DPYUO28wW83DjABoUqY1nfHRR2hQ==}
     engines: {node: '>=18'}
 
   config-chain@1.1.13:
@@ -1016,9 +1012,9 @@ packages:
     resolution: {integrity: sha512-ZYP5VBHshaDAiVZxjbRVcFJpc+4xGgT0bK3vzy1HLN8jTO975HEbuYzZJcHoQEY5K1a0z8YayJkyVETa08eNTg==}
     engines: {node: '>=18'}
 
-  debounce-fn@5.1.2:
-    resolution: {integrity: sha512-Sr4SdOZ4vw6eQDvPYNxHogvrxmCIld/VenC5JbNrFwMiwd7lY/Z18ZFfo+EWNG4DD9nFlAujWAo/wGuOPHmy5A==}
-    engines: {node: '>=12'}
+  debounce-fn@6.0.0:
+    resolution: {integrity: sha512-rBMW+F2TXryBwB54Q0d8drNEI+TfoS9JpNTAoVpukbWEhjXQq4rySFYLaqXMFXwdv61Zb2OHtj5bviSoimqxRQ==}
+    engines: {node: '>=18'}
 
   debug@2.6.9:
     resolution: {integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==}
@@ -1122,10 +1118,6 @@ packages:
 
   domutils@3.1.0:
     resolution: {integrity: sha512-H78uMmQtI2AhgDJjWeQmHwJJ2bLPD3GMmO7Zja/ZZh84wkm+4ut+IUnUdRa8uCGX88DiVx1j6FRe1XfxEgjEZA==}
-
-  dot-prop@8.0.2:
-    resolution: {integrity: sha512-xaBe6ZT4DHPkg0k4Ytbvn5xoxgpG0jOS1dYxSOwAHPuNLjP3/OzN0gH55SrLqpx8cBfSaVt91lXYkApjb+nYdQ==}
-    engines: {node: '>=16'}
 
   dot-prop@9.0.0:
     resolution: {integrity: sha512-1gxPBJpI/pcjQhKgIU91II6Wkay+dLcN3M6rf2uwP8hRur3HtQXjVrdAK3sjC0piaEuxzMwjXChcETiJl47lAQ==}
@@ -1374,8 +1366,8 @@ packages:
   getpass@0.1.7:
     resolution: {integrity: sha512-0fzj9JxOLfJ+XGLhR8ze3unN0KZCgZwiSSDz168VERjK8Wl8kVSdcu2kspd4s4wtAa1y/qrVRiAA0WclVsu0ng==}
 
-  gitmoji-cli@9.4.0:
-    resolution: {integrity: sha512-yqiYRSN0PEI8v9EJXn/euL+9keVpcvlCo87yc+M1m3zhP666oQ5/Ee0SdrexqAVmF5b/ZLsIaAntxB85Dt6H7g==}
+  gitmoji-cli@9.5.0:
+    resolution: {integrity: sha512-YeWNgaByg6cz6fUBhEbYjrX3KcshTW5kbTRNN6VlmQk1xJRWJQyF1wAMo9G0oA4ifP0IBjChk0DVmHYm+h3HGg==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -1670,8 +1662,8 @@ packages:
     peerDependencies:
       inquirer: ^9.1.0
 
-  inquirer@9.2.23:
-    resolution: {integrity: sha512-kod5s+FBPIDM2xiy9fu+6wdU/SkK5le5GS9lh4FEBjBHqiMgD9lLFbCbuqFNAjNL2ZOy9Wd9F694IOzN9pZHBA==}
+  inquirer@9.3.7:
+    resolution: {integrity: sha512-LJKFHCSeIRq9hanN14IlOtPSTe3lNES7TYDTE2xxdAy1LS5rYphajK1qtwvj3YmQXvvk0U2Vbmcni8P9EIQW9w==}
     engines: {node: '>=18'}
 
   ip-address@9.0.5:
@@ -1933,9 +1925,6 @@ packages:
 
   lodash@3.10.1:
     resolution: {integrity: sha512-9mDDwqVIma6OZX79ZlDACZl8sBm0TEnkf99zV3iMA4GzkIT/9hiqP5mY0HoT1iNLCrKc/R1HByV+yJfRWVJryQ==}
-
-  lodash@4.17.21:
-    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
 
   log-symbols@4.1.0:
     resolution: {integrity: sha512-8XPvpAA8uyhfteu8pIvQxpJZ7SYYdpUivZpGy6sFsBuKRY/7rQGavedeB8aK+Zkyq6upMFVL/9AW6vOYzfRyLg==}
@@ -2815,10 +2804,6 @@ packages:
     resolution: {integrity: sha512-t0rzBq87m3fVcduHDUFhKmyyX+9eo6WQjZvf51Ea/M0Q7+T374Jp1aUiyUl0GKxp8M/OETVHSDvmkyPgvX+X2w==}
     engines: {node: '>=10'}
 
-  type-fest@3.13.1:
-    resolution: {integrity: sha512-tLq3bSNx+xSpwvAJnzrK0Ep5CLNWjvFTOp71URMaAEWBfRb9nnJiBoUe0tF8bI4ZFO3omgBR6NvnbzVUT3Ly4g==}
-    engines: {node: '>=14.16'}
-
   type-fest@4.26.0:
     resolution: {integrity: sha512-OduNjVJsFbifKb57UqZ2EMP1i4u64Xwow3NYXUtBbD4vIwJdQd4+xl8YDou1dlm4DVrtwT/7Ky8z8WyCULVfxw==}
     engines: {node: '>=16'}
@@ -2846,8 +2831,8 @@ packages:
   uglify-to-browserify@2.1.0:
     resolution: {integrity: sha512-k2Os2bGaYigvnyiu/CSyuM8ufVKj/YLwr8p7t15qtmexazci4Gxw5WcSkjtkozKuIvaGKyZHz7gpCr6sK42XZQ==}
 
-  uint8array-extras@0.3.0:
-    resolution: {integrity: sha512-erJsJwQ0tKdwuqI0359U8ijkFmfiTcq25JvvzRVc1VP+2son1NJRXhxcAKJmAW3ajM8JSGAfsAXye8g4s+znxA==}
+  uint8array-extras@1.4.0:
+    resolution: {integrity: sha512-ZPtzy0hu4cZjv3z5NW9gfKnNLjoz4y6uv4HlelAjDK7sY/xOkKZv9xK/WQpcsBB3jEybChz9DPC2U/+cusjJVQ==}
     engines: {node: '>=18'}
 
   unbounded@1.3.0:
@@ -2876,8 +2861,8 @@ packages:
     peerDependencies:
       browserslist: '>= 4.21.0'
 
-  update-notifier@7.3.0:
-    resolution: {integrity: sha512-nA5Zoy3rahYd/Lx1s6jZYHfrKKYOgw0kThkLdwgJtXEFsXqEbMnwdVNPT9D+HELlEXqTR7Iq8rjg/NjenGLIvg==}
+  update-notifier@7.3.1:
+    resolution: {integrity: sha512-+dwUY4L35XFYEzE+OAL3sarJdUioVovq+8f7lcIJ7wnmnYQV5UD1Y/lcwaMSyaQ6Bj3JMj1XSTjZbNLHn/19yA==}
     engines: {node: '>=18'}
 
   upper-case@1.1.3:
@@ -3089,6 +3074,10 @@ packages:
     engines: {node: '>=4.0.0'}
     hasBin: true
 
+  yoctocolors-cjs@2.1.2:
+    resolution: {integrity: sha512-cYVsTjKl8b+FrnidjibDWskAv7UKOfcwaVZdp/it9n1s9fU3IkgDbhdIRKCW4JDsAlECJY0ytoVPT3sK6kideA==}
+    engines: {node: '>=18'}
+
 snapshots:
 
   '@adobe/css-tools@4.3.3': {}
@@ -3143,10 +3132,6 @@ snapshots:
   '@jsonjoy.com/util@1.5.0(tslib@2.7.0)':
     dependencies:
       tslib: 2.7.0
-
-  '@ljharb/through@2.3.13':
-    dependencies:
-      call-bind: 1.0.7
 
   '@pnpm/config.env-replace@1.1.0': {}
 
@@ -3210,7 +3195,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  ajv-formats@2.1.1(ajv@8.17.1):
+  ajv-formats@3.0.1(ajv@8.17.1):
     optionalDependencies:
       ajv: 8.17.1
 
@@ -3447,6 +3432,7 @@ snapshots:
       function-bind: 1.1.2
       get-intrinsic: 1.2.4
       set-function-length: 1.2.2
+    optional: true
 
   camel-case@3.0.0:
     dependencies:
@@ -3578,17 +3564,17 @@ snapshots:
 
   concat-map@0.0.1: {}
 
-  conf@12.0.0:
+  conf@13.0.1:
     dependencies:
       ajv: 8.17.1
-      ajv-formats: 2.1.1(ajv@8.17.1)
+      ajv-formats: 3.0.1(ajv@8.17.1)
       atomically: 2.0.3
-      debounce-fn: 5.1.2
-      dot-prop: 8.0.2
+      debounce-fn: 6.0.0
+      dot-prop: 9.0.0
       env-paths: 3.0.0
       json-schema-typed: 8.0.1
       semver: 7.6.3
-      uint8array-extras: 0.3.0
+      uint8array-extras: 1.4.0
 
   config-chain@1.1.13:
     dependencies:
@@ -3699,9 +3685,9 @@ snapshots:
       whatwg-mimetype: 4.0.0
       whatwg-url: 14.0.0
 
-  debounce-fn@5.1.2:
+  debounce-fn@6.0.0:
     dependencies:
-      mimic-fn: 4.0.0
+      mimic-function: 5.0.1
 
   debug@2.6.9:
     dependencies:
@@ -3730,6 +3716,7 @@ snapshots:
       es-define-property: 1.0.0
       es-errors: 1.3.0
       gopd: 1.0.1
+    optional: true
 
   define-lazy-prop@2.0.0: {}
 
@@ -3806,10 +3793,6 @@ snapshots:
       domelementtype: 2.3.0
       domhandler: 5.0.3
 
-  dot-prop@8.0.2:
-    dependencies:
-      type-fest: 3.13.1
-
   dot-prop@9.0.0:
     dependencies:
       type-fest: 4.26.0
@@ -3880,8 +3863,10 @@ snapshots:
   es-define-property@1.0.0:
     dependencies:
       get-intrinsic: 1.2.4
+    optional: true
 
-  es-errors@1.3.0: {}
+  es-errors@1.3.0:
+    optional: true
 
   escalade@3.2.0: {}
 
@@ -4031,6 +4016,7 @@ snapshots:
       has-proto: 1.0.3
       has-symbols: 1.0.3
       hasown: 2.0.2
+    optional: true
 
   get-stream@8.0.1: {}
 
@@ -4048,20 +4034,20 @@ snapshots:
       assert-plus: 1.0.0
     optional: true
 
-  gitmoji-cli@9.4.0:
+  gitmoji-cli@9.5.0:
     dependencies:
       chalk: 5.3.0
-      conf: 12.0.0
+      conf: 13.0.1
       execa: 8.0.1
       fuse.js: 7.0.0
-      inquirer: 9.2.23
-      inquirer-autocomplete-prompt: 3.0.1(inquirer@9.2.23)
+      inquirer: 9.3.7
+      inquirer-autocomplete-prompt: 3.0.1(inquirer@9.3.7)
       meow: 13.2.0
       node-fetch: 3.3.2
       ora: 8.1.0
       path-exists: 5.0.0
       proxy-agent: 6.4.0
-      update-notifier: 7.3.0
+      update-notifier: 7.3.1
       validator: 13.12.0
     transitivePeerDependencies:
       - supports-color
@@ -4086,6 +4072,7 @@ snapshots:
   gopd@1.0.1:
     dependencies:
       get-intrinsic: 1.2.4
+    optional: true
 
   graceful-fs@4.2.10: {}
 
@@ -4107,10 +4094,13 @@ snapshots:
   has-property-descriptors@1.0.2:
     dependencies:
       es-define-property: 1.0.0
+    optional: true
 
-  has-proto@1.0.3: {}
+  has-proto@1.0.3:
+    optional: true
 
-  has-symbols@1.0.3: {}
+  has-symbols@1.0.3:
+    optional: true
 
   hasown@2.0.2:
     dependencies:
@@ -4466,25 +4456,21 @@ snapshots:
 
   ini@4.1.1: {}
 
-  inquirer-autocomplete-prompt@3.0.1(inquirer@9.2.23):
+  inquirer-autocomplete-prompt@3.0.1(inquirer@9.3.7):
     dependencies:
       ansi-escapes: 6.2.1
       figures: 5.0.0
-      inquirer: 9.2.23
+      inquirer: 9.3.7
       picocolors: 1.0.1
       run-async: 2.4.1
       rxjs: 7.8.1
 
-  inquirer@9.2.23:
+  inquirer@9.3.7:
     dependencies:
       '@inquirer/figures': 1.0.5
-      '@ljharb/through': 2.3.13
       ansi-escapes: 4.3.2
-      chalk: 5.3.0
-      cli-cursor: 3.1.0
       cli-width: 4.1.0
       external-editor: 3.1.0
-      lodash: 4.17.21
       mute-stream: 1.0.0
       ora: 5.4.1
       run-async: 3.0.0
@@ -4492,6 +4478,7 @@ snapshots:
       string-width: 4.2.3
       strip-ansi: 6.0.1
       wrap-ansi: 6.2.0
+      yoctocolors-cjs: 2.1.2
 
   ip-address@9.0.5:
     dependencies:
@@ -4793,8 +4780,6 @@ snapshots:
   lodash@2.4.2: {}
 
   lodash@3.10.1: {}
-
-  lodash@4.17.21: {}
 
   log-symbols@4.1.0:
     dependencies:
@@ -5422,6 +5407,7 @@ snapshots:
       get-intrinsic: 1.2.4
       gopd: 1.0.1
       has-property-descriptors: 1.0.2
+    optional: true
 
   setprototypeof@1.2.0: {}
 
@@ -5726,8 +5712,6 @@ snapshots:
 
   type-fest@0.21.3: {}
 
-  type-fest@3.13.1: {}
-
   type-fest@4.26.0: {}
 
   typechecker@4.11.0:
@@ -5749,7 +5733,7 @@ snapshots:
 
   uglify-to-browserify@2.1.0: {}
 
-  uint8array-extras@0.3.0: {}
+  uint8array-extras@1.4.0: {}
 
   unbounded@1.3.0:
     dependencies:
@@ -5769,7 +5753,7 @@ snapshots:
       escalade: 3.2.0
       picocolors: 1.0.1
 
-  update-notifier@7.3.0:
+  update-notifier@7.3.1:
     dependencies:
       boxen: 8.0.1
       chalk: 5.3.0
@@ -5965,3 +5949,5 @@ snapshots:
       window-size: 0.1.0
 
   yarn@1.22.22: {}
+
+  yoctocolors-cjs@2.1.2: {}
