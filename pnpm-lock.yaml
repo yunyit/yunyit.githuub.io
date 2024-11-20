@@ -241,7 +241,7 @@ dependencies:
     specifier: ^25.0.0
     version: 25.0.1
   json-joy:
-    specifier: ^17.2.0
+    specifier: ^17.20.0
     version: 17.20.0(rxjs@7.8.1)(tslib@2.6.3)
   lazyload:
     specifier: 2.0.0-rc.2
