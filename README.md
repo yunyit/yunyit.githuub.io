@@ -1,4 +1,4 @@
-# YUNYI BLOG ![Build Status](https://github.com/yunyit/yunyit.github.io/workflows/Page/badge.svg) [![Gitmoji](https://img.shields.io/badge/gitmoji-%20%F0%9F%98%9C%20%F0%9F%98%8D-FFDD67.svg)](https://gitmoji.dev)
+# YUNYI BLOG ![Build Status](https://github.com/yunyit/yunyit.github.io/workflows/Pages/badge.svg) [![Gitmoji](https://img.shields.io/badge/gitmoji-%20%F0%9F%98%9C%20%F0%9F%98%8D-FFDD67.svg)](https://gitmoji.dev)
 
 - 本站通过 [Hexo](https://hexo.io) 的 [Murasaki](https://github.com/prinsss/hexo-theme-murasaki) 生成，并托管在 [Github Pages](https://pages.cloudflare.com/) 上
 - 本站图标来自 [微软 emoji](https://emojipedia.org/microsoft/windows-10-anniversary-update/teacup-without-handle)，主色调为 <a href="https://color-term.com/color/yusuilv-41b349/" style="color: #41B349 !important;">玉髓绿</a> #1A6840 
