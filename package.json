@@ -124,7 +124,7 @@
     "source-map-js": "^1.2.1",
     "speech-rule-engine": "4.1.0-beta.10",
     "streamx": "^2.21.1",
-    "stylus": "^0.63.0",
+    "stylus": "^0.64.0",
     "svgo": "^3.3.2",
     "swig": "^1.4.2",
     "swig-extras": "^0.0.1",
