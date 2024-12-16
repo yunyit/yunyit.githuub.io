@@ -117,7 +117,7 @@
     "queue-tick": "^1.0.1",
     "quill-delta": "^5.1.0",
     "require-from-string": "^2.0.2",
-    "rrweb-cssom": "^0.7.1",
+    "rrweb-cssom": "^0.8.0",
     "rxjs": "^7.8.1",
     "signal-exit": "^4.1.0",
     "source-map": "^0.7.4",
