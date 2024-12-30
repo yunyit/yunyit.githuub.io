@@ -99,7 +99,7 @@
     "markdown": "^0.5.0",
     "mathjax-full": "^3.2.2",
     "mdn-data": "^2.13.0",
-    "memfs": "^4.15.0",
+    "memfs": "^4.15.2",
     "mhchemparser": "^4.2.1",
     "minimist": "^1.2.8",
     "mj-context-menu": "^0.9.1",
