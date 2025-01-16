@@ -98,7 +98,7 @@
     "luxon": "^3.5.0",
     "markdown": "^0.5.0",
     "mathjax-full": "^3.2.2",
-    "mdn-data": "^2.13.0",
+    "mdn-data": "^2.15.0",
     "memfs": "^4.15.0",
     "mhchemparser": "^4.2.1",
     "minimist": "^1.2.8",
